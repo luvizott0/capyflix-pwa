@@ -82,5 +82,96 @@ export const capyShowTimeApi = {
   async toggleCommentLike(commentId: number): Promise<{ liked: boolean; likes_count: number }> {
     const res = await apiClient.post(`/capyshowtime/comments/${commentId}/like`)
     return res.data
+  },
+
+  /**
+   * O que os amigos da CapiHouse estão assistindo atualmente
+   */
+  async getFriendsWatching(): Promise<FriendWatchingItem[]> {
+    try {
+      const res = await apiClient.get('/capyshowtime/friends-watching')
+      return res.data
+    } catch {
+      try {
+        const resPublic = await apiClient.get('/capyshowtime/public/friends-watching')
+        return resPublic.data
+      } catch {
+        return []
+      }
+    }
+  },
+
+  /**
+   * Séries preferidas e melhores avaliadas pelos amigos da CapiHouse
+   */
+  async getFriendsTopRated(): Promise<FriendTopRatedItem[]> {
+    try {
+      const res = await apiClient.get('/capyshowtime/friends-top-rated')
+      return res.data
+    } catch {
+      try {
+        const resPublic = await apiClient.get('/capyshowtime/public/friends-top-rated')
+        return resPublic.data
+      } catch {
+        return []
+      }
+    }
+  },
+
+  /**
+   * Séries em alta nesta semana
+   */
+  async getTrending(): Promise<TrendingSeriesItem[]> {
+    try {
+      const res = await apiClient.get('/capyshowtime/trending')
+      return res.data
+    } catch {
+      try {
+        const resPublic = await apiClient.get('/capyshowtime/public/trending')
+        return resPublic.data
+      } catch {
+        return []
+      }
+    }
   }
 }
+
+export interface FriendWatchingItem {
+  series_id: number
+  tmdb_id: number
+  title: string
+  poster_url?: string
+  backdrop_url?: string
+  vote_average?: number
+  latest_episode?: {
+    season: number
+    episode: number
+    name: string
+  }
+  last_watched_at: string
+  friends: CommentUser[]
+}
+
+export interface FriendTopRatedItem {
+  series_id: number
+  tmdb_id: number
+  title: string
+  poster_url?: string
+  backdrop_url?: string
+  genres?: string[]
+  friends_rating: number
+  ratings_count: number
+  friends: CommentUser[]
+}
+
+export interface TrendingSeriesItem {
+  id: number
+  name: string
+  original_name?: string
+  overview?: string
+  poster_path?: string
+  backdrop_path?: string
+  vote_average?: number
+  first_air_date?: string
+}
+

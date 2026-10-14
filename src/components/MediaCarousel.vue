@@ -22,7 +22,9 @@
           :key="item.id"
           class="carousel-item"
         >
-          <MediaCard :media="item" />
+          <slot :item="item">
+            <MediaCard :media="item" />
+          </slot>
         </div>
       </div>
 

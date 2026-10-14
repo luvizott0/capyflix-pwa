@@ -19,10 +19,12 @@ const __dirname = path.dirname(__filename)
 // Configurações
 const TMDB_API_KEY = process.env.TMDB_API_KEY || '9460fe099c4cb1ca3026582f448e9d29'
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3'
-const LOCAL_MEDIA_DIR = process.env.MEDIA_FOLDER || '/mnt/capyflix'
+const LOCAL_MEDIA_DIR = process.env.MEDIA_FOLDER ||
+  (fs.existsSync('/mnt/capyflix') ? '/mnt/capyflix' : (fs.existsSync('X:\\') ? 'X:\\' : '/mnt/capyflix'))
 const OUTPUT_FILE = path.resolve(__dirname, '../public/catalog.json')
 const AKIRA_CATALOG_URL = 'https://akiranolan.pages.dev/animes.json'
 const VIDEO_EXTENSIONS = new Set(['.mp4', '.mkv', '.webm', '.avi', '.m4v'])
+const CATEGORY_NAMES = new Set(['filmes', 'movies', 'series', 'séries', 'animes', 'anime', 'desenhos', 'tv'])
 
 const axiosClient = axios.create({
   timeout: 5000,
@@ -63,40 +65,102 @@ async function testStreamUrl(url) {
 async function fetchTmdbMetadata(title, isMovie = false) {
   if (!TMDB_API_KEY) return null
 
-  try {
-    const endpoint = isMovie ? '/search/movie' : '/search/tv'
-    const res = await axiosClient.get(`${TMDB_BASE_URL}${endpoint}`, {
-      params: {
-        api_key: TMDB_API_KEY,
-        query: title,
-        language: 'pt-BR'
-      }
-    })
+  const queries = [
+    title.replace(/\s*\(\d{4}\)/, '').trim(),
+    title
+  ]
 
-    const results = res.data?.results
-    if (!results || results.length === 0) return null
-
-    const item = results[0]
-    return {
-      tmdbId: item.id,
-      title: item.title || item.name,
-      originalTitle: item.original_title || item.original_name,
-      synopsis: item.overview || '',
-      poster: item.poster_path ? `https://image.tmdb.org/t/p/w780${item.poster_path}` : null,
-      backdrop: item.backdrop_path ? `https://image.tmdb.org/t/p/original${item.backdrop_path}` : null,
-      year: (item.release_date || item.first_air_date || '').substring(0, 4),
-      rating: item.vote_average || 0
-    }
-  } catch (err) {
-    return null
+  // Casos específicos de títulos populares
+  if (title.toLowerCase().includes('lenda de aang')) {
+    queries.push('Avatar O Ultimo Mestre do Ar')
   }
+
+  for (const q of queries) {
+    try {
+      const endpoint = isMovie ? '/search/movie' : '/search/tv'
+      const res = await axiosClient.get(`${TMDB_BASE_URL}${endpoint}`, {
+        params: {
+          api_key: TMDB_API_KEY,
+          query: q,
+          language: 'pt-BR'
+        }
+      })
+
+      const results = res.data?.results
+      if (results && results.length > 0) {
+        const item = results[0]
+        return {
+          tmdbId: item.id,
+          title: item.title || item.name,
+          originalTitle: item.original_title || item.original_name,
+          synopsis: item.overview || '',
+          poster: item.poster_path ? `https://image.tmdb.org/t/p/w780${item.poster_path}` : null,
+          backdrop: item.backdrop_path ? `https://image.tmdb.org/t/p/original${item.backdrop_path}` : null,
+          year: (item.release_date || item.first_air_date || '').substring(0, 4),
+          rating: item.vote_average || 0
+        }
+      }
+    } catch (err) {
+      // continue to next query
+    }
+  }
+
+  return null
+}
+
+function parseSeasonEpisode(fileName, parts) {
+  let sMatch = fileName.match(/(?:s|season|temp|temporada)\s*(\d{1,2})[\s._-]*(?:e|ep|episodio)\s*(\d{1,3})/i) ||
+               fileName.match(/(\d{1,2})x(\d{1,3})/i)
+  let seasonNum = null
+  let epNum = null
+  let epTitle = ''
+  let bookLabel = null
+
+  if (sMatch) {
+    seasonNum = parseInt(sMatch[1], 10)
+    epNum = parseInt(sMatch[2], 10)
+  }
+
+  for (const part of parts) {
+    const bookMatch = part.match(/(?:livro|book)\s*(\d{1,2})/i)
+    if (bookMatch) {
+      if (seasonNum === null) seasonNum = parseInt(bookMatch[1], 10)
+      bookLabel = `Livro ${bookMatch[1]}`
+      break
+    }
+    const tempMatch = part.match(/(?:temporada|season|temp)\s*(\d{1,2})/i)
+    if (tempMatch) {
+      if (seasonNum === null) seasonNum = parseInt(tempMatch[1], 10)
+      break
+    }
+  }
+
+  if (epNum === null) {
+    const epMatch = fileName.match(/(?:e|ep|episodio)\s*(\d{1,3})/i) ||
+                    fileName.match(/^(\d{1,3})\.[a-z0-9]+$/i) ||
+                    fileName.match(/[\s._-](\d{1,3})\.[a-z0-9]+$/i)
+    if (epMatch) epNum = parseInt(epMatch[1], 10)
+  }
+
+  if (seasonNum === null) seasonNum = 1
+  if (epNum === null) epNum = 1
+
+  const nameMatch = fileName.match(/(?:\d+x\d+|\bS\d+E\d+\b)\s*[-_]\s*(.+?)\.[a-z0-9]+$/i)
+  if (nameMatch) {
+    epTitle = nameMatch[1].trim()
+  } else {
+    epTitle = `Episódio ${String(epNum).padStart(2, '0')}`
+  }
+
+  const seasonName = bookLabel ? bookLabel : `${seasonNum}ª Temporada`
+  return { seasonNum, epNum, epTitle, seasonName }
 }
 
 // 3. Escanear Mídias Locais do NAS Futebol
 async function scanLocalMedia(baseDir) {
   const localItems = []
   if (!fs.existsSync(baseDir)) {
-    console.log(`[Local Media] Pasta "${baseDir}" não encontrada (normal em ambiente dev). Ignorando scan local.`)
+    console.log(`[Local Media] Pasta "${baseDir}" não encontrada. Ignorando scan local.`)
     return localItems
   }
 
@@ -118,7 +182,7 @@ async function scanLocalMedia(baseDir) {
         }
       }
     } catch (e) {
-      // ignore read error
+      // ignore
     }
     return files
   }
@@ -126,78 +190,136 @@ async function scanLocalMedia(baseDir) {
   const allVideoFiles = walkDir(baseDir)
   console.log(`[Local Media] Encontrados ${allVideoFiles.length} arquivos de vídeo locais.`)
 
-  // Agrupar arquivos por pasta principal
-  const groups = new Map()
+  // Agrupar arquivos por título da série/filme
+  const titleGroups = new Map()
 
   for (const filePath of allVideoFiles) {
-    const rel = path.relative(baseDir, filePath).replace(/\\/g, '/')
-    const parts = rel.split('/')
-    const titleFolder = parts[0]
+    const rel = path.relative(baseDir, filePath)
+    const parts = rel.split(/[/\\]/).filter(Boolean)
+    if (parts.length === 0) continue
 
-    if (!groups.has(titleFolder)) {
-      groups.set(titleFolder, [])
+    let category = null
+    let title = ''
+    let isMovie = false
+
+    const firstPartNorm = parts[0].normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+
+    if (CATEGORY_NAMES.has(firstPartNorm)) {
+      category = firstPartNorm
+      if (category === 'filmes' || category === 'movies') {
+        isMovie = true
+        if (parts.length === 2) {
+          title = path.parse(parts[1]).name
+        } else {
+          title = parts[1]
+        }
+      } else {
+        title = parts[1]
+      }
+    } else {
+      if (parts.length === 1) {
+        isMovie = true
+        title = path.parse(parts[0]).name
+      } else {
+        title = parts[0]
+      }
     }
-    groups.get(titleFolder).push({ fullPath: filePath, relativePath: rel, fileName: path.basename(filePath) })
+
+    if (isMovie) {
+      title = title.replace(/\s*\(\d{3,4}p[^\)]*\)/i, '').replace(/\s*\[\d{3,4}p[^\]]*\]/i, '').trim()
+    }
+
+    if (!titleGroups.has(title)) {
+      titleGroups.set(title, { title, isMovie, category, files: [] })
+    }
+    titleGroups.get(title).files.push({
+      fullPath: filePath,
+      parts,
+      relativePath: parts.join('/'),
+      fileName: path.basename(filePath)
+    })
   }
 
-  for (const [folderName, files] of groups.entries()) {
-    const isSingleMovie = files.length === 1 && !folderName.toLowerCase().includes('temporada')
-    const tmdbData = await fetchTmdbMetadata(folderName, isSingleMovie)
+  for (const [groupTitle, groupData] of titleGroups.entries()) {
+    const { isMovie, files, category } = groupData
+    console.log(`[Local Media] Processando "${groupTitle}" (${files.length} arquivos, isMovie=${isMovie})...`)
 
-    const seasonsMap = new Map()
+    const tmdbData = await fetchTmdbMetadata(groupTitle, isMovie)
+    const titleSlug = sanitizeSlug(groupTitle)
 
-    for (const f of files) {
-      // Regex para detectar S01E02 ou Ep 02
-      const match = f.fileName.match(/(?:s|season|temp|temporada)\s*(\d{1,2})[\s._-]*(?:e|ep|episodio)\s*(\d{1,3})/i) ||
-                    f.fileName.match(/(?:e|ep|episodio)\s*(\d{1,3})/i)
+    let seasons = []
 
-      let seasonNum = 1
-      let epNum = 1
+    if (isMovie) {
+      const f = files[0]
+      const streamUrl = `/local-media/${f.parts.map(encodeURIComponent).join('/')}`
+      seasons = [
+        {
+          name: 'Filme Completo',
+          episodes: [
+            {
+              id: `${titleSlug}-filme`,
+              name: tmdbData?.title || groupTitle,
+              number: 1,
+              streamUrl
+            }
+          ]
+        }
+      ]
+    } else {
+      const seasonsMap = new Map()
+      const seenEpisodes = new Set()
 
-      if (match && match.length >= 3) {
-        seasonNum = parseInt(match[1], 10)
-        epNum = parseInt(match[2], 10)
-      } else if (match && match.length >= 2) {
-        epNum = parseInt(match[1], 10)
+      for (const f of files) {
+        const { seasonNum, epNum, epTitle, seasonName } = parseSeasonEpisode(f.fileName, f.parts)
+        const epKey = `${seasonNum}_${epNum}`
+        if (seenEpisodes.has(epKey)) continue
+        seenEpisodes.add(epKey)
+
+        if (!seasonsMap.has(seasonName)) {
+          seasonsMap.set(seasonName, [])
+        }
+
+        const streamUrl = `/local-media/${f.parts.map(encodeURIComponent).join('/')}`
+        seasonsMap.get(seasonName).push({
+          id: `${titleSlug}-s${seasonNum}-e${epNum}`,
+          name: epTitle,
+          number: epNum,
+          streamUrl
+        })
       }
 
-      const seasonName = isSingleMovie ? 'Filme Completo' : `${seasonNum}ª Temporada`
-      if (!seasonsMap.has(seasonName)) {
-        seasonsMap.set(seasonName, [])
+      for (const [sName, epList] of seasonsMap.entries()) {
+        epList.sort((a, b) => a.number - b.number)
+        seasons.push({ name: sName, episodes: epList })
       }
-
-      seasonsMap.get(seasonName).push({
-        id: sanitizeSlug(`${folderName}-s${seasonNum}-e${epNum}`),
-        name: isSingleMovie ? (tmdbData?.title || folderName) : `Episódio ${String(epNum).padStart(2, '0')}`,
-        number: epNum,
-        streamUrl: `/local-media/${encodeURI(f.relativePath)}`
-      })
     }
 
-    const seasons = []
-    for (const [sName, epList] of seasonsMap.entries()) {
-      epList.sort((a, b) => a.number - b.number)
-      seasons.push({ name: sName, episodes: epList })
+    let mediaType = isMovie ? 'movie' : 'anime'
+    if (!isMovie && (category === 'desenhos' || groupTitle.toLowerCase().includes('caverna do drag'))) {
+      mediaType = 'cartoon'
     }
 
     localItems.push({
-      id: sanitizeSlug(`local-${folderName}`),
-      slug: sanitizeSlug(folderName),
+      id: sanitizeSlug(`local-${groupTitle}`),
+      slug: titleSlug,
       tmdbId: tmdbData?.tmdbId,
-      title: tmdbData?.title || folderName,
+      title: tmdbData?.title || groupTitle,
       originalTitle: tmdbData?.originalTitle || '',
-      type: isSingleMovie ? 'movie' : 'anime',
+      type: mediaType,
       poster: tmdbData?.poster || '/capy-icon.svg',
       backdrop: tmdbData?.backdrop || '',
-      synopsis: tmdbData?.synopsis || 'Disponível localmente no acervo do Homelab.',
-      genres: ['Local Homelab', 'Full HD'],
+      synopsis: tmdbData?.synopsis || 'Disponível localmente no acervo do Homelab com streaming instantâneo.',
+      genres: ['Local Homelab', 'Full HD', isMovie ? 'Filme' : 'Série'],
       year: tmdbData?.year || '',
-      rating: tmdbData?.rating || 8.5,
+      rating: tmdbData?.rating || 8.8,
       isDubbed: true,
       isSubbed: false,
       isNew: true,
+      isFeatured: true,
       seasons
     })
+
+    console.log(`[Local Media] ✓ "${tmdbData?.title || groupTitle}" integrado com sucesso (${seasons.length} temporadas / ${seasons.reduce((acc, s) => acc + s.episodes.length, 0)} episódios)!`)
   }
 
   return localItems

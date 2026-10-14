@@ -30,12 +30,28 @@
       <div v-if="progressPercent > 0" class="progress-bar-bg">
         <div class="progress-bar-fill" :style="{ width: `${progressPercent}%` }"></div>
       </div>
+
+      <!-- Overlay de amigos assistindo / avaliando (se houver) -->
+      <div v-if="friends && friends.length > 0" class="friends-avatars-overlay">
+        <div class="avatar-stack">
+          <img
+            v-for="friend in friends.slice(0, 3)"
+            :key="friend.id"
+            :src="friend.avatar_url || '/capy-icon.svg'"
+            :alt="friend.name"
+            class="friend-avatar-thumb"
+            :title="friend.name"
+          />
+        </div>
+        <span v-if="friendBadge" class="friend-badge-text mono">{{ friendBadge }}</span>
+      </div>
     </div>
 
     <!-- Informações de título e ano (ocultas no modo compacto onde fica apenas a capa) -->
     <div v-if="!compact" class="series-info">
       <h3 class="series-title">{{ media.title }}</h3>
-      <div class="series-meta">
+      <div v-if="customSubtitle" class="custom-subtitle mono">{{ customSubtitle }}</div>
+      <div v-else class="series-meta">
         <span v-if="media.year" class="meta-item">{{ media.year }}</span>
         <span v-if="media.year" class="meta-dot">•</span>
         <span class="meta-item">{{ formatType(media.type) }}</span>
@@ -53,6 +69,9 @@ const props = withDefaults(
   defineProps<{
     media: MediaItem
     compact?: boolean
+    friendBadge?: string
+    friends?: Array<{ id: number; name: string; username: string; avatar_url?: string }>
+    customSubtitle?: string
   }>(),
   {
     compact: false
@@ -230,7 +249,60 @@ function formatType(type: string): string {
   margin-top: 2px;
 }
 
+.custom-subtitle {
+  font-size: 0.7rem;
+  color: var(--color-accent);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .meta-dot {
   font-size: 0.6rem;
+}
+
+/* Overlay de amigos sobre a capa */
+.friends-avatars-overlay {
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+  right: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(18, 16, 14, 0.85);
+  backdrop-filter: blur(4px);
+  padding: 3px 6px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 4;
+}
+
+.avatar-stack {
+  display: flex;
+  align-items: center;
+}
+
+.friend-avatar-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1.5px solid var(--bg-card);
+  object-fit: cover;
+  margin-left: -5px;
+}
+
+.friend-avatar-thumb:first-child {
+  margin-left: 0;
+}
+
+.friend-badge-text {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>

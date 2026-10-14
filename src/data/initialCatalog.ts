@@ -2,152 +2,5610 @@ import type { MediaItem } from '@/types/media'
 
 export const initialCatalog: MediaItem[] = [
   {
-    id: 'cowboy-bebop',
-    slug: 'cowboy-bebop',
-    tmdbId: 4087,
-    title: 'Cowboy Bebop',
-    originalTitle: 'カウボーイビバップ',
-    type: 'anime',
-    poster: 'https://image.tmdb.org/t/p/w780/ccGdB7qLttA1OGFwfz5CY4FQj09.jpg',
-    backdrop: 'https://image.tmdb.org/t/p/original/f8ioO77KUZu4wYqc30UccaxrGk6.jpg',
-    synopsis: 'Spike Spiegel, um rapaz com o passado misterioso e Jet Black, um ex-policial, se unem para ir atrás de criminosos que possuem a cabeça a prêmio, dentro da nave Bebop.',
-    genres: ['Ação', 'Aventura', 'Ficção Científica', 'Clássico'],
-    year: 1998,
-    rating: 8.9,
-    isDubbed: true,
-    isSubbed: true,
-    isFeatured: true,
-    seasons: [
+    "id": "local-avatar-a-lenda-de-aang-2026",
+    "slug": "avatar-a-lenda-de-aang-2026",
+    "tmdbId": 980431,
+    "title": "Avatar Aang: O Último Mestre do Ar",
+    "originalTitle": "Avatar Aang: The Last Airbender",
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w780/tiUtJXN4OZaK2PQM0q8mbbBgKS4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
+    "synopsis": "O Avatar Aang, o último mestre do ar do mundo, toma conhecimento de um poder antigo que poderia salvar sua cultura da extinção. Com a ajuda de seus amigos, ele embarca em uma busca global para encontrá-lo antes que caia em mãos erradas e ameace destruir a paz que eles sacrificaram tudo para alcançar.",
+    "genres": [
+      "Local Homelab",
+      "Full HD",
+      "Filme"
+    ],
+    "year": "2026",
+    "rating": 9.1,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isNew": true,
+    "isFeatured": true,
+    "seasons": [
       {
-        name: 'Dublado',
-        episodes: [
-          { id: 'cb-dub-1', name: 'Episódio 01 - Asteroid Blues', number: 1, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-1.mp4' },
-          { id: 'cb-dub-2', name: 'Episódio 02 - Stray Dog Strut', number: 2, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-2.mp4' },
-          { id: 'cb-dub-3', name: 'Episódio 03 - Honky Tonk Women', number: 3, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-3.mp4' },
-          { id: 'cb-dub-4', name: 'Episódio 04 - Gateway Shuffle', number: 4, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-4.mp4' },
-          { id: 'cb-dub-5', name: 'Episódio 05 - Ballad of Fallen Angels', number: 5, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-5.mp4' },
-          { id: 'cb-dub-6', name: 'Episódio 06 - Sympathy for the Devil', number: 6, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-6.mp4' }
-        ]
-      },
-      {
-        name: 'Legendado',
-        episodes: [
-          { id: 'cb-leg-1', name: 'Episódio 01 - Asteroid Blues', number: 1, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-1.mp4' },
-          { id: 'cb-leg-2', name: 'Episódio 02 - Stray Dog Strut', number: 2, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-2.mp4' },
-          { id: 'cb-leg-3', name: 'Episódio 03 - Honky Tonk Women', number: 3, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-3.mp4' }
-        ]
-      },
-      {
-        name: 'Filme',
-        episodes: [
-          { id: 'cb-movie-dub', name: 'O Filme: Knocking On Heavens Door (DUB)', number: 1, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Filme-Dub.mp4' },
-          { id: 'cb-movie-leg', name: 'O Filme: Knocking On Heavens Door (LEG)', number: 2, streamUrl: 'https://ia803106.us.archive.org/26/items/CowboyDubLeg/Filme-Leg.mp4' }
+        "name": "Filme Completo",
+        "episodes": [
+          {
+            "id": "avatar-a-lenda-de-aang-2026-filme",
+            "name": "Avatar Aang: O Último Mestre do Ar",
+            "number": 1,
+            "streamUrl": "/local-media/filmes/Avatar%20-%20A%20Lenda%20de%20Aang%202026.mp4"
+          }
         ]
       }
     ]
   },
   {
-    id: 'nokotan',
-    slug: 'nokotan',
-    tmdbId: 249581,
-    title: 'Minha Amiga Nokotan é um Cervo',
-    originalTitle: 'しかのこのconocoしたんたん',
-    type: 'anime',
-    poster: 'https://image.tmdb.org/t/p/w780/qxuxdQuIf8RqXmBNNaeteXgiMVf.jpg',
-    backdrop: 'https://image.tmdb.org/t/p/original/bFxcYS5YqksYjb4ANBDxZi7wdS4.jpg',
-    synopsis: 'Torako Koshi é uma aluna exemplar do ensino médio que encontra uma garota da sua idade presa nos postes de energia por causa de seus... Chifres? A vida dessa ex-delinquente vira de cabeça pra baixo agora que sua amiga-cervo, Shikanoko, chegou para ficar.',
-    genres: ['Comédia', 'Ficção', 'Fantasia', 'Escolar'],
-    year: 2024,
-    rating: 8.6,
-    isDubbed: true,
-    isSubbed: true,
-    isNew: true,
-    isFeatured: true,
-    seasons: [
+    "id": "local-obsession-2026",
+    "slug": "obsession-2026",
+    "tmdbId": 1339713,
+    "title": "Obsessão",
+    "originalTitle": "Obsession",
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w780/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+    "synopsis": "Sem grandes pretensões, um romântico incurável compra um brinquedo que promete realizar desejos únicos. Ele quebra o artefato misterioso enquanto pede para conquistar a crush e consegue exatamente o que desejava, mas descobre que a consequência é sinistra.",
+    "genres": [
+      "Local Homelab",
+      "Full HD",
+      "Filme"
+    ],
+    "year": "2026",
+    "rating": 8.179,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isNew": true,
+    "isFeatured": true,
+    "seasons": [
       {
-        name: 'Dublado',
-        episodes: [
-          { id: 'noko-dub-1', name: 'Episódio 01 - Garota Encontra Cervo', number: 1, streamUrl: 'https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-1.mp4' },
-          { id: 'noko-dub-2', name: 'Episódio 02 - O Clube dos Cervos', number: 2, streamUrl: 'https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-2.mp4' },
-          { id: 'noko-dub-3', name: 'Episódio 03 - A Nova Integrante', number: 3, streamUrl: 'https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-3.mp4' },
-          { id: 'noko-dub-4', name: 'Episódio 04 - O Segredo dos Chifres', number: 4, streamUrl: 'https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-4.mp4' }
-        ]
-      },
-      {
-        name: 'Legendado',
-        episodes: [
-          { id: 'noko-leg-1', name: 'Episódio 01 - Garota Encontra Cervo', number: 1, streamUrl: 'https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-1.mp4' },
-          { id: 'noko-leg-2', name: 'Episódio 02 - O Clube dos Cervos', number: 2, streamUrl: 'https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-2.mp4' }
-        ]
-      }
-    ]
-  },
-  {
-    id: 'clannad',
-    slug: 'clannad',
-    tmdbId: 20604,
-    title: 'Clannad',
-    originalTitle: 'CLANNAD -クラナド-',
-    type: 'anime',
-    poster: 'https://image.tmdb.org/t/p/w780/jPBMYp4ddXkGJDSxxmaKBjzv2r3.jpg',
-    backdrop: 'https://image.tmdb.org/t/p/original/h9nAWM6TF59g39l3fDzqTgW7ap2.jpg',
-    synopsis: 'Tomoya é um estudante amargurado do terceiro ano. A caminho da escola, ele conhece Nagisa Furukawa, que está repetindo a série. Os dois começam a sair juntos e percebem suas vidas tomando um novo rumo.',
-    genres: ['Drama', 'Romance', 'Comédia', 'Emocional'],
-    year: 2007,
-    rating: 8.8,
-    isDubbed: false,
-    isSubbed: true,
-    isFeatured: true,
-    seasons: [
-      {
-        name: 'Legendado',
-        episodes: [
-          { id: 'clannad-1', name: 'Episódio 01 - Na Colina Onde as Folhas de Cerejeira Caem', number: 1, streamUrl: 'https://ia903102.us.archive.org/4/items/ClannadLeg/1.mp4' },
-          { id: 'clannad-2', name: 'Episódio 02 - O Primeiro Passo', number: 1, streamUrl: 'https://ia903102.us.archive.org/4/items/ClannadLeg/2.mp4' },
-          { id: 'clannad-3', name: 'Episódio 03 - Mais Uma Vez Depois de Chorar', number: 3, streamUrl: 'https://ia903102.us.archive.org/4/items/ClannadLeg/3.mp4' }
+        "name": "Filme Completo",
+        "episodes": [
+          {
+            "id": "obsession-2026-filme",
+            "name": "Obsessão",
+            "number": 1,
+            "streamUrl": "/local-media/filmes/Obsession%20(2026)%20(1080p%20MA%20WEB-DL%20x265%20Ghost).mkv"
+          }
         ]
       }
     ]
   },
   {
-    id: 'date-a-live',
-    slug: 'date-a-live',
-    tmdbId: 48443,
-    title: 'Date A Live',
-    originalTitle: 'デート・ア・ライブ',
-    type: 'anime',
-    poster: 'https://image.tmdb.org/t/p/w780/xEwKIg7m8TzjFTY5T4Yj3beR7rH.jpg',
-    backdrop: 'https://image.tmdb.org/t/p/original/5Qb4h22gfDuCINm6nrn3HiPSgQZ.jpg',
-    synopsis: 'Incessantes terremotos assolam a Terra provocados por seres mágicos chamados Espíritos. Shido Itsuka descobre que tem o poder único de selar seus poderes fazendo-os se apaixonar.',
-    genres: ['Ação', 'Comédia', 'Ficção Científica', 'Romance'],
-    year: 2013,
-    rating: 8.4,
-    isDubbed: true,
-    isSubbed: true,
-    isFeatured: true,
-    seasons: [
+    "id": "local-avatar-a-lenda-de-korra",
+    "slug": "avatar-a-lenda-de-korra",
+    "tmdbId": 33880,
+    "title": "A Lenda de Korra",
+    "originalTitle": "The Legend of Korra",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/yDRskxx7kXoB9ImdXi05Db5EG3L.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bauKfP3CX5JPAXpmveOlPG1pngC.jpg",
+    "synopsis": "Korra, uma jovem rebelde de 17 anos, deixa a tradição de lado para se tornar um Avatar e manter a Cidade da República livre das forças do mal dos mundos físico e espiritual.",
+    "genres": [
+      "Local Homelab",
+      "Full HD",
+      "Série"
+    ],
+    "year": "2012",
+    "rating": 8.216,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isNew": true,
+    "isFeatured": true,
+    "seasons": [
       {
-        name: '1ª Temporada',
-        episodes: [
-          { id: 'dal-s1-e1', name: 'Episódio 01 - Encontro Marcado', number: 1, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Primeira-1.mp4' },
-          { id: 'dal-s1-e2', name: 'Episódio 02 - Espada Furiosa', number: 2, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Primeira-2.mp4' },
-          { id: 'dal-s1-e3', name: 'Episódio 03 - Chuva de Outubro', number: 3, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Primeira-3.mp4' },
-          { id: 'dal-s1-e4', name: 'Episódio 04 - O Retorno da Calamidade', number: 4, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Primeira-4.mp4' },
-          { id: 'dal-s1-e5', name: 'Episódio 05 - O Chão Gelado', number: 5, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Primeira-5.mp4' }
+        "name": "Livro 1",
+        "episodes": [
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e1",
+            "name": "Bem-vinda à Republic City",
+            "number": 1,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x01%20-%20Bem-vinda%20%C3%A0%20Republic%20City.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e2",
+            "name": "Uma Folha ao Vento",
+            "number": 2,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x02%20-%20Uma%20Folha%20ao%20Vento.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e3",
+            "name": "A Revelação",
+            "number": 3,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x03%20-%20A%20Revela%C3%A7%C3%A3o.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e4",
+            "name": "A Voz na Noite",
+            "number": 4,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x04%20-%20A%20Voz%20na%20Noite.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e5",
+            "name": "O Espírito da Competição",
+            "number": 5,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x05%20-%20O%20Esp%C3%ADrito%20da%20Competi%C3%A7%C3%A3o.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e6",
+            "name": "E o Vencedor é ...",
+            "number": 6,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x06%20-%20E%20o%20Vencedor%20%C3%A9%20...%20.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e7",
+            "name": "As Consequências",
+            "number": 7,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x07%20-%20As%20Consequ%C3%AAncias.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e8",
+            "name": "Quando Extremos se Encontram",
+            "number": 8,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x08%20-%20Quando%20Extremos%20se%20Encontram.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e9",
+            "name": "Fora do Passado",
+            "number": 9,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x09%20-%20Fora%20do%20Passado.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e10",
+            "name": "Alterando os Acontecimentos",
+            "number": 10,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x10%20-%20Alterando%20os%20Acontecimentos%20.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e11",
+            "name": "Esqueletos no Armário",
+            "number": 11,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x11%20-%20Esqueletos%20no%20Arm%C3%A1rio.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s1-e12",
+            "name": "Fim de Jogo",
+            "number": 12,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%201/1x12%20-%20Fim%20de%20Jogo.mp4"
+          }
         ]
       },
       {
-        name: '2ª Temporada (Dublada)',
-        episodes: [
-          { id: 'dal-s2-e1', name: 'Episódio 01 - Tempestade Diária', number: 1, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-1.mp4' },
-          { id: 'dal-s2-e2', name: 'Episódio 02 - Filhos das Trevas', number: 2, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-2.mp4' },
-          { id: 'dal-s2-e3', name: 'Episódio 03 - O Som da Alma', number: 3, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-3.mp4' }
+        "name": "Livro 2",
+        "episodes": [
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e1",
+            "name": "Espírito Rebelde",
+            "number": 1,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x01%20-%20Esp%C3%ADrito%20Rebelde.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e2",
+            "name": "As Luzes do Sul",
+            "number": 2,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x02%20-%20As%20Luzes%20do%20Sul.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e3",
+            "name": "Guerra Civil (Parte 1)",
+            "number": 3,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x03%20-%20Guerra%20Civil%20(Parte%201).mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e4",
+            "name": "Guerra Civil (Parte 2)",
+            "number": 4,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x04%20-%20Guerra%20Civil%20(Parte%202).mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e5",
+            "name": "Guardiões da Paz",
+            "number": 5,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x05%20-%20Guardi%C3%B5es%20da%20Paz.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e6",
+            "name": "A Ferroada",
+            "number": 6,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x06%20-%20A%20Ferroada.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e7",
+            "name": "Primórdios (Parte 1)",
+            "number": 7,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x07%20-%20Prim%C3%B3rdios%20(Parte%201).mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e8",
+            "name": "Primórdios (Parte 2)",
+            "number": 8,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x08%20-%20Prim%C3%B3rdios%20(Parte%202).mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e9",
+            "name": "O Guia",
+            "number": 9,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x09%20-%20O%20Guia.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e10",
+            "name": "Uma Nova Era Espiritual",
+            "number": 10,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x10%20-%20Uma%20Nova%20Era%20Espiritual.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e11",
+            "name": "Noite das Mil Estrelas",
+            "number": 11,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x11%20-%20Noite%20das%20Mil%20Estrelas.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e12",
+            "name": "Convergência Harmônica",
+            "number": 12,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x12%20-%20Converg%C3%AAncia%20Harm%C3%B4nica.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e13",
+            "name": "O Cair das Trevas",
+            "number": 13,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x13%20-%20O%20Cair%20das%20Trevas%20.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s2-e14",
+            "name": "Luz na Escuridão",
+            "number": 14,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%202/2x14%20-%20Luz%20na%20Escurid%C3%A3o.mp4"
+          }
         ]
       },
       {
-        name: 'Filme',
-        episodes: [
-          { id: 'dal-film', name: 'Mayuri Judgement', number: 1, streamUrl: 'https://ia600707.us.archive.org/7/items/DateLive/Filme.mp4' }
+        "name": "Livro 3",
+        "episodes": [
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e1",
+            "name": "Um Sopro de Ar Puro",
+            "number": 1,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x01%20-%20Um%20Sopro%20de%20Ar%20Puro.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e2",
+            "name": "Renascimento",
+            "number": 2,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x02%20-%20Renascimento.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e3",
+            "name": "A Rainha da Terra",
+            "number": 3,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x03%20-%20A%20Rainha%20da%20Terra.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e4",
+            "name": "Em Perigo",
+            "number": 4,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x04%20-%20Em%20Perigo.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e5",
+            "name": "O Clã do Metal",
+            "number": 5,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x05%20-%20O%20Cl%C3%A3%20do%20Metal.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e6",
+            "name": "Velhas Feridas",
+            "number": 6,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x06%20-%20Velhas%20Feridas.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e7",
+            "name": "Autênticos Dominadores de Ar",
+            "number": 7,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x07%20-%20Aut%C3%AAnticos%20Dominadores%20de%20Ar.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e8",
+            "name": "O Terror Interno",
+            "number": 8,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x08%20-%20O%20Terror%20Interno.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e9",
+            "name": "A Emboscada Policial",
+            "number": 9,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x09%20-%20A%20Emboscada%20Policial.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e10",
+            "name": "Vida Longa à Rainha",
+            "number": 10,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x10%20-%20Vida%20Longa%20%C3%A0%20Rainha.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e11",
+            "name": "O Ultimato",
+            "number": 11,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x11%20-%20O%20Ultimato.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e12",
+            "name": "Entrar no Vazio",
+            "number": 12,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x12%20-%20Entrar%20no%20Vazio.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s3-e13",
+            "name": "Veneno da Lótus Vermelha",
+            "number": 13,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%203/3x13-%20Veneno%20da%20L%C3%B3tus%20Vermelha.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Livro 4",
+        "episodes": [
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e1",
+            "name": "Depois de Todos Estes Anos",
+            "number": 1,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x01%20-%20Depois%20de%20Todos%20Estes%20Anos.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e2",
+            "name": "Korra Sozinha",
+            "number": 2,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x02%20-%20Korra%20Sozinha.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e3",
+            "name": "A Coroação",
+            "number": 3,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x03%20-%20A%20Coroa%C3%A7%C3%A3o.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e4",
+            "name": "O Chamado",
+            "number": 4,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x04%20-%20O%20Chamado.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e5",
+            "name": "As Portas Inimiga",
+            "number": 5,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x05%20-%20As%20Portas%20Inimiga.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e6",
+            "name": "Batalha de Zaofu",
+            "number": 6,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x06%20-%20Batalha%20de%20Zaofu.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e7",
+            "name": "Reuni",
+            "number": 7,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x07%20-%20Reuni.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e8",
+            "name": "Lembranças",
+            "number": 8,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x08%20-%20Lembran%C3%A7as.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e9",
+            "name": "Além dos Confins",
+            "number": 9,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x09%20-%20Al%C3%A9m%20dos%20Confins.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e10",
+            "name": "Operação Beifong",
+            "number": 10,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x10%20-%20Opera%C3%A7%C3%A3o%20Beifong.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e11",
+            "name": "Gambito do Kuvira",
+            "number": 11,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x11%20-%20Gambito%20do%20Kuvira.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e12",
+            "name": "Dia do Colosso",
+            "number": 12,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x12%20-%20Dia%20do%20Colosso.mp4"
+          },
+          {
+            "id": "avatar-a-lenda-de-korra-s4-e13",
+            "name": "O Confronto Final",
+            "number": 13,
+            "streamUrl": "/local-media/s%C3%A9ries/Avatar%20-%20A%20Lenda%20de%20Korra/Livro%204/4x13%20-%20O%20Confronto%20Final.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-caverna-do-dragao",
+    "slug": "caverna-do-dragao",
+    "tmdbId": 553,
+    "title": "Caverna do Dragão",
+    "originalTitle": "Dungeons & Dragons",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/t0DT8Tgg6nRdxsIU93r0i7XUfcp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/zgFJXU66zLmjPUpgSuA6P2TNN92.jpg",
+    "synopsis": "Seis jovens ao andarem em uma montanha-russa de um parque de diversões, são transportados para um mundo mágico repleto de perigos, criaturas fantásticas e monstros. O grupo é guiado pelo enigmático Mestre dos Magos e busca uma maneira de voltar para casa, enquanto enfrentam o Vingador.",
+    "genres": [
+      "Local Homelab",
+      "Full HD",
+      "Série"
+    ],
+    "year": "1983",
+    "rating": 8,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isNew": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "caverna-do-dragao-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/Caverna%20do%20Drag%C3%A3o%20S01E01.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/2.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/3.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/4.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/5.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/6.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/7.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/8.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/9.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/10.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/11.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/12.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/13.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/14.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/15.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/16.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/17.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/18.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/19.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/20.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/21.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/22.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/23.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/24.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/25.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/26.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/27.mkv"
+          },
+          {
+            "id": "caverna-do-dragao-s1-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "/local-media/s%C3%A9ries/Caverna%20do%20Drag%C3%A3o/28.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dragon-ball",
+    "slug": "dragon-ball",
+    "title": "Dragon Ball (Coleção)",
+    "originalTitle": "",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/rwrrjwfVT7m83aRlXplZPRj14GZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rwrrjwfVT7m83aRlXplZPRj14GZ.jpg",
+    "synopsis": "Anime em alta definição disponível no CapyFlix.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "COMEDIA",
+      "FANTASIA",
+      "DUB",
+      "RECENTE"
+    ],
+    "year": "",
+    "rating": 8.2,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dragon Ball",
+        "episodes": [
+          {
+            "id": "dragon-ball-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/1.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/2.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/3.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/4.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/5.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/6.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/7.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/8.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/9.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/10.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/11.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/12.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/13.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/14.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/15.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/16.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/17.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/18.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/19.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/20.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/21.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/22.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/23.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/24.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/25.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/26.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/27.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/28.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/29.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/30.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/31.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/32.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/33.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/34.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/35.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/36.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/37.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/38.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/39.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/40.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/41.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/42.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/43.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e44",
+            "name": "Episódio 44",
+            "number": 44,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/44.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e45",
+            "name": "Episódio 45",
+            "number": 45,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/45.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e46",
+            "name": "Episódio 46",
+            "number": 46,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/46.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e47",
+            "name": "Episódio 47",
+            "number": 47,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/47.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e48",
+            "name": "Episódio 48",
+            "number": 48,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/48.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e49",
+            "name": "Episódio 49",
+            "number": 49,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/49.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e50",
+            "name": "Episódio 50",
+            "number": 50,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/50.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e51",
+            "name": "Episódio 51",
+            "number": 51,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/51.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e52",
+            "name": "Episódio 52",
+            "number": 52,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/52.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e53",
+            "name": "Episódio 53",
+            "number": 53,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/53.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e54",
+            "name": "Episódio 54",
+            "number": 54,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/54.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e55",
+            "name": "Episódio 55",
+            "number": 55,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/55.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e56",
+            "name": "Episódio 56",
+            "number": 56,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/56.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e57",
+            "name": "Episódio 57",
+            "number": 57,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/57.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e58",
+            "name": "Episódio 58",
+            "number": 58,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/58.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e59",
+            "name": "Episódio 59",
+            "number": 59,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/59.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e60",
+            "name": "Episódio 60",
+            "number": 60,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/60.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e61",
+            "name": "Episódio 61",
+            "number": 61,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/61.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e62",
+            "name": "Episódio 62",
+            "number": 62,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/62.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e63",
+            "name": "Episódio 63",
+            "number": 63,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/63.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e64",
+            "name": "Episódio 64",
+            "number": 64,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/64.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e65",
+            "name": "Episódio 65",
+            "number": 65,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/65.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e66",
+            "name": "Episódio 66",
+            "number": 66,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/66.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e67",
+            "name": "Episódio 67",
+            "number": 67,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/67.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e68",
+            "name": "Episódio 68",
+            "number": 68,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/68.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e69",
+            "name": "Episódio 69",
+            "number": 69,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/69.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e70",
+            "name": "Episódio 70",
+            "number": 70,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/70.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e71",
+            "name": "Episódio 71",
+            "number": 71,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/71.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e72",
+            "name": "Episódio 72",
+            "number": 72,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/72.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e73",
+            "name": "Episódio 73",
+            "number": 73,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/73.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e74",
+            "name": "Episódio 74",
+            "number": 74,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/74.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e75",
+            "name": "Episódio 75",
+            "number": 75,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/75.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e76",
+            "name": "Episódio 76",
+            "number": 76,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/76.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e77",
+            "name": "Episódio 77",
+            "number": 77,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/77.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e78",
+            "name": "Episódio 78",
+            "number": 78,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/78.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e79",
+            "name": "Episódio 79",
+            "number": 79,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/79.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e80",
+            "name": "Episódio 80",
+            "number": 80,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/80.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e81",
+            "name": "Episódio 81",
+            "number": 81,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/81.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e82",
+            "name": "Episódio 82",
+            "number": 82,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/82.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e83",
+            "name": "Episódio 83",
+            "number": 83,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/83.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e84",
+            "name": "Episódio 84",
+            "number": 84,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/84.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e85",
+            "name": "Episódio 85",
+            "number": 85,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/85.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e86",
+            "name": "Episódio 86",
+            "number": 86,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/86.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e87",
+            "name": "Episódio 87",
+            "number": 87,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/87.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e88",
+            "name": "Episódio 88",
+            "number": 88,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/88.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e89",
+            "name": "Episódio 89",
+            "number": 89,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/89.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e90",
+            "name": "Episódio 90",
+            "number": 90,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/90.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e91",
+            "name": "Episódio 91",
+            "number": 91,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/91.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e92",
+            "name": "Episódio 92",
+            "number": 92,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/92.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e93",
+            "name": "Episódio 93",
+            "number": 93,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/93.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e94",
+            "name": "Episódio 94",
+            "number": 94,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/94.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e95",
+            "name": "Episódio 95",
+            "number": 95,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/95.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e96",
+            "name": "Episódio 96",
+            "number": 96,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/96.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e97",
+            "name": "Episódio 97",
+            "number": 97,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/97.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e98",
+            "name": "Episódio 98",
+            "number": 98,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/98.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e99",
+            "name": "Episódio 99",
+            "number": 99,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/99.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e100",
+            "name": "Episódio 100",
+            "number": 100,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/100.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e101",
+            "name": "Episódio 101",
+            "number": 101,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/101.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e102",
+            "name": "Episódio 102",
+            "number": 102,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/102.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e103",
+            "name": "Episódio 103",
+            "number": 103,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/103.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e104",
+            "name": "Episódio 104",
+            "number": 104,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/104.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e105",
+            "name": "Episódio 105",
+            "number": 105,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/105.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e106",
+            "name": "Episódio 106",
+            "number": 106,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/106.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e107",
+            "name": "Episódio 107",
+            "number": 107,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/107.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e108",
+            "name": "Episódio 108",
+            "number": 108,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/108.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e109",
+            "name": "Episódio 109",
+            "number": 109,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/109.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e110",
+            "name": "Episódio 110",
+            "number": 110,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/110.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e111",
+            "name": "Episódio 111",
+            "number": 111,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/111.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e112",
+            "name": "Episódio 112",
+            "number": 112,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/112.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e113",
+            "name": "Episódio 113",
+            "number": 113,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/113.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e114",
+            "name": "Episódio 114",
+            "number": 114,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/114.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e115",
+            "name": "Episódio 115",
+            "number": 115,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/115.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e116",
+            "name": "Episódio 116",
+            "number": 116,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/116.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e117",
+            "name": "Episódio 117",
+            "number": 117,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/117.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e118",
+            "name": "Episódio 118",
+            "number": 118,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/118.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e119",
+            "name": "Episódio 119",
+            "number": 119,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/119.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e120",
+            "name": "Episódio 120",
+            "number": 120,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/120.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e121",
+            "name": "Episódio 121",
+            "number": 121,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/121.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e122",
+            "name": "Episódio 122",
+            "number": 122,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/122.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e123",
+            "name": "Episódio 123",
+            "number": 123,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/123.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e124",
+            "name": "Episódio 124",
+            "number": 124,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/124.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e125",
+            "name": "Episódio 125",
+            "number": 125,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/125.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e126",
+            "name": "Episódio 126",
+            "number": 126,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/126.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e127",
+            "name": "Episódio 127",
+            "number": 127,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/127.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e128",
+            "name": "Episódio 128",
+            "number": 128,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/128.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e129",
+            "name": "Episódio 129",
+            "number": 129,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/129.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e130",
+            "name": "Episódio 130",
+            "number": 130,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/130.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e131",
+            "name": "Episódio 131",
+            "number": 131,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/131.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e132",
+            "name": "Episódio 132",
+            "number": 132,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/132.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e133",
+            "name": "Episódio 133",
+            "number": 133,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/133.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e134",
+            "name": "Episódio 134",
+            "number": 134,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/134.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e135",
+            "name": "Episódio 135",
+            "number": 135,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/135.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e136",
+            "name": "Episódio 136",
+            "number": 136,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/136.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e137",
+            "name": "Episódio 137",
+            "number": 137,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/137.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e138",
+            "name": "Episódio 138",
+            "number": 138,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/138.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e139",
+            "name": "Episódio 139",
+            "number": 139,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/139.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e140",
+            "name": "Episódio 140",
+            "number": 140,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/140.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e141",
+            "name": "Episódio 141",
+            "number": 141,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/141.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e142",
+            "name": "Episódio 142",
+            "number": 142,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/142.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e143",
+            "name": "Episódio 143",
+            "number": 143,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/143.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e144",
+            "name": "Episódio 144",
+            "number": 144,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/144.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e145",
+            "name": "Episódio 145",
+            "number": 145,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/145.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e146",
+            "name": "Episódio 146",
+            "number": 146,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/146.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e147",
+            "name": "Episódio 147",
+            "number": 147,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/147.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e148",
+            "name": "Episódio 148",
+            "number": 148,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/148.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e149",
+            "name": "Episódio 149",
+            "number": 149,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/149.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e150",
+            "name": "Episódio 150",
+            "number": 150,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/150.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e151",
+            "name": "Episódio 151",
+            "number": 151,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/151.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e152",
+            "name": "Episódio 152",
+            "number": 152,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/152.mp4"
+          },
+          {
+            "id": "dragon-ball-s1-e153",
+            "name": "Episódio 153",
+            "number": 153,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/153.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Dragon Ball Z",
+        "episodes": [
+          {
+            "id": "dragon-ball-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-1.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-2.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-3.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-4.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-5.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-6.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-7.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-8.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-9.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-10.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-11.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-12.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-13.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-14.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-15.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-16.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-17.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-18.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-19.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-20.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-21.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-22.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-23.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-24.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-25.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-26.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-27.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-28.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-29.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-30.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-31.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-32.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-33.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-34.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-35.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-36.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-37.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-38.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-39.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-40.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-41.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-42.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-43.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e44",
+            "name": "Episódio 44",
+            "number": 44,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-44.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e45",
+            "name": "Episódio 45",
+            "number": 45,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-45.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e46",
+            "name": "Episódio 46",
+            "number": 46,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-46.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e47",
+            "name": "Episódio 47",
+            "number": 47,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-47.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e48",
+            "name": "Episódio 48",
+            "number": 48,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-48.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e49",
+            "name": "Episódio 49",
+            "number": 49,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-49.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e50",
+            "name": "Episódio 50",
+            "number": 50,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-50.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e51",
+            "name": "Episódio 51",
+            "number": 51,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-51.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e52",
+            "name": "Episódio 52",
+            "number": 52,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-52.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e53",
+            "name": "Episódio 53",
+            "number": 53,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-53.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e54",
+            "name": "Episódio 54",
+            "number": 54,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-54.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e55",
+            "name": "Episódio 55",
+            "number": 55,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-55.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e56",
+            "name": "Episódio 56",
+            "number": 56,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-56.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e57",
+            "name": "Episódio 57",
+            "number": 57,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-57.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e58",
+            "name": "Episódio 58",
+            "number": 58,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-58.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e59",
+            "name": "Episódio 59",
+            "number": 59,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-59.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e60",
+            "name": "Episódio 60",
+            "number": 60,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-60.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e61",
+            "name": "Episódio 61",
+            "number": 61,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-61.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e62",
+            "name": "Episódio 62",
+            "number": 62,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-62.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e63",
+            "name": "Episódio 63",
+            "number": 63,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-63.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e64",
+            "name": "Episódio 64",
+            "number": 64,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-64.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e65",
+            "name": "Episódio 65",
+            "number": 65,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-65.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e66",
+            "name": "Episódio 66",
+            "number": 66,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-66.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e67",
+            "name": "Episódio 67",
+            "number": 67,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-67.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e68",
+            "name": "Episódio 68",
+            "number": 68,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-68.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e69",
+            "name": "Episódio 69",
+            "number": 69,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-69.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e70",
+            "name": "Episódio 70",
+            "number": 70,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-70.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e71",
+            "name": "Episódio 71",
+            "number": 71,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-71.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e72",
+            "name": "Episódio 72",
+            "number": 72,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-72.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e73",
+            "name": "Episódio 73",
+            "number": 73,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-73.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e74",
+            "name": "Episódio 74",
+            "number": 74,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-74.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e75",
+            "name": "Episódio 75",
+            "number": 75,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-75.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e76",
+            "name": "Episódio 76",
+            "number": 76,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-76.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e77",
+            "name": "Episódio 77",
+            "number": 77,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-77.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e78",
+            "name": "Episódio 78",
+            "number": 78,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-78.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e79",
+            "name": "Episódio 79",
+            "number": 79,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-79.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e80",
+            "name": "Episódio 80",
+            "number": 80,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-80.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e81",
+            "name": "Episódio 81",
+            "number": 81,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-81.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e82",
+            "name": "Episódio 82",
+            "number": 82,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-82.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e83",
+            "name": "Episódio 83",
+            "number": 83,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-83.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e84",
+            "name": "Episódio 84",
+            "number": 84,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-84.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e85",
+            "name": "Episódio 85",
+            "number": 85,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-85.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e86",
+            "name": "Episódio 86",
+            "number": 86,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-86.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e87",
+            "name": "Episódio 87",
+            "number": 87,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-87.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e88",
+            "name": "Episódio 88",
+            "number": 88,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-88.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e89",
+            "name": "Episódio 89",
+            "number": 89,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-89.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e90",
+            "name": "Episódio 90",
+            "number": 90,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-90.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e91",
+            "name": "Episódio 91",
+            "number": 91,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-91.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e92",
+            "name": "Episódio 92",
+            "number": 92,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-92.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e93",
+            "name": "Episódio 93",
+            "number": 93,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-93.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e94",
+            "name": "Episódio 94",
+            "number": 94,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-94.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e95",
+            "name": "Episódio 95",
+            "number": 95,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-95.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e96",
+            "name": "Episódio 96",
+            "number": 96,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-96.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e97",
+            "name": "Episódio 97",
+            "number": 97,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-97.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e98",
+            "name": "Episódio 98",
+            "number": 98,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-98.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e99",
+            "name": "Episódio 99",
+            "number": 99,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-99.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e100",
+            "name": "Episódio 100",
+            "number": 100,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-100.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e101",
+            "name": "Episódio 101",
+            "number": 101,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-101.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e102",
+            "name": "Episódio 102",
+            "number": 102,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-102.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e103",
+            "name": "Episódio 103",
+            "number": 103,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-103.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e104",
+            "name": "Episódio 104",
+            "number": 104,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-104.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e105",
+            "name": "Episódio 105",
+            "number": 105,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-105.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e106",
+            "name": "Episódio 106",
+            "number": 106,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-106.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e107",
+            "name": "Episódio 107",
+            "number": 107,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-107.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e108",
+            "name": "Episódio 108",
+            "number": 108,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-108.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e109",
+            "name": "Episódio 109",
+            "number": 109,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-109.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e110",
+            "name": "Episódio 110",
+            "number": 110,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-110.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e111",
+            "name": "Episódio 111",
+            "number": 111,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-111.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e112",
+            "name": "Episódio 112",
+            "number": 112,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-112.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e113",
+            "name": "Episódio 113",
+            "number": 113,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-113.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e114",
+            "name": "Episódio 114",
+            "number": 114,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-114.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e115",
+            "name": "Episódio 115",
+            "number": 115,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-115.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e116",
+            "name": "Episódio 116",
+            "number": 116,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-116.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e117",
+            "name": "Episódio 117",
+            "number": 117,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-117.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e118",
+            "name": "Episódio 118",
+            "number": 118,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-118.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e119",
+            "name": "Episódio 119",
+            "number": 119,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-119.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e120",
+            "name": "Episódio 120",
+            "number": 120,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-120.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e121",
+            "name": "Episódio 121",
+            "number": 121,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-121.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e122",
+            "name": "Episódio 122",
+            "number": 122,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-122.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e123",
+            "name": "Episódio 123",
+            "number": 123,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-123.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e124",
+            "name": "Episódio 124",
+            "number": 124,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-124.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e125",
+            "name": "Episódio 125",
+            "number": 125,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-125.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e126",
+            "name": "Episódio 126",
+            "number": 126,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-126.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e127",
+            "name": "Episódio 127",
+            "number": 127,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-127.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e128",
+            "name": "Episódio 128",
+            "number": 128,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-128.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e129",
+            "name": "Episódio 129",
+            "number": 129,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-129.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e130",
+            "name": "Episódio 130",
+            "number": 130,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-130.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e131",
+            "name": "Episódio 131",
+            "number": 131,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-131.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e132",
+            "name": "Episódio 132",
+            "number": 132,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-132.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e133",
+            "name": "Episódio 133",
+            "number": 133,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-133.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e134",
+            "name": "Episódio 134",
+            "number": 134,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-134.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e135",
+            "name": "Episódio 135",
+            "number": 135,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-135.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e136",
+            "name": "Episódio 136",
+            "number": 136,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-136.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e137",
+            "name": "Episódio 137",
+            "number": 137,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-137.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e138",
+            "name": "Episódio 138",
+            "number": 138,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-138.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e139",
+            "name": "Episódio 139",
+            "number": 139,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-139.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e140",
+            "name": "Episódio 140",
+            "number": 140,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-140.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e141",
+            "name": "Episódio 141",
+            "number": 141,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-141.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e142",
+            "name": "Episódio 142",
+            "number": 142,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-142.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e143",
+            "name": "Episódio 143",
+            "number": 143,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-143.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e144",
+            "name": "Episódio 144",
+            "number": 144,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-144.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e145",
+            "name": "Episódio 145",
+            "number": 145,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-145.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e146",
+            "name": "Episódio 146",
+            "number": 146,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-146.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e147",
+            "name": "Episódio 147",
+            "number": 147,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-147.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e148",
+            "name": "Episódio 148",
+            "number": 148,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-148.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e149",
+            "name": "Episódio 149",
+            "number": 149,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-149.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e150",
+            "name": "Episódio 150",
+            "number": 150,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-150.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e151",
+            "name": "Episódio 151",
+            "number": 151,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-151.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e152",
+            "name": "Episódio 152",
+            "number": 152,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-152.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e153",
+            "name": "Episódio 153",
+            "number": 153,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-153.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e154",
+            "name": "Episódio 154",
+            "number": 154,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-154.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e155",
+            "name": "Episódio 155",
+            "number": 155,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-155.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e156",
+            "name": "Episódio 156",
+            "number": 156,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-156.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e157",
+            "name": "Episódio 157",
+            "number": 157,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-157.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e158",
+            "name": "Episódio 158",
+            "number": 158,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-158.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e159",
+            "name": "Episódio 159",
+            "number": 159,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-159.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e160",
+            "name": "Episódio 160",
+            "number": 160,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-160.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e161",
+            "name": "Episódio 161",
+            "number": 161,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-161.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e162",
+            "name": "Episódio 162",
+            "number": 162,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-162.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e163",
+            "name": "Episódio 163",
+            "number": 163,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-163.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e164",
+            "name": "Episódio 164",
+            "number": 164,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-164.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e165",
+            "name": "Episódio 165",
+            "number": 165,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-165.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e166",
+            "name": "Episódio 166",
+            "number": 166,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-166.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e167",
+            "name": "Episódio 167",
+            "number": 167,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-167.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e168",
+            "name": "Episódio 168",
+            "number": 168,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-168.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e169",
+            "name": "Episódio 169",
+            "number": 169,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-169.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e170",
+            "name": "Episódio 170",
+            "number": 170,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-170.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e171",
+            "name": "Episódio 171",
+            "number": 171,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-171.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e172",
+            "name": "Episódio 172",
+            "number": 172,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-172.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e173",
+            "name": "Episódio 173",
+            "number": 173,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-173.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e174",
+            "name": "Episódio 174",
+            "number": 174,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-174.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e175",
+            "name": "Episódio 175",
+            "number": 175,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-175.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e176",
+            "name": "Episódio 176",
+            "number": 176,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-176.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e177",
+            "name": "Episódio 177",
+            "number": 177,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-177.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e178",
+            "name": "Episódio 178",
+            "number": 178,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-178.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e179",
+            "name": "Episódio 179",
+            "number": 179,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-179.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e180",
+            "name": "Episódio 180",
+            "number": 180,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-180.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e181",
+            "name": "Episódio 181",
+            "number": 181,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-181.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e182",
+            "name": "Episódio 182",
+            "number": 182,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-182.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e183",
+            "name": "Episódio 183",
+            "number": 183,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-183.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e184",
+            "name": "Episódio 184",
+            "number": 184,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-184.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e185",
+            "name": "Episódio 185",
+            "number": 185,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-185.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e186",
+            "name": "Episódio 186",
+            "number": 186,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-186.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e187",
+            "name": "Episódio 187",
+            "number": 187,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-187.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e188",
+            "name": "Episódio 188",
+            "number": 188,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-188.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e189",
+            "name": "Episódio 189",
+            "number": 189,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-189.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e190",
+            "name": "Episódio 190",
+            "number": 190,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-190.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e191",
+            "name": "Episódio 191",
+            "number": 191,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-191.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e192",
+            "name": "Episódio 192",
+            "number": 192,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-192.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e193",
+            "name": "Episódio 193",
+            "number": 193,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-193.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e194",
+            "name": "Episódio 194",
+            "number": 194,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-194.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e195",
+            "name": "Episódio 195",
+            "number": 195,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-195.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e196",
+            "name": "Episódio 196",
+            "number": 196,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-196.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e197",
+            "name": "Episódio 197",
+            "number": 197,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-197.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e198",
+            "name": "Episódio 198",
+            "number": 198,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-198.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e199",
+            "name": "Episódio 199",
+            "number": 199,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-199.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e200",
+            "name": "Episódio 200",
+            "number": 200,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-200.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e201",
+            "name": "Episódio 201",
+            "number": 201,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-201.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e202",
+            "name": "Episódio 202",
+            "number": 202,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-202.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e203",
+            "name": "Episódio 203",
+            "number": 203,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-203.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e204",
+            "name": "Episódio 204",
+            "number": 204,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-204.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e205",
+            "name": "Episódio 205",
+            "number": 205,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-205.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e206",
+            "name": "Episódio 206",
+            "number": 206,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-206.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e207",
+            "name": "Episódio 207",
+            "number": 207,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-207.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e208",
+            "name": "Episódio 208",
+            "number": 208,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-208.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e209",
+            "name": "Episódio 209",
+            "number": 209,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-209.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e210",
+            "name": "Episódio 210",
+            "number": 210,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-210.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e211",
+            "name": "Episódio 211",
+            "number": 211,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-211.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e212",
+            "name": "Episódio 212",
+            "number": 212,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-212.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e213",
+            "name": "Episódio 213",
+            "number": 213,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-213.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e214",
+            "name": "Episódio 214",
+            "number": 214,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-214.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e215",
+            "name": "Episódio 215",
+            "number": 215,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-215.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e216",
+            "name": "Episódio 216",
+            "number": 216,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-216.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e217",
+            "name": "Episódio 217",
+            "number": 217,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-217.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e218",
+            "name": "Episódio 218",
+            "number": 218,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-218.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e219",
+            "name": "Episódio 219",
+            "number": 219,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-219.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e220",
+            "name": "Episódio 220",
+            "number": 220,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-220.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e221",
+            "name": "Episódio 221",
+            "number": 221,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-221.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e222",
+            "name": "Episódio 222",
+            "number": 222,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-222.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e223",
+            "name": "Episódio 223",
+            "number": 223,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-223.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e224",
+            "name": "Episódio 224",
+            "number": 224,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-224.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e225",
+            "name": "Episódio 225",
+            "number": 225,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-225.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e226",
+            "name": "Episódio 226",
+            "number": 226,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-226.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e227",
+            "name": "Episódio 227",
+            "number": 227,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-227.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e228",
+            "name": "Episódio 228",
+            "number": 228,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-228.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e229",
+            "name": "Episódio 229",
+            "number": 229,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-229.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e230",
+            "name": "Episódio 230",
+            "number": 230,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-230.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e231",
+            "name": "Episódio 231",
+            "number": 231,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-231.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e232",
+            "name": "Episódio 232",
+            "number": 232,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-232.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e233",
+            "name": "Episódio 233",
+            "number": 233,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-233.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e234",
+            "name": "Episódio 234",
+            "number": 234,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-234.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e235",
+            "name": "Episódio 235",
+            "number": 235,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-235.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e236",
+            "name": "Episódio 236",
+            "number": 236,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-236.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e237",
+            "name": "Episódio 237",
+            "number": 237,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-237.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e238",
+            "name": "Episódio 238",
+            "number": 238,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-238.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e239",
+            "name": "Episódio 239",
+            "number": 239,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-239.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e240",
+            "name": "Episódio 240",
+            "number": 240,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-240.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e241",
+            "name": "Episódio 241",
+            "number": 241,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-241.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e242",
+            "name": "Episódio 242",
+            "number": 242,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-242.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e243",
+            "name": "Episódio 243",
+            "number": 243,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-243.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e244",
+            "name": "Episódio 244",
+            "number": 244,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-244.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e245",
+            "name": "Episódio 245",
+            "number": 245,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-245.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e246",
+            "name": "Episódio 246",
+            "number": 246,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-246.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e247",
+            "name": "Episódio 247",
+            "number": 247,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-247.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e248",
+            "name": "Episódio 248",
+            "number": 248,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-248.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e249",
+            "name": "Episódio 249",
+            "number": 249,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-249.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e250",
+            "name": "Episódio 250",
+            "number": 250,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-250.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e251",
+            "name": "Episódio 251",
+            "number": 251,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-251.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e252",
+            "name": "Episódio 252",
+            "number": 252,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-252.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e253",
+            "name": "Episódio 253",
+            "number": 253,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-253.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e254",
+            "name": "Episódio 254",
+            "number": 254,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-254.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e255",
+            "name": "Episódio 255",
+            "number": 255,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-255.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e256",
+            "name": "Episódio 256",
+            "number": 256,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-256.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e257",
+            "name": "Episódio 257",
+            "number": 257,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-257.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e258",
+            "name": "Episódio 258",
+            "number": 258,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-258.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e259",
+            "name": "Episódio 259",
+            "number": 259,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-259.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e260",
+            "name": "Episódio 260",
+            "number": 260,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-260.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e261",
+            "name": "Episódio 261",
+            "number": 261,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-261.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e262",
+            "name": "Episódio 262",
+            "number": 262,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-262.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e263",
+            "name": "Episódio 263",
+            "number": 263,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-263.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e264",
+            "name": "Episódio 264",
+            "number": 264,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-264.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e265",
+            "name": "Episódio 265",
+            "number": 265,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-265.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e266",
+            "name": "Episódio 266",
+            "number": 266,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-266.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e267",
+            "name": "Episódio 267",
+            "number": 267,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-267.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e268",
+            "name": "Episódio 268",
+            "number": 268,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-268.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e269",
+            "name": "Episódio 269",
+            "number": 269,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-269.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e270",
+            "name": "Episódio 270",
+            "number": 270,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-270.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e271",
+            "name": "Episódio 271",
+            "number": 271,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-271.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e272",
+            "name": "Episódio 272",
+            "number": 272,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-272.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e273",
+            "name": "Episódio 273",
+            "number": 273,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-273.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e274",
+            "name": "Episódio 274",
+            "number": 274,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-274.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e275",
+            "name": "Episódio 275",
+            "number": 275,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-275.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e276",
+            "name": "Episódio 276",
+            "number": 276,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-276.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e277",
+            "name": "Episódio 277",
+            "number": 277,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-277.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e278",
+            "name": "Episódio 278",
+            "number": 278,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-278.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e279",
+            "name": "Episódio 279",
+            "number": 279,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-279.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e280",
+            "name": "Episódio 280",
+            "number": 280,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-280.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e281",
+            "name": "Episódio 281",
+            "number": 281,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-281.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e282",
+            "name": "Episódio 282",
+            "number": 282,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-282.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e283",
+            "name": "Episódio 283",
+            "number": 283,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-283.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e284",
+            "name": "Episódio 284",
+            "number": 284,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-284.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e285",
+            "name": "Episódio 285",
+            "number": 285,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-285.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e286",
+            "name": "Episódio 286",
+            "number": 286,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-286.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e287",
+            "name": "Episódio 287",
+            "number": 287,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-287.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e288",
+            "name": "Episódio 288",
+            "number": 288,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-288.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e289",
+            "name": "Episódio 289",
+            "number": 289,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-289.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e290",
+            "name": "Episódio 290",
+            "number": 290,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-290.mp4"
+          },
+          {
+            "id": "dragon-ball-s2-e291",
+            "name": "Episódio 291",
+            "number": 291,
+            "streamUrl": "https://ia800105.us.archive.org/2/items/dballc/Z-291.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Em breve",
+        "episodes": []
+      }
+    ]
+  },
+  {
+    "id": "date-a-live",
+    "slug": "date-a-live",
+    "tmdbId": 46004,
+    "title": "Date A Live",
+    "originalTitle": "デート・ア・ライブ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/xEwKIg7m8TzjFTY5T4Yj3beR7rH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lyam6zw2aNwSM6h6sn0wTLgygj6.jpg",
+    "synopsis": "Incessantes terremotos assolam a Terra. Um dia, se descobre que eles são provocados propositalmente por seres mágicos chamados \"Espíritos\", que querem causar o caos no planeta por não ter nada melhor para fazer. Nosso protagonista, Shido Itsuka, até então não tem nada a ver com isso, até que um terremoto o pega e junto com ele a surpresa: esse \"Espírito\" é uma linda garota. Se ele não morreu por sorte ao fugir, agora que o bicho vai pegar: sua grande amiga Kotori revela que ele tem o poder de selar os Espíritos, e o ordena fazê-la se apaixonar, se acalmar, e com isso salvar o mundo.",
+    "genres": [
+      "ACAO",
+      "FANTASIA",
+      "ROMANCE",
+      "FICCAO",
+      "ESCOLAR",
+      "CURTOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2013",
+    "rating": 8.3,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "date-a-live-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-1.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-2.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-3.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-4.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-5.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-6.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-7.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-8.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-9.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-10.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-11.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-12.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e13",
+            "name": "Episódio OVA 13 - Date to Date",
+            "number": 13,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "date-a-live-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "date-a-live-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "date-a-live-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-1.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-2.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-3.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-4.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-5.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-6.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-7.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-8.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-9.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-10.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-11.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "date-a-live-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-1.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-2.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-3.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-4.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-5.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-6.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-7.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-8.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-9.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-10.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-11.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "date-a-live-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-1.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-2.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-3.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-4.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-5.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-6.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-7.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-8.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-9.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-10.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-11.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "date-a-live-s7-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-1.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-2.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-3.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-4.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-5.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-6.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-7.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-8.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-9.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-10.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-11.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "date-a-live-s8-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-1.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-2.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-3.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-4.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-5.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-6.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-7.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-8.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-9.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-10.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-11.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filme",
+        "episodes": [
+          {
+            "id": "date-a-live-s9-e1",
+            "name": "Date A Live, O Filme: Mayuri Judgement",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Filme.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Especial",
+        "episodes": [
+          {
+            "id": "date-a-live-s10-e1",
+            "name": "Date A Bullet: Dead or Bullet",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Especial-1.mp4"
+          },
+          {
+            "id": "date-a-live-s10-e2",
+            "name": "Date A Bullet: Nightmare or Queen",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Especial-2.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clannad",
+    "slug": "clannad",
+    "tmdbId": 24835,
+    "title": "Clannad",
+    "originalTitle": "CLANNAD",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/jPBMYp4ddXkGJDSxxmaKBjzv2r3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vB7HwJNhlRA9tPViK32bK0hVCmb.jpg",
+    "synopsis": "Tomoya é um estudante amargurado do terceiro ano do ensino médio. Sua mãe faleceu, o que levou seu pai a se refugiar no álcool e no jogo. Tomoya se afastou do pai e se tornou um delinquente nos anos que se seguiram à morte da mãe. A caminho da escola, ele conhece Nagisa Furukawa, que é um ano mais velha, mas está repetindo a série devido a uma doença. Ela está sozinha, já que a maioria de seus amigos seguiu em frente. Os dois começam a sair juntos e, com o passar do tempo, Tomoya percebe que sua vida está tomando um novo rumo.",
+    "genres": [
+      "DRAMA",
+      "COMEDIA",
+      "ROMANCE",
+      "CURTOS",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2007",
+    "rating": 8.3,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "clannad-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/1.mp4"
+          },
+          {
+            "id": "clannad-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/2.mp4"
+          },
+          {
+            "id": "clannad-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/3.mp4"
+          },
+          {
+            "id": "clannad-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/4.mp4"
+          },
+          {
+            "id": "clannad-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/5.mp4"
+          },
+          {
+            "id": "clannad-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/6.mp4"
+          },
+          {
+            "id": "clannad-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/7.mp4"
+          },
+          {
+            "id": "clannad-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/8.mp4"
+          },
+          {
+            "id": "clannad-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/9.mp4"
+          },
+          {
+            "id": "clannad-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/10.mp4"
+          },
+          {
+            "id": "clannad-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/11.mp4"
+          },
+          {
+            "id": "clannad-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/12.mp4"
+          },
+          {
+            "id": "clannad-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/13.mp4"
+          },
+          {
+            "id": "clannad-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/14.mp4"
+          },
+          {
+            "id": "clannad-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/15.mp4"
+          },
+          {
+            "id": "clannad-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/16.mp4"
+          },
+          {
+            "id": "clannad-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/17.mp4"
+          },
+          {
+            "id": "clannad-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/18.mp4"
+          },
+          {
+            "id": "clannad-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/19.mp4"
+          },
+          {
+            "id": "clannad-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/20.mp4"
+          },
+          {
+            "id": "clannad-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/21.mp4"
+          },
+          {
+            "id": "clannad-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/22.mp4"
+          },
+          {
+            "id": "clannad-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/23.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "re-creators",
+    "slug": "re-creators",
+    "tmdbId": 70592,
+    "title": "Re:CREATORS",
+    "originalTitle": "Re:CREATORS",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/aXQjU49ehbigMqVphNSGH3favQW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4Q6eUPWDSQmws34Y1U9bZRZxjuz.jpg",
+    "synopsis": "Humanos criaram muitas histórias. Felicidade, tristeza, raiva. Histórias mexem com nossas emoções, e nos fascinam. Mas e se os personagens dessas histórias tivessem “intenções próprias”? Para eles, seriamos nós deuses por criar suas histórias e existência? Nosso mundo está mudado. Receba a punição na dimensão dos deuses.",
+    "genres": [
+      "ACAO",
+      "FANTASIA",
+      "FICCAO",
+      "MISTERIO",
+      "CURTOS",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2017",
+    "rating": 6.8,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "re-creators-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/1.mp4"
+          },
+          {
+            "id": "re-creators-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/2.mp4"
+          },
+          {
+            "id": "re-creators-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/3.mp4"
+          },
+          {
+            "id": "re-creators-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/4.mp4"
+          },
+          {
+            "id": "re-creators-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/5.mp4"
+          },
+          {
+            "id": "re-creators-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/6.mp4"
+          },
+          {
+            "id": "re-creators-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/7.mp4"
+          },
+          {
+            "id": "re-creators-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/8.mp4"
+          },
+          {
+            "id": "re-creators-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/9.mp4"
+          },
+          {
+            "id": "re-creators-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/10.mp4"
+          },
+          {
+            "id": "re-creators-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/11.mp4"
+          },
+          {
+            "id": "re-creators-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/12.mp4"
+          },
+          {
+            "id": "re-creators-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/13.mp4"
+          },
+          {
+            "id": "re-creators-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/14.mp4"
+          },
+          {
+            "id": "re-creators-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/15.mp4"
+          },
+          {
+            "id": "re-creators-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/16.mp4"
+          },
+          {
+            "id": "re-creators-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/17.mp4"
+          },
+          {
+            "id": "re-creators-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/18.mp4"
+          },
+          {
+            "id": "re-creators-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/19.mp4"
+          },
+          {
+            "id": "re-creators-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/20.mp4"
+          },
+          {
+            "id": "re-creators-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/21.mp4"
+          },
+          {
+            "id": "re-creators-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/22.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ao-haru-ride",
+    "slug": "ao-haru-ride",
+    "tmdbId": 228156,
+    "title": "アオハライド",
+    "originalTitle": "アオハライド",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/t9F4O5llagb7TOi17tZN6F9ygiJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/k1uN9SAixY9ppkbhsl6zuvAmr64.jpg",
+    "synopsis": "No ensino médio, Yoshioka Futaba (Deguchi Natsuki) se apaixonou por seu colega de classe Tanaka Kou (Sakurai Kaito). Por um tempo, eles eram inseparáveis, curtindo as emoções do primeiro amor. Mas logo esse relacionamento feliz acaba. Um dia, Tanaka Kou vai embora, e Yoshioka Futaba fica sozinha e de coração partido.\n\nTrês anos depois, Yoshioka Futaba está terminando o ensino médio quando Kou se transfere inesperadamente para sua turma. Mas ele está diferente. O sobrenome de Kou agora é Mabuchi. E sua personalidade mudou totalmente — o garoto gentil que um dia ela se apaixonou é agora duro e gelado. Com o tempo, Yoshioka Futaba começa a descobrir o que aconteceu com Kou para mudá-lo durante o tempo que ficaram separados. Mas será que eles conseguirão reacender as chamas do amor? Ou haverá mais decepções?",
+    "genres": [
+      "DRAMA",
+      "COMEDIA",
+      "ROMANCE",
+      "CURTOS",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2023",
+    "rating": 7.5,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "ao-haru-ride-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/1.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/2.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/3.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/4.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/5.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/6.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/7.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/8.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/9.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/10.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/11.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "OVAS",
+        "episodes": [
+          {
+            "id": "ao-haru-ride-s2-e1",
+            "name": "Unwritten",
+            "number": 1,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/OVA-1.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s2-e2",
+            "name": "PAGE.13",
+            "number": 2,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/OVA-2.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avatar-sete-refugios",
+    "slug": "avatar-sete-refugios",
+    "tmdbId": 284833,
+    "title": "Avatar: Os Sete Refúgios",
+    "originalTitle": "Avatar: Seven Havens",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/original/l8qbsNAr1CZK2tZ60l5lrJdT5mW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+    "synopsis": "Após um cataclismo global, uma jovem descobre ser o novo Avatar - agora rotulada como a Destruidora, não uma salvadora. Caçada por humanos e espíritos, ela e sua gêmea há muito perdida precisam descobrir suas origens e salvar a humanidade do colapso.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "CURTOS",
+      "DUB",
+      "RECENTE"
+    ],
+    "year": "2026",
+    "rating": 8.825,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Livro 1 - Sobrevivência",
+        "episodes": [
+          {
+            "id": "avatar-sete-refugios-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/1.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/2.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/3.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/4.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/5.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/6.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/7.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/8.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/9.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/10.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/11.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/12.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cowboy-bepop",
+    "slug": "cowboy-bepop",
+    "title": "Cowboy Bepop",
+    "originalTitle": "",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/ccGdB7qLttA1OGFwfz5CY4FQj09.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ccGdB7qLttA1OGFwfz5CY4FQj09.jpg",
+    "synopsis": "Anime em alta definição disponível no CapyFlix.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "ANTIGOS",
+      "CURTOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "",
+    "rating": 8.2,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "cowboy-bepop-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-12.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-13.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-14.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-15.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-16.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-17.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-18.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-19.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-20.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-21.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-22.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-23.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-24.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-25.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "cowboy-bepop-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-12.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-13.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-14.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-15.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-16.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-17.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-18.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-19.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-20.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-21.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-22.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-23.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-24.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-25.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filme",
+        "episodes": [
+          {
+            "id": "cowboy-bepop-s3-e1",
+            "name": "Cowboy Bepop, O Filme: Knocking On Heaven's Door (DUB)",
+            "number": 1,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Filme-Dub.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s3-e2",
+            "name": "Cowboy Bepop, O Filme: Knocking On Heaven's Door (LEG)",
+            "number": 2,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Filme-Leg.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shikanoko-nokonoko-koshitantan",
+    "slug": "shikanoko-nokonoko-koshitantan",
+    "tmdbId": 248866,
+    "title": "Minha Amiga Nokotan é um Cervo",
+    "originalTitle": "しかのこのこのここしたんたん",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/qxuxdQuIf8RqXmBNNaeteXgiMVf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/6GmVVDEjnA4HuSany5otbR8xaET.jpg",
+    "synopsis": "Torako Koshi é uma aluna exemplar do ensino médio que encontra uma garota da sua idade presa nos postes de energia por causa de seus... Chifres? A vida dessa ex-delinquente vira de cabeça pra baixo agora que sua amiga-cervo, Shikanoko, chegou para ficar.",
+    "genres": [
+      "COMEDIA",
+      "FICCAO",
+      "FANTASIA",
+      "ANTIGOS",
+      "CURTOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2024",
+    "rating": 7.7,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sonny-boy",
+    "slug": "sonny-boy",
+    "tmdbId": 124396,
+    "title": "Sonny Boy",
+    "originalTitle": "Sonny Boy",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/5R1UmoGInl3mHixVVngApV1Ap3T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rgmBS8zkk6RrGUOdWqzZs8hjZer.jpg",
+    "synopsis": "Em 16 de agosto, no meio das férias de verão aparentemente intermináveis, o estudante Nagara do terceiro ano do ensino médio, a misteriosa estudante transferida Nozomi e colegas de classe como Mizuho e Asakaze são repentinamente transportados de suas vidas cotidianas tranquilas para uma escola à deriva em uma dimensão alternativa. Eles devem sobreviver com os superpoderes que despertaram dentro deles.",
+    "genres": [
+      "DRAMA",
+      "MISTERIO",
+      "FICCAO",
+      "FANTASIA",
+      "ANTIGOS",
+      "CURTOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2021",
+    "rating": 7.419,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "sonny-boy-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "sonny-boy-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "komi-cant-comunicate",
+    "slug": "komi-cant-comunicate",
+    "title": "Komi Can't Comunicate",
+    "originalTitle": "",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/r1bqYEx7Q39AR6uvzQvi8mgTuU2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/r1bqYEx7Q39AR6uvzQvi8mgTuU2.jpg",
+    "synopsis": "Anime em alta definição disponível no CapyFlix.",
+    "genres": [
+      "ROMANCE",
+      "COMEDIA",
+      "DUB",
+      "LEG",
+      "ESCOLAR",
+      "RECENTE"
+    ],
+    "year": "",
+    "rating": 8.2,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "komi-cant-comunicate-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "komi-cant-comunicate-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "komi-cant-comunicate-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "komi-cant-comunicate-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-12.mp4"
+          }
         ]
       }
     ]

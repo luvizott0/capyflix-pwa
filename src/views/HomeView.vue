@@ -149,22 +149,79 @@
 
       <!-- Carrosséis quando "Todos" estiver selecionado -->
       <div v-else class="carousels-wrapper">
+        <!-- 1. Em alta essa semana -->
         <MediaCarousel
-          title="Em Alta & Destaques"
-          :items="mediaStore.featuredMedia"
+          title="Em Alta Esta Semana"
+          :items="displayTrending"
         />
 
+        <!-- 2. O que os amigos estão assistindo -->
+        <section v-if="displayFriendsWatching.length > 0" class="carousel-section">
+          <div class="carousel-header">
+            <h2 class="section-title mono">O Que os Amigos Estão Assistindo</h2>
+            <span class="carousel-count mono">{{ displayFriendsWatching.length }} títulos</span>
+          </div>
+
+          <div class="carousel-wrapper">
+            <div class="carousel-track">
+              <div
+                v-for="item in displayFriendsWatching"
+                :key="item.media.id"
+                class="carousel-item"
+              >
+                <MediaCard
+                  :media="item.media"
+                  :friends="item.friends"
+                  :friend-badge="item.friendBadge"
+                  :custom-subtitle="item.customSubtitle"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. Séries preferidas dos amigos (melhores avaliadas por eles) -->
+        <section v-if="displayFriendsTopRated.length > 0" class="carousel-section">
+          <div class="carousel-header">
+            <h2 class="section-title mono">Séries Preferidas dos Amigos</h2>
+            <span class="carousel-count mono">{{ displayFriendsTopRated.length }} títulos</span>
+          </div>
+
+          <div class="carousel-wrapper">
+            <div class="carousel-track">
+              <div
+                v-for="item in displayFriendsTopRated"
+                :key="item.media.id"
+                class="carousel-item"
+              >
+                <MediaCard
+                  :media="item.media"
+                  :friends="item.friends"
+                  :friend-badge="item.friendBadge"
+                  :custom-subtitle="item.customSubtitle"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Filmes do Acervo -->
         <MediaCarousel
+          v-if="mediaStore.movies.length > 0"
+          title="Filmes do Acervo"
+          :items="mediaStore.movies"
+        />
+
+        <!-- Animes -->
+        <MediaCarousel
+          v-if="mediaStore.animes.length > 0"
           title="Animes"
           :items="mediaStore.animes"
         />
 
+        <!-- Desenhos & Clássicos -->
         <MediaCarousel
-          title="Filmes"
-          :items="mediaStore.movies"
-        />
-
-        <MediaCarousel
+          v-if="mediaStore.cartoons.length > 0"
           title="Desenhos & Clássicos"
           :items="mediaStore.cartoons"
         />
@@ -174,14 +231,36 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { Play, Bookmark } from 'lucide-vue-next'
 import { useMediaStore } from '@/stores/media'
+import { capyShowTimeApi, type FriendWatchingItem, type FriendTopRatedItem } from '@/api/capyshowtime'
+import type { MediaItem } from '@/types/media'
 import MediaCarousel from '@/components/MediaCarousel.vue'
 import MediaCard from '@/components/MediaCard.vue'
 
 const mediaStore = useMediaStore()
 const selectedCategory = ref('all')
+
+const friendsWatching = ref<FriendWatchingItem[]>([])
+const friendsTopRated = ref<FriendTopRatedItem[]>([])
+
+async function loadCommunityData() {
+  try {
+    const [watching, topRated] = await Promise.all([
+      capyShowTimeApi.getFriendsWatching(),
+      capyShowTimeApi.getFriendsTopRated()
+    ])
+    if (Array.isArray(watching)) friendsWatching.value = watching
+    if (Array.isArray(topRated)) friendsTopRated.value = topRated
+  } catch (err) {
+    console.warn('[CapyFlix] Falha ao carregar atividade dos amigos:', err)
+  }
+}
+
+onMounted(() => {
+  loadCommunityData()
+})
 
 const heroItem = computed(() => {
   return mediaStore.featuredMedia[0] || mediaStore.catalog[0]
@@ -189,6 +268,104 @@ const heroItem = computed(() => {
 
 const isHeroFav = computed(() => {
   return heroItem.value ? mediaStore.isFavorite(heroItem.value.id) : false
+})
+
+function findCatalogItem(tmdbId?: number, title?: string): MediaItem | undefined {
+  if (tmdbId) {
+    const match = mediaStore.catalog.find(m => m.tmdbId === tmdbId)
+    if (match) return match
+  }
+  if (title) {
+    const cleanTitle = title.toLowerCase().trim()
+    const match = mediaStore.catalog.find(m =>
+      m.title.toLowerCase().includes(cleanTitle) ||
+      cleanTitle.includes(m.title.toLowerCase())
+    )
+    if (match) return match
+  }
+  return undefined
+}
+
+// 1. Em alta essa semana
+const displayTrending = computed(() => {
+  return mediaStore.catalog.filter(m => m.isFeatured || m.isNew || (m.rating && m.rating >= 8.4))
+})
+
+// 2. O que os amigos estão assistindo
+const displayFriendsWatching = computed(() => {
+  if (friendsWatching.value.length > 0) {
+    return friendsWatching.value.map(item => {
+      const catalogItem = findCatalogItem(item.tmdb_id, item.title)
+      const baseMedia = catalogItem || ({
+        id: `cst-watch-${item.series_id}`,
+        slug: catalogItem ? catalogItem.slug : (mediaStore.catalog[0]?.slug || 'a-lenda-de-korra'),
+        title: item.title,
+        poster: item.poster_url || '/capy-icon.svg',
+        backdrop: item.backdrop_url || '',
+        type: 'anime',
+        genres: ['CapyShowTime'],
+        rating: item.vote_average || 8.2,
+        seasons: []
+      } as MediaItem)
+
+      const firstFriend = item.friends[0]?.name.split(' ')[0] || 'Amigo'
+      const badgeText = item.friends.length === 1 ? `${firstFriend} assistiu` : `${item.friends.length} amigos assistindo`
+      const sub = item.latest_episode
+        ? `S${formatNum(item.latest_episode.season)}E${formatNum(item.latest_episode.episode)} • ${item.last_watched_at}`
+        : item.last_watched_at
+
+      return {
+        media: baseMedia,
+        friends: item.friends,
+        friendBadge: badgeText,
+        customSubtitle: sub
+      }
+    })
+  }
+
+  // Fallback enquanto não houver histórico registrado pelos amigos
+  return mediaStore.catalog.slice(0, 6).map((item, idx) => ({
+    media: item,
+    friends: [],
+    friendBadge: 'Popular na Casa',
+    customSubtitle: 'Recomendado pelos moradores'
+  }))
+})
+
+// 3. Séries preferidas dos amigos
+const displayFriendsTopRated = computed(() => {
+  if (friendsTopRated.value.length > 0) {
+    return friendsTopRated.value.map(item => {
+      const catalogItem = findCatalogItem(item.tmdb_id, item.title)
+      const baseMedia = catalogItem || ({
+        id: `cst-top-${item.series_id}`,
+        slug: catalogItem ? catalogItem.slug : (mediaStore.catalog[0]?.slug || 'a-lenda-de-korra'),
+        title: item.title,
+        poster: item.poster_url || '/capy-icon.svg',
+        backdrop: item.backdrop_url || '',
+        type: 'anime',
+        genres: item.genres || ['Favorito'],
+        rating: item.friends_rating,
+        seasons: []
+      } as MediaItem)
+
+      return {
+        media: baseMedia,
+        friends: item.friends,
+        friendBadge: `★ ${item.friends_rating} amigos`,
+        customSubtitle: `Avaliado por ${item.ratings_count || item.friends.length || 1} amigo(s)`
+      }
+    })
+  }
+
+  // Fallback com as melhores avaliadas da casa
+  const sorted = [...mediaStore.catalog].sort((a, b) => (b.rating || 0) - (a.rating || 0))
+  return sorted.slice(0, 8).map(item => ({
+    media: item,
+    friends: [],
+    friendBadge: `★ ${item.rating?.toFixed(1) || '8.8'} favorito`,
+    customSubtitle: 'Melhores avaliações da casa'
+  }))
 })
 
 const filteredItems = computed(() => {

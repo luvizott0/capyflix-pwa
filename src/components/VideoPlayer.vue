@@ -6,6 +6,7 @@
       class="video-element"
       playsinline
       webkit-playsinline
+      preload="auto"
       @timeupdate="onTimeUpdate"
       @loadedmetadata="onLoadedMetadata"
       @waiting="isBuffering = true"
@@ -70,23 +71,23 @@
       <div class="controls-bottom">
         <div class="controls-left">
           <!-- Play / Pause -->
-          <button type="button" class="ctrl-btn" @click="togglePlay" :title="isPlaying ? 'Pausar (Espaço)' : 'Play (Espaço)'">
+          <button type="button" class="ctrl-btn play-btn" @click="togglePlay" :title="isPlaying ? 'Pausar (Espaço)' : 'Play (Espaço)'">
             <svg v-if="isPlaying" viewBox="0 0 24 24" class="icon"><rect x="6" y="4" width="4" height="16" fill="currentColor"/><rect x="14" y="4" width="4" height="16" fill="currentColor"/></svg>
             <svg v-else viewBox="0 0 24 24" class="icon"><polygon points="6,4 20,12 6,20" fill="currentColor"/></svg>
           </button>
 
           <!-- Voltar 10s -->
-          <button type="button" class="ctrl-btn" @click="skip(-10)" title="Voltar 10s (←)">
+          <button type="button" class="ctrl-btn skip-btn" @click="skip(-10)" title="Voltar 10s (←)">
             <svg viewBox="0 0 24 24" class="icon"><path d="M11 18V6l-8.5 6 8.5 6zm.5-6l8.5 6V6l-8.5 6z" fill="currentColor"/></svg>
           </button>
 
           <!-- Avançar 10s -->
-          <button type="button" class="ctrl-btn" @click="skip(10)" title="Avançar 10s (→)">
+          <button type="button" class="ctrl-btn skip-btn" @click="skip(10)" title="Avançar 10s (→)">
             <svg viewBox="0 0 24 24" class="icon"><path d="M4 18l8.5-6L4 6v12zm9-12v12l8.5-6L13 6z" fill="currentColor"/></svg>
           </button>
 
           <!-- Volume -->
-          <button type="button" class="ctrl-btn" @click="toggleMute">
+          <button type="button" class="ctrl-btn mute-btn" @click="toggleMute">
             <svg v-if="isMuted || volume === 0" viewBox="0 0 24 24" class="icon"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z" fill="currentColor"/></svg>
             <svg v-else viewBox="0 0 24 24" class="icon"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z" fill="currentColor"/></svg>
           </button>
@@ -102,7 +103,7 @@
         <div class="controls-right">
           <!-- Velocidade de Reprodução -->
           <div class="speed-picker">
-            <button type="button" class="ctrl-btn speed-btn mono" @click="cyclePlaybackRate">
+            <button type="button" class="ctrl-btn speed-btn mono" @click="cyclePlaybackRate" title="Velocidade de reprodução">
               {{ playbackRate }}x
             </button>
           </div>
@@ -122,7 +123,7 @@
           <button
             v-if="supportsPiP"
             type="button"
-            class="ctrl-btn"
+            class="ctrl-btn pip-btn"
             @click="togglePiP"
             title="Picture-in-Picture"
           >
@@ -130,7 +131,7 @@
           </button>
 
           <!-- Tela Cheia -->
-          <button type="button" class="ctrl-btn" @click="toggleFullscreen" title="Tela Cheia (F)">
+          <button type="button" class="ctrl-btn fullscreen-btn" @click="toggleFullscreen" title="Tela Cheia (F)">
             <svg v-if="isFullscreen" viewBox="0 0 24 24" class="icon"><path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" fill="currentColor"/></svg>
             <svg v-else viewBox="0 0 24 24" class="icon"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/></svg>
           </button>
@@ -208,20 +209,26 @@ function initSource() {
   if (props.src.includes('.m3u8')) {
     if (Hls.isSupported()) {
       hlsInstance = new Hls({
-        maxBufferLength: 45,
-        maxMaxBufferLength: 120,
+        maxBufferLength: 30,
+        maxMaxBufferLength: 60,
+        maxBufferSize: 30 * 1000 * 1000,
+        maxBufferHole: 0.5,
+        startLevel: -1,
         enableWorker: true,
-        lowLatencyMode: false
+        lowLatencyMode: false,
+        progressive: true
       })
       hlsInstance.loadSource(props.src)
       hlsInstance.attachMedia(video)
     } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
       // Suporte nativo Safari / iOS
       video.src = props.src
+      video.load()
     }
   } else {
-    // MP4 ou WebM direto com hardware acceleration
+    // MP4 ou WebM direto com pré-carregamento imediato e hardware acceleration
     video.src = props.src
+    video.load()
   }
 
   if (props.initialTime && props.initialTime > 0) {
@@ -232,6 +239,12 @@ function initSource() {
 function startPlayback() {
   showCover.value = false
   togglePlay()
+
+  // No celular na vertical ou mobile em geral, já colocar em tela cheia ao dar play
+  const isMobile = typeof window !== 'undefined' && (window.innerWidth <= 768 || /Android|iPhone|iPad|iPod/i.test(navigator.userAgent))
+  if (isMobile) {
+    requestFullscreenInternal()
+  }
 }
 
 function togglePlay() {
@@ -281,14 +294,103 @@ async function togglePiP() {
   }
 }
 
+function isFullscreenActive(): boolean {
+  const doc = document as any
+  const video = videoRef.value as any
+  return !!(
+    document.fullscreenElement ||
+    doc.webkitFullscreenElement ||
+    doc.mozFullScreenElement ||
+    doc.msFullscreenElement ||
+    (video && video.webkitDisplayingFullscreen)
+  )
+}
+
+function updateFullscreenState() {
+  isFullscreen.value = isFullscreenActive()
+}
+
+async function requestFullscreenInternal() {
+  const container = playerContainer.value as any
+  const video = videoRef.value as any
+
+  try {
+    if (container?.requestFullscreen) {
+      await container.requestFullscreen()
+    } else if (container?.webkitRequestFullscreen) {
+      await container.webkitRequestFullscreen()
+    } else if (container?.mozRequestFullScreen) {
+      await container.mozRequestFullScreen()
+    } else if (container?.msRequestFullscreen) {
+      await container.msRequestFullscreen()
+    } else if (video?.webkitEnterFullscreen) {
+      video.webkitEnterFullscreen()
+    } else if (video?.requestFullscreen) {
+      await video.requestFullscreen()
+    }
+  } catch (err) {
+    if (video?.webkitEnterFullscreen) {
+      try {
+        video.webkitEnterFullscreen()
+      } catch (e2) {
+        console.warn('Fullscreen fallback error:', e2)
+      }
+    } else if (video?.requestFullscreen) {
+      try {
+        await video.requestFullscreen()
+      } catch (e2) {
+        console.warn('Video requestFullscreen error:', e2)
+      }
+    }
+  }
+
+  try {
+    if (screen.orientation && (screen.orientation as any).lock) {
+      ;(screen.orientation as any).lock('landscape').catch(() => {})
+    }
+  } catch {
+    // ignore
+  }
+
+  updateFullscreenState()
+}
+
+async function exitFullscreenInternal() {
+  const doc = document as any
+  const video = videoRef.value as any
+
+  try {
+    if (document.exitFullscreen) {
+      await document.exitFullscreen()
+    } else if (doc.webkitExitFullscreen) {
+      await doc.webkitExitFullscreen()
+    } else if (doc.mozCancelFullScreen) {
+      await doc.mozCancelFullScreen()
+    } else if (doc.msExitFullscreen) {
+      await doc.msExitFullscreen()
+    } else if (video?.webkitExitFullscreen) {
+      video.webkitExitFullscreen()
+    }
+  } catch (err) {
+    console.warn('Exit fullscreen error:', err)
+  }
+
+  try {
+    if (screen.orientation && (screen.orientation as any).unlock) {
+      ;(screen.orientation as any).unlock()
+    }
+  } catch {
+    // ignore
+  }
+
+  updateFullscreenState()
+}
+
 function toggleFullscreen() {
-  if (!playerContainer.value) return
-  if (!document.fullscreenElement) {
-    playerContainer.value.requestFullscreen().catch(err => console.error(err))
-    isFullscreen.value = true
+  if (isFullscreenActive()) {
+    exitFullscreenInternal()
   } else {
-    document.exitFullscreen().catch(err => console.error(err))
-    isFullscreen.value = false
+    requestFullscreenInternal()
   }
 }
 
@@ -376,6 +478,17 @@ watch(() => props.src, () => {
 onMounted(() => {
   initSource()
   window.addEventListener('keydown', handleKeydown)
+
+  document.addEventListener('fullscreenchange', updateFullscreenState)
+  document.addEventListener('webkitfullscreenchange', updateFullscreenState)
+  document.addEventListener('mozfullscreenchange', updateFullscreenState)
+  document.addEventListener('MSFullscreenChange', updateFullscreenState)
+
+  const video = videoRef.value
+  if (video) {
+    video.addEventListener('webkitbeginfullscreen', updateFullscreenState)
+    video.addEventListener('webkitendfullscreen', updateFullscreenState)
+  }
 })
 
 onBeforeUnmount(() => {
@@ -384,6 +497,17 @@ onBeforeUnmount(() => {
   clearInterval(progressSaveTimer)
   if (hlsInstance) {
     hlsInstance.destroy()
+  }
+
+  document.removeEventListener('fullscreenchange', updateFullscreenState)
+  document.removeEventListener('webkitfullscreenchange', updateFullscreenState)
+  document.removeEventListener('mozfullscreenchange', updateFullscreenState)
+  document.removeEventListener('MSFullscreenChange', updateFullscreenState)
+
+  const video = videoRef.value
+  if (video) {
+    video.removeEventListener('webkitbeginfullscreen', updateFullscreenState)
+    video.removeEventListener('webkitendfullscreen', updateFullscreenState)
   }
 })
 </script>
@@ -640,5 +764,54 @@ onBeforeUnmount(() => {
   padding: 2px 6px;
   border: 1px solid var(--color-border);
   border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  .controls-overlay {
+    padding: 10px 10px 8px 10px;
+  }
+
+  .controls-left {
+    gap: 6px;
+    min-width: 0;
+  }
+
+  .controls-right {
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .ctrl-btn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .ctrl-btn .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Oculta volume e PiP no mobile vertical (smartphone usa botões físicos de volume) */
+  .mute-btn,
+  .pip-btn {
+    display: none !important;
+  }
+
+  .time-display {
+    font-size: 11px;
+    gap: 4px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 420px) {
+  /* Em celulares muito estreitos, oculta os botões de pular 10s para manter os botões de ação e play sempre visíveis */
+  .skip-btn {
+    display: none !important;
+  }
+
+  .controls-overlay {
+    padding: 8px 6px 6px 6px;
+  }
 }
 </style>
