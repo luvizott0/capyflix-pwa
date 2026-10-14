@@ -101,14 +101,9 @@
     </header>
 
     <main class="page-body">
-      <!-- Cabeçalho dos Resultados + Seletor de Visualização -->
+      <!-- Cabeçalho dos Resultados + Seletor de Visualização (Justify Between) -->
       <div class="results-header">
-        <div class="results-title-group">
-          <h2 class="section-title mono">
-            {{ searchQuery.trim() ? 'Resultados da Busca' : 'Catálogo Disponível' }}
-          </h2>
-          <span class="results-count mono">{{ filteredResults.length }} títulos</span>
-        </div>
+        <span class="results-count mono">{{ filteredResults.length }} títulos disponíveis</span>
 
         <!-- Botão de alternância da forma de visualização -->
         <div class="view-mode-toggle">
@@ -356,14 +351,8 @@ function resetSearch() {
   gap: 12px;
 }
 
-.results-title-group {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-}
-
 .results-count {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: var(--text-dim);
 }
 
