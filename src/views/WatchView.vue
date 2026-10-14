@@ -1,5 +1,14 @@
 <template>
   <div v-if="media" class="watch-view container fade-in">
+    <!-- Barra Superior de Navegação / Voltar -->
+    <div class="watch-top-nav">
+      <button type="button" class="back-link-btn" @click="router.back()">
+        <ArrowLeft :size="18" />
+        <span>Voltar</span>
+      </button>
+      <div class="media-title-sub mono">{{ media.title }}</div>
+    </div>
+
     <!-- Player de Vídeo -->
     <div class="player-wrapper">
       <VideoPlayer
@@ -25,17 +34,21 @@
           class="fav-toggle-btn"
           :class="{ active: isFavorite }"
           @click="mediaStore.toggleFavorite(media.id)"
-          :title="isFavorite ? 'Remover dos Favoritos' : 'Adicionar aos Favoritos'"
+          :title="isFavorite ? 'Remover dos Favoritos' : 'Salvar na Minha Lista'"
         >
-          <svg viewBox="0 0 24 24" class="fav-icon"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/></svg>
-          <span class="fav-text mono">{{ isFavorite ? 'FAVORITADO' : 'FAVORITAR' }}</span>
+          <Bookmark :size="16" :fill="isFavorite ? 'currentColor' : 'none'" />
+          <span class="mono">{{ isFavorite ? 'SALVO' : 'SALVAR' }}</span>
         </button>
       </div>
 
-      <div class="genres-row">
-        <span v-for="genre in media.genres" :key="genre" class="genre-pill">{{ genre }}</span>
-        <span v-if="media.year" class="genre-pill mono">{{ media.year }}</span>
-        <span v-if="media.rating" class="genre-pill mono rating-pill">★ {{ media.rating.toFixed(1) }}</span>
+      <div class="meta-row">
+        <span v-if="media.rating" class="badge-rating mono">
+          ★ {{ media.rating.toFixed(1) }}
+        </span>
+        <span v-if="media.year" class="meta-text mono">{{ media.year }}</span>
+        <span class="meta-dot">•</span>
+        <span class="meta-text">{{ formatType(media.type) }}</span>
+        <span v-for="genre in media.genres" :key="genre" class="badge-tag">{{ genre }}</span>
       </div>
 
       <p class="synopsis-text">{{ media.synopsis }}</p>
@@ -55,70 +68,101 @@
       </button>
     </div>
 
-    <!-- Grade de Episódios -->
+    <!-- Grade de Episódios no estilo CapyShowTime -->
     <div class="episodes-section">
       <div class="episodes-header">
-        <h3 class="episodes-title mono">
+        <h3 class="section-title mono">
           {{ media.seasons[activeSeasonIndex]?.name || 'Episódios' }}
         </h3>
-        <span class="ep-count rajdhani">{{ currentSeasonEpisodes.length }} EPISÓDIOS</span>
+        <span class="ep-count mono">{{ currentSeasonEpisodes.length }} episódios</span>
       </div>
 
-      <div class="episodes-grid">
+      <div class="episodes-list">
         <div
           v-for="(ep, eIdx) in currentSeasonEpisodes"
           :key="ep.id"
           class="episode-card"
           :class="{
             'is-playing': activeSeasonIndex === playingSeasonIndex && activeEpisodeIndex === eIdx,
-            'is-completed': isEpisodeCompleted(activeSeasonIndex, eIdx)
+            'watched': isEpisodeCompleted(activeSeasonIndex, eIdx)
           }"
           @click="selectEpisode(eIdx)"
         >
-          <div class="ep-num-box rajdhani">
-            <span v-if="activeSeasonIndex === playingSeasonIndex && activeEpisodeIndex === eIdx" class="playing-pulse">▶</span>
-            <span v-else>{{ String(ep.number).padStart(2, '0') }}</span>
-          </div>
-
-          <div class="ep-details">
-            <h4 class="ep-name">{{ ep.name }}</h4>
-            <div class="ep-status-row">
-              <span v-if="isEpisodeCompleted(activeSeasonIndex, eIdx)" class="status-tag completed mono">
-                ✓ 100% CONCLUÍDO
-              </span>
-              <span v-else-if="getEpisodePercent(activeSeasonIndex, eIdx) > 0" class="status-tag in-progress mono">
-                {{ getEpisodePercent(activeSeasonIndex, eIdx) }}% ASSISTIDO
-              </span>
-              <span v-else class="status-tag mono">
-                FULL HD
-              </span>
+          <!-- Thumbnail / Badge de Número -->
+          <div class="episode-media">
+            <img
+              :src="media.backdrop || media.poster"
+              :alt="ep.name"
+              class="episode-thumbnail"
+              loading="lazy"
+            />
+            <div class="episode-code mono">
+              E{{ formatNum(ep.number) }}
+            </div>
+            <div
+              v-if="activeSeasonIndex === playingSeasonIndex && activeEpisodeIndex === eIdx"
+              class="playing-overlay"
+            >
+              <Play :size="16" fill="currentColor" />
             </div>
           </div>
 
-          <!-- Barra de progresso individual do episódio -->
-          <div class="ep-progress-bar">
-            <div
-              class="ep-progress-fill"
-              :style="{ width: `${getEpisodePercent(activeSeasonIndex, eIdx)}%` }"
-            ></div>
+          <!-- Conteúdo do Episódio -->
+          <div class="episode-content">
+            <div class="episode-header-info">
+              <h4 class="episode-title">{{ ep.name }}</h4>
+              <div class="episode-status-row">
+                <span v-if="isEpisodeCompleted(activeSeasonIndex, eIdx)" class="status-tag watched mono">
+                  ✓ Assistido
+                </span>
+                <span v-else-if="getEpisodePercent(activeSeasonIndex, eIdx) > 0" class="status-tag progress mono">
+                  {{ getEpisodePercent(activeSeasonIndex, eIdx) }}%
+                </span>
+                <span v-else class="status-tag mono">
+                  Pronto
+                </span>
+              </div>
+            </div>
+
+            <!-- Barra de Progresso do Episódio -->
+            <div class="episode-progress-bar">
+              <div
+                class="episode-progress-fill"
+                :style="{ width: `${getEpisodePercent(activeSeasonIndex, eIdx)}%` }"
+              ></div>
+            </div>
           </div>
+
+          <!-- Botão de Check-in Estilo TV Time -->
+          <button
+            type="button"
+            class="check-btn"
+            :class="{ active: isEpisodeCompleted(activeSeasonIndex, eIdx) }"
+            :title="isEpisodeCompleted(activeSeasonIndex, eIdx) ? 'Assistido' : 'Marcar como visto'"
+            @click.stop="toggleWatched(activeSeasonIndex, eIdx)"
+          >
+            <Check :size="16" stroke-width="3" />
+          </button>
         </div>
       </div>
     </div>
 
-    <!-- Seção de Comentários e Debate do Episódio (Integrado à Capihouse & CapyShowTime) -->
+    <!-- Seção de Comentários e Debate do Episódio -->
     <EpisodeCommentsSection :episode-id="syncedEpisodeId" />
   </div>
 
   <div v-else class="not-found-view container">
     <p class="mono">Título não encontrado no catálogo do CapyFlix.</p>
-    <router-link to="/" class="btn-primary" style="margin-top: 16px;">Voltar ao Início</router-link>
+    <router-link to="/" class="btn-primary" style="margin-top: 16px;">
+      Voltar ao Início
+    </router-link>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed, watch, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import { ArrowLeft, Bookmark, Check, Play } from 'lucide-vue-next'
 import { useMediaStore } from '@/stores/media'
 import VideoPlayer from '@/components/VideoPlayer.vue'
 import EpisodeCommentsSection from '@/components/EpisodeCommentsSection.vue'
@@ -158,32 +202,48 @@ const currentEpisode = computed(() => {
 const savedInitialTime = computed(() => {
   if (!media.value) return 0
   const p = mediaStore.getEpisodeProgress(media.value.id, playingSeasonIndex.value, playingEpisodeIndex.value)
-  return p && !p.completed ? p.time : 0
+  return p ? p.time : 0
 })
 
+watch(
+  () => [playingSeasonIndex.value, playingEpisodeIndex.value, media.value?.tmdbId],
+  () => {
+    syncWithCapyShowTime(false)
+  },
+  { immediate: true }
+)
+
 async function syncWithCapyShowTime(markAsWatched = false) {
-  if (!media.value?.tmdbId) return
-  const sNum = playingSeasonIndex.value + 1
-  const eNum = playingEpisodeIndex.value + 1
-  const key = `${media.value.tmdbId}_${sNum}_${eNum}_${markAsWatched}`
+  if (!media.value || !media.value.tmdbId) return
+  const seasonNum = playingSeasonIndex.value + 1
+  const epNum = playingEpisodeIndex.value + 1
+  const watchKey = `${media.value.tmdbId}-${seasonNum}-${epNum}-${markAsWatched}`
 
-  if (markAsWatched && lastSyncedWatchKey === key) return
+  if (lastSyncedWatchKey === watchKey) return
+  lastSyncedWatchKey = watchKey
 
-  const res = await capyShowTimeApi.syncWatch(media.value.tmdbId, sNum, eNum, markAsWatched)
-  if (res && res.episode_id) {
-    syncedEpisodeId.value = res.episode_id
-    if (markAsWatched) {
-      lastSyncedWatchKey = key
+  try {
+    const res = await capyShowTimeApi.syncWatch({
+      tmdb_id: media.value.tmdbId,
+      season_number: seasonNum,
+      episode_number: epNum,
+      title: media.value.title,
+      is_watched: markAsWatched
+    })
+
+    if (res.data?.episode?.id) {
+      syncedEpisodeId.value = res.data.episode.id
     }
+  } catch (err) {
+    console.warn('Sincronização CapyShowTime ignorada (modo offline ou API indisponível):', err)
   }
 }
 
-watch([playingSeasonIndex, playingEpisodeIndex, media], () => {
-  syncWithCapyShowTime(false)
-}, { immediate: true })
-
 function switchSeason(sIdx: number) {
   activeSeasonIndex.value = sIdx
+  router.replace({
+    query: { ...route.query, s: sIdx, e: 0 }
+  })
 }
 
 function selectEpisode(eIdx: number) {
@@ -192,8 +252,19 @@ function selectEpisode(eIdx: number) {
   playingEpisodeIndex.value = eIdx
 
   router.replace({
-    query: { s: activeSeasonIndex.value, e: eIdx }
+    query: { ...route.query, s: activeSeasonIndex.value, e: eIdx }
   })
+}
+
+function toggleWatched(sIdx: number, eIdx: number) {
+  if (!media.value) return
+  const isWatched = isEpisodeCompleted(sIdx, eIdx)
+  if (isWatched) {
+    mediaStore.saveEpisodeProgress(media.value.id, sIdx, eIdx, 0, 100)
+  } else {
+    mediaStore.saveEpisodeProgress(media.value.id, sIdx, eIdx, 100, 100)
+    syncWithCapyShowTime(true)
+  }
 }
 
 function handleTimeUpdate(data: { currentTime: number; duration: number }) {
@@ -206,7 +277,6 @@ function handleTimeUpdate(data: { currentTime: number; duration: number }) {
     data.duration
   )
 
-  // Sincroniza como assistido na CapyShowTime se passou de 90%
   if (data.duration > 0 && data.currentTime / data.duration >= 0.90) {
     syncWithCapyShowTime(true)
   }
@@ -216,7 +286,6 @@ function handleEpisodeEnded() {
   if (!media.value) return
   syncWithCapyShowTime(true)
 
-  // Auto avançar para o próximo episódio se houver
   const season = media.value.seasons[playingSeasonIndex.value]
   if (season && playingEpisodeIndex.value + 1 < season.episodes.length) {
     selectEpisode(playingEpisodeIndex.value + 1)
@@ -239,6 +308,19 @@ function getEpisodePercent(sIdx: number, eIdx: number): number {
   return Math.min(100, Math.round((p.time / p.duration) * 100))
 }
 
+function formatNum(n: number): string {
+  return n < 10 ? `0${n}` : `${n}`
+}
+
+function formatType(type: string): string {
+  switch (type) {
+    case 'anime': return 'Anime'
+    case 'movie': return 'Filme'
+    case 'cartoon': return 'Desenho'
+    default: return 'Série'
+  }
+}
+
 onMounted(() => {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 })
@@ -246,21 +328,58 @@ onMounted(() => {
 
 <style scoped>
 .watch-view {
-  padding-top: 16px;
+  padding-top: 12px;
   padding-bottom: 80px;
 }
 
+.watch-top-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.back-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
+  transition: all 0.2s;
+}
+
+.back-link-btn:hover {
+  color: var(--text-main);
+  background-color: var(--bg-surface-hover);
+}
+
+.media-title-sub {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .player-wrapper {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
 }
 
 /* Cartão de Detalhes */
 .media-details-card {
-  background: var(--bg-surface);
+  background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 20px;
-  margin-bottom: 24px;
+  padding: 18px;
+  margin-bottom: 20px;
 }
 
 .details-top {
@@ -268,20 +387,20 @@ onMounted(() => {
   justify-content: space-between;
   align-items: flex-start;
   gap: 16px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .media-title {
-  font-size: 24px;
-  font-weight: 800;
-  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
   line-height: 1.2;
 }
 
 .media-original-title {
-  font-size: 14px;
+  font-size: 0.82rem;
   font-weight: 400;
-  color: var(--color-primary-light);
+  color: var(--text-dim);
   margin-top: 2px;
 }
 
@@ -291,85 +410,82 @@ onMounted(() => {
   gap: 6px;
   padding: 8px 14px;
   border-radius: var(--radius-md);
-  background: var(--bg-surface-elevated);
+  background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
   color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
   flex-shrink: 0;
 }
 
-.fav-toggle-btn .fav-icon {
-  width: 16px;
-  height: 16px;
-}
-
 .fav-toggle-btn.active {
-  background: rgba(245, 197, 24, 0.15);
+  background-color: var(--color-accent-dim);
   border-color: var(--color-accent);
   color: var(--color-accent);
 }
 
 .fav-toggle-btn:hover {
   border-color: var(--color-accent);
-  color: var(--color-accent);
 }
 
-.genres-row {
+.meta-row {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
-.genre-pill {
-  font-size: 11px;
-  padding: 3px 10px;
-  border-radius: var(--radius-full);
-  background: var(--bg-surface-elevated);
-  border: 1px solid var(--color-border-subtle);
+.meta-text {
+  font-size: 0.8rem;
   color: var(--text-muted);
 }
 
-.rating-pill {
-  color: var(--color-accent);
-  border-color: rgba(245, 197, 24, 0.3);
+.meta-dot {
+  font-size: 0.6rem;
+  color: var(--text-dim);
 }
 
 .synopsis-text {
-  font-size: 14px;
+  font-size: 0.88rem;
   color: var(--text-muted);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* Abas de Temporada */
 .seasons-tabs {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   overflow-x: auto;
-  padding-bottom: 8px;
-  margin-bottom: 20px;
+  padding-bottom: 4px;
+  margin-bottom: 18px;
+  scrollbar-width: none;
+}
+
+.seasons-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .season-tab-btn {
-  padding: 8px 18px;
+  padding: 6px 14px;
   border-radius: var(--radius-full);
-  background: var(--bg-surface);
+  background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
   color: var(--text-muted);
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 0.8rem;
+  font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
   transition: all 0.2s;
 }
 
-.season-tab-btn.active,
-.season-tab-btn:hover {
-  background: var(--color-accent);
+.season-tab-btn.active {
+  background-color: var(--color-accent);
   color: #12100e;
   border-color: var(--color-accent);
-  box-shadow: 0 0 14px rgba(245, 197, 24, 0.3);
+  font-weight: 700;
 }
 
 /* Grade de Episódios */
@@ -380,85 +496,103 @@ onMounted(() => {
 .episodes-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 14px;
-}
-
-.episodes-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text-main);
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  align-items: baseline;
+  margin-bottom: 12px;
 }
 
 .ep-count {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--text-dim);
-  letter-spacing: 1px;
 }
 
-.episodes-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 12px;
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .episode-card {
-  position: relative;
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding: 12px 14px;
-  background: var(--bg-surface);
+  gap: 12px;
+  background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
+  padding: 10px 12px;
   cursor: pointer;
-  overflow: hidden;
-  transition: all 0.2s ease;
+  transition: all 0.2s;
 }
 
 .episode-card:hover {
-  transform: translateY(-2px);
+  background-color: var(--bg-surface-elevated);
   border-color: var(--color-primary-light);
-  background: var(--bg-surface-elevated);
 }
 
 .episode-card.is-playing {
   border-color: var(--color-accent);
-  background: rgba(245, 197, 24, 0.08);
+  background-color: var(--color-accent-dim);
 }
 
-.ep-num-box {
-  width: 38px;
-  height: 38px;
+.episode-card.watched {
+  border-color: rgba(245, 197, 24, 0.25);
+}
+
+.episode-media {
+  position: relative;
+  width: 96px;
+  height: 60px;
   border-radius: var(--radius-sm);
-  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
+}
+
+.episode-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.episode-code {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  background: rgba(0, 0, 0, 0.8);
+  color: var(--color-accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.playing-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
-  font-weight: 700;
   color: var(--color-accent);
-  flex-shrink: 0;
 }
 
-.playing-pulse {
-  color: var(--color-accent);
-  font-size: 14px;
-}
-
-.ep-details {
+.episode-content {
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  overflow: hidden;
-  flex: 1;
+  gap: 6px;
 }
 
-.ep-name {
-  font-size: 13px;
+.episode-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.episode-title {
+  font-size: 0.88rem;
   font-weight: 600;
   color: var(--text-main);
   white-space: nowrap;
@@ -466,43 +600,68 @@ onMounted(() => {
   text-overflow: ellipsis;
 }
 
-.ep-status-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.episode-status-row {
+  flex-shrink: 0;
 }
 
 .status-tag {
-  font-size: 9px;
-  font-weight: 700;
+  font-size: 0.7rem;
   color: var(--text-dim);
-  letter-spacing: 0.5px;
 }
 
-.status-tag.completed {
-  color: var(--color-success);
+.status-tag.watched {
+  color: var(--color-accent);
+  font-weight: 700;
 }
 
-.status-tag.in-progress {
+.status-tag.progress {
+  color: var(--color-primary-light);
+  font-weight: 600;
+}
+
+.episode-progress-bar {
+  width: 100%;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.episode-progress-fill {
+  height: 100%;
+  background-color: var(--color-accent);
+}
+
+/* TV Time Check Button */
+.check-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  color: var(--text-dim);
+  background-color: var(--bg-surface-elevated);
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.check-btn:hover {
+  transform: scale(1.08);
+  border-color: var(--color-accent);
   color: var(--color-accent);
 }
 
-.ep-progress-bar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.ep-progress-fill {
-  height: 100%;
-  background: var(--color-accent);
+.check-btn.active {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #12100e;
+  box-shadow: 0 0 10px rgba(245, 197, 24, 0.3);
 }
 
 .not-found-view {
-  padding: 60px 0;
+  padding: 60px 20px;
   text-align: center;
 }
 </style>

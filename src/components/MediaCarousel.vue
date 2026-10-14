@@ -1,24 +1,22 @@
 <template>
   <section v-if="items.length > 0" class="carousel-section">
     <div class="carousel-header">
-      <div class="header-left">
-        <span class="retro-pip"></span>
-        <h2 class="carousel-title mono">{{ title }}</h2>
-      </div>
-      <span class="items-count rajdhani">{{ items.length }} DISPONÍVEIS</span>
+      <h2 class="section-title mono">{{ title }}</h2>
+      <span class="carousel-count mono">{{ items.length }} títulos</span>
     </div>
 
     <div class="carousel-wrapper">
       <button
+        v-if="canScrollLeft"
         type="button"
         class="nav-btn prev"
         aria-label="Anterior"
         @click="scroll(-1)"
       >
-        ‹
+        <ChevronLeft :size="18" />
       </button>
 
-      <div ref="trackRef" class="carousel-track">
+      <div ref="trackRef" class="carousel-track" @scroll="onTrackScroll">
         <div
           v-for="item in items"
           :key="item.id"
@@ -34,7 +32,7 @@
         aria-label="Próximo"
         @click="scroll(1)"
       >
-        ›
+        <ChevronRight :size="18" />
       </button>
     </div>
   </section>
@@ -42,6 +40,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { ChevronLeft, ChevronRight } from 'lucide-vue-next'
 import type { MediaItem } from '@/types/media'
 import MediaCard from './MediaCard.vue'
 
@@ -51,10 +50,17 @@ defineProps<{
 }>()
 
 const trackRef = ref<HTMLElement | null>(null)
+const canScrollLeft = ref(false)
+
+function onTrackScroll() {
+  if (trackRef.value) {
+    canScrollLeft.value = trackRef.value.scrollLeft > 20
+  }
+}
 
 function scroll(direction: number) {
   if (!trackRef.value) return
-  const itemWidth = 180 + 16
+  const itemWidth = 150 + 14
   const scrollAmount = itemWidth * 3 * direction
   trackRef.value.scrollBy({
     left: scrollAmount,
@@ -65,45 +71,20 @@ function scroll(direction: number) {
 
 <style scoped>
 .carousel-section {
-  margin: 28px 0;
+  margin: 24px 0;
   position: relative;
 }
 
 .carousel-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 12px;
-  padding: 0 4px;
 }
 
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.retro-pip {
-  width: 6px;
-  height: 18px;
-  border-radius: 3px;
-  background: linear-gradient(to bottom, var(--color-accent), var(--color-primary));
-  box-shadow: 0 0 10px rgba(245, 197, 24, 0.4);
-}
-
-.carousel-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text-main);
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.items-count {
-  font-size: 12px;
-  font-weight: 700;
+.carousel-count {
+  font-size: 0.75rem;
   color: var(--text-dim);
-  letter-spacing: 1px;
 }
 
 .carousel-wrapper {
@@ -111,34 +92,12 @@ function scroll(direction: number) {
   width: 100%;
 }
 
-/* Sombras graduadas nas pontas do carrossel */
-.carousel-wrapper::before,
-.carousel-wrapper::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 30px;
-  z-index: 4;
-  pointer-events: none;
-}
-
-.carousel-wrapper::before {
-  left: 0;
-  background: linear-gradient(to right, var(--bg-app), transparent);
-}
-
-.carousel-wrapper::after {
-  right: 0;
-  background: linear-gradient(to left, var(--bg-app), transparent);
-}
-
 .carousel-track {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   overflow-x: auto;
   scroll-behavior: smooth;
-  padding: 8px 4px 16px 4px;
+  padding: 4px 0 12px 0;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -148,29 +107,27 @@ function scroll(direction: number) {
 }
 
 .carousel-item {
-  flex: 0 0 160px;
-  width: 160px;
+  flex: 0 0 135px;
+  width: 135px;
 }
 
 @media (min-width: 640px) {
   .carousel-item {
-    flex: 0 0 180px;
-    width: 180px;
+    flex: 0 0 155px;
+    width: 155px;
   }
 }
 
 .nav-btn {
   position: absolute;
-  top: 50%;
-  transform: translateY(-60%);
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: rgba(18, 16, 14, 0.9);
+  top: 45%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: rgba(22, 19, 17, 0.9);
   border: 1px solid var(--color-border);
-  color: var(--color-accent);
-  font-size: 20px;
-  font-weight: bold;
+  color: var(--text-main);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -188,16 +145,15 @@ function scroll(direction: number) {
 .nav-btn:hover {
   background: var(--color-accent);
   color: #12100e;
-  box-shadow: 0 0 12px rgba(245, 197, 24, 0.4);
-  transform: translateY(-60%) scale(1.1);
+  border-color: var(--color-accent);
 }
 
 .nav-btn.prev {
-  left: -12px;
+  left: -8px;
 }
 
 .nav-btn.next {
-  right: -12px;
+  right: -8px;
 }
 
 @media (max-width: 768px) {

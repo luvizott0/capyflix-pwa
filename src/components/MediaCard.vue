@@ -1,6 +1,6 @@
 <template>
-  <router-link :to="`/watch/${media.slug}`" class="media-card">
-    <div class="poster-wrapper">
+  <router-link :to="`/watch/${media.slug}`" class="series-card">
+    <div class="poster-container">
       <img
         :src="optimizedPoster"
         :alt="media.title"
@@ -8,25 +8,31 @@
         loading="lazy"
         @error="handleImageError"
       />
-      
-      <!-- Badges no topo -->
-      <div class="badge-overlay">
-        <span v-if="media.isNew" class="badge-tag badge-new">NOVO</span>
-        <span v-if="media.isDubbed" class="badge-tag badge-dub">DUB</span>
-        <span v-if="media.isSubbed && !media.isDubbed" class="badge-tag badge-leg">LEG</span>
+
+      <!-- Badges discretas no topo esquerdo -->
+      <div v-if="media.isDubbed || media.isSubbed || media.isNew" class="badges-overlay">
+        <span v-if="media.isNew" class="badge-mini badge-new mono">NOVO</span>
+        <span v-if="media.isDubbed" class="badge-mini badge-dub mono">DUB</span>
+        <span v-else-if="media.isSubbed" class="badge-mini badge-leg mono">LEG</span>
+      </div>
+
+      <!-- Rating Badge no estilo CapyShowTime (topo direito) -->
+      <div v-if="media.rating" class="rating-badge mono">
+        ★ {{ media.rating.toFixed(1) }}
       </div>
 
       <!-- Barra de progresso se houver histórico -->
-      <div v-if="progressPercent > 0" class="progress-track">
-        <div class="progress-fill" :style="{ width: `${progressPercent}%` }"></div>
+      <div v-if="progressPercent > 0" class="progress-bar-bg">
+        <div class="progress-bar-fill" :style="{ width: `${progressPercent}%` }"></div>
       </div>
     </div>
 
-    <div class="card-info">
-      <h3 class="card-title">{{ media.title }}</h3>
-      <div class="card-meta">
-        <span class="card-type mono">{{ formatType(media.type) }}</span>
-        <span v-if="media.year" class="card-year mono">{{ media.year }}</span>
+    <div class="series-info">
+      <h3 class="series-title">{{ media.title }}</h3>
+      <div class="series-meta">
+        <span v-if="media.year" class="meta-item">{{ media.year }}</span>
+        <span v-if="media.year" class="meta-dot">•</span>
+        <span class="meta-item">{{ formatType(media.type) }}</span>
       </div>
     </div>
   </router-link>
@@ -55,7 +61,6 @@ function handleImageError() {
   fallbackActive.value = true
 }
 
-// Verifica se há progresso no primeiro episódio ou temporada ativa
 const progressPercent = computed(() => {
   const p = mediaStore.getEpisodeProgress(props.media.id, 0, 0)
   if (p && p.duration > 0) {
@@ -66,111 +71,138 @@ const progressPercent = computed(() => {
 
 function formatType(type: string): string {
   switch (type) {
-    case 'anime': return 'ANIME'
-    case 'movie': return 'FILME'
-    case 'cartoon': return 'DESENHO'
-    default: return 'SÉRIE'
+    case 'anime': return 'Anime'
+    case 'movie': return 'Filme'
+    case 'cartoon': return 'Desenho'
+    default: return 'Série'
   }
 }
 </script>
 
 <style scoped>
-.media-card {
+.series-card {
   display: flex;
   flex-direction: column;
-  background: var(--bg-surface);
-  border: 1px solid var(--color-border-subtle);
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s, box-shadow 0.3s;
   cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.2s ease;
   width: 100%;
 }
 
-.media-card:hover {
-  transform: translateY(-6px);
-  border-color: var(--color-primary-light);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5), 0 0 16px rgba(166, 97, 48, 0.15);
+.series-card:hover {
+  transform: translateY(-4px);
 }
 
-.poster-wrapper {
+.poster-container {
   position: relative;
   width: 100%;
   aspect-ratio: 2 / 3;
-  background: #0a0908;
+  border-radius: var(--radius-md);
   overflow: hidden;
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
 }
 
 .poster-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.6s ease;
+  transition: transform 0.3s ease;
 }
 
-.media-card:hover .poster-img {
-  transform: scale(1.08);
+.series-card:hover .poster-img {
+  transform: scale(1.03);
 }
 
-.badge-overlay {
+.badges-overlay {
   position: absolute;
   top: 8px;
   left: 8px;
   display: flex;
-  flex-wrap: wrap;
   gap: 4px;
   z-index: 2;
 }
 
-.badge-new {
-  background: #ff5500;
-  color: #fff;
-  font-weight: 800;
+.badge-mini {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
 }
 
-.progress-track {
+.badge-new {
+  background-color: var(--color-accent);
+  color: #12100e;
+}
+
+.badge-dub {
+  background: rgba(0, 0, 0, 0.75);
+  color: var(--color-accent);
+  border: 1px solid rgba(245, 197, 24, 0.3);
+  backdrop-filter: blur(4px);
+}
+
+.badge-leg {
+  background: rgba(0, 0, 0, 0.75);
+  color: var(--text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+}
+
+.rating-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: var(--color-accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
+.progress-bar-bg {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 4px;
-  background: rgba(0, 0, 0, 0.7);
+  height: 3px;
+  background: rgba(0, 0, 0, 0.6);
   z-index: 3;
 }
 
-.progress-fill {
+.progress-bar-fill {
   height: 100%;
-  background: var(--color-accent);
-  box-shadow: 0 0 8px var(--color-accent);
+  background-color: var(--color-accent);
 }
 
-.card-info {
-  padding: 10px 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  background: linear-gradient(to top, rgba(18, 16, 14, 0.95), var(--bg-surface));
+.series-info {
+  margin-top: 8px;
 }
 
-.card-title {
-  font-size: 13px;
+.series-title {
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--text-main);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-height: 1.25;
 }
 
-.card-meta {
+.series-meta {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  font-size: 11px;
+  gap: 4px;
+  font-size: 0.75rem;
   color: var(--text-dim);
+  margin-top: 2px;
 }
 
-.card-type {
-  color: var(--color-primary-light);
-  font-weight: 700;
+.meta-dot {
+  font-size: 0.6rem;
 }
 </style>

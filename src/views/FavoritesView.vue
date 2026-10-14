@@ -1,33 +1,44 @@
 <template>
-  <div class="favorites-view container fade-in">
-    <div class="page-header">
-      <div class="header-left">
-        <span class="retro-pip"></span>
-        <h1 class="page-title mono">MEUS FAVORITOS</h1>
+  <div class="favorites-page container fade-in">
+    <header class="page-header">
+      <div class="header-top">
+        <div>
+          <h1 class="header-title mono">Minha Lista</h1>
+          <p class="header-subtitle">Seus títulos salvos para assistir</p>
+        </div>
+        <span v-if="mediaStore.favoriteMedia.length > 0" class="count-badge mono">
+          {{ mediaStore.favoriteMedia.length }} títulos
+        </span>
       </div>
-      <span class="count-badge rajdhani">{{ mediaStore.favoriteMedia.length }} SALVOS</span>
-    </div>
+    </header>
 
-    <div v-if="mediaStore.favoriteMedia.length > 0" class="fav-grid">
-      <MediaCard
-        v-for="item in mediaStore.favoriteMedia"
-        :key="item.id"
-        :media="item"
-      />
-    </div>
+    <main class="page-body">
+      <div v-if="mediaStore.favoriteMedia.length > 0" class="series-grid">
+        <MediaCard
+          v-for="item in mediaStore.favoriteMedia"
+          :key="item.id"
+          :media="item"
+        />
+      </div>
 
-    <div v-else class="empty-state">
-      <img src="/capy-icon.svg" alt="Capivara" class="empty-capy-img" />
-      <h3 class="empty-title mono">Nenhum favorito ainda</h3>
-      <p class="empty-desc">Clique no botão de favoritar em qualquer anime ou filme para salvar sua lista aqui!</p>
-      <router-link to="/" class="btn-primary" style="margin-top: 20px;">
-        Explorar Catálogo
-      </router-link>
-    </div>
+      <div v-else class="empty-state fade-in">
+        <div class="empty-icon-box">
+          <Bookmark :size="40" class="empty-icon" />
+        </div>
+        <h3 class="empty-title">Sua lista está vazia</h3>
+        <p class="empty-desc">
+          Toque no botão de favoritar em qualquer anime ou filme para salvá-lo aqui e assistir quando quiser.
+        </p>
+        <router-link to="/" class="btn-primary">
+          <span>Explorar Catálogo</span>
+        </router-link>
+      </div>
+    </main>
   </div>
 </template>
 
 <script setup lang="ts">
+import { Bookmark } from 'lucide-vue-next'
 import { useMediaStore } from '@/stores/media'
 import MediaCard from '@/components/MediaCard.vue'
 
@@ -35,79 +46,80 @@ const mediaStore = useMediaStore()
 </script>
 
 <style scoped>
-.favorites-view {
-  padding-top: 24px;
+.favorites-page {
+  padding-top: 16px;
   padding-bottom: 80px;
 }
 
 .page-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 24px;
 }
 
-.header-left {
+.header-top {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.retro-pip {
-  width: 6px;
-  height: 18px;
-  border-radius: 3px;
-  background: var(--color-accent);
-  box-shadow: 0 0 10px rgba(245, 197, 24, 0.5);
+.header-title {
+  font-size: 1.25rem;
+  color: var(--text-main);
+  margin-bottom: 4px;
 }
 
-.page-title {
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 1px;
+.header-subtitle {
+  font-size: 0.82rem;
+  color: var(--text-muted);
 }
 
 .count-badge {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--text-dim);
-  letter-spacing: 1px;
 }
 
-.fav-grid {
+.series-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 14px;
 }
 
 @media (min-width: 640px) {
-  .fav-grid {
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 20px;
+  .series-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
   }
 }
 
 .empty-state {
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
-.empty-capy-img {
-  width: 72px;
-  height: 72px;
-  opacity: 0.6;
-  margin-bottom: 16px;
+.empty-icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+  color: var(--text-dim);
 }
 
 .empty-title {
-  font-size: 16px;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: var(--text-main);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .empty-desc {
-  font-size: 13px;
+  font-size: 0.85rem;
   color: var(--text-muted);
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 360px;
+  margin: 0 auto 20px auto;
+  line-height: 1.45;
 }
 </style>

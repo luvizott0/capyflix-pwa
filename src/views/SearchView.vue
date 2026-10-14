@@ -1,78 +1,80 @@
 <template>
-  <div class="search-view container fade-in">
-    <!-- Barra de Busca Instantânea Retrô -->
-    <div class="search-box-wrapper">
-      <div class="search-input-container">
-        <svg viewBox="0 0 24 24" class="search-icon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="currentColor"/></svg>
+  <div class="search-page container fade-in">
+    <header class="page-header">
+      <div class="header-top">
+        <h1 class="header-title mono">Buscar no Catálogo</h1>
+      </div>
+
+      <!-- Barra de Busca no estilo CapyShowTime -->
+      <div class="search-bar">
+        <Search :size="18" class="search-icon" />
         <input
           v-model="searchQuery"
-          type="text"
-          placeholder="Pesquisar por nome, gênero, clássicos..."
+          type="search"
+          placeholder="Buscar anime, filme ou clássico..."
           class="search-input"
           autofocus
         />
-        <button
-          v-if="searchQuery"
-          type="button"
-          class="clear-btn"
-          @click="searchQuery = ''"
-        >
-          ✕
+        <button v-if="searchQuery" class="clear-btn" @click="searchQuery = ''">
+          <X :size="16" />
         </button>
       </div>
 
-      <!-- Pílulas de Filtros Rápidos -->
-      <div class="filter-pills">
+      <!-- Barra de Filtros Rápidos / Gêneros -->
+      <div class="genres-scroll-bar">
         <button
           type="button"
-          class="filter-pill mono"
+          class="genre-pill"
           :class="{ active: selectedType === 'all' }"
           @click="selectedType = 'all'"
         >
-          TODOS
+          Todos
         </button>
         <button
           type="button"
-          class="filter-pill mono"
+          class="genre-pill"
           :class="{ active: selectedType === 'anime' }"
           @click="selectedType = 'anime'"
         >
-          ANIMES
+          Animes
         </button>
         <button
           type="button"
-          class="filter-pill mono"
+          class="genre-pill"
           :class="{ active: selectedType === 'movie' }"
           @click="selectedType = 'movie'"
         >
-          FILMES
+          Filmes
         </button>
         <button
           type="button"
-          class="filter-pill mono"
+          class="genre-pill"
           :class="{ active: selectedType === 'cartoon' }"
           @click="selectedType = 'cartoon'"
         >
-          DESENHOS
+          Desenhos
         </button>
         <button
           type="button"
-          class="filter-pill mono"
+          class="genre-pill"
           :class="{ active: selectedType === 'dub' }"
           @click="selectedType = 'dub'"
         >
-          DUBLADOS
+          Dublados
         </button>
       </div>
-    </div>
+    </header>
 
-    <!-- Resultados -->
-    <div class="results-section">
+    <main class="page-body">
       <div class="results-header">
-        <span class="results-count rajdhani">{{ filteredResults.length }} TÍTULOS ENCONTRADOS</span>
+        <h2 class="section-title mono">
+          {{ searchQuery.trim() ? 'Resultados da Busca' : 'Catálogo Disponível' }}
+        </h2>
+        <span class="results-count mono">{{ filteredResults.length }} títulos</span>
       </div>
 
-      <div v-if="filteredResults.length > 0" class="results-grid">
+      <!-- Grade de Títulos -->
+      <div v-if="filteredResults.length > 0" class="series-grid">
         <MediaCard
           v-for="item in filteredResults"
           :key="item.id"
@@ -80,17 +82,26 @@
         />
       </div>
 
-      <div v-else class="empty-state">
-        <img src="/capy-icon.svg" alt="Capivara" class="empty-capy-img" />
-        <h3 class="empty-title mono">Nenhum título encontrado</h3>
-        <p class="empty-desc">Tente buscar por termos mais genéricos ou trocar os filtros acima.</p>
+      <!-- Empty State no estilo CapyShowTime -->
+      <div v-else class="empty-state fade-in">
+        <div class="empty-icon-box">
+          <Film :size="40" class="empty-icon" />
+        </div>
+        <h3 class="empty-title">Nenhum título encontrado</h3>
+        <p class="empty-desc">
+          Não encontramos resultados para "{{ searchQuery }}". Tente buscar por outros termos ou trocar de categoria.
+        </p>
+        <button type="button" class="btn-secondary" @click="resetSearch">
+          Limpar Busca
+        </button>
       </div>
-    </div>
+    </main>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
+import { Search, X, Film } from 'lucide-vue-next'
 import { useMediaStore } from '@/stores/media'
 import MediaCard from '@/components/MediaCard.vue'
 
@@ -99,128 +110,107 @@ const searchQuery = ref('')
 const selectedType = ref('all')
 
 const filteredResults = computed(() => {
-  let list = mediaStore.search(searchQuery.value)
+  let list = searchQuery.value.trim()
+    ? mediaStore.search(searchQuery.value)
+    : mediaStore.catalog
 
   if (selectedType.value === 'anime') {
-    list = list.filter(i => i.type === 'anime')
+    list = list.filter(item => item.type === 'anime')
   } else if (selectedType.value === 'movie') {
-    list = list.filter(i => i.type === 'movie')
+    list = list.filter(item => item.type === 'movie')
   } else if (selectedType.value === 'cartoon') {
-    list = list.filter(i => i.type === 'cartoon')
+    list = list.filter(item => item.type === 'cartoon')
   } else if (selectedType.value === 'dub') {
-    list = list.filter(i => i.isDubbed)
+    list = list.filter(item => item.isDubbed)
   }
 
   return list
 })
+
+function resetSearch() {
+  searchQuery.value = ''
+  selectedType.value = 'all'
+}
 </script>
 
 <style scoped>
-.search-view {
-  padding-top: 24px;
+.search-page {
+  padding-top: 16px;
   padding-bottom: 80px;
 }
 
-.search-box-wrapper {
-  margin-bottom: 28px;
+.page-header {
+  margin-bottom: 24px;
 }
 
-.search-input-container {
-  position: relative;
+.header-top {
+  margin-bottom: 14px;
+}
+
+.header-title {
+  font-size: 1.25rem;
+  color: var(--text-main);
+}
+
+.search-bar {
   display: flex;
   align-items: center;
-  background: var(--bg-surface);
+  background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-full);
-  padding: 6px 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.search-input-container:focus-within {
-  border-color: var(--color-accent);
-  box-shadow: 0 0 16px rgba(245, 197, 24, 0.25);
+  border-radius: var(--radius-md);
+  padding: 0 12px;
+  gap: 8px;
+  margin-bottom: 12px;
 }
 
 .search-icon {
-  width: 20px;
-  height: 20px;
-  color: var(--text-dim);
-  margin-right: 12px;
-  flex-shrink: 0;
+  color: var(--text-muted);
 }
 
 .search-input {
-  width: 100%;
-  background: transparent;
+  flex: 1;
+  background: none;
   border: none;
-  color: #fff;
-  font-size: 15px;
+  padding: 12px 0;
+  color: var(--text-main);
+  font-size: 0.95rem;
   outline: none;
-  padding: 8px 0;
 }
 
 .clear-btn {
-  color: var(--text-dim);
-  font-size: 16px;
+  color: var(--text-muted);
   padding: 4px;
-  cursor: pointer;
-  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .clear-btn:hover {
-  color: var(--color-accent);
-}
-
-.filter-pills {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  padding: 14px 4px 0 4px;
-}
-
-.filter-pill {
-  padding: 6px 14px;
-  border-radius: var(--radius-full);
-  background: var(--bg-surface-elevated);
-  border: 1px solid var(--color-border-subtle);
-  color: var(--text-muted);
-  font-size: 11px;
-  font-weight: 700;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.2s;
-}
-
-.filter-pill.active,
-.filter-pill:hover {
-  background: var(--color-accent);
-  color: #12100e;
-  border-color: var(--color-accent);
+  color: var(--text-main);
 }
 
 .results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   margin-bottom: 16px;
-  padding: 0 4px;
 }
 
 .results-count {
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 0.75rem;
   color: var(--text-dim);
-  letter-spacing: 1px;
 }
 
-.results-grid {
+.series-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 14px;
 }
 
 @media (min-width: 640px) {
-  .results-grid {
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 20px;
+  .series-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
   }
 }
 
@@ -229,21 +219,31 @@ const filteredResults = computed(() => {
   padding: 60px 20px;
 }
 
-.empty-capy-img {
-  width: 72px;
-  height: 72px;
-  opacity: 0.6;
-  margin-bottom: 16px;
+.empty-icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+  color: var(--text-dim);
 }
 
 .empty-title {
-  font-size: 16px;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: var(--text-main);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .empty-desc {
-  font-size: 13px;
+  font-size: 0.85rem;
   color: var(--text-muted);
+  max-width: 380px;
+  margin: 0 auto 20px auto;
+  line-height: 1.45;
 }
 </style>

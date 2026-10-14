@@ -2,21 +2,21 @@
   <div class="comments-section">
     <div class="comments-header">
       <div class="header-left">
-        <svg viewBox="0 0 24 24" class="header-icon"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z" fill="currentColor"/></svg>
+        <MessageSquare :size="18" class="header-icon" />
         <h3 class="section-title mono">Debate do Episódio</h3>
       </div>
-      <span class="comments-counter rajdhani">{{ comments.length }} COMENTÁRIOS</span>
+      <span class="comments-counter mono">{{ comments.length }} comentários</span>
     </div>
 
     <!-- Feed de Comentários -->
     <div v-if="loading" class="comments-loading">
-      <div class="retro-spinner-mini"></div>
-      <span class="loading-text rajdhani">Carregando comentários dos amigos...</span>
+      <div class="spinner"></div>
+      <span class="loading-text">Carregando comentários...</span>
     </div>
 
     <div v-else-if="comments.length === 0" class="no-comments-box">
       <p class="no-comments-title">Nenhum comentário ainda neste episódio!</p>
-      <p class="no-comments-desc">Seja o primeiro da Capihouse a mandar sua opinião ou teoria.</p>
+      <p class="no-comments-desc">Seja o primeiro a mandar sua opinião ou teoria.</p>
     </div>
 
     <div v-else class="comments-list">
@@ -51,7 +51,7 @@
               title="Editar comentário"
               @click="startEdit(comment)"
             >
-              <svg viewBox="0 0 24 24" class="icon"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" fill="currentColor"/></svg>
+              <Pencil :size="14" />
             </button>
             <button
               type="button"
@@ -59,7 +59,7 @@
               title="Excluir comentário"
               @click="deleteComment(comment.id)"
             >
-              <svg viewBox="0 0 24 24" class="icon"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z" fill="currentColor"/></svg>
+              <Trash2 :size="14" />
             </button>
           </div>
         </div>
@@ -73,7 +73,7 @@
           ></textarea>
           <div class="edit-actions">
             <button type="button" class="btn-cancel mono" @click="cancelEdit">Cancelar</button>
-            <button type="button" class="btn-save mono" @click="saveEdit(comment.id)">Salvar Alterações</button>
+            <button type="button" class="btn-save mono" @click="saveEdit(comment.id)">Salvar</button>
           </div>
         </div>
 
@@ -85,8 +85,8 @@
             class="spoiler-card"
             @click="revealedSpoilers.add(comment.id)"
           >
-            <svg viewBox="0 0 24 24" class="spoiler-icon"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z" fill="currentColor"/></svg>
-            <span>Contém spoiler! Clique para revelar</span>
+            <AlertTriangle :size="15" />
+            <span>Contém spoiler! Toque para revelar</span>
           </div>
           <div v-else class="comment-text">
             {{ comment.content }}
@@ -100,9 +100,7 @@
               :class="{ liked: comment.liked_by_me }"
               @click="toggleLike(comment)"
             >
-              <svg viewBox="0 0 24 24" class="like-icon" :style="{ fill: comment.liked_by_me ? '#f87171' : 'none' }">
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="currentColor" stroke-width="1.5"/>
-              </svg>
+              <Heart :size="14" :fill="comment.liked_by_me ? 'currentColor' : 'none'" />
               <span class="mono">{{ comment.likes_count }}</span>
             </button>
 
@@ -143,7 +141,7 @@
           :disabled="submitting || !newCommentText.trim()"
           title="Enviar comentário"
         >
-          <svg viewBox="0 0 24 24" class="send-icon"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" fill="currentColor"/></svg>
+          <Send :size="16" />
         </button>
       </div>
     </form>
@@ -152,15 +150,12 @@
 
 <script setup lang="ts">
 import { ref, watch, onMounted } from 'vue'
+import { MessageSquare, Heart, Send, Pencil, Trash2, AlertTriangle } from 'lucide-vue-next'
 import { useAuthStore } from '@/stores/auth'
 import { capyShowTimeApi, type EpisodeComment } from '@/api/capyshowtime'
 
 const props = defineProps<{
   episodeId: number | null
-}>()
-
-const emit = defineEmits<{
-  (e: 'comment-added'): void
 }>()
 
 const authStore = useAuthStore()
@@ -170,27 +165,33 @@ const loading = ref(false)
 const submitting = ref(false)
 const newCommentText = ref('')
 const isSpoiler = ref(false)
-const revealedSpoilers = ref<Set<number>>(new Set())
+const commentInputRef = ref<HTMLTextAreaElement | null>(null)
 
 const editingCommentId = ref<number | null>(null)
 const editCommentText = ref('')
-const commentInputRef = ref<HTMLTextAreaElement | null>(null)
+const revealedSpoilers = ref<Set<number>>(new Set())
 
-watch(() => props.episodeId, (id) => {
-  if (id) {
-    loadComments(id)
-  } else {
-    comments.value = []
-  }
-}, { immediate: true })
+watch(
+  () => props.episodeId,
+  (newId) => {
+    if (newId) {
+      loadComments(newId)
+    } else {
+      comments.value = []
+    }
+  },
+  { immediate: true }
+)
 
 async function loadComments(epId: number) {
   loading.value = true
   try {
-    const list = await capyShowTimeApi.getEpisodeComments(epId)
-    comments.value = list
+    const res = await capyShowTimeApi.getEpisodeComments(epId)
+    if (res.data?.comments) {
+      comments.value = res.data.comments
+    }
   } catch (err) {
-    console.warn('[CapyFlix] Falha ao carregar comentários:', err)
+    console.warn('Erro ao carregar comentários do episódio:', err)
   } finally {
     loading.value = false
   }
@@ -201,29 +202,20 @@ async function submitComment() {
 
   submitting.value = true
   try {
-    const created = await capyShowTimeApi.addEpisodeComment(
-      props.episodeId,
-      newCommentText.value.trim(),
-      isSpoiler.value
-    )
-    comments.value.unshift(created)
-    newCommentText.value = ''
-    isSpoiler.value = false
-    emit('comment-added')
+    const res = await capyShowTimeApi.addEpisodeComment(props.episodeId, {
+      content: newCommentText.value.trim(),
+      is_spoiler: isSpoiler.value
+    })
+
+    if (res.data?.comment) {
+      comments.value.push(res.data.comment)
+      newCommentText.value = ''
+      isSpoiler.value = false
+    }
   } catch (err) {
-    console.error('Erro ao enviar comentário:', err)
+    console.error('Falha ao enviar comentário:', err)
   } finally {
     submitting.value = false
-  }
-}
-
-async function toggleLike(comment: EpisodeComment) {
-  try {
-    const res = await capyShowTimeApi.toggleCommentLike(comment.id)
-    comment.liked_by_me = res.liked
-    comment.likes_count = res.likes_count
-  } catch (err) {
-    console.error('Erro ao curtir comentário:', err)
   }
 }
 
@@ -239,26 +231,43 @@ function cancelEdit() {
 
 async function saveEdit(commentId: number) {
   if (!editCommentText.value.trim()) return
+
   try {
-    const updated = await capyShowTimeApi.updateComment(commentId, editCommentText.value.trim())
-    const c = comments.value.find(item => item.id === commentId)
-    if (c) {
-      c.content = updated.content
-      c.is_spoiler = updated.is_spoiler
+    const res = await capyShowTimeApi.updateComment(commentId, editCommentText.value.trim())
+    const updated = res.data?.comment
+    if (updated) {
+      const idx = comments.value.findIndex(c => c.id === commentId)
+      if (idx !== -1) {
+        comments.value[idx].content = updated.content
+      }
     }
-    cancelEdit()
+    editingCommentId.value = null
   } catch (err) {
     console.error('Erro ao salvar comentário:', err)
   }
 }
 
 async function deleteComment(commentId: number) {
-  if (!confirm('Deseja realmente excluir seu comentário?')) return
+  if (!confirm('Deseja excluir seu comentário?')) return
+
   try {
     await capyShowTimeApi.deleteComment(commentId)
     comments.value = comments.value.filter(c => c.id !== commentId)
   } catch (err) {
     console.error('Erro ao excluir comentário:', err)
+  }
+}
+
+async function toggleLike(comment: EpisodeComment) {
+  const previousState = comment.liked_by_me
+  comment.liked_by_me = !comment.liked_by_me
+  comment.likes_count += comment.liked_by_me ? 1 : -1
+
+  try {
+    await capyShowTimeApi.toggleCommentLike(comment.id)
+  } catch (err) {
+    comment.liked_by_me = previousState
+    comment.likes_count += previousState ? 1 : -1
   }
 }
 
@@ -268,15 +277,21 @@ function replyToUser(username: string) {
     commentInputRef.value.focus()
   }
 }
+
+onMounted(() => {
+  if (props.episodeId) {
+    loadComments(props.episodeId)
+  }
+})
 </script>
 
 <style scoped>
 .comments-section {
-  background: var(--bg-surface);
+  margin-top: 28px;
+  background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 20px;
-  margin-top: 24px;
+  padding: 18px;
 }
 
 .comments-header {
@@ -285,132 +300,105 @@ function replyToUser(username: string) {
   align-items: center;
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 1px solid var(--color-border-subtle);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .header-left {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .header-icon {
-  width: 20px;
-  height: 20px;
   color: var(--color-accent);
 }
 
-.section-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text-main);
-  letter-spacing: 0.5px;
-}
-
 .comments-counter {
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 0.75rem;
   color: var(--text-dim);
-  letter-spacing: 1px;
 }
 
-/* Loading */
 .comments-loading {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 12px;
-  padding: 30px 0;
-  justify-content: center;
-}
-
-.retro-spinner-mini {
-  width: 24px;
-  height: 24px;
-  border: 3px solid rgba(245, 197, 24, 0.2);
-  border-top-color: var(--color-accent);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
+  gap: 10px;
+  padding: 24px 0;
 }
 
 .loading-text {
-  font-size: 13px;
-  color: var(--text-muted);
+  font-size: 0.8rem;
+  color: var(--text-dim);
 }
 
-/* Sem comentários */
 .no-comments-box {
   text-align: center;
-  padding: 32px 16px;
-  background: var(--bg-surface-elevated);
+  padding: 24px 12px;
+  background-color: var(--bg-surface-elevated);
   border: 1px dashed var(--color-border);
   border-radius: var(--radius-md);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .no-comments-title {
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 600;
   color: var(--text-main);
 }
 
 .no-comments-desc {
-  font-size: 12px;
+  font-size: 0.78rem;
   color: var(--text-dim);
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
-/* Lista de comentários */
 .comments-list {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  margin-bottom: 20px;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
 .comment-card {
-  background: var(--bg-surface-elevated);
-  border: 1px solid var(--color-border-subtle);
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 14px 16px;
+  padding: 12px 14px;
   transition: border-color 0.2s;
 }
 
-.comment-card:hover {
-  border-color: var(--color-border);
+.comment-card.my-comment {
+  border-color: rgba(245, 197, 24, 0.2);
 }
 
 .comment-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .author-info {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .author-avatar {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
   object-fit: cover;
   border: 1px solid var(--color-primary);
 }
 
 .avatar-placeholder {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: var(--color-primary);
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary);
   color: #fff;
-  font-size: 14px;
+  font-size: 0.75rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -423,19 +411,20 @@ function replyToUser(username: string) {
 }
 
 .author-name {
-  font-size: 13px;
+  font-size: 0.82rem;
   font-weight: 600;
   color: var(--text-main);
+  line-height: 1.2;
 }
 
 .comment-time {
-  font-size: 11px;
+  font-size: 0.7rem;
   color: var(--text-dim);
 }
 
 .author-actions {
   display: flex;
-  gap: 6px;
+  gap: 4px;
 }
 
 .action-mini-btn {
@@ -445,91 +434,71 @@ function replyToUser(username: string) {
   transition: color 0.2s;
 }
 
-.action-mini-btn .icon {
-  width: 14px;
-  height: 14px;
-}
-
 .action-mini-btn:hover {
-  color: var(--color-accent);
+  color: var(--text-main);
 }
 
 .action-mini-btn.danger:hover {
   color: var(--color-danger);
 }
 
-/* Spoiler */
 .spoiler-card {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  background: rgba(245, 197, 24, 0.08);
+  gap: 6px;
+  background-color: rgba(245, 197, 24, 0.08);
   border: 1px dashed var(--color-accent);
   color: var(--color-accent);
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: var(--radius-sm);
-  font-size: 12px;
+  font-size: 0.78rem;
   cursor: pointer;
-}
-
-.spoiler-icon {
-  width: 16px;
-  height: 16px;
+  margin: 4px 0;
 }
 
 .comment-text {
-  font-size: 13px;
+  font-size: 0.85rem;
   color: var(--text-main);
-  line-height: 1.5;
+  line-height: 1.45;
   white-space: pre-wrap;
 }
 
 .comment-footer {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-top: 10px;
+  gap: 14px;
+  margin-top: 8px;
 }
 
 .like-btn {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
   color: var(--text-dim);
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 0.75rem;
+  font-weight: 600;
   transition: color 0.2s;
-}
-
-.like-icon {
-  width: 14px;
-  height: 14px;
-}
-
-.like-btn.liked {
-  color: #f87171;
 }
 
 .like-btn:hover {
-  color: #f87171;
+  color: var(--text-main);
+}
+
+.like-btn.liked {
+  color: var(--color-danger);
 }
 
 .reply-btn {
-  font-size: 11px;
-  color: var(--text-dim);
-  font-weight: 700;
-  transition: color 0.2s;
+  font-size: 0.72rem;
+  color: var(--color-primary-light);
+  font-weight: 600;
 }
 
 .reply-btn:hover {
   color: var(--color-accent);
 }
 
-/* Edição */
 .edit-box {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
   margin-top: 6px;
 }
 
@@ -537,34 +506,31 @@ function replyToUser(username: string) {
   display: flex;
   justify-content: flex-end;
   gap: 8px;
+  margin-top: 8px;
 }
 
 .btn-cancel {
-  font-size: 11px;
-  padding: 6px 12px;
-  border-radius: var(--radius-sm);
-  background: transparent;
+  font-size: 0.75rem;
+  padding: 4px 10px;
   color: var(--text-dim);
+  border-radius: var(--radius-sm);
 }
 
 .btn-save {
-  font-size: 11px;
-  padding: 6px 12px;
-  border-radius: var(--radius-sm);
-  background: var(--color-accent);
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background-color: var(--color-accent);
   color: #12100e;
+  border-radius: var(--radius-sm);
   font-weight: 700;
 }
 
-/* Novo Comentário */
+/* Formulário de novo comentário */
 .new-comment-form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  background: var(--bg-surface-elevated);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 14px;
+  gap: 8px;
+  margin-top: 8px;
 }
 
 .form-header-options {
@@ -573,10 +539,10 @@ function replyToUser(username: string) {
 }
 
 .spoiler-toggle-label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: 0.72rem;
   color: var(--text-dim);
   cursor: pointer;
 }
@@ -587,22 +553,21 @@ function replyToUser(username: string) {
 
 .input-send-row {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   align-items: flex-end;
 }
 
 .comment-textarea {
   flex: 1;
-  background: var(--bg-app);
-  border: 1px solid var(--color-border-subtle);
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
-  color: #fff;
-  font-size: 13px;
-  outline: none;
+  color: var(--text-main);
+  font-size: 0.85rem;
   resize: vertical;
-  min-height: 52px;
-  transition: border-color 0.2s;
+  outline: none;
+  font-family: inherit;
 }
 
 .comment-textarea:focus {
@@ -610,30 +575,25 @@ function replyToUser(username: string) {
 }
 
 .send-comment-btn {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border-radius: var(--radius-sm);
-  background: var(--color-accent);
+  background-color: var(--color-accent);
   color: #12100e;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.2s, filter 0.2s;
   flex-shrink: 0;
+  transition: all 0.2s;
 }
 
 .send-comment-btn:hover:not(:disabled) {
-  transform: translateY(-2px);
-  filter: brightness(1.1);
+  background-color: var(--color-accent-hover);
+  transform: translateY(-1px);
 }
 
 .send-comment-btn:disabled {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: not-allowed;
-}
-
-.send-icon {
-  width: 18px;
-  height: 18px;
 }
 </style>
