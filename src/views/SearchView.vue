@@ -20,15 +20,15 @@
         </button>
       </div>
 
-      <!-- Barra de Filtros Rápidos / Gêneros -->
-      <div class="genres-scroll-bar">
+      <!-- 1. Barra Rápida de Formatos / Tipos -->
+      <div class="types-scroll-bar">
         <button
           type="button"
           class="genre-pill"
           :class="{ active: selectedType === 'all' }"
           @click="selectedType = 'all'"
         >
-          Todos
+          Todos os Formatos
         </button>
         <button
           type="button"
@@ -63,22 +63,90 @@
           Dublados
         </button>
       </div>
+
+      <!-- 2. Filtro de Gêneros estilo CapyShowTime -->
+      <div class="genres-section">
+        <div class="genres-label-row">
+          <span class="filter-label mono">Gêneros:</span>
+          <button
+            v-if="selectedGenre !== 'all'"
+            type="button"
+            class="clear-genre-btn mono"
+            @click="selectedGenre = 'all'"
+          >
+            Limpar gênero
+          </button>
+        </div>
+        <div class="genres-scroll-bar">
+          <button
+            type="button"
+            class="genre-pill"
+            :class="{ active: selectedGenre === 'all' }"
+            @click="selectedGenre = 'all'"
+          >
+            Todos
+          </button>
+          <button
+            v-for="genre in availableGenres"
+            :key="genre.key"
+            type="button"
+            class="genre-pill"
+            :class="{ active: selectedGenre === genre.key }"
+            @click="selectedGenre = genre.key"
+          >
+            {{ genre.label }}
+          </button>
+        </div>
+      </div>
     </header>
 
     <main class="page-body">
+      <!-- Cabeçalho dos Resultados + Seletor de Visualização -->
       <div class="results-header">
-        <h2 class="section-title mono">
-          {{ searchQuery.trim() ? 'Resultados da Busca' : 'Catálogo Disponível' }}
-        </h2>
-        <span class="results-count mono">{{ filteredResults.length }} títulos</span>
+        <div class="results-title-group">
+          <h2 class="section-title mono">
+            {{ searchQuery.trim() ? 'Resultados da Busca' : 'Catálogo Disponível' }}
+          </h2>
+          <span class="results-count mono">{{ filteredResults.length }} títulos</span>
+        </div>
+
+        <!-- Botão de alternância da forma de visualização -->
+        <div class="view-mode-toggle">
+          <button
+            type="button"
+            class="view-toggle-btn"
+            :class="{ active: viewMode === 'normal' }"
+            title="Visualização Padrão (com detalhes)"
+            @click="setViewMode('normal')"
+          >
+            <LayoutGrid :size="16" />
+            <span class="mode-label">Padrão</span>
+          </button>
+
+          <button
+            type="button"
+            class="view-toggle-btn"
+            :class="{ active: viewMode === 'compact' }"
+            title="Visualização Compacta (apenas capas, 4 por linha)"
+            @click="setViewMode('compact')"
+          >
+            <Grid :size="16" />
+            <span class="mode-label">4 por linha</span>
+          </button>
+        </div>
       </div>
 
-      <!-- Grade de Títulos -->
-      <div v-if="filteredResults.length > 0" class="series-grid">
+      <!-- Grade de Títulos (Padrão ou Compacta 4x4) -->
+      <div
+        v-if="filteredResults.length > 0"
+        class="series-grid"
+        :class="{ 'compact-grid': viewMode === 'compact' }"
+      >
         <MediaCard
           v-for="item in filteredResults"
           :key="item.id"
           :media="item"
+          :compact="viewMode === 'compact'"
         />
       </div>
 
@@ -89,10 +157,10 @@
         </div>
         <h3 class="empty-title">Nenhum título encontrado</h3>
         <p class="empty-desc">
-          Não encontramos resultados para "{{ searchQuery }}". Tente buscar por outros termos ou trocar de categoria.
+          Não encontramos resultados com esses filtros. Tente buscar por outros termos ou limpar a seleção.
         </p>
         <button type="button" class="btn-secondary" @click="resetSearch">
-          Limpar Busca
+          Limpar Filtros
         </button>
       </div>
     </main>
@@ -101,19 +169,61 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { Search, X, Film } from 'lucide-vue-next'
+import { Search, X, Film, LayoutGrid, Grid } from 'lucide-vue-next'
 import { useMediaStore } from '@/stores/media'
+import type { MediaItem } from '@/types/media'
 import MediaCard from '@/components/MediaCard.vue'
 
 const mediaStore = useMediaStore()
+
 const searchQuery = ref('')
 const selectedType = ref('all')
+const selectedGenre = ref('all')
+
+// Modo de visualização: 'normal' ou 'compact' (4 por linha)
+const savedViewMode = (localStorage.getItem('capyflix_search_view_mode') as 'normal' | 'compact') || 'normal'
+const viewMode = ref<'normal' | 'compact'>(savedViewMode)
+
+function setViewMode(mode: 'normal' | 'compact') {
+  viewMode.value = mode
+  localStorage.setItem('capyflix_search_view_mode', mode)
+}
+
+// Lista de Gêneros estilo CapyShowTime com aliases para suportar acervo Akira Nolan e TMDB
+const availableGenres = [
+  { key: 'acao', label: 'Ação', aliases: ['acao', 'ação', 'action'] },
+  { key: 'aventura', label: 'Aventura', aliases: ['aventura', 'adventure'] },
+  { key: 'animacao', label: 'Animação', aliases: ['animacao', 'animação', 'animation'] },
+  { key: 'comedia', label: 'Comédia', aliases: ['comedia', 'comédia', 'comedy'] },
+  { key: 'drama', label: 'Drama', aliases: ['drama', 'emocional'] },
+  { key: 'fantasia', label: 'Fantasia', aliases: ['fantasia', 'fantasy'] },
+  { key: 'ficcao', label: 'Ficção Científica', aliases: ['ficcao', 'ficção', 'sci-fi', 'scifi', 'science fiction'] },
+  { key: 'misterio', label: 'Mistério', aliases: ['misterio', 'mistério', 'mystery'] },
+  { key: 'romance', label: 'Romance', aliases: ['romance'] },
+  { key: 'escolar', label: 'Escolar', aliases: ['escolar', 'school'] }
+]
+
+function matchesGenre(item: MediaItem, genreKey: string): boolean {
+  if (!genreKey || genreKey === 'all') return true
+  const genreDef = availableGenres.find(g => g.key === genreKey)
+  if (!genreDef) return true
+
+  const itemGenres = (item.genres || []).map(g =>
+    g.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  )
+
+  return genreDef.aliases.some(alias => {
+    const cleanAlias = alias.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    return itemGenres.some(g => g.includes(cleanAlias))
+  })
+}
 
 const filteredResults = computed(() => {
   let list = searchQuery.value.trim()
     ? mediaStore.search(searchQuery.value)
     : mediaStore.catalog
 
+  // Filtro por Formato / Tipo
   if (selectedType.value === 'anime') {
     list = list.filter(item => item.type === 'anime')
   } else if (selectedType.value === 'movie') {
@@ -124,12 +234,18 @@ const filteredResults = computed(() => {
     list = list.filter(item => item.isDubbed)
   }
 
+  // Filtro por Gênero
+  if (selectedGenre.value !== 'all') {
+    list = list.filter(item => matchesGenre(item, selectedGenre.value))
+  }
+
   return list
 })
 
 function resetSearch() {
   searchQuery.value = ''
   selectedType.value = 'all'
+  selectedGenre.value = 'all'
 }
 </script>
 
@@ -140,7 +256,7 @@ function resetSearch() {
 }
 
 .page-header {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .header-top {
@@ -189,11 +305,61 @@ function resetSearch() {
   color: var(--text-main);
 }
 
+.types-scroll-bar {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+}
+
+.types-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Seção de Gêneros */
+.genres-section {
+  margin-top: 6px;
+}
+
+.genres-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.filter-label {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.clear-genre-btn {
+  font-size: 0.72rem;
+  color: var(--color-accent);
+  background: none;
+  cursor: pointer;
+}
+
+.clear-genre-btn:hover {
+  text-decoration: underline;
+}
+
+/* Cabeçalho dos Resultados */
 .results-header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin-bottom: 16px;
+  gap: 12px;
+}
+
+.results-title-group {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
 }
 
 .results-count {
@@ -201,6 +367,49 @@ function resetSearch() {
   color: var(--text-dim);
 }
 
+/* Seletor de Modo de Visualização */
+.view-mode-toggle {
+  display: inline-flex;
+  background-color: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 2px;
+  gap: 2px;
+}
+
+.view-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-toggle-btn:hover {
+  color: var(--text-main);
+}
+
+.view-toggle-btn.active {
+  background-color: var(--color-accent);
+  color: #12100e;
+}
+
+.mode-label {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .mode-label {
+    display: inline;
+  }
+}
+
+/* Grade Padrão */
 .series-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
@@ -211,6 +420,18 @@ function resetSearch() {
   .series-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 16px;
+  }
+}
+
+/* Grade Compacta: 4 itens por linha apenas com a capa */
+.series-grid.compact-grid {
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 8px;
+}
+
+@media (min-width: 640px) {
+  .series-grid.compact-grid {
+    gap: 12px;
   }
 }
 

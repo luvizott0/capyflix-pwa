@@ -1,5 +1,10 @@
 <template>
-  <router-link :to="`/watch/${media.slug}`" class="series-card">
+  <router-link
+    :to="`/watch/${media.slug}`"
+    class="series-card"
+    :class="{ 'is-compact': compact }"
+    :title="media.title"
+  >
     <div class="poster-container">
       <img
         :src="optimizedPoster"
@@ -9,15 +14,15 @@
         @error="handleImageError"
       />
 
-      <!-- Badges discretas no topo esquerdo -->
-      <div v-if="media.isDubbed || media.isSubbed || media.isNew" class="badges-overlay">
+      <!-- Badges discretas no topo esquerdo (apenas no modo normal) -->
+      <div v-if="!compact && (media.isDubbed || media.isSubbed || media.isNew)" class="badges-overlay">
         <span v-if="media.isNew" class="badge-mini badge-new mono">NOVO</span>
         <span v-if="media.isDubbed" class="badge-mini badge-dub mono">DUB</span>
         <span v-else-if="media.isSubbed" class="badge-mini badge-leg mono">LEG</span>
       </div>
 
       <!-- Rating Badge no estilo CapyShowTime (topo direito) -->
-      <div v-if="media.rating" class="rating-badge mono">
+      <div v-if="media.rating" class="rating-badge mono" :class="{ 'rating-mini': compact }">
         ★ {{ media.rating.toFixed(1) }}
       </div>
 
@@ -27,7 +32,8 @@
       </div>
     </div>
 
-    <div class="series-info">
+    <!-- Informações de título e ano (ocultas no modo compacto onde fica apenas a capa) -->
+    <div v-if="!compact" class="series-info">
       <h3 class="series-title">{{ media.title }}</h3>
       <div class="series-meta">
         <span v-if="media.year" class="meta-item">{{ media.year }}</span>
@@ -43,9 +49,15 @@ import { computed, ref } from 'vue'
 import type { MediaItem } from '@/types/media'
 import { useMediaStore } from '@/stores/media'
 
-const props = defineProps<{
-  media: MediaItem
-}>()
+const props = withDefaults(
+  defineProps<{
+    media: MediaItem
+    compact?: boolean
+  }>(),
+  {
+    compact: false
+  }
+)
 
 const mediaStore = useMediaStore()
 const fallbackActive = ref(false)
@@ -93,6 +105,10 @@ function formatType(type: string): string {
   transform: translateY(-4px);
 }
 
+.series-card.is-compact:hover {
+  transform: translateY(-3px) scale(1.02);
+}
+
 .poster-container {
   position: relative;
   width: 100%;
@@ -101,6 +117,10 @@ function formatType(type: string): string {
   overflow: hidden;
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
+}
+
+.is-compact .poster-container {
+  border-radius: var(--radius-sm);
 }
 
 .poster-img {
@@ -162,6 +182,14 @@ function formatType(type: string): string {
   border-radius: var(--radius-sm);
   backdrop-filter: blur(4px);
   z-index: 2;
+}
+
+.rating-badge.rating-mini {
+  top: 4px;
+  right: 4px;
+  font-size: 0.62rem;
+  padding: 1px 4px;
+  border-radius: 3px;
 }
 
 .progress-bar-bg {
