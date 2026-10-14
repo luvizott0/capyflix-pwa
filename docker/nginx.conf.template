@@ -1,0 +1,82 @@
+server {
+    listen ${PORT};
+    server_name _;
+
+    root /usr/share/nginx/html;
+    index index.html;
+
+    # Otimizações de Streaming e Transmissão de Alta Performance
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+    keepalive_timeout 65;
+
+    # Compressão Gzip para assets estáticos
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 1024;
+    gzip_proxied any;
+    gzip_types text/plain text/css text/xml application/json application/javascript application/xml+rss application/atom+xml image/svg+xml;
+
+    # Cabeçalhos de Segurança
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+
+    # Proxy reverso para as chamadas de autenticação e dados da API CapiHouse
+    location /api/ {
+        proxy_pass http://${BACKEND_HOST}:${BACKEND_PORT}/api/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_cache_bypass $http_upgrade;
+        proxy_read_timeout 90s;
+        client_max_body_size 100M;
+    }
+
+    # Streaming direto de arquivos locais do NAS Futebol (/mnt/capyflix)
+    location ^~ /local-media/ {
+        alias /mnt/capyflix/;
+        sendfile on;
+        sendfile_max_chunk 2m;
+        tcp_nopush on;
+        tcp_nodelay on;
+        add_header Accept-Ranges bytes;
+        autoindex off;
+    }
+
+    # Proxy para arquivos de mídia do MinIO S3 (se houver uploads de episódios no Futebol)
+    location ^~ /capyflix-media/ {
+        proxy_pass http://192.168.5.253:9000/capyflix-media/;
+        proxy_set_header Host 192.168.5.253:9000;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        
+        # Suporte a Byte-Ranges para seek instantâneo sem buffering
+        proxy_force_ranges on;
+        proxy_buffering off;
+        client_max_body_size 1000M;
+    }
+
+    # PWA Service Worker & Manifest: não cachear para garantir atualizações imediatas
+    location ~* (sw\.js|registerSW\.js|manifest\.webmanifest)$ {
+        expires -1;
+        add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0";
+    }
+
+    # Cache de longo prazo para assets estáticos com hash
+    location ~* \.(?:css|js|woff2?|svg|gif|png|jpe?g|ico)$ {
+        expires 1y;
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+
+    # Fallback para Vue Router (HTML5 History Mode)
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

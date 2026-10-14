@@ -1,0 +1,276 @@
+<template>
+  <div class="login-page">
+    <div class="login-card fade-in">
+      <div class="logo-container">
+        <img src="/capy-icon.svg" alt="CapyFlix Logo" class="capy-login-logo" />
+        <h1 class="app-title mono">CapyFlix</h1>
+        <p class="app-subtitle">Cinema & Animes dos amigos da Capihouse</p>
+      </div>
+
+      <form @submit.prevent="handleLogin" class="login-form">
+        <div v-if="errorMessage" class="error-banner">
+          {{ errorMessage }}
+        </div>
+
+        <div class="input-group">
+          <label for="login" class="input-label">E-mail ou Usuário da Capihouse</label>
+          <input
+            id="login"
+            v-model="loginInput"
+            type="text"
+            required
+            autocomplete="username"
+            placeholder="calebe ou morador@capihouse.com"
+            class="form-input"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="password" class="input-label">Senha</label>
+          <input
+            id="password"
+            v-model="passwordInput"
+            type="password"
+            required
+            autocomplete="current-password"
+            placeholder="••••••••"
+            class="form-input"
+          />
+        </div>
+
+        <button type="submit" :disabled="authStore.isLoading" class="btn-primary submit-btn">
+          <span v-if="authStore.isLoading">Entrando...</span>
+          <span v-else>Entrar com Capihouse</span>
+        </button>
+
+        <p class="login-hint">
+          Sua conta é a mesma que você já utiliza no <strong>Capihouse</strong> e <strong>CapyShowTime</strong>.
+        </p>
+      </form>
+
+      <!-- Card de Login Rápido em Ambiente Local / Dev -->
+      <div v-if="devUsers.length > 0" class="dev-login-box">
+        <div class="dev-header mono">
+          ⚡ Moradores da Casa ({{ devUsers.length }} contas)
+        </div>
+        <p class="dev-desc">
+          Selecione uma conta para entrar direto:
+        </p>
+        <select v-model="selectedDevUserId" class="form-input dev-select">
+          <option v-for="u in devUsers" :key="u.id" :value="u.id">
+            {{ u.name }} (@{{ u.username }})
+          </option>
+        </select>
+        <button
+          type="button"
+          class="btn-secondary dev-submit-btn"
+          :disabled="authStore.isLoading || !selectedDevUserId"
+          @click="handleDevLogin"
+        >
+          <span>🎭 Entrar como Selecionado</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
+import { useAuthStore } from '@/stores/auth'
+
+const router = useRouter()
+const authStore = useAuthStore()
+
+const loginInput = ref('')
+const passwordInput = ref('')
+const errorMessage = ref('')
+
+const devUsers = ref<any[]>([])
+const selectedDevUserId = ref<number | ''>('')
+
+async function handleLogin() {
+  errorMessage.value = ''
+  const result = await authStore.login(loginInput.value.trim(), passwordInput.value)
+  if (result.success) {
+    router.push('/')
+  } else {
+    errorMessage.value = result.message || 'Falha no login.'
+  }
+}
+
+async function handleDevLogin() {
+  if (!selectedDevUserId.value) return
+  errorMessage.value = ''
+  const result = await authStore.impersonate(selectedDevUserId.value as number)
+  if (result.success) {
+    router.push('/')
+  } else {
+    errorMessage.value = result.message || 'Falha ao autenticar usuário.'
+  }
+}
+
+onMounted(async () => {
+  // Se já tiver logado na Capihouse ou CapyShowTime, autentica direto!
+  if (authStore.token) {
+    const ok = await authStore.checkAuth()
+    if (ok) {
+      router.push('/')
+      return
+    }
+  }
+
+  // Tenta carregar dev users
+  try {
+    const res = await authStore.getDevUsers()
+    if (res && res.data && Array.isArray(res.data)) {
+      devUsers.value = res.data
+      if (devUsers.value.length > 0) {
+        selectedDevUserId.value = devUsers.value[0].id
+      }
+    }
+  } catch {
+    // ignore
+  }
+})
+</script>
+
+<style scoped>
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 440px;
+  background: var(--bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.7);
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.capy-login-logo {
+  width: 68px;
+  height: 68px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 24px rgba(245, 197, 24, 0.3);
+}
+
+.app-title {
+  font-size: 26px;
+  color: var(--color-accent);
+  letter-spacing: 1.5px;
+}
+
+.app-subtitle {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 4px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.error-banner {
+  background: rgba(248, 113, 113, 0.15);
+  border: 1px solid var(--color-danger);
+  color: var(--color-danger);
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.form-input {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-input:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 12px rgba(245, 197, 24, 0.2);
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.login-hint {
+  font-size: 12px;
+  color: var(--text-dim);
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 4px;
+}
+
+.login-hint strong {
+  color: var(--color-primary-light);
+}
+
+.dev-login-box {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dev-header {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 0.5px;
+}
+
+.dev-desc {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.dev-select {
+  padding: 8px 12px;
+}
+
+.dev-submit-btn {
+  width: 100%;
+  font-size: 13px;
+  padding: 10px;
+}
+</style>

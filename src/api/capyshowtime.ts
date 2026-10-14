@@ -1,0 +1,86 @@
+import apiClient from './client'
+
+export interface CommentUser {
+  id: number
+  name: string
+  username: string
+  avatar_url?: string
+}
+
+export interface EpisodeComment {
+  id: number
+  user: CommentUser
+  content: string
+  is_spoiler: boolean
+  created_at: string
+  updated_at?: string
+  likes_count: number
+  liked_by_me: boolean
+}
+
+export const capyShowTimeApi = {
+  /**
+   * Sincroniza o episódio assistido com o CapyShowTime
+   */
+  async syncWatch(tmdbId: number, seasonNumber: number, episodeNumber: number, isWatched: boolean = true) {
+    try {
+      const res = await apiClient.post('/capyshowtime/episodes/sync-watch', {
+        tmdb_id: tmdbId,
+        season_number: seasonNumber,
+        episode_number: episodeNumber,
+        is_watched: isWatched
+      })
+      return res.data
+    } catch (err) {
+      console.warn('[CapyFlix] Falha ao sincronizar com CapyShowTime:', err)
+      return null
+    }
+  },
+
+  /**
+   * Carrega os comentários do episódio
+   */
+  async getEpisodeComments(episodeId: number): Promise<EpisodeComment[]> {
+    const res = await apiClient.get(`/capyshowtime/episodes/${episodeId}/comments`)
+    return res.data
+  },
+
+  /**
+   * Adiciona um novo comentário
+   */
+  async addEpisodeComment(episodeId: number, content: string, isSpoiler: boolean = false): Promise<EpisodeComment> {
+    const res = await apiClient.post('/capyshowtime/episodes/comments', {
+      episode_id: episodeId,
+      content,
+      is_spoiler: isSpoiler
+    })
+    return res.data
+  },
+
+  /**
+   * Edita o próprio comentário
+   */
+  async updateComment(commentId: number, content: string, isSpoiler: boolean = false): Promise<EpisodeComment> {
+    const res = await apiClient.put(`/capyshowtime/comments/${commentId}`, {
+      content,
+      is_spoiler: isSpoiler
+    })
+    return res.data
+  },
+
+  /**
+   * Exclui o próprio comentário
+   */
+  async deleteComment(commentId: number): Promise<{ message: string }> {
+    const res = await apiClient.delete(`/capyshowtime/comments/${commentId}`)
+    return res.data
+  },
+
+  /**
+   * Alterna curtida em um comentário
+   */
+  async toggleCommentLike(commentId: number): Promise<{ liked: boolean; likes_count: number }> {
+    const res = await apiClient.post(`/capyshowtime/comments/${commentId}/like`)
+    return res.data
+  }
+}

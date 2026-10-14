@@ -1,0 +1,2483 @@
+[
+  {
+    "id": "date-a-live",
+    "slug": "date-a-live",
+    "title": "Date A Live",
+    "originalTitle": "デート・ア・ライブ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/xEwKIg7m8TzjFTY5T4Yj3beR7rH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lyam6zw2aNwSM6h6sn0wTLgygj6.jpg",
+    "synopsis": "Incessantes terremotos assolam a Terra. Um dia, se descobre que eles são provocados propositalmente por seres mágicos chamados \"Espíritos\", que querem causar o caos no planeta por não ter nada melhor para fazer. Nosso protagonista, Shido Itsuka, até então não tem nada a ver com isso, até que um terremoto o pega e junto com ele a surpresa: esse \"Espírito\" é uma linda garota. Se ele não morreu por sorte ao fugir, agora que o bicho vai pegar: sua grande amiga Kotori revela que ele tem o poder de selar os Espíritos, e o ordena fazê-la se apaixonar, se acalmar, e com isso salvar o mundo.",
+    "genres": [
+      "ACAO",
+      "FANTASIA",
+      "ROMANCE",
+      "FICCAO",
+      "ESCOLAR",
+      "CURTOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2013",
+    "rating": 8.3,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "date-a-live-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-1.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-2.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-3.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-4.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-5.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-6.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-7.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-8.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-9.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-10.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-11.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-12.mp4"
+          },
+          {
+            "id": "date-a-live-s1-e13",
+            "name": "Episódio OVA 13 - Date to Date",
+            "number": 13,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Primeira-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "date-a-live-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "date-a-live-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Dub-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "date-a-live-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "date-a-live-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Segunda-Leg-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "date-a-live-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-1.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-2.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-3.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-4.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-5.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-6.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-7.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-8.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-9.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-10.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-11.mp4"
+          },
+          {
+            "id": "date-a-live-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "date-a-live-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-1.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-2.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-3.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-4.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-5.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-6.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-7.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-8.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-9.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-10.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-11.mp4"
+          },
+          {
+            "id": "date-a-live-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Terceira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "date-a-live-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-1.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-2.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-3.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-4.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-5.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-6.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-7.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-8.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-9.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-10.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-11.mp4"
+          },
+          {
+            "id": "date-a-live-s6-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quarta-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "date-a-live-s7-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-1.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-2.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-3.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-4.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-5.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-6.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-7.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-8.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-9.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-10.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-11.mp4"
+          },
+          {
+            "id": "date-a-live-s7-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "date-a-live-s8-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-1.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-2.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-3.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-4.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-5.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-6.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-7.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-8.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-9.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-10.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-11.mp4"
+          },
+          {
+            "id": "date-a-live-s8-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Quinta-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filme",
+        "episodes": [
+          {
+            "id": "date-a-live-s9-e1",
+            "name": "Date A Live, O Filme: Mayuri Judgement",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Filme.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Especial",
+        "episodes": [
+          {
+            "id": "date-a-live-s10-e1",
+            "name": "Date A Bullet: Dead or Bullet",
+            "number": 1,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Especial-1.mp4"
+          },
+          {
+            "id": "date-a-live-s10-e2",
+            "name": "Date A Bullet: Nightmare or Queen",
+            "number": 2,
+            "streamUrl": "https://ia600707.us.archive.org/7/items/DateLive/Especial-2.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clannad",
+    "slug": "clannad",
+    "title": "Clannad",
+    "originalTitle": "CLANNAD",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/jPBMYp4ddXkGJDSxxmaKBjzv2r3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vB7HwJNhlRA9tPViK32bK0hVCmb.jpg",
+    "synopsis": "Tomoya é um estudante amargurado do terceiro ano do ensino médio. Sua mãe faleceu, o que levou seu pai a se refugiar no álcool e no jogo. Tomoya se afastou do pai e se tornou um delinquente nos anos que se seguiram à morte da mãe. A caminho da escola, ele conhece Nagisa Furukawa, que é um ano mais velha, mas está repetindo a série devido a uma doença. Ela está sozinha, já que a maioria de seus amigos seguiu em frente. Os dois começam a sair juntos e, com o passar do tempo, Tomoya percebe que sua vida está tomando um novo rumo.",
+    "genres": [
+      "DRAMA",
+      "COMEDIA",
+      "ROMANCE",
+      "CURTOS",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2007",
+    "rating": 8.3,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "clannad-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/1.mp4"
+          },
+          {
+            "id": "clannad-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/2.mp4"
+          },
+          {
+            "id": "clannad-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/3.mp4"
+          },
+          {
+            "id": "clannad-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/4.mp4"
+          },
+          {
+            "id": "clannad-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/5.mp4"
+          },
+          {
+            "id": "clannad-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/6.mp4"
+          },
+          {
+            "id": "clannad-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/7.mp4"
+          },
+          {
+            "id": "clannad-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/8.mp4"
+          },
+          {
+            "id": "clannad-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/9.mp4"
+          },
+          {
+            "id": "clannad-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/10.mp4"
+          },
+          {
+            "id": "clannad-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/11.mp4"
+          },
+          {
+            "id": "clannad-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/12.mp4"
+          },
+          {
+            "id": "clannad-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/13.mp4"
+          },
+          {
+            "id": "clannad-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/14.mp4"
+          },
+          {
+            "id": "clannad-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/15.mp4"
+          },
+          {
+            "id": "clannad-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/16.mp4"
+          },
+          {
+            "id": "clannad-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/17.mp4"
+          },
+          {
+            "id": "clannad-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/18.mp4"
+          },
+          {
+            "id": "clannad-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/19.mp4"
+          },
+          {
+            "id": "clannad-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/20.mp4"
+          },
+          {
+            "id": "clannad-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/21.mp4"
+          },
+          {
+            "id": "clannad-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/22.mp4"
+          },
+          {
+            "id": "clannad-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia903102.us.archive.org/4/items/ClannadLeg/23.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "re-creators",
+    "slug": "re-creators",
+    "title": "Re:CREATORS",
+    "originalTitle": "Re:CREATORS",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/aXQjU49ehbigMqVphNSGH3favQW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4Q6eUPWDSQmws34Y1U9bZRZxjuz.jpg",
+    "synopsis": "Humanos criaram muitas histórias. Felicidade, tristeza, raiva. Histórias mexem com nossas emoções, e nos fascinam. Mas e se os personagens dessas histórias tivessem “intenções próprias”? Para eles, seriamos nós deuses por criar suas histórias e existência? Nosso mundo está mudado. Receba a punição na dimensão dos deuses.",
+    "genres": [
+      "ACAO",
+      "FANTASIA",
+      "FICCAO",
+      "MISTERIO",
+      "CURTOS",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2017",
+    "rating": 6.8,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "re-creators-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/1.mp4"
+          },
+          {
+            "id": "re-creators-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/2.mp4"
+          },
+          {
+            "id": "re-creators-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/3.mp4"
+          },
+          {
+            "id": "re-creators-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/4.mp4"
+          },
+          {
+            "id": "re-creators-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/5.mp4"
+          },
+          {
+            "id": "re-creators-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/6.mp4"
+          },
+          {
+            "id": "re-creators-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/7.mp4"
+          },
+          {
+            "id": "re-creators-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/8.mp4"
+          },
+          {
+            "id": "re-creators-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/9.mp4"
+          },
+          {
+            "id": "re-creators-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/10.mp4"
+          },
+          {
+            "id": "re-creators-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/11.mp4"
+          },
+          {
+            "id": "re-creators-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/12.mp4"
+          },
+          {
+            "id": "re-creators-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/13.mp4"
+          },
+          {
+            "id": "re-creators-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/14.mp4"
+          },
+          {
+            "id": "re-creators-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/15.mp4"
+          },
+          {
+            "id": "re-creators-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/16.mp4"
+          },
+          {
+            "id": "re-creators-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/17.mp4"
+          },
+          {
+            "id": "re-creators-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/18.mp4"
+          },
+          {
+            "id": "re-creators-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/19.mp4"
+          },
+          {
+            "id": "re-creators-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/20.mp4"
+          },
+          {
+            "id": "re-creators-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/21.mp4"
+          },
+          {
+            "id": "re-creators-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600606.us.archive.org/26/items/CreatorsLeg/22.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ao-haru-ride",
+    "slug": "ao-haru-ride",
+    "title": "アオハライド",
+    "originalTitle": "アオハライド",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/t9F4O5llagb7TOi17tZN6F9ygiJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/k1uN9SAixY9ppkbhsl6zuvAmr64.jpg",
+    "synopsis": "No ensino médio, Yoshioka Futaba (Deguchi Natsuki) se apaixonou por seu colega de classe Tanaka Kou (Sakurai Kaito). Por um tempo, eles eram inseparáveis, curtindo as emoções do primeiro amor. Mas logo esse relacionamento feliz acaba. Um dia, Tanaka Kou vai embora, e Yoshioka Futaba fica sozinha e de coração partido.\n\nTrês anos depois, Yoshioka Futaba está terminando o ensino médio quando Kou se transfere inesperadamente para sua turma. Mas ele está diferente. O sobrenome de Kou agora é Mabuchi. E sua personalidade mudou totalmente — o garoto gentil que um dia ela se apaixonou é agora duro e gelado. Com o tempo, Yoshioka Futaba começa a descobrir o que aconteceu com Kou para mudá-lo durante o tempo que ficaram separados. Mas será que eles conseguirão reacender as chamas do amor? Ou haverá mais decepções?",
+    "genres": [
+      "DRAMA",
+      "COMEDIA",
+      "ROMANCE",
+      "CURTOS",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2023",
+    "rating": 7.5,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "ao-haru-ride-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/1.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/2.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/3.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/4.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/5.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/6.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/7.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/8.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/9.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/10.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/11.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "OVAS",
+        "episodes": [
+          {
+            "id": "ao-haru-ride-s2-e1",
+            "name": "Unwritten",
+            "number": 1,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/OVA-1.mp4"
+          },
+          {
+            "id": "ao-haru-ride-s2-e2",
+            "name": "PAGE.13",
+            "number": 2,
+            "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/OVA-2.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avatar-sete-refugios",
+    "slug": "avatar-sete-refugios",
+    "title": "Avatar: Os Sete Refúgios",
+    "originalTitle": "Avatar: Seven Havens",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/original/l8qbsNAr1CZK2tZ60l5lrJdT5mW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+    "synopsis": "Após um cataclismo global, uma jovem descobre ser o novo Avatar - agora rotulada como a Destruidora, não uma salvadora. Caçada por humanos e espíritos, ela e sua gêmea há muito perdida precisam descobrir suas origens e salvar a humanidade do colapso.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "CURTOS",
+      "DUB",
+      "RECENTE"
+    ],
+    "year": "2026",
+    "rating": 8.805,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Livro 1 - Sobrevivência",
+        "episodes": [
+          {
+            "id": "avatar-sete-refugios-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/1.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/2.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/3.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/4.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/5.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/6.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/7.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/8.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/9.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/10.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/11.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/12.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cowboy-bepop",
+    "slug": "cowboy-bepop",
+    "title": "Cowboy Bepop",
+    "originalTitle": "",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/ccGdB7qLttA1OGFwfz5CY4FQj09.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ccGdB7qLttA1OGFwfz5CY4FQj09.jpg",
+    "synopsis": "Anime em alta definição disponível no CapyFlix.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "ANTIGOS",
+      "CURTOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "",
+    "rating": 8.2,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "cowboy-bepop-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-12.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-13.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-14.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-15.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-16.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-17.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-18.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-19.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-20.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-21.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-22.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-23.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-24.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-25.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Dub-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "cowboy-bepop-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-12.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-13.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-14.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-15.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-16.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-17.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-18.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-19.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-20.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-21.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-22.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-23.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-24.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-25.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s2-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Leg-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filme",
+        "episodes": [
+          {
+            "id": "cowboy-bepop-s3-e1",
+            "name": "Cowboy Bepop, O Filme: Knocking On Heaven's Door (DUB)",
+            "number": 1,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Filme-Dub.mp4"
+          },
+          {
+            "id": "cowboy-bepop-s3-e2",
+            "name": "Cowboy Bepop, O Filme: Knocking On Heaven's Door (LEG)",
+            "number": 2,
+            "streamUrl": "https://ia803106.us.archive.org/26/items/CowboyDubLeg/Filme-Leg.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shikanoko-nokonoko-koshitantan",
+    "slug": "shikanoko-nokonoko-koshitantan",
+    "title": "Minha Amiga Nokotan é um Cervo",
+    "originalTitle": "しかのこのこのここしたんたん",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/qxuxdQuIf8RqXmBNNaeteXgiMVf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/6GmVVDEjnA4HuSany5otbR8xaET.jpg",
+    "synopsis": "Torako Koshi é uma aluna exemplar do ensino médio que encontra uma garota da sua idade presa nos postes de energia por causa de seus... Chifres? A vida dessa ex-delinquente vira de cabeça pra baixo agora que sua amiga-cervo, Shikanoko, chegou para ficar.",
+    "genres": [
+      "COMEDIA",
+      "FICCAO",
+      "FANTASIA",
+      "ANTIGOS",
+      "CURTOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2024",
+    "rating": 7.7,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "shikanoko-nokonoko-koshitantan-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600102.us.archive.org/12/items/NokotanDubLeg/Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sonny-boy",
+    "slug": "sonny-boy",
+    "title": "Sonny Boy",
+    "originalTitle": "Sonny Boy",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/5R1UmoGInl3mHixVVngApV1Ap3T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rgmBS8zkk6RrGUOdWqzZs8hjZer.jpg",
+    "synopsis": "Em 16 de agosto, no meio das férias de verão aparentemente intermináveis, o estudante Nagara do terceiro ano do ensino médio, a misteriosa estudante transferida Nozomi e colegas de classe como Mizuho e Asakaze são repentinamente transportados de suas vidas cotidianas tranquilas para uma escola à deriva em uma dimensão alternativa. Eles devem sobreviver com os superpoderes que despertaram dentro deles.",
+    "genres": [
+      "DRAMA",
+      "MISTERIO",
+      "FICCAO",
+      "FANTASIA",
+      "ANTIGOS",
+      "CURTOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2021",
+    "rating": 7.4,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "sonny-boy-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "sonny-boy-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "sonny-boy-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "sonny-boy-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801606.us.archive.org/31/items/SonnyDubLeg/Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "komi-cant-comunicate",
+    "slug": "komi-cant-comunicate",
+    "title": "Komi Can't Comunicate",
+    "originalTitle": "",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/r1bqYEx7Q39AR6uvzQvi8mgTuU2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/r1bqYEx7Q39AR6uvzQvi8mgTuU2.jpg",
+    "synopsis": "Anime em alta definição disponível no CapyFlix.",
+    "genres": [
+      "ROMANCE",
+      "COMEDIA",
+      "DUB",
+      "LEG",
+      "ESCOLAR",
+      "RECENTE"
+    ],
+    "year": "",
+    "rating": 8.2,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "komi-cant-comunicate-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "komi-cant-comunicate-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Primeira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "komi-cant-comunicate-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "komi-cant-comunicate-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "komi-cant-comunicate-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orange",
+    "slug": "orange",
+    "title": "Orange",
+    "originalTitle": "orange",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/original/6GGkAhfjZy9rOvUD7K927vnltZA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/n686vD71zZ6SoNZbdsorYv8XBoF.jpg",
+    "synopsis": "Certo dia, Takamiya Naho recebe uma carta escrita por ela mesma dez anos no futuro. A carta narra exatamente os eventos daquele dia, incluindo a transferência de um novo aluno para a turma dela chamado Naruse Kakeru. A Naho do futuro diz repetidamente que ela tem vários arrependimentos e quer consertar eles garantindo que Naho do passado tome as decisões certas, especialmente sobre Kakeru. O mais chocante é que ela descobre que daqui dez anos Kakeru não estará mais entre eles. A Naho do futuro pede que ela cuide dele com atenção.",
+    "genres": [
+      "DRAMA",
+      "ROMANCE",
+      "FICCAO",
+      "EMOCIONAL",
+      "DUB",
+      "LEG",
+      "ESCOLAR",
+      "CURTOS",
+      "RECENTE"
+    ],
+    "year": "2016",
+    "rating": 8,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "orange-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "orange-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "orange-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "orange-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "orange-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "orange-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "orange-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "orange-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "orange-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "orange-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "orange-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "orange-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-12.mp4"
+          },
+          {
+            "id": "orange-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "orange-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "orange-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "orange-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "orange-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "orange-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "orange-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "orange-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "orange-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "orange-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "orange-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "orange-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "orange-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-12.mp4"
+          },
+          {
+            "id": "orange-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filme",
+        "episodes": [
+          {
+            "id": "orange-s3-e1",
+            "name": "Orange: Mirai",
+            "number": 1,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Filme.mp4"
+          }
+        ]
+      }
+    ]
+  }
+]

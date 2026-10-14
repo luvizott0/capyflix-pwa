@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1815"/>
+      <stop offset="100%" stop-color="#12100e"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5c518"/>
+      <stop offset="100%" stop-color="#d49b0e"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Film Reel Background Circle / Retro Accent -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#26211c" stroke-width="12" stroke-dasharray="16 12"/>
+  
+  <!-- Capybara Ears -->
+  <circle cx="150" cy="130" r="45" fill="#a66130"/>
+  <circle cx="150" cy="130" r="25" fill="#7d5628"/>
+  <circle cx="362" cy="130" r="45" fill="#a66130"/>
+  <circle cx="362" cy="130" r="25" fill="#7d5628"/>
+
+  <!-- Capybara Head / Cinema TV Frame -->
+  <rect x="86" y="150" width="340" height="270" rx="44" fill="#26211c" stroke="url(#goldGrad)" stroke-width="18"/>
+  
+  <!-- Cinema Screen with deep contrast -->
+  <rect x="116" y="180" width="280" height="210" rx="24" fill="#0c0a09"/>
+  
+  <!-- Cinema Projector / Film Stripes on Top of the screen -->
+  <path d="M120 184 L144 184 L132 198 L120 198 Z" fill="#f5c518"/>
+  <path d="M160 184 L184 184 L172 198 L148 198 Z" fill="#f5c518"/>
+  <path d="M200 184 L224 184 L212 198 L188 198 Z" fill="#f5c518"/>
+  <path d="M240 184 L264 184 L252 198 L228 198 Z" fill="#f5c518"/>
+  <path d="M280 184 L304 184 L292 198 L268 198 Z" fill="#f5c518"/>
+  <path d="M320 184 L344 184 L332 198 L308 198 Z" fill="#f5c518"/>
+  <path d="M360 184 L384 184 L372 198 L348 198 Z" fill="#f5c518"/>
+
+  <!-- Capybara chill sleepy eyes & snout -->
+  <ellipse cx="256" cy="305" rx="55" ry="42" fill="#7d5628"/>
+  <ellipse cx="240" cy="300" rx="8" ry="12" fill="#12100e"/>
+  <ellipse cx="272" cy="300" rx="8" ry="12" fill="#12100e"/>
+  <path d="M256 314 L256 328" stroke="#12100e" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Sleepy chill eyes -->
+  <path d="M180 250 Q198 240 216 250" fill="none" stroke="#f5c518" stroke-width="6" stroke-linecap="round"/>
+  <path d="M296 250 Q314 240 332 250" fill="none" stroke="#f5c518" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Golden Play Triangle floating / badge -->
+  <polygon points="242,210 242,246 274,228" fill="url(#goldGrad)"/>
+</svg>
