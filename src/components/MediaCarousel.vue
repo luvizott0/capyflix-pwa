@@ -124,7 +124,7 @@ function scroll(direction: number) {
   transform: translateY(-50%);
   width: 32px;
   height: 32px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   background: rgba(22, 19, 17, 0.9);
   border: 1px solid var(--color-border);
   color: var(--text-main);

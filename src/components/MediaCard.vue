@@ -113,7 +113,7 @@ function formatType(type: string): string {
   position: relative;
   width: 100%;
   aspect-ratio: 2 / 3;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   overflow: hidden;
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);

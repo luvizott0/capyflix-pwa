@@ -347,7 +347,7 @@ function formatType(type: string): string {
 .continue-card {
   background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   overflow: hidden;
   transition: transform 0.2s, border-color 0.2s;
 }
@@ -381,7 +381,7 @@ function formatType(type: string): string {
   transform: translate(-50%, -50%);
   width: 34px;
   height: 34px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   background-color: rgba(18, 16, 14, 0.85);
   color: var(--color-accent);
   display: flex;

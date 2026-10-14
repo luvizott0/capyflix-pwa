@@ -98,7 +98,7 @@ const mediaStore = useMediaStore()
 .empty-icon-box {
   width: 64px;
   height: 64px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
   display: flex;

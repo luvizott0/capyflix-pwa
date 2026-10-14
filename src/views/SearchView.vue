@@ -268,7 +268,7 @@ function resetSearch() {
   align-items: center;
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   padding: 0 12px;
   gap: 8px;
   margin-bottom: 12px;
@@ -432,7 +432,7 @@ function resetSearch() {
 .empty-icon-box {
   width: 64px;
   height: 64px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
   display: flex;

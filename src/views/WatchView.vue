@@ -368,7 +368,7 @@ onMounted(() => {
 
 .player-wrapper {
   margin-bottom: 20px;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   overflow: hidden;
   border: 1px solid var(--color-border);
 }
@@ -377,7 +377,7 @@ onMounted(() => {
 .media-details-card {
   background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   padding: 18px;
   margin-bottom: 20px;
 }
@@ -409,7 +409,7 @@ onMounted(() => {
   align-items: center;
   gap: 6px;
   padding: 8px 14px;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
   color: var(--text-muted);
@@ -470,7 +470,7 @@ onMounted(() => {
 
 .season-tab-btn {
   padding: 6px 14px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
   color: var(--text-muted);
@@ -517,7 +517,7 @@ onMounted(() => {
   gap: 12px;
   background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   padding: 10px 12px;
   cursor: pointer;
   transition: all 0.2s;
@@ -563,7 +563,7 @@ onMounted(() => {
   font-size: 0.68rem;
   font-weight: 700;
   padding: 1px 4px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .playing-overlay {
@@ -623,7 +623,7 @@ onMounted(() => {
   width: 100%;
   height: 3px;
   background: rgba(0, 0, 0, 0.4);
-  border-radius: 2px;
+  border-radius: 1px;
   overflow: hidden;
 }
 
@@ -636,7 +636,7 @@ onMounted(() => {
 .check-btn {
   width: 32px;
   height: 32px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;

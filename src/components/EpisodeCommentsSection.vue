@@ -290,7 +290,7 @@ onMounted(() => {
   margin-top: 28px;
   background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   padding: 18px;
 }
 
@@ -336,7 +336,7 @@ onMounted(() => {
   padding: 24px 12px;
   background-color: var(--bg-surface-elevated);
   border: 1px dashed var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   margin-bottom: 16px;
 }
 
@@ -362,7 +362,7 @@ onMounted(() => {
 .comment-card {
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   padding: 12px 14px;
   transition: border-color 0.2s;
 }
@@ -387,7 +387,7 @@ onMounted(() => {
 .author-avatar {
   width: 28px;
   height: 28px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   object-fit: cover;
   border: 1px solid var(--color-primary);
 }
@@ -395,7 +395,7 @@ onMounted(() => {
 .avatar-placeholder {
   width: 28px;
   height: 28px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
   background-color: var(--color-primary);
   color: #fff;
   font-size: 0.75rem;

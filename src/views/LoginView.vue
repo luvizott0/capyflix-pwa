@@ -163,7 +163,7 @@ onMounted(async () => {
   max-width: 420px;
   background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-sm);
   padding: 32px 28px;
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
 }
@@ -178,7 +178,7 @@ onMounted(async () => {
 .tv-icon-badge {
   width: 60px;
   height: 60px;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-sm);
   background-color: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
   display: flex;
@@ -212,7 +212,7 @@ onMounted(async () => {
   border: 1px solid var(--color-danger);
   color: var(--color-danger);
   padding: 10px 14px;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   font-size: 0.82rem;
   text-align: center;
 }
@@ -232,7 +232,7 @@ onMounted(async () => {
 .form-input {
   background: var(--bg-surface-elevated);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   padding: 10px 14px;
   color: var(--text-main);
   font-size: 0.9rem;

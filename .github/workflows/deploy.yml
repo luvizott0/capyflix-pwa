@@ -1,0 +1,150 @@
+name: Deploy Homelab - CapyFlix PWA
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+      - '.editorconfig'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build-and-push:
+    name: Build & Push Cloud (GHCR)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Autenticar no GitHub Container Registry (GHCR)
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Definir Nome da Imagem em Minúsculas
+        run: |
+          IMAGE_NAME="ghcr.io/$(echo '${{ github.repository }}' | tr '[:upper:]' '[:lower:]')"
+          echo "IMAGE_NAME=$IMAGE_NAME" >> $GITHUB_ENV
+
+      - name: Compilar e Enviar Imagem Docker para o GHCR
+        run: |
+          docker build \
+            -t "${{ env.IMAGE_NAME }}:latest" \
+            -t "${{ env.IMAGE_NAME }}:${{ github.sha }}" \
+            .
+          docker push "${{ env.IMAGE_NAME }}:latest"
+          docker push "${{ env.IMAGE_NAME }}:${{ github.sha }}"
+
+  deploy:
+    name: Deploy Homelab (BMO)
+    needs: build-and-push
+    runs-on: [self-hosted]
+    steps:
+      - name: Autenticar no GHCR no Runner Local
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Backup da Imagem Atual (Rollback Safety)
+        run: |
+          if docker image inspect capyflix-pwa:latest >/dev/null 2>&1; then
+            echo "💾 Imagem atual encontrada. Criando tag capyflix-pwa:rollback-backup..."
+            docker tag capyflix-pwa:latest capyflix-pwa:rollback-backup
+          else
+            echo "ℹ️ Nenhuma imagem capyflix-pwa:latest existente para backup prévio."
+          fi
+
+      - name: Baixar Nova Imagem do GHCR
+        run: |
+          IMAGE_NAME="ghcr.io/$(echo '${{ github.repository }}' | tr '[:upper:]' '[:lower:]'):latest"
+          echo "📥 Baixando imagem compilada na nuvem: $IMAGE_NAME..."
+          if docker pull "$IMAGE_NAME"; then
+            docker tag "$IMAGE_NAME" capyflix-pwa:latest
+          else
+            echo "⚠️ Falha ao baixar do GHCR via token. Compilando localmente no homelab..."
+            TARGET_DIR="${{ vars.CAPYFLIX_DIR }}"
+            if [ -z "$TARGET_DIR" ]; then
+              if [ -n "$CAPYFLIX_DIR" ]; then TARGET_DIR="$CAPYFLIX_DIR";
+              elif [ -f "$HOME/homelab/capihouse/capyflix-pwa/docker-compose.yml" ]; then TARGET_DIR="$HOME/homelab/capihouse/capyflix-pwa";
+              elif [ -f "/home/calebe/homelab/capihouse/capyflix-pwa/docker-compose.yml" ]; then TARGET_DIR="/home/calebe/homelab/capihouse/capyflix-pwa";
+              elif [ -f "$HOME/homelab/capyflix-pwa/docker-compose.yml" ]; then TARGET_DIR="$HOME/homelab/capyflix-pwa";
+              elif [ -f "/opt/capyflix-pwa/docker-compose.yml" ]; then TARGET_DIR="/opt/capyflix-pwa";
+              elif [ -f "./docker-compose.yml" ]; then TARGET_DIR=".";
+              elif [ -f "$HOME/homelab/capihouse/docker-compose.yml" ]; then TARGET_DIR="$HOME/homelab/capihouse";
+              else TARGET_DIR="."; fi
+            fi
+            docker compose --project-directory "$TARGET_DIR" -f "$TARGET_DIR/docker-compose.yml" build capyflix-pwa
+          fi
+
+      - name: Executar Deploy
+        run: |
+          TARGET_DIR="${{ vars.CAPYFLIX_DIR }}"
+          if [ -z "$TARGET_DIR" ]; then
+            if [ -n "$CAPYFLIX_DIR" ]; then
+              TARGET_DIR="$CAPYFLIX_DIR"
+            elif [ -f "$HOME/homelab/capihouse/capyflix-pwa/docker-compose.yml" ]; then
+              TARGET_DIR="$HOME/homelab/capihouse/capyflix-pwa"
+            elif [ -f "/home/calebe/homelab/capihouse/capyflix-pwa/docker-compose.yml" ]; then
+              TARGET_DIR="/home/calebe/homelab/capihouse/capyflix-pwa"
+            elif [ -f "$HOME/homelab/capyflix-pwa/docker-compose.yml" ]; then
+              TARGET_DIR="$HOME/homelab/capyflix-pwa"
+            elif [ -f "/opt/capyflix-pwa/docker-compose.yml" ]; then
+              TARGET_DIR="/opt/capyflix-pwa"
+            elif [ -f "./docker-compose.yml" ]; then
+              TARGET_DIR="."
+            elif [ -f "$HOME/homelab/capihouse/docker-compose.yml" ]; then
+              TARGET_DIR="$HOME/homelab/capihouse"
+            else
+              TARGET_DIR="."
+            fi
+          fi
+
+          echo "🚀 Subindo serviço capyflix-pwa via docker compose em $TARGET_DIR..."
+          docker compose --project-directory "$TARGET_DIR" -f "$TARGET_DIR/docker-compose.yml" up -d --force-recreate --no-deps capyflix-pwa
+
+          echo "🩺 Verificando integridade do contêiner (Zero-Downtime)..."
+          PWA_PORT=$(docker port capyflix-pwa 80/tcp 2>/dev/null | head -n 1 | awk -F: '{print $NF}' || echo "8008")
+          PWA_PORT="${PWA_PORT:-8008}"
+          HEALTHY=false
+          for i in {1..12}; do
+            STATUS=$(docker inspect --format='{{.State.Status}}' capyflix-pwa 2>/dev/null || echo "not_found")
+            if [ "$STATUS" = "running" ]; then
+              if command -v curl >/dev/null 2>&1; then
+                HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://localhost:${PWA_PORT}/" || echo "000")
+                if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "304" ]; then
+                  HEALTHY=true
+                  break
+                fi
+              else
+                HEALTHY=true
+                break
+              fi
+            fi
+            sleep 3
+          done
+
+          if [ "$HEALTHY" = false ]; then
+            echo "🚨 Falha na verificação de integridade! Executando rollback imediato..."
+            docker logs --tail 30 capyflix-pwa || true
+            if docker image inspect capyflix-pwa:rollback-backup >/dev/null 2>&1; then
+              docker tag capyflix-pwa:rollback-backup capyflix-pwa:latest
+              docker compose --project-directory "$TARGET_DIR" -f "$TARGET_DIR/docker-compose.yml" up -d --no-deps capyflix-pwa
+            fi
+            exit 1
+          fi
+
+      - name: Limpeza de Imagens Antigas (Prune)
+        if: always()
+        run: |
+          echo "🧹 Limpando imagens órfãs ou antigas..."
+          docker image prune -f || true
