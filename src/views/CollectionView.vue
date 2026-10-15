@@ -60,6 +60,7 @@
           :friend-badge="item.friendBadge"
           :custom-subtitle="item.customSubtitle"
           :compact="viewMode === 'compact'"
+          @unavailable-click="openUnavailableModal"
         />
       </div>
 
@@ -75,6 +76,13 @@
         </router-link>
       </div>
     </main>
+
+    <!-- Modal de título não disponível no acervo -->
+    <UnavailableMediaModal
+      :is-open="isUnavailableModalOpen"
+      :media="unavailableSelectedMedia"
+      @close="closeUnavailableModal"
+    />
   </div>
 </template>
 
@@ -86,10 +94,24 @@ import { useMediaStore } from '@/stores/media'
 import { capyShowTimeApi, type FriendWatchingItem, type FriendTopRatedItem } from '@/api/capyshowtime'
 import type { MediaItem } from '@/types/media'
 import MediaCard from '@/components/MediaCard.vue'
+import UnavailableMediaModal from '@/components/UnavailableMediaModal.vue'
 
 const route = useRoute()
 const router = useRouter()
 const mediaStore = useMediaStore()
+
+const isUnavailableModalOpen = ref(false)
+const unavailableSelectedMedia = ref<MediaItem | null>(null)
+
+function openUnavailableModal(media: MediaItem) {
+  unavailableSelectedMedia.value = media
+  isUnavailableModalOpen.value = true
+}
+
+function closeUnavailableModal() {
+  isUnavailableModalOpen.value = false
+  unavailableSelectedMedia.value = null
+}
 
 const viewMode = ref<'normal' | 'compact'>(
   (localStorage.getItem('capyflix_view_mode') as 'normal' | 'compact') || 'normal'
@@ -197,17 +219,22 @@ const collectionItems = computed<any[]>(() => {
       if (friendsWatching.value.length > 0) {
         return friendsWatching.value.map(item => {
           const catalogItem = findCatalogItem(item.tmdb_id, item.title)
-          const baseMedia = catalogItem || ({
-            id: `cst-watch-${item.series_id}`,
-            slug: catalogItem ? catalogItem.slug : (mediaStore.catalog[0]?.slug || 'a-lenda-de-korra'),
-            title: item.title,
-            poster: item.poster_url || '/capy-icon.svg',
-            backdrop: item.backdrop_url || '',
-            type: 'anime',
-            genres: ['CapyShowTime'],
-            rating: item.vote_average || 8.2,
-            seasons: []
-          } as MediaItem)
+          const baseMedia = catalogItem
+            ? { ...catalogItem, isAvailable: true }
+            : ({
+                id: `cst-watch-${item.series_id}`,
+                slug: `showtime-${item.tmdb_id || item.series_id}`,
+                tmdbId: item.tmdb_id,
+                title: item.title,
+                poster: item.poster_url || '/capy-icon.svg',
+                backdrop: item.backdrop_url || '',
+                synopsis: item.overview || 'Título acompanhado pelos amigos no CapyShowTime.',
+                type: 'series',
+                genres: ['CapyShowTime'],
+                rating: item.vote_average || 8.2,
+                isAvailable: false,
+                seasons: []
+              } as MediaItem)
 
           const firstFriend = item.friends[0]?.name.split(' ')[0] || 'Amigo'
           const badgeText = item.friends.length === 1 ? `${firstFriend} assistiu` : `${item.friends.length} amigos assistindo`
@@ -234,22 +261,27 @@ const collectionItems = computed<any[]>(() => {
       if (friendsTopRated.value.length > 0) {
         return friendsTopRated.value.map(item => {
           const catalogItem = findCatalogItem(item.tmdb_id, item.title)
-          const baseMedia = catalogItem || ({
-            id: `cst-top-${item.series_id}`,
-            slug: catalogItem ? catalogItem.slug : (mediaStore.catalog[0]?.slug || 'a-lenda-de-korra'),
-            title: item.title,
-            poster: item.poster_url || '/capy-icon.svg',
-            backdrop: item.backdrop_url || '',
-            type: 'anime',
-            genres: item.genres || ['Favorito'],
-            rating: item.friends_rating,
-            seasons: []
-          } as MediaItem)
+          const baseMedia = catalogItem
+            ? { ...catalogItem, isAvailable: true }
+            : ({
+                id: `cst-top-${item.series_id}`,
+                slug: `showtime-${item.tmdb_id || item.series_id}`,
+                tmdbId: item.tmdb_id,
+                title: item.title,
+                poster: item.poster_url || '/capy-icon.svg',
+                backdrop: item.backdrop_url || '',
+                synopsis: item.overview || 'Título avaliado e recomendado pelos amigos no CapyShowTime.',
+                type: 'series',
+                genres: item.genres || ['CapyShowTime', 'Favorito'],
+                rating: item.friends_rating,
+                isAvailable: false,
+                seasons: []
+              } as MediaItem)
 
           return {
             media: baseMedia,
             friends: item.friends,
-            friendBadge: `★ ${item.friends_rating} amigos`,
+            friendBadge: `★ ${Number(item.friends_rating).toFixed(1)} amigos`,
             customSubtitle: `Avaliado por ${item.ratings_count || item.friends.length || 1} amigo(s)`
           }
         })

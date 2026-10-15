@@ -33,6 +33,7 @@ export interface MediaItem {
   isSubbed?: boolean
   isNew?: boolean
   isFeatured?: boolean
+  isAvailable?: boolean
   seasons: Season[]
 }
 

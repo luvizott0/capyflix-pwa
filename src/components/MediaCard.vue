@@ -1,9 +1,11 @@
 <template>
-  <router-link
-    :to="`/watch/${media.slug}`"
+  <component
+    :is="media.isAvailable === false ? 'div' : 'router-link'"
+    :to="media.isAvailable === false ? undefined : `/watch/${media.slug}`"
     class="series-card"
-    :class="{ 'is-compact': compact }"
-    :title="media.title"
+    :class="{ 'is-compact': compact, 'is-unavailable': media.isAvailable === false }"
+    :title="media.isAvailable === false ? `${media.title} (Não disponível para streaming)` : media.title"
+    @click="handleClick"
   >
     <div class="poster-container">
       <img
@@ -15,15 +17,16 @@
       />
 
       <!-- Badges discretas no topo esquerdo (apenas no modo normal) -->
-      <div v-if="!compact && (media.isDubbed || media.isSubbed || media.isNew)" class="badges-overlay">
-        <span v-if="media.isNew" class="badge-mini badge-new mono">NOVO</span>
+      <div v-if="!compact && (media.isAvailable === false || media.isDubbed || media.isSubbed || media.isNew)" class="badges-overlay">
+        <span v-if="media.isAvailable === false" class="badge-mini badge-unavailable mono">INDISPONÍVEL</span>
+        <span v-else-if="media.isNew" class="badge-mini badge-new mono">NOVO</span>
         <span v-if="media.isDubbed" class="badge-mini badge-dub mono">DUB</span>
         <span v-else-if="media.isSubbed" class="badge-mini badge-leg mono">LEG</span>
       </div>
 
       <!-- Rating Badge no estilo CapyShowTime (topo direito) -->
       <div v-if="media.rating" class="rating-badge mono" :class="{ 'rating-mini': compact }">
-        ★ {{ media.rating.toFixed(1) }}
+        ★ {{ Number(media.rating).toFixed(1) }}
       </div>
 
       <!-- Barra de progresso se houver histórico -->
@@ -57,7 +60,7 @@
         <span class="meta-item">{{ formatType(media.type) }}</span>
       </div>
     </div>
-  </router-link>
+  </component>
 </template>
 
 <script setup lang="ts">
@@ -78,6 +81,10 @@ const props = withDefaults(
   }
 )
 
+const emit = defineEmits<{
+  (e: 'unavailable-click', media: MediaItem): void
+}>()
+
 const mediaStore = useMediaStore()
 const fallbackActive = ref(false)
 
@@ -90,6 +97,12 @@ const optimizedPoster = computed(() => {
 
 function handleImageError() {
   fallbackActive.value = true
+}
+
+function handleClick() {
+  if (props.media.isAvailable === false) {
+    emit('unavailable-click', props.media)
+  }
 }
 
 const progressPercent = computed(() => {
@@ -173,6 +186,20 @@ function formatType(type: string): string {
 .badge-new {
   background-color: var(--color-accent);
   color: #12100e;
+}
+
+.badge-unavailable {
+  background: rgba(239, 68, 68, 0.85);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.series-card.is-unavailable {
+  opacity: 0.85;
+}
+
+.series-card.is-unavailable:hover .poster-img {
+  filter: brightness(0.9);
 }
 
 .badge-dub {
