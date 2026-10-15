@@ -91,7 +91,7 @@
           <!-- Thumbnail / Badge de Número -->
           <div class="episode-media">
             <img
-              :src="media.backdrop || media.poster"
+              :src="ep.stillUrl || media.backdrop || media.poster"
               :alt="ep.name"
               class="episode-thumbnail"
               loading="lazy"

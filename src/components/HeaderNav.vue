@@ -8,15 +8,16 @@
 
       <!-- Ações da Direita -->
       <div class="nav-actions">
-        <!-- Botão de Busca -->
-        <router-link to="/search" class="action-btn" title="Buscar no Catálogo">
-          <Search :size="18" />
-        </router-link>
-
-        <!-- Meus Favoritos / Minha Lista -->
-        <router-link to="/favorites" class="action-btn" title="Minha Lista">
-          <Bookmark :size="18" />
-        </router-link>
+        <!-- Botão de Atualizar o App -->
+        <button
+          type="button"
+          class="action-btn update-btn"
+          :class="{ 'has-update': needRefresh, 'is-checking': isChecking }"
+          :title="needRefresh ? 'Nova versão pronta! Clique para atualizar' : 'Buscar atualizações do aplicativo'"
+          @click="handleUpdateClick"
+        >
+          <RefreshCw :size="17" :class="{ spinning: isChecking }" />
+        </button>
 
         <!-- Botão de Sair -->
         <button
@@ -26,25 +27,49 @@
           :title="`Sair (${authStore.user.name})`"
           @click="handleLogout"
         >
-          <LogOut :size="18" />
+          <LogOut :size="17" />
         </button>
       </div>
     </div>
+
+    <!-- Toast flutuante de feedback de atualização -->
+    <transition name="fade">
+      <div v-if="feedbackMessage" class="update-toast mono" @click="feedbackMessage = ''">
+        <span>{{ feedbackMessage }}</span>
+      </div>
+    </transition>
   </header>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { useRouter } from 'vue-router'
-import { Search, Bookmark, LogOut } from 'lucide-vue-next'
+import { RefreshCw, LogOut } from 'lucide-vue-next'
 import { useAuthStore } from '@/stores/auth'
+import { usePwaUpdate } from '@/composables/usePwaUpdate'
 
 const router = useRouter()
 const authStore = useAuthStore()
 const isScrolled = ref(false)
 
+const {
+  needRefresh,
+  isChecking,
+  feedbackMessage,
+  checkForUpdates,
+  updateServiceWorker
+} = usePwaUpdate()
+
 function checkScroll() {
   isScrolled.value = window.scrollY > 15
+}
+
+async function handleUpdateClick() {
+  if (needRefresh.value) {
+    await updateServiceWorker()
+  } else {
+    await checkForUpdates()
+  }
 }
 
 async function handleLogout() {
@@ -67,9 +92,11 @@ onBeforeUnmount(() => {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 90;
-  height: 56px;
-  background-color: rgba(18, 16, 14, 0.92);
+  z-index: 100;
+  /* Garante compatibilidade com iPhone / Safari notch */
+  padding-top: env(safe-area-inset-top, 0px);
+  height: calc(56px + env(safe-area-inset-top, 0px));
+  background-color: rgba(18, 16, 14, 0.94);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--color-border);
@@ -88,6 +115,8 @@ onBeforeUnmount(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: calc(16px + env(safe-area-inset-left, 0px));
+  padding-right: calc(16px + env(safe-area-inset-right, 0px));
 }
 
 .logo-link {
@@ -97,7 +126,7 @@ onBeforeUnmount(() => {
 }
 
 .logo-title {
-  font-size: 1.15rem;
+  font-size: 1.18rem;
   font-weight: 700;
   color: var(--color-accent);
   letter-spacing: 0.5px;
@@ -126,6 +155,7 @@ onBeforeUnmount(() => {
   border: 1px solid var(--color-border);
   transition: all 0.2s ease;
   cursor: pointer;
+  position: relative;
 }
 
 .action-btn:hover {
@@ -134,15 +164,46 @@ onBeforeUnmount(() => {
   border-color: var(--color-primary-light);
 }
 
-.action-btn.router-link-active {
+.update-btn.has-update {
   color: var(--color-accent);
   border-color: var(--color-accent);
-  background-color: var(--color-accent-dim);
+  background-color: rgba(245, 197, 24, 0.15);
+  animation: pulse-update 2s infinite;
+}
+
+@keyframes pulse-update {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245, 197, 24, 0.4); }
+  50% { box-shadow: 0 0 0 4px rgba(245, 197, 24, 0); }
+}
+
+.spinning {
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .logout-action-btn:hover {
   color: var(--color-danger);
   border-color: rgba(248, 113, 113, 0.3);
   background-color: rgba(248, 113, 113, 0.1);
+}
+
+.update-toast {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 16px;
+  background-color: var(--bg-surface-elevated);
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  font-size: 0.76rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 110;
+  max-width: 280px;
 }
 </style>

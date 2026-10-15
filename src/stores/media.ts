@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import Fuse from 'fuse.js'
 import type { MediaItem, WatchProgress } from '@/types/media'
 import { initialCatalog } from '@/data/initialCatalog'
+import { capyShowTimeApi } from '@/api/capyshowtime'
 
 export const useMediaStore = defineStore('media', () => {
   const catalog = ref<MediaItem[]>(initialCatalog)
@@ -26,7 +27,42 @@ export const useMediaStore = defineStore('media', () => {
     }
   }
 
+  // Sincroniza progresso do banco de dados na inicialização
+  async function syncProgressFromBackend() {
+    try {
+      const dbEntries = await capyShowTimeApi.getWatchProgress()
+      if (Array.isArray(dbEntries) && dbEntries.length > 0) {
+        let changed = false
+        for (const item of dbEntries) {
+          const key = getProgressKey(item.media_id, item.season_index, item.episode_index)
+          const local = progressMap.value[key]
+          const dbTime = new Date(item.last_watched_at).getTime()
+
+          // Se não existir local ou se o banco for mais recente, atualiza local
+          if (!local || dbTime > (local.updatedAt || 0)) {
+            progressMap.value[key] = {
+              mediaId: item.media_id,
+              seasonIndex: item.season_index,
+              episodeIndex: item.episode_index,
+              time: item.time,
+              duration: item.duration,
+              completed: Boolean(item.completed),
+              updatedAt: dbTime
+            }
+            changed = true
+          }
+        }
+        if (changed) {
+          localStorage.setItem('capyflix_progress', JSON.stringify(progressMap.value))
+        }
+      }
+    } catch {
+      // offline ou api indisponível
+    }
+  }
+
   loadCatalog()
+  syncProgressFromBackend()
 
   // Salvar no localStorage sempre que alterar favoritos
   function toggleFavorite(mediaId: string) {
@@ -73,6 +109,16 @@ export const useMediaStore = defineStore('media', () => {
     }
 
     localStorage.setItem('capyflix_progress', JSON.stringify(progressMap.value))
+
+    // Sincroniza também no banco de dados quando conectado
+    capyShowTimeApi.saveWatchProgress({
+      media_id: mediaId,
+      season_index: seasonIndex,
+      episode_index: episodeIndex,
+      time: Math.round(time),
+      duration: Math.round(duration),
+      completed
+    })
   }
 
   // Continuar Assistindo (ordena por mais recente)

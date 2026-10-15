@@ -38,6 +38,38 @@ export const capyShowTimeApi = {
   },
 
   /**
+   * Busca todo o histórico de progresso de visualização do usuário no banco de dados
+   */
+  async getWatchProgress(): Promise<any[]> {
+    try {
+      const res = await apiClient.get('/capyshowtime/watch-progress')
+      return Array.isArray(res.data) ? res.data : []
+    } catch (err) {
+      return []
+    }
+  },
+
+  /**
+   * Salva o progresso de visualização do vídeo/episódio no banco de dados
+   */
+  async saveWatchProgress(payload: {
+    media_id: string
+    season_index: number
+    episode_index: number
+    time: number
+    duration: number
+    completed?: boolean
+  }) {
+    try {
+      const res = await apiClient.post('/capyshowtime/watch-progress', payload)
+      return res.data
+    } catch (err) {
+      // offline ou api indisponível
+      return null
+    }
+  },
+
+  /**
    * Carrega os comentários do episódio
    */
   async getEpisodeComments(episodeId: number): Promise<EpisodeComment[]> {

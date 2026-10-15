@@ -108,6 +108,40 @@ async function fetchTmdbMetadata(title, isMovie = false) {
   return null
 }
 
+// Cache de episódios por temporada TMDB
+const tmdbSeasonCache = new Map()
+
+async function fetchTmdbSeasonDetails(tmdbId, seasonNumber) {
+  if (!TMDB_API_KEY || !tmdbId || seasonNumber === undefined) return new Map()
+  const cacheKey = `${tmdbId}_${seasonNumber}`
+  if (tmdbSeasonCache.has(cacheKey)) {
+    return tmdbSeasonCache.get(cacheKey)
+  }
+
+  const epMap = new Map()
+  try {
+    const res = await axiosClient.get(`${TMDB_BASE_URL}/tv/${tmdbId}/season/${seasonNumber}`, {
+      params: {
+        api_key: TMDB_API_KEY,
+        language: 'pt-BR'
+      }
+    })
+    const episodes = res.data?.episodes || []
+    for (const ep of episodes) {
+      epMap.set(ep.episode_number, {
+        name: ep.name,
+        stillUrl: ep.still_path ? `https://image.tmdb.org/t/p/w780${ep.still_path}` : null,
+        overview: ep.overview || null
+      })
+    }
+  } catch (err) {
+    // ignorar falha da temporada individual
+  }
+
+  tmdbSeasonCache.set(cacheKey, epMap)
+  return epMap
+}
+
 function parseSeasonEpisode(fileName, parts) {
   let sMatch = fileName.match(/(?:s|season|temp|temporada)\s*(\d{1,2})[\s._-]*(?:e|ep|episodio)\s*(\d{1,3})/i) ||
                fileName.match(/(\d{1,2})x(\d{1,3})/i)
@@ -288,9 +322,22 @@ async function scanLocalMedia(baseDir) {
         })
       }
 
+      let sCounter = 1
       for (const [sName, epList] of seasonsMap.entries()) {
         epList.sort((a, b) => a.number - b.number)
-        seasons.push({ name: sName, episodes: epList })
+        const tmdbEpMap = tmdbData?.tmdbId ? await fetchTmdbSeasonDetails(tmdbData.tmdbId, sCounter) : new Map()
+        
+        const enrichedEpisodes = epList.map(ep => {
+          const tmdbEp = tmdbEpMap.get(ep.number)
+          return {
+            ...ep,
+            name: (ep.name && !ep.name.startsWith('Episódio')) ? ep.name : (tmdbEp?.name || ep.name),
+            stillUrl: tmdbEp?.stillUrl || null
+          }
+        })
+
+        seasons.push({ name: sName, episodes: enrichedEpisodes })
+        sCounter++
       }
     }
 
@@ -377,19 +424,33 @@ async function importAkiraCatalog(animeLimit = 35) {
           continue
         }
 
-        // Metadados TMDB
         const isMovie = item.tipo?.includes('movie') || false
         const tmdb = await fetchTmdbMetadata(item.titulo, isMovie)
 
-        const seasons = parsedSeasons.map((s, sIdx) => ({
-          name: s.name || `Temporada ${sIdx + 1}`,
-          episodes: (s.episodes || []).map((ep, eIdx) => ({
-            id: sanitizeSlug(`${item.link}-s${sIdx + 1}-e${eIdx + 1}`),
-            name: ep.name || `Episódio ${String(eIdx + 1).padStart(2, '0')}`,
-            number: eIdx + 1,
-            streamUrl: ep.url
-          }))
-        }))
+        const seasons = []
+        for (let sIdx = 0; sIdx < parsedSeasons.length; sIdx++) {
+          const s = parsedSeasons[sIdx]
+          const tmdbEpMap = (!isMovie && tmdb?.tmdbId)
+            ? await fetchTmdbSeasonDetails(tmdb.tmdbId, sIdx + 1)
+            : new Map()
+
+          const episodes = (s.episodes || []).map((ep, eIdx) => {
+            const epNum = eIdx + 1
+            const tmdbEp = tmdbEpMap.get(epNum)
+            return {
+              id: sanitizeSlug(`${item.link}-s${sIdx + 1}-e${epNum}`),
+              name: (ep.name && !ep.name.startsWith('Episódio')) ? ep.name : (tmdbEp?.name || ep.name || `Episódio ${String(epNum).padStart(2, '0')}`),
+              number: epNum,
+              stillUrl: tmdbEp?.stillUrl || null,
+              streamUrl: ep.url
+            }
+          })
+
+          seasons.push({
+            name: s.name || `Temporada ${sIdx + 1}`,
+            episodes
+          })
+        }
 
         const mediaType = item.tipo?.includes('movie')
           ? 'movie'
