@@ -128,11 +128,11 @@
                 <button
                   type="button"
                   class="btn-cancel-dl mono"
-                  @click="cancelDownload(dl.id)"
-                  title="Cancelar e remover"
+                  @click="cancelDownload(dl.id, dl.status)"
+                  :title="dl.status === 'completed' ? 'Remover da lista de downloads' : 'Cancelar e descartar arquivo parcial'"
                 >
                   <Trash2 :size="14" />
-                  <span>Cancelar</span>
+                  <span>{{ dl.status === 'completed' ? 'Limpar da lista' : 'Cancelar' }}</span>
                 </button>
               </div>
             </div>
@@ -209,6 +209,7 @@ const props = defineProps<{
 
 const emit = defineEmits<{
   (e: 'close'): void
+  (e: 'download-completed', dl: DownloadTask): void
 }>()
 
 const activeTab = ref<'downloads' | 'files'>('downloads')
@@ -247,6 +248,18 @@ async function refreshData(showSpinner = true) {
       capyFlixApi.getStorageStatus(),
       capyFlixApi.getDownloads()
     ])
+    
+    // Notifica se algum download terminou
+    const previous = activeDownloads.value
+    for (const d of downloadsData) {
+      if (d.status === 'completed') {
+        const prevItem = previous.find(p => p.id === d.id)
+        if (prevItem && prevItem.status === 'downloading') {
+          emit('download-completed', d)
+        }
+      }
+    }
+
     storage.value = storageData
     activeDownloads.value = downloadsData
     startPollingIfNeeded()
@@ -257,8 +270,15 @@ async function refreshData(showSpinner = true) {
   }
 }
 
-async function cancelDownload(id: string) {
-  if (!confirm('Deseja cancelar esta tarefa de download?')) return
+async function cancelDownload(id: string, status?: string) {
+  if (status === 'completed') {
+    // Apenas remove da lista de recentes sem apagar o arquivo do disco
+    await capyFlixApi.cancelDownload(id)
+    await refreshData(true)
+    return
+  }
+
+  if (!confirm('Deseja cancelar esta tarefa de download? O arquivo parcial será descartado.')) return
   await capyFlixApi.cancelDownload(id)
   await refreshData(true)
 }

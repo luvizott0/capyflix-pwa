@@ -215,7 +215,11 @@
     <EpisodeCommentsSection :episode-id="syncedEpisodeId" />
 
     <!-- Modais de Armazenamento NAS e Debrid -->
-    <NasStorageModal :is-open="showStorageModal" @close="showStorageModal = false" />
+    <NasStorageModal
+      :is-open="showStorageModal"
+      @close="showStorageModal = false"
+      @download-completed="onDownloadCompleted"
+    />
     <DebridConfigModal :is-open="showDebridModal" @close="showDebridModal = false" @saved="onDebridSaved" />
   </div>
 
@@ -331,13 +335,10 @@ const isCurrentlyLocal = computed(() => {
 
 async function fetchDebridStreams() {
   if (!media.value) return
-  if (isCurrentlyLocal.value) {
-    remoteDebridSources.value = []
-    return
-  }
   try {
     const res = await capyFlixApi.resolveRemoteStreams({
       tmdb_id: media.value.tmdbId,
+      title: media.value.title,
       media_type: media.value.type,
       season: playingSeasonIndex.value + 1,
       episode: playingEpisodeIndex.value + 1
@@ -347,7 +348,7 @@ async function fetchDebridStreams() {
       remoteDebridSources.value = res.streams.map((s: any, idx: number) => ({
         id: `debrid-${s.id || idx}`,
         name: s.name || 'Stream Direto HD',
-        type: 'cdn' as const,
+        type: (s.is_local ? 'local' : 'cdn') as const,
         url: s.url,
         badge: s.badge || '1080P DIRECT',
         isDirectVideo: s.isDirectVideo ?? true
@@ -358,6 +359,10 @@ async function fetchDebridStreams() {
   } catch (err) {
     console.warn('Falha ao resolver streams Debrid:', err)
   }
+}
+
+function onDownloadCompleted() {
+  fetchDebridStreams()
 }
 
 async function triggerNasDownload() {
@@ -428,10 +433,13 @@ const availableSources = computed<StreamSourceOption[]>(() => {
     localStreamUrl: currentEpisode.value?.streamUrl
   })
 
-  // 1. Local NAS direto tem prioridade máxima
-  const locals = base.filter(s => s.type === 'local')
+  // 1. Local NAS direto tem prioridade máxima (vindo do catálogo base ou detectado no NAS)
+  const locals = [
+    ...base.filter(s => s.type === 'local'),
+    ...remoteDebridSources.value.filter(s => s.type === 'local')
+  ]
   // 2. Streams debrid / CDN direto (sem iframes e sem anúncios)
-  const debrids = remoteDebridSources.value
+  const debrids = remoteDebridSources.value.filter(s => s.type !== 'local')
   // 3. Fallbacks
   const fallbacks = base.filter(s => s.type !== 'local')
 

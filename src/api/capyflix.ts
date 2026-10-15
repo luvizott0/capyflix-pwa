@@ -81,6 +81,7 @@ export const capyFlixApi = {
   async resolveRemoteStreams(params: {
     tmdb_id?: number
     imdb_id?: string
+    title?: string
     media_type: string
     season?: number
     episode?: number
