@@ -2,7 +2,18 @@
   <section v-if="items.length > 0" class="carousel-section">
     <div class="carousel-header">
       <h2 class="section-title mono">{{ title }}</h2>
-      <span class="carousel-count mono">{{ items.length }} títulos</span>
+      <div class="header-right-actions">
+        <span class="carousel-count mono">{{ totalCount ?? items.length }} títulos</span>
+        <router-link
+          v-if="viewAllRoute"
+          :to="viewAllRoute"
+          class="view-all-btn mono"
+          title="Ver lista completa com todos os títulos"
+        >
+          <span>Ver todos</span>
+          <ChevronRight :size="14" />
+        </router-link>
+      </div>
     </div>
 
     <div class="carousel-wrapper">
@@ -18,8 +29,8 @@
 
       <div ref="trackRef" class="carousel-track" @scroll="onTrackScroll">
         <div
-          v-for="item in items"
-          :key="item.id"
+          v-for="(item, idx) in items"
+          :key="item.id || item.media?.id || idx"
           class="carousel-item"
         >
           <slot :item="item">
@@ -43,13 +54,17 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { ChevronLeft, ChevronRight } from 'lucide-vue-next'
-import type { MediaItem } from '@/types/media'
 import MediaCard from './MediaCard.vue'
 
-defineProps<{
-  title: string
-  items: MediaItem[]
-}>()
+withDefaults(
+  defineProps<{
+    title: string
+    items: any[]
+    totalCount?: number
+    viewAllRoute?: string
+  }>(),
+  {}
+)
 
 const trackRef = ref<HTMLElement | null>(null)
 const canScrollLeft = ref(false)
@@ -80,13 +95,42 @@ function scroll(direction: number) {
 .carousel-header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin-bottom: 12px;
+  gap: 12px;
+}
+
+.header-right-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .carousel-count {
   font-size: 0.75rem;
   color: var(--text-dim);
+}
+
+.view-all-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  background: rgba(245, 197, 24, 0.08);
+  border: 1px solid rgba(245, 197, 24, 0.25);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.view-all-btn:hover {
+  background: var(--color-accent);
+  color: #12100e;
+  border-color: var(--color-accent);
 }
 
 .carousel-wrapper {

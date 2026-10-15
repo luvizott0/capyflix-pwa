@@ -152,78 +152,72 @@
         <!-- 1. Em alta essa semana -->
         <MediaCarousel
           title="Em Alta Esta Semana"
-          :items="displayTrending"
+          :items="displayTrending.slice(0, 10)"
+          :total-count="displayTrending.length"
+          view-all-route="/collection/trending"
         />
 
         <!-- 2. O que os amigos estão assistindo -->
-        <section v-if="displayFriendsWatching.length > 0" class="carousel-section">
-          <div class="carousel-header">
-            <h2 class="section-title mono">O Que os Amigos Estão Assistindo</h2>
-            <span class="carousel-count mono">{{ displayFriendsWatching.length }} títulos</span>
-          </div>
-
-          <div class="carousel-wrapper">
-            <div class="carousel-track">
-              <div
-                v-for="item in displayFriendsWatching"
-                :key="item.media.id"
-                class="carousel-item"
-              >
-                <MediaCard
-                  :media="item.media"
-                  :friends="item.friends"
-                  :friend-badge="item.friendBadge"
-                  :custom-subtitle="item.customSubtitle"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+        <MediaCarousel
+          v-if="displayFriendsWatching.length > 0"
+          title="O Que os Amigos Estão Assistindo"
+          :items="displayFriendsWatching.slice(0, 10)"
+          :total-count="displayFriendsWatching.length"
+          view-all-route="/collection/friends-watching"
+        >
+          <template #default="{ item }">
+            <MediaCard
+              :media="item.media"
+              :friends="item.friends"
+              :friend-badge="item.friendBadge"
+              :custom-subtitle="item.customSubtitle"
+            />
+          </template>
+        </MediaCarousel>
 
         <!-- 3. Séries preferidas dos amigos (melhores avaliadas por eles) -->
-        <section v-if="displayFriendsTopRated.length > 0" class="carousel-section">
-          <div class="carousel-header">
-            <h2 class="section-title mono">Séries Preferidas dos Amigos</h2>
-            <span class="carousel-count mono">{{ displayFriendsTopRated.length }} títulos</span>
-          </div>
-
-          <div class="carousel-wrapper">
-            <div class="carousel-track">
-              <div
-                v-for="item in displayFriendsTopRated"
-                :key="item.media.id"
-                class="carousel-item"
-              >
-                <MediaCard
-                  :media="item.media"
-                  :friends="item.friends"
-                  :friend-badge="item.friendBadge"
-                  :custom-subtitle="item.customSubtitle"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+        <MediaCarousel
+          v-if="displayFriendsTopRated.length > 0"
+          title="Séries Preferidas dos Amigos"
+          :items="displayFriendsTopRated.slice(0, 10)"
+          :total-count="displayFriendsTopRated.length"
+          view-all-route="/collection/friends-top-rated"
+        >
+          <template #default="{ item }">
+            <MediaCard
+              :media="item.media"
+              :friends="item.friends"
+              :friend-badge="item.friendBadge"
+              :custom-subtitle="item.customSubtitle"
+            />
+          </template>
+        </MediaCarousel>
 
         <!-- Filmes do Acervo -->
         <MediaCarousel
           v-if="mediaStore.movies.length > 0"
           title="Filmes do Acervo"
-          :items="mediaStore.movies"
+          :items="mediaStore.movies.slice(0, 10)"
+          :total-count="mediaStore.movies.length"
+          view-all-route="/collection/movies"
         />
 
         <!-- Animes -->
         <MediaCarousel
           v-if="mediaStore.animes.length > 0"
           title="Animes"
-          :items="mediaStore.animes"
+          :items="mediaStore.animes.slice(0, 10)"
+          :total-count="mediaStore.animes.length"
+          view-all-route="/collection/animes"
         />
 
         <!-- Desenhos & Clássicos -->
         <MediaCarousel
           v-if="mediaStore.cartoons.length > 0"
           title="Desenhos & Clássicos"
-          :items="mediaStore.cartoons"
+          :items="mediaStore.cartoons.slice(0, 10)"
+          :total-count="mediaStore.cartoons.length"
+          view-all-route="/collection/cartoons"
         />
       </div>
     </div>
