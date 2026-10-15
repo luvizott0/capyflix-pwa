@@ -9,15 +9,40 @@
       <div class="media-title-sub mono">{{ media.title }}</div>
     </div>
 
-    <!-- Player de Vídeo -->
+    <!-- Player de Vídeo Híbrido (Nativo HTML5 ou Embed Protegido) -->
     <div class="player-wrapper">
+      <!-- Seletor de Servidor / Fonte de Streaming -->
+      <div v-if="availableSources.length > 1" class="sources-toolbar">
+        <span class="sources-label mono">FONTE:</span>
+        <div class="sources-list">
+          <button
+            v-for="source in availableSources"
+            :key="source.id"
+            type="button"
+            class="source-pill"
+            :class="{ active: activeSourceId === source.id }"
+            @click="activeSourceId = source.id"
+          >
+            <span class="source-name">{{ source.name }}</span>
+            <span class="source-badge mono">{{ source.badge }}</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Player Nativo (Local / CDN Direta) -->
       <VideoPlayer
-        v-if="currentEpisode"
-        :src="currentEpisode.streamUrl"
+        v-if="selectedSource?.isDirectVideo"
+        :src="selectedSource.url"
         :cover-url="media.backdrop || media.poster"
         :initial-time="savedInitialTime"
         @timeupdate="handleTimeUpdate"
         @ended="handleEpisodeEnded"
+      />
+
+      <!-- Player Embed (VidSrc / MultiEmbed / AutoEmbed) -->
+      <EmbedPlayer
+        v-else-if="selectedSource"
+        :src="selectedSource.url"
       />
     </div>
 
@@ -68,8 +93,8 @@
       </button>
     </div>
 
-    <!-- Grade de Episódios no estilo CapyShowTime -->
-    <div class="episodes-section">
+    <!-- Grade de Episódios no estilo CapyShowTime (quando houver temporadas catalogadas) -->
+    <div v-if="media.seasons && media.seasons.length > 0 && currentSeasonEpisodes.length > 0" class="episodes-section">
       <div class="episodes-header">
         <h3 class="section-title mono">
           {{ media.seasons[activeSeasonIndex]?.name || 'Episódios' }}
@@ -165,15 +190,81 @@ import { useRoute, useRouter } from 'vue-router'
 import { ArrowLeft, Bookmark, Check, Play } from 'lucide-vue-next'
 import { useMediaStore } from '@/stores/media'
 import VideoPlayer from '@/components/VideoPlayer.vue'
+import EmbedPlayer from '@/components/EmbedPlayer.vue'
 import EpisodeCommentsSection from '@/components/EpisodeCommentsSection.vue'
 import { capyShowTimeApi } from '@/api/capyshowtime'
+import { resolveStreamSources, type StreamSourceOption } from '@/utils/streamResolver'
 
 const route = useRoute()
 const router = useRouter()
 const mediaStore = useMediaStore()
 
 const slug = computed(() => route.params.slug as string)
-const media = computed(() => mediaStore.getMediaBySlug(slug.value))
+const dynamicMedia = ref<MediaItem | null>(null)
+
+const media = computed(() => {
+  const local = mediaStore.getMediaBySlug(slug.value)
+  if (local) return local
+  return dynamicMedia.value
+})
+
+// Se o slug começar com showtime- ou se for passado via query, busca dados dinâmicos
+async function loadDynamicShowtimeMedia() {
+  if (mediaStore.getMediaBySlug(slug.value)) return
+
+  // Tentar extrair tmdb_id do slug (ex: showtime-1399)
+  const match = slug.value.match(/showtime-(\d+)/)
+  const tmdbId = match ? parseInt(match[1], 10) : (Number(route.query.tmdb) || null)
+
+  if (tmdbId) {
+    try {
+      const TMDB_API_KEY = '9460fe099c4cb1ca3026582f448e9d29'
+      const res = await fetch(`https://api.themoviedb.org/3/tv/${tmdbId}?api_key=${TMDB_API_KEY}&language=pt-BR`)
+      if (res.ok) {
+        const data = await res.json()
+        const seasons = (data.seasons || []).filter((s: any) => s.season_number > 0).map((s: any) => ({
+          name: s.name || `Temporada ${s.season_number}`,
+          episodes: Array.from({ length: s.episode_count || 1 }).map((_, idx) => ({
+            id: `showtime-${tmdbId}-s${s.season_number}-e${idx + 1}`,
+            name: `Episódio ${idx + 1}`,
+            number: idx + 1,
+            streamUrl: '' // Toca via Embed Player / Multi-source
+          }))
+        }))
+
+        dynamicMedia.value = {
+          id: `showtime-${tmdbId}`,
+          slug: slug.value,
+          tmdbId,
+          title: data.name || data.title,
+          originalTitle: data.original_name || data.original_title,
+          type: 'series',
+          poster: data.poster_path ? `https://image.tmdb.org/t/p/w780${data.poster_path}` : '/capy-icon.svg',
+          backdrop: data.backdrop_path ? `https://image.tmdb.org/t/p/original${data.backdrop_path}` : '',
+          synopsis: data.overview || 'Série acompanhada via CapyShowTime.',
+          genres: (data.genres || []).map((g: any) => g.name.toUpperCase()),
+          year: (data.first_air_date || data.release_date || '').substring(0, 4),
+          rating: data.vote_average || 8.0,
+          seasons: seasons.length > 0 ? seasons : [{
+            name: 'Temporada 1',
+            episodes: [{
+              id: `showtime-${tmdbId}-s1-e1`,
+              name: 'Episódio 1',
+              number: 1,
+              streamUrl: ''
+            }]
+          }]
+        }
+      }
+    } catch (err) {
+      console.warn('Falha ao carregar metadados dinâmicos TMDB:', err)
+    }
+  }
+}
+
+onMounted(() => {
+  loadDynamicShowtimeMedia()
+})
 
 const activeSeasonIndex = ref(Number(route.query.s) || 0)
 const activeEpisodeIndex = ref(Number(route.query.e) || 0)
@@ -182,6 +273,8 @@ const playingSeasonIndex = ref(activeSeasonIndex.value)
 const playingEpisodeIndex = ref(activeEpisodeIndex.value)
 const syncedEpisodeId = ref<number | null>(null)
 let lastSyncedWatchKey = ''
+
+const activeSourceId = ref<string>('')
 
 const isFavorite = computed(() => {
   return media.value ? mediaStore.isFavorite(media.value.id) : false
@@ -198,6 +291,33 @@ const currentEpisode = computed(() => {
   if (!season) return null
   return season.episodes[playingEpisodeIndex.value] || null
 })
+
+const availableSources = computed<StreamSourceOption[]>(() => {
+  if (!media.value) return []
+  return resolveStreamSources({
+    tmdbId: media.value.tmdbId,
+    mediaType: media.value.type,
+    season: playingSeasonIndex.value + 1,
+    episode: playingEpisodeIndex.value + 1,
+    localStreamUrl: currentEpisode.value?.streamUrl
+  })
+})
+
+const selectedSource = computed<StreamSourceOption | null>(() => {
+  if (availableSources.value.length === 0) return null
+  const found = availableSources.value.find(s => s.id === activeSourceId.value)
+  return found || availableSources.value[0] || null
+})
+
+watch(
+  () => availableSources.value,
+  (newSources) => {
+    if (newSources.length > 0 && (!activeSourceId.value || !newSources.some(s => s.id === activeSourceId.value))) {
+      activeSourceId.value = newSources[0].id
+    }
+  },
+  { immediate: true }
+)
 
 const savedInitialTime = computed(() => {
   if (!media.value) return 0
@@ -371,6 +491,70 @@ onMounted(() => {
   border-radius: var(--radius-sm);
   overflow: hidden;
   border: 1px solid var(--color-border);
+}
+
+.sources-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background-color: var(--bg-surface-elevated);
+  border-bottom: 1px solid var(--color-border);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.sources-toolbar::-webkit-scrollbar {
+  display: none;
+}
+
+.sources-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.sources-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.source-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-surface);
+  border: 1px solid var(--color-border);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.source-pill:hover {
+  color: var(--text-main);
+  border-color: var(--text-dim);
+}
+
+.source-pill.active {
+  background: rgba(245, 197, 24, 0.12);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.source-badge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.4);
+  color: inherit;
 }
 
 /* Cartão de Detalhes */

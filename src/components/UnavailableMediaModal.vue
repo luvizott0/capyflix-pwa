@@ -54,6 +54,16 @@
       </div>
 
       <div class="modal-footer">
+        <router-link
+          v-if="media.tmdbId"
+          :to="`/watch/${media.slug}`"
+          class="btn-play-stream"
+          @click="close"
+        >
+          <Play :size="16" fill="currentColor" />
+          <span>Assistir via Servidor Web</span>
+        </router-link>
+
         <a
           v-if="media.tmdbId"
           :href="showtimeUrl"
@@ -62,7 +72,7 @@
           class="btn-showtime"
         >
           <ExternalLink :size="16" />
-          <span>Ver no CapyShowTime</span>
+          <span>CapyShowTime</span>
         </a>
         <button type="button" class="btn-dismiss" @click="close">
           Fechar
@@ -74,7 +84,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { X, ExternalLink, Sparkles, Clock, FolderPlus } from 'lucide-vue-next'
+import { X, ExternalLink, Sparkles, Clock, FolderPlus, Play } from 'lucide-vue-next'
 import type { MediaItem } from '@/types/media'
 
 const props = defineProps<{
@@ -313,7 +323,7 @@ const showtimeUrl = computed(() => {
   background: var(--bg-surface-elevated);
 }
 
-.btn-showtime {
+.btn-play-stream {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -324,11 +334,33 @@ const showtimeUrl = computed(() => {
   padding: 8px 14px;
   border-radius: var(--radius-sm);
   text-decoration: none;
-  transition: opacity 0.2s;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(245, 197, 24, 0.2);
+}
+
+.btn-play-stream:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+.btn-showtime {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-surface);
+  border: 1px solid var(--color-border);
+  color: var(--text-main);
+  font-weight: 600;
+  font-size: 0.82rem;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 .btn-showtime:hover {
-  opacity: 0.9;
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .btn-dismiss {
