@@ -326,9 +326,9 @@ async function scanLocalMedia(baseDir) {
 }
 
 // 4. Importar e Validar Acervo da Nuvem (Akira Nolan)
-async function importAkiraCatalog(limit = 12) {
+async function importAkiraCatalog(animeLimit = 35) {
   const remoteItems = []
-  console.log('[Remote Sync] Baixando catálogo remoto de animes...')
+  console.log('[Remote Sync] Baixando catálogo remoto de animes e desenhos...')
 
   try {
     const res = await axiosClient.get(AKIRA_CATALOG_URL)
@@ -336,9 +336,16 @@ async function importAkiraCatalog(limit = 12) {
     if (!Array.isArray(rawList)) return remoteItems
 
     const validList = rawList.filter(item => item.link && !item.link.startsWith('http') && item.tipo !== 'none')
-    const selected = validList.slice(0, limit)
 
-    console.log(`[Remote Sync] Processando ${selected.length} títulos da nuvem com validação de stream...`)
+    // 1. Incluir todos os desenhos/cartoons (Hora de Aventura, Jovens Titãs, Batman, etc.)
+    const cartoons = validList.filter(item => item.tipo && item.tipo.includes('cartoon'))
+    
+    // 2. Incluir animes populares
+    const animes = validList.filter(item => !item.tipo || !item.tipo.includes('cartoon')).slice(0, animeLimit)
+
+    const selected = [...cartoons, ...animes]
+
+    console.log(`[Remote Sync] Processando ${selected.length} títulos (${cartoons.length} desenhos + ${animes.length} animes) com validação de stream...`)
 
     for (const item of selected) {
       try {
@@ -371,7 +378,8 @@ async function importAkiraCatalog(limit = 12) {
         }
 
         // Metadados TMDB
-        const tmdb = await fetchTmdbMetadata(item.titulo)
+        const isMovie = item.tipo?.includes('movie') || false
+        const tmdb = await fetchTmdbMetadata(item.titulo, isMovie)
 
         const seasons = parsedSeasons.map((s, sIdx) => ({
           name: s.name || `Temporada ${sIdx + 1}`,
@@ -383,26 +391,32 @@ async function importAkiraCatalog(limit = 12) {
           }))
         }))
 
+        const mediaType = item.tipo?.includes('movie')
+          ? 'movie'
+          : (item.tipo?.includes('cartoon') ? 'cartoon' : 'anime')
+
         remoteItems.push({
           id: sanitizeSlug(item.link),
           slug: sanitizeSlug(item.link),
           tmdbId: tmdb?.tmdbId,
           title: tmdb?.title || item.titulo,
           originalTitle: tmdb?.originalTitle || item.alt || '',
-          type: item.tipo?.includes('movie') ? 'movie' : (item.tipo?.includes('cartoons') ? 'cartoon' : 'anime'),
-          poster: item.imagem || tmdb?.poster || '/capy-icon.svg',
+          type: mediaType,
+          poster: tmdb?.poster || item.imagem || '/capy-icon.svg',
           backdrop: tmdb?.backdrop || item.imagem || '',
-          synopsis: tmdb?.synopsis || 'Anime em alta definição disponível no CapyFlix.',
-          genres: (item.generos || ['Full HD', 'Anime']).map(g => g.toUpperCase()),
+          synopsis: tmdb?.synopsis || (mediaType === 'cartoon' ? 'Desenho animado clássico dublado disponível no CapyFlix.' : 'Anime em alta definição disponível no CapyFlix.'),
+          genres: (item.generos && item.generos.length > 0)
+            ? item.generos.map(g => g.toUpperCase())
+            : ['FULL HD', mediaType === 'cartoon' ? 'DESENHO' : 'ANIME'],
           year: tmdb?.year || '',
           rating: tmdb?.rating || 8.2,
-          isDubbed: (item.generos || []).includes('dub'),
+          isDubbed: (item.generos || []).includes('dub') || mediaType === 'cartoon',
           isSubbed: (item.generos || []).includes('leg'),
           isFeatured: (item.generos || []).includes('recente') || (item.tipo || '').includes('new'),
           seasons
         })
 
-        console.log(`[Remote Sync] ✓ ${item.titulo} validado com sucesso (${seasons.length} temporadas)!`)
+        console.log(`[Remote Sync] ✓ ${tmdb?.title || item.titulo} validado com sucesso (${seasons.length} temporadas / ${seasons.reduce((acc, s) => acc + s.episodes.length, 0)} eps)!`)
       } catch (err) {
         // ignora falha de página individual
       }
@@ -421,7 +435,7 @@ async function run() {
   console.log('====================================================')
 
   const localItems = await scanLocalMedia(LOCAL_MEDIA_DIR)
-  const remoteItems = await importAkiraCatalog(10)
+  const remoteItems = await importAkiraCatalog(35)
 
   // Mesclar catálogos sem duplicidade de slug
   const catalogMap = new Map()
@@ -446,9 +460,14 @@ async function run() {
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(finalCatalog, null, 2), 'utf-8')
 
+  // Salvar também em src/data/initialCatalog.ts
+  const initialCatalogPath = path.resolve(__dirname, '../src/data/initialCatalog.ts')
+  const tsContent = `import type { MediaItem } from '@/types/media'\n\nexport const initialCatalog: MediaItem[] = ${JSON.stringify(finalCatalog, null, 2)}\n`
+  fs.writeFileSync(initialCatalogPath, tsContent, 'utf-8')
+
   console.log('====================================================')
   console.log(`🎉 Sucesso! Catálogo gerado com ${finalCatalog.length} títulos validados.`)
-  console.log(`📁 Arquivo salvo em: ${OUTPUT_FILE}`)
+  console.log(`📁 Arquivos salvos em:\n  - ${OUTPUT_FILE}\n  - ${initialCatalogPath}`)
   console.log('====================================================')
 }
 

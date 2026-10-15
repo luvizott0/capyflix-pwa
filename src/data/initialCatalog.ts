@@ -625,6 +625,6014 @@ export const initialCatalog: MediaItem[] = [
     ]
   },
   {
+    "id": "avatar-sete-refugios",
+    "slug": "avatar-sete-refugios",
+    "tmdbId": 284833,
+    "title": "Avatar: Os Sete Refúgios",
+    "originalTitle": "Avatar: Seven Havens",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/l8qbsNAr1CZK2tZ60l5lrJdT5mW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+    "synopsis": "Após um cataclismo global, uma jovem descobre ser o novo Avatar - agora rotulada como a Destruidora, não uma salvadora. Caçada por humanos e espíritos, ela e sua gêmea há muito perdida precisam descobrir suas origens e salvar a humanidade do colapso.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "CURTOS",
+      "DUB",
+      "RECENTE"
+    ],
+    "year": "2026",
+    "rating": 8.825,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Livro 1 - Sobrevivência",
+        "episodes": [
+          {
+            "id": "avatar-sete-refugios-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/1.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/2.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/3.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/4.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/5.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/6.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/7.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/8.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/9.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/10.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/11.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/12.mp4"
+          },
+          {
+            "id": "avatar-sete-refugios-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "minhas-aventuras-com-o-superman",
+    "slug": "minhas-aventuras-com-o-superman",
+    "tmdbId": 125928,
+    "title": "Minhas Aventuras com o Superman",
+    "originalTitle": "My Adventures with Superman",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/3pO7UsHqDRqv7FGAzh5pFsZhNtX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/oqjqeOsF2D0APsiHdoE2VI88fbd.jpg",
+    "synopsis": "A série acompanha Clark Kent, Lois Lane e Jimmy Olsen no processo de descobrir quem eles são e o que conseguem fazer enquanto salvam sua cidade de forças que conspiram para destruí-la!",
+    "genres": [
+      "AVENTURA",
+      "MISTERIO",
+      "DRAMA",
+      "ACAO",
+      "FICCAO",
+      "DUB",
+      "RECENTE"
+    ],
+    "year": "2023",
+    "rating": 8.1,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-1.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-2.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-3.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-4.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-5.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-6.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-7.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-8.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-9.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Primeira-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-1.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-2.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-3.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-4.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-5.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-6.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-7.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-8.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-9.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Segunda-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-1.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-2.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-3.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-4.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-5.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-6.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-7.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-8.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-9.mp4"
+          },
+          {
+            "id": "minhas-aventuras-com-o-superman-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia800104.us.archive.org/6/items/ComSupermanDub/Terceira-10.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stranger-things-historias-85",
+    "slug": "stranger-things-historias-85",
+    "tmdbId": 224263,
+    "title": "Stranger Things: Histórias de 85",
+    "originalTitle": "Stranger Things: Tales from '85",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/zUdykEDaQrjGKnVnAAcua3kNiAG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg",
+    "synopsis": "Hawkins, inverno de 1985. Esta é uma cidade cheia de segredos, e agora nossos queridos heróis terão que enfrentar novos mistérios e monstros inimagináveis.",
+    "genres": [
+      "MISTERIO",
+      "AVENTURA",
+      "ACAO",
+      "FICCAO",
+      "DUB",
+      "CURTOS",
+      "RECENTE"
+    ],
+    "year": "2026",
+    "rating": 7.7,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "stranger-things-historias-85-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-1.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-2.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-3.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-4.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-5.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-6.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-7.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-8.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-9.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Primeira-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "stranger-things-historias-85-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Segunda-1.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Segunda-2.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Segunda-3.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Segunda-4.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Segunda-5.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Segunda-6.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Segunda-7.mp4"
+          },
+          {
+            "id": "stranger-things-historias-85-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600708.us.archive.org/1/items/STHistorias/Segunda-8.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hora-de-aventura",
+    "slug": "hora-de-aventura",
+    "tmdbId": 15260,
+    "title": "Hora de Aventura",
+    "originalTitle": "Adventure Time",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/2EMpiF1GireQHs3f9JKCFoKElju.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/d8rse1RgMzXwmZvBpDvcG1VUO2Y.jpg",
+    "synopsis": "Com 12 anos de idade, Finn combate o mal na terra de Ooo na companhia de seu cachorro mágico, Jake. Quando estes dois grandes amigos se juntam e dizem as palavras mágicas \"Hora de Aventura\", tudo pode acontecer.",
+    "genres": [
+      "COMEDIA",
+      "FICCAO",
+      "FANTASIA",
+      "DUB",
+      "RECENTE"
+    ],
+    "year": "2010",
+    "rating": 8.505,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-14.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-15.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-16.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-17.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-18.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-19.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-20.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-21.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-22.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-23.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-24.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-25.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S01-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-14.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-15.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-16.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-17.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-18.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-19.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-20.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-21.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-22.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-23.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-24.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-25.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s2-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S02-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-14.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-15.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-16.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-17.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-18.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-19.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-20.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-21.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-22.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-23.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-24.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-25.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s3-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S03-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-14.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-15.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-16.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-17.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-18.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-19.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-20.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-21.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-22.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-23.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-24.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-25.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s4-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia801906.us.archive.org/10/items/AventuraDub/S04-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-14.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-15.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-16.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-17.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-18.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-19.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-20.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-21.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-22.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-23.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-24.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-25.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-26.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-27.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-28.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-29.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-30.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-31.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-32.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-33.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-34.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-35.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-36.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-37.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-38.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-39.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-40.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-41.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-42.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-43.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e44",
+            "name": "Episódio 44",
+            "number": 44,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-44.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e45",
+            "name": "Episódio 45",
+            "number": 45,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-45.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e46",
+            "name": "Episódio 46",
+            "number": 46,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-46.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e47",
+            "name": "Episódio 47",
+            "number": 47,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-47.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e48",
+            "name": "Episódio 48",
+            "number": 48,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-48.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e49",
+            "name": "Episódio 49",
+            "number": 49,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-49.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e50",
+            "name": "Episódio 50",
+            "number": 50,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-50.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e51",
+            "name": "Episódio 51",
+            "number": 51,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-51.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s5-e52",
+            "name": "Episódio 52",
+            "number": 52,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S05-52.mp4"
+          }
+        ]
+      },
+      {
+        "name": "6ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-14.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-15.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-16.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-17.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-18.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-19.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-20.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-21.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-22.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-23.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-24.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-25.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-26.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-27.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-28.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-29.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-30.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-31.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-32.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-33.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-34.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-35.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-36.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-37.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-38.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-39.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-40.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-41.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-42.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s6-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S06-43.mp4"
+          }
+        ]
+      },
+      {
+        "name": "7ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s7-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-14.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-15.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-16.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-17.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-18.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-19.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-20.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-21.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-22.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-23.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-24.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s7-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S07-25.mp4"
+          }
+        ]
+      },
+      {
+        "name": "8ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s8-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-14.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-15.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-16.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-17.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-18.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-19.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-20.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-21.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-22.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-23.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-24.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-25.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-26.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s8-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S08-27.mp4"
+          }
+        ]
+      },
+      {
+        "name": "9ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s9-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-13.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s9-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S09-14.mp4"
+          }
+        ]
+      },
+      {
+        "name": "10ª Temporada",
+        "episodes": [
+          {
+            "id": "hora-de-aventura-s10-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-1.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-2.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-3.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-4.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-5.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-6.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-7.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-8.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-9.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-10.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-11.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-12.mp4"
+          },
+          {
+            "id": "hora-de-aventura-s10-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601906.us.archive.org/10/items/AventuraDub/S10-13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "o-batman",
+    "slug": "o-batman",
+    "tmdbId": 2022,
+    "title": "O Batman",
+    "originalTitle": "The Batman",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/Qjwp9w0qRfW5HgIHNA7ul9wPDG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/k5r2N22yTSIlLZBraf9792MK1gN.jpg",
+    "synopsis": "Bruce Wayne assume o manto de Batman para combater o crime em Gotham City, enfrentando perigosos vilões enquanto aprende a lidar com sua vida dupla e suas responsabilidades como herói. Ao lado de aliados como Alfred e o jovem detetive Ethan Bennett, Batman enfrenta ameaças cada vez maiores para proteger a cidade.",
+    "genres": [
+      "FICCAO",
+      "FANTASIA",
+      "ACAO",
+      "AVENTURA",
+      "DUB",
+      "RECENTE"
+    ],
+    "year": "2004",
+    "rating": 8.044,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "o-batman-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-1.mp4"
+          },
+          {
+            "id": "o-batman-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-2.mp4"
+          },
+          {
+            "id": "o-batman-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-3.mp4"
+          },
+          {
+            "id": "o-batman-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-4.mp4"
+          },
+          {
+            "id": "o-batman-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-5.mp4"
+          },
+          {
+            "id": "o-batman-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-6.mp4"
+          },
+          {
+            "id": "o-batman-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-7.mp4"
+          },
+          {
+            "id": "o-batman-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-8.mp4"
+          },
+          {
+            "id": "o-batman-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-9.mp4"
+          },
+          {
+            "id": "o-batman-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-10.mp4"
+          },
+          {
+            "id": "o-batman-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-11.mp4"
+          },
+          {
+            "id": "o-batman-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-12.mp4"
+          },
+          {
+            "id": "o-batman-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Primeira-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "o-batman-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-1.mp4"
+          },
+          {
+            "id": "o-batman-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-2.mp4"
+          },
+          {
+            "id": "o-batman-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-3.mp4"
+          },
+          {
+            "id": "o-batman-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-4.mp4"
+          },
+          {
+            "id": "o-batman-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-5.mp4"
+          },
+          {
+            "id": "o-batman-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-6.mp4"
+          },
+          {
+            "id": "o-batman-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-7.mp4"
+          },
+          {
+            "id": "o-batman-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-8.mp4"
+          },
+          {
+            "id": "o-batman-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-9.mp4"
+          },
+          {
+            "id": "o-batman-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-10.mp4"
+          },
+          {
+            "id": "o-batman-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-11.mp4"
+          },
+          {
+            "id": "o-batman-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-12.mp4"
+          },
+          {
+            "id": "o-batman-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Segunda-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "o-batman-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-1.mp4"
+          },
+          {
+            "id": "o-batman-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-2.mp4"
+          },
+          {
+            "id": "o-batman-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-3.mp4"
+          },
+          {
+            "id": "o-batman-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-4.mp4"
+          },
+          {
+            "id": "o-batman-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-5.mp4"
+          },
+          {
+            "id": "o-batman-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-6.mp4"
+          },
+          {
+            "id": "o-batman-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-7.mp4"
+          },
+          {
+            "id": "o-batman-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-8.mp4"
+          },
+          {
+            "id": "o-batman-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-9.mp4"
+          },
+          {
+            "id": "o-batman-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-10.mp4"
+          },
+          {
+            "id": "o-batman-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-11.mp4"
+          },
+          {
+            "id": "o-batman-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-12.mp4"
+          },
+          {
+            "id": "o-batman-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Terceira-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "o-batman-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-1.mp4"
+          },
+          {
+            "id": "o-batman-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-2.mp4"
+          },
+          {
+            "id": "o-batman-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-3.mp4"
+          },
+          {
+            "id": "o-batman-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-4.mp4"
+          },
+          {
+            "id": "o-batman-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-5.mp4"
+          },
+          {
+            "id": "o-batman-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-6.mp4"
+          },
+          {
+            "id": "o-batman-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-7.mp4"
+          },
+          {
+            "id": "o-batman-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-8.mp4"
+          },
+          {
+            "id": "o-batman-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-9.mp4"
+          },
+          {
+            "id": "o-batman-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-10.mp4"
+          },
+          {
+            "id": "o-batman-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-11.mp4"
+          },
+          {
+            "id": "o-batman-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-12.mp4"
+          },
+          {
+            "id": "o-batman-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quarta-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada",
+        "episodes": [
+          {
+            "id": "o-batman-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-1.mp4"
+          },
+          {
+            "id": "o-batman-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-2.mp4"
+          },
+          {
+            "id": "o-batman-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-3.mp4"
+          },
+          {
+            "id": "o-batman-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-4.mp4"
+          },
+          {
+            "id": "o-batman-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-5.mp4"
+          },
+          {
+            "id": "o-batman-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-6.mp4"
+          },
+          {
+            "id": "o-batman-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-7.mp4"
+          },
+          {
+            "id": "o-batman-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-8.mp4"
+          },
+          {
+            "id": "o-batman-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-9.mp4"
+          },
+          {
+            "id": "o-batman-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-10.mp4"
+          },
+          {
+            "id": "o-batman-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-11.mp4"
+          },
+          {
+            "id": "o-batman-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-12.mp4"
+          },
+          {
+            "id": "o-batman-s5-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601907.us.archive.org/23/items/BatmanDub/Quinta-13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "os-jovens-titas",
+    "slug": "os-jovens-titas",
+    "tmdbId": 604,
+    "title": "Os Jovens Titãs",
+    "originalTitle": "Teen Titans",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/wnIpFMCO8aGFdO3aRzWlohiAOy9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ilKbbbCYjerHXQr6NRuKPu9DBsJ.jpg",
+    "synopsis": "Lutando pela verdade, a justiça e a última fatia de pizza, estes cinco super-heróis são a prova viva de que nunca é cedo demais para salvar o planeta.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "RECENTE",
+      "DUB"
+    ],
+    "year": "2003",
+    "rating": 8.347,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "os-jovens-titas-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-1.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-2.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-3.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-4.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-5.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-6.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-7.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-8.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-9.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-10.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-11.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-12.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Primeira-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "os-jovens-titas-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-1.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-2.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-3.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-4.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-5.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-6.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-7.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-8.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-9.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-10.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-11.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-12.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Segunda-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "os-jovens-titas-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-1.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-2.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-3.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-4.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-5.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-6.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-7.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-8.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-9.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-10.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-11.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-12.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Terceira-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "os-jovens-titas-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-1.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-2.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-3.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-4.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-5.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-6.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-7.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-8.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-9.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-10.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-11.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-12.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quarta-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada",
+        "episodes": [
+          {
+            "id": "os-jovens-titas-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-1.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-2.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-3.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-4.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-5.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-6.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-7.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-8.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-9.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-10.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-11.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-12.mp4"
+          },
+          {
+            "id": "os-jovens-titas-s5-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600605.us.archive.org/5/items/TitasDub/Quinta-13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "o-espetacular-homem-aranha",
+    "slug": "o-espetacular-homem-aranha",
+    "tmdbId": 3854,
+    "title": "O Espetacular Homem-Aranha",
+    "originalTitle": "The Spectacular Spider-Man",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/mtelBDEhr0GliQ2MRPBUmgxiXJY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/fypGcrQCyb9vQ7L8AM6PHCjQSBC.jpg",
+    "synopsis": "Esta série recria as façanhas de Peter Parker, um garoto que é picado por uma aranha radioativa e passa a ter superpoderes, tornando-se o Homem-Aranha.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "DUB"
+    ],
+    "year": "2008",
+    "rating": 8.629,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "o-espetacular-homem-aranha-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-1.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-2.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-3.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-4.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-5.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-6.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-7.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-8.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-9.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-10.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-11.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-12.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Primeira-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "o-espetacular-homem-aranha-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-1.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-2.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-3.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-4.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-5.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-6.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-7.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-8.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-9.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-10.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-11.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-12.mp4"
+          },
+          {
+            "id": "o-espetacular-homem-aranha-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600604.us.archive.org/9/items/EspetacularDub/Segunda-13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-lenda-de-korra",
+    "slug": "a-lenda-de-korra",
+    "tmdbId": 33880,
+    "title": "A Lenda de Korra",
+    "originalTitle": "The Legend of Korra",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/yDRskxx7kXoB9ImdXi05Db5EG3L.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bauKfP3CX5JPAXpmveOlPG1pngC.jpg",
+    "synopsis": "Korra, uma jovem rebelde de 17 anos, deixa a tradição de lado para se tornar um Avatar e manter a Cidade da República livre das forças do mal dos mundos físico e espiritual.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "DUB"
+    ],
+    "year": "2012",
+    "rating": 8.216,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "Livro 1 - Ar",
+        "episodes": [
+          {
+            "id": "a-lenda-de-korra-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-1.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-2.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-3.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-4.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-5.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-6.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-7.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-8.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-9.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-10.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-11.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Primeira-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Livro 2 - Espírito",
+        "episodes": [
+          {
+            "id": "a-lenda-de-korra-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-1.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-2.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-3.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-4.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-5.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-6.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-7.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-8.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-9.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-10.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-11.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-12.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-13.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Segunda-14.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Livro 3 - Mudança",
+        "episodes": [
+          {
+            "id": "a-lenda-de-korra-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-1.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-2.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-3.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-4.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-5.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-6.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-7.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-8.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-9.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-10.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-11.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-12.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Terceira-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Livro 4 - Equilíbrio",
+        "episodes": [
+          {
+            "id": "a-lenda-de-korra-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-1.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-2.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-3.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-4.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-5.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-6.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-7.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-8.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-9.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-10.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-11.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-12.mp4"
+          },
+          {
+            "id": "a-lenda-de-korra-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801908.us.archive.org/27/items/KorraDub/Quarta-13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a-lenda-de-aang",
+    "slug": "a-lenda-de-aang",
+    "tmdbId": 246,
+    "title": "Avatar: A Lenda de Aang",
+    "originalTitle": "Avatar: The Last Airbender",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/7IJhby0sfQCN5ZIIseAWCw6j3xm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/7oBGhqJIghRBvOwo5Qe0yM0cnMc.jpg",
+    "synopsis": "Aang é um menino de 12 anos que descobre ser o Avatar, mestre responsável por garantir o equilíbrio entre os quatro elementos e suas respectivas nações, mantendo o planeta em paz.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "DUB"
+    ],
+    "year": "2005",
+    "rating": 8.782,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "Livro 1 - Água",
+        "episodes": [
+          {
+            "id": "a-lenda-de-aang-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-1.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-2.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-3.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-4.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-5.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-6.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-7.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-8.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-9.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-10.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-11.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-12.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-13.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-14.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-15.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-16.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-17.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-18.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-19.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Primeira-20.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Livro 2 - Terra",
+        "episodes": [
+          {
+            "id": "a-lenda-de-aang-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-1.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-2.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-3.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-4.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-5.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-6.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-7.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-8.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-9.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-10.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-11.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-12.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-13.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-14.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-15.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-16.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-17.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Segunda-18.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Livro 3 - Fogo",
+        "episodes": [
+          {
+            "id": "a-lenda-de-aang-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-1.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-2.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-3.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-4.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-5.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-6.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-7.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-8.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-9.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-10.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-11.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-12.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-13.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-14.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-15.mp4"
+          },
+          {
+            "id": "a-lenda-de-aang-s3-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600409.us.archive.org/0/items/AangDub/Terceira-16.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vox-machina",
+    "slug": "vox-machina",
+    "tmdbId": 135934,
+    "title": "A Lenda de Vox Machina",
+    "originalTitle": "The Legend of Vox Machina",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/nG5McMUgXe50auVSNNf4nd98Xpd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qCGwPCwlSiLdlYinzy9rSQDjQX1.jpg",
+    "synopsis": "Desordeiros e maltrapilhos, são desajustados que viraram mercenários. O grupo Vox Machina está mais interessado em dinheiro fácil e cerveja barata do que em proteger o reino. Mas quando o reino é ameaçado pelo mal, esses encrenqueiros percebem que são os únicos capazes de restaurar a justiça. O que começou como um serviço simples agora é a história de origem dos mais novos heróis de Exandria.",
+    "genres": [
+      "FICCAO",
+      "FANTASIA",
+      "ACAO",
+      "AVENTURA",
+      "DUB"
+    ],
+    "year": "2022",
+    "rating": 8.212,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "vox-machina-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-1.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-2.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-3.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-4.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-5.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-6.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-7.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-8.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-9.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-10.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-11.mp4"
+          },
+          {
+            "id": "vox-machina-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Primeira-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "vox-machina-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-1.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-2.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-3.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-4.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-5.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-6.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-7.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-8.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-9.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-10.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-11.mp4"
+          },
+          {
+            "id": "vox-machina-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Segunda-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "vox-machina-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-1.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-2.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-3.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-4.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-5.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-6.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-7.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-8.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-9.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-10.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-11.mp4"
+          },
+          {
+            "id": "vox-machina-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Terceira-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "vox-machina-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-1.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-2.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-3.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-4.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-5.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-6.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-7.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-8.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-9.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-10.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-11.mp4"
+          },
+          {
+            "id": "vox-machina-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903100.us.archive.org/33/items/VoxDub/Quarta-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "invencivel",
+    "slug": "invencivel",
+    "tmdbId": 95557,
+    "title": "INVENCÍVEL",
+    "originalTitle": "INVINCIBLE",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/qhb7RWU9ad9a5m3HbeRRXzjaMXf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/9qrroces8C6R9aKr08hACNPVXdZ.jpg",
+    "synopsis": "Uma animação de super-heróis para adultos e conta a história de Mark Grayson, de 17 anos, um cara como qualquer outro de sua idade, exceto que seu pai é o super-herói mais poderoso do planeta, Omni-Man. Porém, à medida que Mark desenvolve seus próprios poderes, ele descobre que o legado de seu pai pode não ser tão heroico quanto parece.",
+    "genres": [
+      "DRAMA",
+      "FICCAO",
+      "FANTASIA",
+      "ACAO",
+      "AVENTURA",
+      "DUB"
+    ],
+    "year": "2021",
+    "rating": 8.6,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "invencivel-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Primeira-1.mp4"
+          },
+          {
+            "id": "invencivel-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Primeira-2.mp4"
+          },
+          {
+            "id": "invencivel-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Primeira-3.mp4"
+          },
+          {
+            "id": "invencivel-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Primeira-4.mp4"
+          },
+          {
+            "id": "invencivel-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Primeira-5.mp4"
+          },
+          {
+            "id": "invencivel-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Primeira-6.mp4"
+          },
+          {
+            "id": "invencivel-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Primeira-7.mp4"
+          },
+          {
+            "id": "invencivel-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Primeira-8.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "invencivel-s2-e1",
+            "name": "Episódio 00",
+            "number": 1,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-00.mp4"
+          },
+          {
+            "id": "invencivel-s2-e2",
+            "name": "Episódio 01",
+            "number": 2,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-1.mp4"
+          },
+          {
+            "id": "invencivel-s2-e3",
+            "name": "Episódio 02",
+            "number": 3,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-2.mp4"
+          },
+          {
+            "id": "invencivel-s2-e4",
+            "name": "Episódio 03",
+            "number": 4,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-3.mp4"
+          },
+          {
+            "id": "invencivel-s2-e5",
+            "name": "Episódio 04",
+            "number": 5,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-4.mp4"
+          },
+          {
+            "id": "invencivel-s2-e6",
+            "name": "Episódio 05",
+            "number": 6,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-5.mp4"
+          },
+          {
+            "id": "invencivel-s2-e7",
+            "name": "Episódio 06",
+            "number": 7,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-6.mp4"
+          },
+          {
+            "id": "invencivel-s2-e8",
+            "name": "Episódio 07",
+            "number": 8,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-7.mp4"
+          },
+          {
+            "id": "invencivel-s2-e9",
+            "name": "Episódio 08",
+            "number": 9,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Segunda-8.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "invencivel-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Terceira-1.mp4"
+          },
+          {
+            "id": "invencivel-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Terceira-2.mp4"
+          },
+          {
+            "id": "invencivel-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Terceira-3.mp4"
+          },
+          {
+            "id": "invencivel-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Terceira-4.mp4"
+          },
+          {
+            "id": "invencivel-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Terceira-5.mp4"
+          },
+          {
+            "id": "invencivel-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Terceira-6.mp4"
+          },
+          {
+            "id": "invencivel-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Terceira-7.mp4"
+          },
+          {
+            "id": "invencivel-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Terceira-8.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "invencivel-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Quarta-1.mp4"
+          },
+          {
+            "id": "invencivel-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Quarta-2.mp4"
+          },
+          {
+            "id": "invencivel-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Quarta-3.mp4"
+          },
+          {
+            "id": "invencivel-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Quarta-4.mp4"
+          },
+          {
+            "id": "invencivel-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Quarta-5.mp4"
+          },
+          {
+            "id": "invencivel-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Quarta-6.mp4"
+          },
+          {
+            "id": "invencivel-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Quarta-7.mp4"
+          },
+          {
+            "id": "invencivel-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600108.us.archive.org/10/items/VencivelDub/Quarta-8.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "justica-jovem",
+    "slug": "justica-jovem",
+    "tmdbId": 33217,
+    "title": "Justiça Jovem",
+    "originalTitle": "Young Justice",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/7sXJdUSIE7syMBV31Tcdcv9CB2J.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/pOKcw45cAMPu8DN7E3bN5FEvxM3.jpg",
+    "synopsis": "Justiça Jovem centra-se na jornada de um grupo de ajudantes e protegidos  de super-heróis tentando mostrar-se eles próprios como heróis, enquanto  lidam com problemas típicos da adolescência em suas vidas pessoais.",
+    "genres": [
+      "ACAO",
+      "FANTASIA",
+      "AVENTURA",
+      "DUB"
+    ],
+    "year": "2010",
+    "rating": 8.4,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "justica-jovem-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-1.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-2.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-3.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-4.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-5.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-6.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-7.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-8.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-9.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-10.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-11.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-12.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-13.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-14.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-15.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-16.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-17.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-18.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-19.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-20.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-21.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-22.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-23.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-24.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-25.mp4"
+          },
+          {
+            "id": "justica-jovem-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Primeira-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "justica-jovem-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-1.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-2.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-3.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-4.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-5.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-6.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-7.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-8.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-9.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-10.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-11.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-12.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-13.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-14.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-15.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-16.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-17.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-18.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-19.mp4"
+          },
+          {
+            "id": "justica-jovem-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Segunda-20.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "justica-jovem-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-1.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-2.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-3.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-4.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-5.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-6.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-7.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-8.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-9.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-10.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-11.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-12.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-13.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-14.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-15.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-16.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-17.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-18.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-19.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-20.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-21.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-22.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-23.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-24.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-25.mp4"
+          },
+          {
+            "id": "justica-jovem-s3-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Terceira-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "justica-jovem-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-1.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-2.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-3.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-4.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-5.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-6.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-7.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-8.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-9.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-10.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-11.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-12.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-13.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-14.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-15.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-16.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-17.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-18.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-19.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-20.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-21.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-22.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-23.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-24.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-25.mp4"
+          },
+          {
+            "id": "justica-jovem-s4-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia600501.us.archive.org/10/items/JusticaDub/Quarta-26.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "o-incrivel-circo-digital",
+    "slug": "o-incrivel-circo-digital",
+    "tmdbId": 261145,
+    "title": "O Incrível Circo Digital",
+    "originalTitle": "The Amazing Digital Circus",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/m6IDVi9F5G5ugrGNhKFFBYXZi6B.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vPVdWiLUNQyaGMazyZGVAyRcYBG.jpg",
+    "synopsis": "Uma mulher vai parar em um circo virtual bizarro com outras cinco pessoas, onde são forçadas a participar de jogos sob as ordens de uma inteligência artificial bem louca.",
+    "genres": [
+      "COMEDIA",
+      "DRAMA",
+      "FANTASIA",
+      "CURTOS",
+      "DUB"
+    ],
+    "year": "2023",
+    "rating": 8.7,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "o-incrivel-circo-digital-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/1.mp4"
+          },
+          {
+            "id": "o-incrivel-circo-digital-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/2.mp4"
+          },
+          {
+            "id": "o-incrivel-circo-digital-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/3.mp4"
+          },
+          {
+            "id": "o-incrivel-circo-digital-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/4.mp4"
+          },
+          {
+            "id": "o-incrivel-circo-digital-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/5.mp4"
+          },
+          {
+            "id": "o-incrivel-circo-digital-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/6.mp4"
+          },
+          {
+            "id": "o-incrivel-circo-digital-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/7.mp4"
+          },
+          {
+            "id": "o-incrivel-circo-digital-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/8.mp4"
+          },
+          {
+            "id": "o-incrivel-circo-digital-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600904.us.archive.org/28/items/CircoDub/9.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rick-morty",
+    "slug": "rick-morty",
+    "tmdbId": 60625,
+    "title": "Rick e Morty",
+    "originalTitle": "Rick and Morty",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/5BDNWWHweQL0q1fmTv7gmRXfnl4.jpg",
+    "synopsis": "O brilhante cientista beberrão Rick sequestra Morty, seu neto aborrescente, para viver loucuras em outros mundos e dimensões alternativas.",
+    "genres": [
+      "AVENTURA",
+      "FICCAO",
+      "DUB"
+    ],
+    "year": "2013",
+    "rating": 8.68,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-1.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-2.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-3.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-4.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-5.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-6.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-7.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-8.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-9.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-10.mp4"
+          },
+          {
+            "id": "rick-morty-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Primeira-11.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-1.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-2.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-3.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-4.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-5.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-6.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-7.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-8.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-9.mp4"
+          },
+          {
+            "id": "rick-morty-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Segunda-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-1.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-2.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-3.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-4.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-5.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-6.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-7.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-8.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-9.mp4"
+          },
+          {
+            "id": "rick-morty-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Terceira-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-1.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-2.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-3.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-4.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-5.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-6.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-7.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-8.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-9.mp4"
+          },
+          {
+            "id": "rick-morty-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quarta-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-1.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-2.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-3.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-4.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-5.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-6.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-7.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-8.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-9.mp4"
+          },
+          {
+            "id": "rick-morty-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Quinta-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "6ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-1.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-2.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-3.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-4.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-5.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-6.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-7.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-8.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-9.mp4"
+          },
+          {
+            "id": "rick-morty-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Sexta-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "7ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s7-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-1.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-2.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-3.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-4.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-5.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-6.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-7.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-8.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-9.mp4"
+          },
+          {
+            "id": "rick-morty-s7-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Setima-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "8ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s8-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-1.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-2.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-3.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-4.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-5.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-6.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-7.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-8.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-9.mp4"
+          },
+          {
+            "id": "rick-morty-s8-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Oitava-10.mp4"
+          }
+        ]
+      },
+      {
+        "name": "9ª Temporada",
+        "episodes": [
+          {
+            "id": "rick-morty-s9-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-1.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-2.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-3.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-4.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-5.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-6.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-7.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-8.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-9.mp4"
+          },
+          {
+            "id": "rick-morty-s9-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903207.us.archive.org/29/items/MortyDub/Nona-10.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "among-us",
+    "slug": "among-us",
+    "tmdbId": 229544,
+    "title": "Among Us",
+    "originalTitle": "Among Us",
+    "type": "cartoon",
+    "poster": "https://image.tmdb.org/t/p/w780/2xKFj7D79gZm6rYroNmyKzm6Q6q.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
+    "synopsis": "Os excêntricos tripulantes de uma nave que transporta sucata pela galáxia precisam descobrir quem é o impostor entre eles antes de serem vítimas dos planos maliciosos dele. Baseada no fenômeno mundial dos videogames da Innersloth, de mesmo nome.",
+    "genres": [
+      "AVENTURA",
+      "FICCAO",
+      "CURTOS",
+      "DUB"
+    ],
+    "year": "2026",
+    "rating": 9,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": false,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "among-us-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/1.mp4"
+          },
+          {
+            "id": "among-us-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/2.mp4"
+          },
+          {
+            "id": "among-us-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/3.mp4"
+          },
+          {
+            "id": "among-us-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/4.mp4"
+          },
+          {
+            "id": "among-us-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/5.mp4"
+          },
+          {
+            "id": "among-us-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/6.mp4"
+          },
+          {
+            "id": "among-us-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/7.mp4"
+          },
+          {
+            "id": "among-us-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/8.mp4"
+          },
+          {
+            "id": "among-us-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/9.mp4"
+          },
+          {
+            "id": "among-us-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801504.us.archive.org/10/items/AmongS01/10.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "dragon-ball",
     "slug": "dragon-ball",
     "title": "Dragon Ball (Coleção)",
@@ -3334,7 +9342,7 @@ export const initialCatalog: MediaItem[] = [
     "title": "Date A Live",
     "originalTitle": "デート・ア・ライブ",
     "type": "anime",
-    "poster": "https://image.tmdb.org/t/p/original/xEwKIg7m8TzjFTY5T4Yj3beR7rH.jpg",
+    "poster": "https://image.tmdb.org/t/p/w780/vzaf5B2S00Ww3CwUck9IryUuFqP.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/lyam6zw2aNwSM6h6sn0wTLgygj6.jpg",
     "synopsis": "Incessantes terremotos assolam a Terra. Um dia, se descobre que eles são provocados propositalmente por seres mágicos chamados \"Espíritos\", que querem causar o caos no planeta por não ter nada melhor para fazer. Nosso protagonista, Shido Itsuka, até então não tem nada a ver com isso, até que um terremoto o pega e junto com ele a surpresa: esse \"Espírito\" é uma linda garota. Se ele não morreu por sorte ao fugir, agora que o bicho vai pegar: sua grande amiga Kotori revela que ele tem o poder de selar os Espíritos, e o ordena fazê-la se apaixonar, se acalmar, e com isso salvar o mundo.",
     "genres": [
@@ -3989,7 +9997,7 @@ export const initialCatalog: MediaItem[] = [
     "title": "Clannad",
     "originalTitle": "CLANNAD",
     "type": "anime",
-    "poster": "https://image.tmdb.org/t/p/original/jPBMYp4ddXkGJDSxxmaKBjzv2r3.jpg",
+    "poster": "https://image.tmdb.org/t/p/w780/cfhHgzzcpYjBzDGfiJJ3y6QBaUA.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/vB7HwJNhlRA9tPViK32bK0hVCmb.jpg",
     "synopsis": "Tomoya é um estudante amargurado do terceiro ano do ensino médio. Sua mãe faleceu, o que levou seu pai a se refugiar no álcool e no jogo. Tomoya se afastou do pai e se tornou um delinquente nos anos que se seguiram à morte da mãe. A caminho da escola, ele conhece Nagisa Furukawa, que é um ano mais velha, mas está repetindo a série devido a uma doença. Ela está sozinha, já que a maioria de seus amigos seguiu em frente. Os dois começam a sair juntos e, com o passar do tempo, Tomoya percebe que sua vida está tomando um novo rumo.",
     "genres": [
@@ -4158,7 +10166,7 @@ export const initialCatalog: MediaItem[] = [
     "title": "Re:CREATORS",
     "originalTitle": "Re:CREATORS",
     "type": "anime",
-    "poster": "https://image.tmdb.org/t/p/original/aXQjU49ehbigMqVphNSGH3favQW.jpg",
+    "poster": "https://image.tmdb.org/t/p/w780/kVxFvpttZ8V3zog5eoFmzMVFppy.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/4Q6eUPWDSQmws34Y1U9bZRZxjuz.jpg",
     "synopsis": "Humanos criaram muitas histórias. Felicidade, tristeza, raiva. Histórias mexem com nossas emoções, e nos fascinam. Mas e se os personagens dessas histórias tivessem “intenções próprias”? Para eles, seriamos nós deuses por criar suas histórias e existência? Nosso mundo está mudado. Receba a punição na dimensão dos deuses.",
     "genres": [
@@ -4322,7 +10330,7 @@ export const initialCatalog: MediaItem[] = [
     "title": "アオハライド",
     "originalTitle": "アオハライド",
     "type": "anime",
-    "poster": "https://image.tmdb.org/t/p/original/t9F4O5llagb7TOi17tZN6F9ygiJ.jpg",
+    "poster": "https://image.tmdb.org/t/p/w780/4mLCVh7ZEbOiiAsbN8aJeQKodmi.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/k1uN9SAixY9ppkbhsl6zuvAmr64.jpg",
     "synopsis": "No ensino médio, Yoshioka Futaba (Deguchi Natsuki) se apaixonou por seu colega de classe Tanaka Kou (Sakurai Kaito). Por um tempo, eles eram inseparáveis, curtindo as emoções do primeiro amor. Mas logo esse relacionamento feliz acaba. Um dia, Tanaka Kou vai embora, e Yoshioka Futaba fica sozinha e de coração partido.\n\nTrês anos depois, Yoshioka Futaba está terminando o ensino médio quando Kou se transfere inesperadamente para sua turma. Mas ele está diferente. O sobrenome de Kou agora é Mabuchi. E sua personalidade mudou totalmente — o garoto gentil que um dia ela se apaixonou é agora duro e gelado. Com o tempo, Yoshioka Futaba começa a descobrir o que aconteceu com Kou para mudá-lo durante o tempo que ficaram separados. Mas será que eles conseguirão reacender as chamas do amor? Ou haverá mais decepções?",
     "genres": [
@@ -4430,116 +10438,6 @@ export const initialCatalog: MediaItem[] = [
             "name": "PAGE.13",
             "number": 2,
             "streamUrl": "https://ia800606.us.archive.org/20/items/HaruLeg/OVA-2.mp4"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "avatar-sete-refugios",
-    "slug": "avatar-sete-refugios",
-    "tmdbId": 284833,
-    "title": "Avatar: Os Sete Refúgios",
-    "originalTitle": "Avatar: Seven Havens",
-    "type": "cartoon",
-    "poster": "https://image.tmdb.org/t/p/original/l8qbsNAr1CZK2tZ60l5lrJdT5mW.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
-    "synopsis": "Após um cataclismo global, uma jovem descobre ser o novo Avatar - agora rotulada como a Destruidora, não uma salvadora. Caçada por humanos e espíritos, ela e sua gêmea há muito perdida precisam descobrir suas origens e salvar a humanidade do colapso.",
-    "genres": [
-      "ACAO",
-      "AVENTURA",
-      "FICCAO",
-      "FANTASIA",
-      "CURTOS",
-      "DUB",
-      "RECENTE"
-    ],
-    "year": "2026",
-    "rating": 8.825,
-    "isDubbed": true,
-    "isSubbed": false,
-    "isFeatured": true,
-    "seasons": [
-      {
-        "name": "Livro 1 - Sobrevivência",
-        "episodes": [
-          {
-            "id": "avatar-sete-refugios-s1-e1",
-            "name": "Episódio 01",
-            "number": 1,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/1.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e2",
-            "name": "Episódio 02",
-            "number": 2,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/2.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e3",
-            "name": "Episódio 03",
-            "number": 3,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/3.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e4",
-            "name": "Episódio 04",
-            "number": 4,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/4.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e5",
-            "name": "Episódio 05",
-            "number": 5,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/5.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e6",
-            "name": "Episódio 06",
-            "number": 6,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/6.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e7",
-            "name": "Episódio 07",
-            "number": 7,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/7.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e8",
-            "name": "Episódio 08",
-            "number": 8,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/8.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e9",
-            "name": "Episódio 09",
-            "number": 9,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/9.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e10",
-            "name": "Episódio 10",
-            "number": 10,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/10.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e11",
-            "name": "Episódio 11",
-            "number": 11,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/11.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e12",
-            "name": "Episódio 12",
-            "number": 12,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/12.mp4"
-          },
-          {
-            "id": "avatar-sete-refugios-s1-e13",
-            "name": "Episódio 13",
-            "number": 13,
-            "streamUrl": "https://ia903204.us.archive.org/10/items/AvatarRefugios/13.mp4"
           }
         ]
       }
@@ -4919,7 +10817,7 @@ export const initialCatalog: MediaItem[] = [
     "title": "Minha Amiga Nokotan é um Cervo",
     "originalTitle": "しかのこのこのここしたんたん",
     "type": "anime",
-    "poster": "https://image.tmdb.org/t/p/original/qxuxdQuIf8RqXmBNNaeteXgiMVf.jpg",
+    "poster": "https://image.tmdb.org/t/p/w780/qxuxdQuIf8RqXmBNNaeteXgiMVf.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/6GmVVDEjnA4HuSany5otbR8xaET.jpg",
     "synopsis": "Torako Koshi é uma aluna exemplar do ensino médio que encontra uma garota da sua idade presa nos postes de energia por causa de seus... Chifres? A vida dessa ex-delinquente vira de cabeça pra baixo agora que sua amiga-cervo, Shikanoko, chegou para ficar.",
     "genres": [
@@ -5101,7 +10999,7 @@ export const initialCatalog: MediaItem[] = [
     "title": "Sonny Boy",
     "originalTitle": "Sonny Boy",
     "type": "anime",
-    "poster": "https://image.tmdb.org/t/p/original/5R1UmoGInl3mHixVVngApV1Ap3T.jpg",
+    "poster": "https://image.tmdb.org/t/p/w780/6sJ7FCtxzrNfgM70s2d7VS0Xjdm.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/rgmBS8zkk6RrGUOdWqzZs8hjZer.jpg",
     "synopsis": "Em 16 de agosto, no meio das férias de verão aparentemente intermináveis, o estudante Nagara do terceiro ano do ensino médio, a misteriosa estudante transferida Nozomi e colegas de classe como Mizuho e Asakaze são repentinamente transportados de suas vidas cotidianas tranquilas para uma escola à deriva em uma dimensão alternativa. Eles devem sobreviver com os superpoderes que despertaram dentro deles.",
     "genres": [
@@ -5605,6 +11503,15417 @@ export const initialCatalog: MediaItem[] = [
             "name": "Episódio 12",
             "number": 12,
             "streamUrl": "https://ia601808.us.archive.org/2/items/KomiDubLeg/Segunda-Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orange",
+    "slug": "orange",
+    "tmdbId": 66958,
+    "title": "Orange",
+    "originalTitle": "orange",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/oxnWNFG4cSLBXJTDLOJU8ucMpmD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/n686vD71zZ6SoNZbdsorYv8XBoF.jpg",
+    "synopsis": "Certo dia, Takamiya Naho recebe uma carta escrita por ela mesma dez anos no futuro. A carta narra exatamente os eventos daquele dia, incluindo a transferência de um novo aluno para a turma dela chamado Naruse Kakeru. A Naho do futuro diz repetidamente que ela tem vários arrependimentos e quer consertar eles garantindo que Naho do passado tome as decisões certas, especialmente sobre Kakeru. O mais chocante é que ela descobre que daqui dez anos Kakeru não estará mais entre eles. A Naho do futuro pede que ela cuide dele com atenção.",
+    "genres": [
+      "DRAMA",
+      "ROMANCE",
+      "FICCAO",
+      "EMOCIONAL",
+      "DUB",
+      "LEG",
+      "ESCOLAR",
+      "CURTOS",
+      "RECENTE"
+    ],
+    "year": "2016",
+    "rating": 8,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "orange-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "orange-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "orange-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "orange-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "orange-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "orange-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "orange-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "orange-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "orange-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "orange-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "orange-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "orange-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-12.mp4"
+          },
+          {
+            "id": "orange-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "orange-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "orange-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "orange-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "orange-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "orange-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "orange-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "orange-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "orange-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "orange-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "orange-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "orange-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "orange-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-12.mp4"
+          },
+          {
+            "id": "orange-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filme",
+        "episodes": [
+          {
+            "id": "orange-s3-e1",
+            "name": "Orange: Mirai",
+            "number": 1,
+            "streamUrl": "https://ia600701.us.archive.org/9/items/OrangeDubLeg/Filme.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "twilight-out-of-focus",
+    "slug": "twilight-out-of-focus",
+    "tmdbId": 249409,
+    "title": "Twilight Out of Focus",
+    "originalTitle": "黄昏アウトフォーカス",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/5qgdbIbgG6cA7xDpFyTRoFhMZFH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/inSxdAuG0f1kNedPZCPkrNn8M6Z.jpg",
+    "synopsis": "Um clube de cinema numa escola masculina é o pano de fundo para três contos de romance. Mao e Hisashi são dupla em um projeto, fazem três promessas e se aproximam. O presidente do clube, Jin e um garoto mais novo invejoso chamado Giichi entram em confronto antes de acharem um ponto em comum. Shion, estudante do primeiro ano, entra para o clube de cinema em busca de um namorado e bate de frente com Rei — Até que Rei resolve convidá-lo para sair.",
+    "genres": [
+      "ROMANCE",
+      "QUEER",
+      "LEG",
+      "CURTOS",
+      "RECENTE"
+    ],
+    "year": "2024",
+    "rating": 7.7,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "twilight-out-of-focus-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/1.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/2.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/3.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/4.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/5.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/6.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/7.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/8.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/9.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/10.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/11.mp4"
+          },
+          {
+            "id": "twilight-out-of-focus-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia903201.us.archive.org/7/items/TwilightLeg/12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "black-clover",
+    "slug": "black-clover",
+    "tmdbId": 73223,
+    "title": "Black Clover",
+    "originalTitle": "ブラッククローバー",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+    "synopsis": "Num mundo onde magia é tudo, Asta e Yuno são abandonados em uma igreja no mesmo dia. Enquanto Yuno possui poderes mágicos excepcionais, Asta é a única pessoa do mundo todo desprovida desse dom. Aos quinze anos, ambos recebem grimórios - livros mágicos que amplificam os poderes do detentor. Asta recebe um raro grimório de anti-magia, capaz de negar e repelir os feitiços do oponente. Dois opostos que nutrem uma rivalidade amigável, Yuno e Asta estão prontos para encarar os mais difíceis desafios para conquistar seu sonho em comum: tornar-se o Rei dos Feiticeiros. Desistir não é opção!",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "COMEDIA",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2017",
+    "rating": 8.5,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "black-clover-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/1.mp4"
+          },
+          {
+            "id": "black-clover-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/2.mp4"
+          },
+          {
+            "id": "black-clover-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/3.mp4"
+          },
+          {
+            "id": "black-clover-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/4.mp4"
+          },
+          {
+            "id": "black-clover-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/5.mp4"
+          },
+          {
+            "id": "black-clover-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/6.mp4"
+          },
+          {
+            "id": "black-clover-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/7.mp4"
+          },
+          {
+            "id": "black-clover-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/8.mp4"
+          },
+          {
+            "id": "black-clover-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/9.mp4"
+          },
+          {
+            "id": "black-clover-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/10.mp4"
+          },
+          {
+            "id": "black-clover-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/11.mp4"
+          },
+          {
+            "id": "black-clover-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/12.mp4"
+          },
+          {
+            "id": "black-clover-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/13.mp4"
+          },
+          {
+            "id": "black-clover-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/14.mp4"
+          },
+          {
+            "id": "black-clover-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/15.mp4"
+          },
+          {
+            "id": "black-clover-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/16.mp4"
+          },
+          {
+            "id": "black-clover-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/17.mp4"
+          },
+          {
+            "id": "black-clover-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/18.mp4"
+          },
+          {
+            "id": "black-clover-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/19.mp4"
+          },
+          {
+            "id": "black-clover-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/20.mp4"
+          },
+          {
+            "id": "black-clover-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/21.mp4"
+          },
+          {
+            "id": "black-clover-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/22.mp4"
+          },
+          {
+            "id": "black-clover-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/23.mp4"
+          },
+          {
+            "id": "black-clover-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/24.mp4"
+          },
+          {
+            "id": "black-clover-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/25.mp4"
+          },
+          {
+            "id": "black-clover-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/26.mp4"
+          },
+          {
+            "id": "black-clover-s1-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/27.mp4"
+          },
+          {
+            "id": "black-clover-s1-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/28.mp4"
+          },
+          {
+            "id": "black-clover-s1-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/29.mp4"
+          },
+          {
+            "id": "black-clover-s1-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/30.mp4"
+          },
+          {
+            "id": "black-clover-s1-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/31.mp4"
+          },
+          {
+            "id": "black-clover-s1-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/32.mp4"
+          },
+          {
+            "id": "black-clover-s1-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/33.mp4"
+          },
+          {
+            "id": "black-clover-s1-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/34.mp4"
+          },
+          {
+            "id": "black-clover-s1-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/35.mp4"
+          },
+          {
+            "id": "black-clover-s1-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/36.mp4"
+          },
+          {
+            "id": "black-clover-s1-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/37.mp4"
+          },
+          {
+            "id": "black-clover-s1-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/38.mp4"
+          },
+          {
+            "id": "black-clover-s1-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/39.mp4"
+          },
+          {
+            "id": "black-clover-s1-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/40.mp4"
+          },
+          {
+            "id": "black-clover-s1-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/41.mp4"
+          },
+          {
+            "id": "black-clover-s1-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/42.mp4"
+          },
+          {
+            "id": "black-clover-s1-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/43.mp4"
+          },
+          {
+            "id": "black-clover-s1-e44",
+            "name": "Episódio 44",
+            "number": 44,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/44.mp4"
+          },
+          {
+            "id": "black-clover-s1-e45",
+            "name": "Episódio 45",
+            "number": 45,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/45.mp4"
+          },
+          {
+            "id": "black-clover-s1-e46",
+            "name": "Episódio 46",
+            "number": 46,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/46.mp4"
+          },
+          {
+            "id": "black-clover-s1-e47",
+            "name": "Episódio 47",
+            "number": 47,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/47.mp4"
+          },
+          {
+            "id": "black-clover-s1-e48",
+            "name": "Episódio 48",
+            "number": 48,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/48.mp4"
+          },
+          {
+            "id": "black-clover-s1-e49",
+            "name": "Episódio 49",
+            "number": 49,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/49.mp4"
+          },
+          {
+            "id": "black-clover-s1-e50",
+            "name": "Episódio 50",
+            "number": 50,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/50.mp4"
+          },
+          {
+            "id": "black-clover-s1-e51",
+            "name": "Episódio 51",
+            "number": 51,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/51.mp4"
+          },
+          {
+            "id": "black-clover-s1-e52",
+            "name": "Episódio 52",
+            "number": 52,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/52.mp4"
+          },
+          {
+            "id": "black-clover-s1-e53",
+            "name": "Episódio 53",
+            "number": 53,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/53.mp4"
+          },
+          {
+            "id": "black-clover-s1-e54",
+            "name": "Episódio 54",
+            "number": 54,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/54.mp4"
+          },
+          {
+            "id": "black-clover-s1-e55",
+            "name": "Episódio 55",
+            "number": 55,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/55.mp4"
+          },
+          {
+            "id": "black-clover-s1-e56",
+            "name": "Episódio 56",
+            "number": 56,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/56.mp4"
+          },
+          {
+            "id": "black-clover-s1-e57",
+            "name": "Episódio 57",
+            "number": 57,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/57.mp4"
+          },
+          {
+            "id": "black-clover-s1-e58",
+            "name": "Episódio 58",
+            "number": 58,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/58.mp4"
+          },
+          {
+            "id": "black-clover-s1-e59",
+            "name": "Episódio 59",
+            "number": 59,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/59.mp4"
+          },
+          {
+            "id": "black-clover-s1-e60",
+            "name": "Episódio 60",
+            "number": 60,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/60.mp4"
+          },
+          {
+            "id": "black-clover-s1-e61",
+            "name": "Episódio 61",
+            "number": 61,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/61.mp4"
+          },
+          {
+            "id": "black-clover-s1-e62",
+            "name": "Episódio 62",
+            "number": 62,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/62.mp4"
+          },
+          {
+            "id": "black-clover-s1-e63",
+            "name": "Episódio 63",
+            "number": 63,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/63.mp4"
+          },
+          {
+            "id": "black-clover-s1-e64",
+            "name": "Episódio 64",
+            "number": 64,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/64.mp4"
+          },
+          {
+            "id": "black-clover-s1-e65",
+            "name": "Episódio 65",
+            "number": 65,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/65.mp4"
+          },
+          {
+            "id": "black-clover-s1-e66",
+            "name": "Episódio 66",
+            "number": 66,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/66.mp4"
+          },
+          {
+            "id": "black-clover-s1-e67",
+            "name": "Episódio 67",
+            "number": 67,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/67.mp4"
+          },
+          {
+            "id": "black-clover-s1-e68",
+            "name": "Episódio 68",
+            "number": 68,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/68.mp4"
+          },
+          {
+            "id": "black-clover-s1-e69",
+            "name": "Episódio 69",
+            "number": 69,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/69.mp4"
+          },
+          {
+            "id": "black-clover-s1-e70",
+            "name": "Episódio 70",
+            "number": 70,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/70.mp4"
+          },
+          {
+            "id": "black-clover-s1-e71",
+            "name": "Episódio 71",
+            "number": 71,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/71.mp4"
+          },
+          {
+            "id": "black-clover-s1-e72",
+            "name": "Episódio 72",
+            "number": 72,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/72.mp4"
+          },
+          {
+            "id": "black-clover-s1-e73",
+            "name": "Episódio 73",
+            "number": 73,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/73.mp4"
+          },
+          {
+            "id": "black-clover-s1-e74",
+            "name": "Episódio 74",
+            "number": 74,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/74.mp4"
+          },
+          {
+            "id": "black-clover-s1-e75",
+            "name": "Episódio 75",
+            "number": 75,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/75.mp4"
+          },
+          {
+            "id": "black-clover-s1-e76",
+            "name": "Episódio 76",
+            "number": 76,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/76.mp4"
+          },
+          {
+            "id": "black-clover-s1-e77",
+            "name": "Episódio 77",
+            "number": 77,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/77.mp4"
+          },
+          {
+            "id": "black-clover-s1-e78",
+            "name": "Episódio 78",
+            "number": 78,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/78.mp4"
+          },
+          {
+            "id": "black-clover-s1-e79",
+            "name": "Episódio 79",
+            "number": 79,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/79.mp4"
+          },
+          {
+            "id": "black-clover-s1-e80",
+            "name": "Episódio 80",
+            "number": 80,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/80.mp4"
+          },
+          {
+            "id": "black-clover-s1-e81",
+            "name": "Episódio 81",
+            "number": 81,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/81.mp4"
+          },
+          {
+            "id": "black-clover-s1-e82",
+            "name": "Episódio 82",
+            "number": 82,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/82.mp4"
+          },
+          {
+            "id": "black-clover-s1-e83",
+            "name": "Episódio 83",
+            "number": 83,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/83.mp4"
+          },
+          {
+            "id": "black-clover-s1-e84",
+            "name": "Episódio 84",
+            "number": 84,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/84.mp4"
+          },
+          {
+            "id": "black-clover-s1-e85",
+            "name": "Episódio 85",
+            "number": 85,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/85.mp4"
+          },
+          {
+            "id": "black-clover-s1-e86",
+            "name": "Episódio 86",
+            "number": 86,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/86.mp4"
+          },
+          {
+            "id": "black-clover-s1-e87",
+            "name": "Episódio 87",
+            "number": 87,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/87.mp4"
+          },
+          {
+            "id": "black-clover-s1-e88",
+            "name": "Episódio 88",
+            "number": 88,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/88.mp4"
+          },
+          {
+            "id": "black-clover-s1-e89",
+            "name": "Episódio 89",
+            "number": 89,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/89.mp4"
+          },
+          {
+            "id": "black-clover-s1-e90",
+            "name": "Episódio 90",
+            "number": 90,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/90.mp4"
+          },
+          {
+            "id": "black-clover-s1-e91",
+            "name": "Episódio 91",
+            "number": 91,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/91.mp4"
+          },
+          {
+            "id": "black-clover-s1-e92",
+            "name": "Episódio 92",
+            "number": 92,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/92.mp4"
+          },
+          {
+            "id": "black-clover-s1-e93",
+            "name": "Episódio 93",
+            "number": 93,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/93.mp4"
+          },
+          {
+            "id": "black-clover-s1-e94",
+            "name": "Episódio 94",
+            "number": 94,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/94.mp4"
+          },
+          {
+            "id": "black-clover-s1-e95",
+            "name": "Episódio 95",
+            "number": 95,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/95.mp4"
+          },
+          {
+            "id": "black-clover-s1-e96",
+            "name": "Episódio 96",
+            "number": 96,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/96.mp4"
+          },
+          {
+            "id": "black-clover-s1-e97",
+            "name": "Episódio 97",
+            "number": 97,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/97.mp4"
+          },
+          {
+            "id": "black-clover-s1-e98",
+            "name": "Episódio 98",
+            "number": 98,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/98.mp4"
+          },
+          {
+            "id": "black-clover-s1-e99",
+            "name": "Episódio 99",
+            "number": 99,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/99.mp4"
+          },
+          {
+            "id": "black-clover-s1-e100",
+            "name": "Episódio 100",
+            "number": 100,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/100.mp4"
+          },
+          {
+            "id": "black-clover-s1-e101",
+            "name": "Episódio 101",
+            "number": 101,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/101.mp4"
+          },
+          {
+            "id": "black-clover-s1-e102",
+            "name": "Episódio 102",
+            "number": 102,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/102.mp4"
+          },
+          {
+            "id": "black-clover-s1-e103",
+            "name": "Episódio 103",
+            "number": 103,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/103.mp4"
+          },
+          {
+            "id": "black-clover-s1-e104",
+            "name": "Episódio 104",
+            "number": 104,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/104.mp4"
+          },
+          {
+            "id": "black-clover-s1-e105",
+            "name": "Episódio 105",
+            "number": 105,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/105.mp4"
+          },
+          {
+            "id": "black-clover-s1-e106",
+            "name": "Episódio 106",
+            "number": 106,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/106.mp4"
+          },
+          {
+            "id": "black-clover-s1-e107",
+            "name": "Episódio 107",
+            "number": 107,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/107.mp4"
+          },
+          {
+            "id": "black-clover-s1-e108",
+            "name": "Episódio 108",
+            "number": 108,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/108.mp4"
+          },
+          {
+            "id": "black-clover-s1-e109",
+            "name": "Episódio 109",
+            "number": 109,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/109.mp4"
+          },
+          {
+            "id": "black-clover-s1-e110",
+            "name": "Episódio 110",
+            "number": 110,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/110.mp4"
+          },
+          {
+            "id": "black-clover-s1-e111",
+            "name": "Episódio 111",
+            "number": 111,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/111.mp4"
+          },
+          {
+            "id": "black-clover-s1-e112",
+            "name": "Episódio 112",
+            "number": 112,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/112.mp4"
+          },
+          {
+            "id": "black-clover-s1-e113",
+            "name": "Episódio 113",
+            "number": 113,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/113.mp4"
+          },
+          {
+            "id": "black-clover-s1-e114",
+            "name": "Episódio 114",
+            "number": 114,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/114.mp4"
+          },
+          {
+            "id": "black-clover-s1-e115",
+            "name": "Episódio 115",
+            "number": 115,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/115.mp4"
+          },
+          {
+            "id": "black-clover-s1-e116",
+            "name": "Episódio 116",
+            "number": 116,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/116.mp4"
+          },
+          {
+            "id": "black-clover-s1-e117",
+            "name": "Episódio 117",
+            "number": 117,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/117.mp4"
+          },
+          {
+            "id": "black-clover-s1-e118",
+            "name": "Episódio 118",
+            "number": 118,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/118.mp4"
+          },
+          {
+            "id": "black-clover-s1-e119",
+            "name": "Episódio 119",
+            "number": 119,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/119.mp4"
+          },
+          {
+            "id": "black-clover-s1-e120",
+            "name": "Episódio 120",
+            "number": 120,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/120.mp4"
+          },
+          {
+            "id": "black-clover-s1-e121",
+            "name": "Episódio 121",
+            "number": 121,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/121.mp4"
+          },
+          {
+            "id": "black-clover-s1-e122",
+            "name": "Episódio 122",
+            "number": 122,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/122.mp4"
+          },
+          {
+            "id": "black-clover-s1-e123",
+            "name": "Episódio 123",
+            "number": 123,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/123.mp4"
+          },
+          {
+            "id": "black-clover-s1-e124",
+            "name": "Episódio 124",
+            "number": 124,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/124.mp4"
+          },
+          {
+            "id": "black-clover-s1-e125",
+            "name": "Episódio 125",
+            "number": 125,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/125.mp4"
+          },
+          {
+            "id": "black-clover-s1-e126",
+            "name": "Episódio 126",
+            "number": 126,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/126.mp4"
+          },
+          {
+            "id": "black-clover-s1-e127",
+            "name": "Episódio 127",
+            "number": 127,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/127.mp4"
+          },
+          {
+            "id": "black-clover-s1-e128",
+            "name": "Episódio 128",
+            "number": 128,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/128.mp4"
+          },
+          {
+            "id": "black-clover-s1-e129",
+            "name": "Episódio 129",
+            "number": 129,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/129.mp4"
+          },
+          {
+            "id": "black-clover-s1-e130",
+            "name": "Episódio 130",
+            "number": 130,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/130.mp4"
+          },
+          {
+            "id": "black-clover-s1-e131",
+            "name": "Episódio 131",
+            "number": 131,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/131.mp4"
+          },
+          {
+            "id": "black-clover-s1-e132",
+            "name": "Episódio 132",
+            "number": 132,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/132.mp4"
+          },
+          {
+            "id": "black-clover-s1-e133",
+            "name": "Episódio 133",
+            "number": 133,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/133.mp4"
+          },
+          {
+            "id": "black-clover-s1-e134",
+            "name": "Episódio 134",
+            "number": 134,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/134.mp4"
+          },
+          {
+            "id": "black-clover-s1-e135",
+            "name": "Episódio 135",
+            "number": 135,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/135.mp4"
+          },
+          {
+            "id": "black-clover-s1-e136",
+            "name": "Episódio 136",
+            "number": 136,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/136.mp4"
+          },
+          {
+            "id": "black-clover-s1-e137",
+            "name": "Episódio 137",
+            "number": 137,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/137.mp4"
+          },
+          {
+            "id": "black-clover-s1-e138",
+            "name": "Episódio 138",
+            "number": 138,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/138.mp4"
+          },
+          {
+            "id": "black-clover-s1-e139",
+            "name": "Episódio 139",
+            "number": 139,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/139.mp4"
+          },
+          {
+            "id": "black-clover-s1-e140",
+            "name": "Episódio 140",
+            "number": 140,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/140.mp4"
+          },
+          {
+            "id": "black-clover-s1-e141",
+            "name": "Episódio 141",
+            "number": 141,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/141.mp4"
+          },
+          {
+            "id": "black-clover-s1-e142",
+            "name": "Episódio 142",
+            "number": 142,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/142.mp4"
+          },
+          {
+            "id": "black-clover-s1-e143",
+            "name": "Episódio 143",
+            "number": 143,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/143.mp4"
+          },
+          {
+            "id": "black-clover-s1-e144",
+            "name": "Episódio 144",
+            "number": 144,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/144.mp4"
+          },
+          {
+            "id": "black-clover-s1-e145",
+            "name": "Episódio 145",
+            "number": 145,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/145.mp4"
+          },
+          {
+            "id": "black-clover-s1-e146",
+            "name": "Episódio 146",
+            "number": 146,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/146.mp4"
+          },
+          {
+            "id": "black-clover-s1-e147",
+            "name": "Episódio 147",
+            "number": 147,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/147.mp4"
+          },
+          {
+            "id": "black-clover-s1-e148",
+            "name": "Episódio 148",
+            "number": 148,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/148.mp4"
+          },
+          {
+            "id": "black-clover-s1-e149",
+            "name": "Episódio 149",
+            "number": 149,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/149.mp4"
+          },
+          {
+            "id": "black-clover-s1-e150",
+            "name": "Episódio 150",
+            "number": 150,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/150.mp4"
+          },
+          {
+            "id": "black-clover-s1-e151",
+            "name": "Episódio 151",
+            "number": 151,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/151.mp4"
+          },
+          {
+            "id": "black-clover-s1-e152",
+            "name": "Episódio 152",
+            "number": 152,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/152.mp4"
+          },
+          {
+            "id": "black-clover-s1-e153",
+            "name": "Episódio 153",
+            "number": 153,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/153.mp4"
+          },
+          {
+            "id": "black-clover-s1-e154",
+            "name": "Episódio 154",
+            "number": 154,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/154.mp4"
+          },
+          {
+            "id": "black-clover-s1-e155",
+            "name": "Episódio 155",
+            "number": 155,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/155.mp4"
+          },
+          {
+            "id": "black-clover-s1-e156",
+            "name": "Episódio 156",
+            "number": 156,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/156.mp4"
+          },
+          {
+            "id": "black-clover-s1-e157",
+            "name": "Episódio 157",
+            "number": 157,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/157.mp4"
+          },
+          {
+            "id": "black-clover-s1-e158",
+            "name": "Episódio 158",
+            "number": 158,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/158.mp4"
+          },
+          {
+            "id": "black-clover-s1-e159",
+            "name": "Episódio 159",
+            "number": 159,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/159.mp4"
+          },
+          {
+            "id": "black-clover-s1-e160",
+            "name": "Episódio 160",
+            "number": 160,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/160.mp4"
+          },
+          {
+            "id": "black-clover-s1-e161",
+            "name": "Episódio 161",
+            "number": 161,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/161.mp4"
+          },
+          {
+            "id": "black-clover-s1-e162",
+            "name": "Episódio 162",
+            "number": 162,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/162.mp4"
+          },
+          {
+            "id": "black-clover-s1-e163",
+            "name": "Episódio 163",
+            "number": 163,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/163.mp4"
+          },
+          {
+            "id": "black-clover-s1-e164",
+            "name": "Episódio 164",
+            "number": 164,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/164.mp4"
+          },
+          {
+            "id": "black-clover-s1-e165",
+            "name": "Episódio 165",
+            "number": 165,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/165.mp4"
+          },
+          {
+            "id": "black-clover-s1-e166",
+            "name": "Episódio 166",
+            "number": 166,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/166.mp4"
+          },
+          {
+            "id": "black-clover-s1-e167",
+            "name": "Episódio 167",
+            "number": 167,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/167.mp4"
+          },
+          {
+            "id": "black-clover-s1-e168",
+            "name": "Episódio 168",
+            "number": 168,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/168.mp4"
+          },
+          {
+            "id": "black-clover-s1-e169",
+            "name": "Episódio 169",
+            "number": 169,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/169.mp4"
+          },
+          {
+            "id": "black-clover-s1-e170",
+            "name": "Episódio 170",
+            "number": 170,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/170.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "black-clover-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-1.mp4"
+          },
+          {
+            "id": "black-clover-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-2.mp4"
+          },
+          {
+            "id": "black-clover-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-3.mp4"
+          },
+          {
+            "id": "black-clover-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-4.mp4"
+          },
+          {
+            "id": "black-clover-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-5.mp4"
+          },
+          {
+            "id": "black-clover-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-6.mp4"
+          },
+          {
+            "id": "black-clover-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-7.mp4"
+          },
+          {
+            "id": "black-clover-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-8.mp4"
+          },
+          {
+            "id": "black-clover-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-9.mp4"
+          },
+          {
+            "id": "black-clover-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-10.mp4"
+          },
+          {
+            "id": "black-clover-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-11.mp4"
+          },
+          {
+            "id": "black-clover-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-12.mp4"
+          },
+          {
+            "id": "black-clover-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-13.mp4"
+          },
+          {
+            "id": "black-clover-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-14.mp4"
+          },
+          {
+            "id": "black-clover-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-15.mp4"
+          },
+          {
+            "id": "black-clover-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-16.mp4"
+          },
+          {
+            "id": "black-clover-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-17.mp4"
+          },
+          {
+            "id": "black-clover-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-18.mp4"
+          },
+          {
+            "id": "black-clover-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-19.mp4"
+          },
+          {
+            "id": "black-clover-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-20.mp4"
+          },
+          {
+            "id": "black-clover-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-21.mp4"
+          },
+          {
+            "id": "black-clover-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-22.mp4"
+          },
+          {
+            "id": "black-clover-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-23.mp4"
+          },
+          {
+            "id": "black-clover-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-24.mp4"
+          },
+          {
+            "id": "black-clover-s2-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-25.mp4"
+          },
+          {
+            "id": "black-clover-s2-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-26.mp4"
+          },
+          {
+            "id": "black-clover-s2-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-27.mp4"
+          },
+          {
+            "id": "black-clover-s2-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-28.mp4"
+          },
+          {
+            "id": "black-clover-s2-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-29.mp4"
+          },
+          {
+            "id": "black-clover-s2-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-30.mp4"
+          },
+          {
+            "id": "black-clover-s2-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-31.mp4"
+          },
+          {
+            "id": "black-clover-s2-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-32.mp4"
+          },
+          {
+            "id": "black-clover-s2-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-33.mp4"
+          },
+          {
+            "id": "black-clover-s2-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-34.mp4"
+          },
+          {
+            "id": "black-clover-s2-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-35.mp4"
+          },
+          {
+            "id": "black-clover-s2-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-36.mp4"
+          },
+          {
+            "id": "black-clover-s2-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-37.mp4"
+          },
+          {
+            "id": "black-clover-s2-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-38.mp4"
+          },
+          {
+            "id": "black-clover-s2-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-39.mp4"
+          },
+          {
+            "id": "black-clover-s2-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-40.mp4"
+          },
+          {
+            "id": "black-clover-s2-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-41.mp4"
+          },
+          {
+            "id": "black-clover-s2-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-42.mp4"
+          },
+          {
+            "id": "black-clover-s2-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-43.mp4"
+          },
+          {
+            "id": "black-clover-s2-e44",
+            "name": "Episódio 44",
+            "number": 44,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-44.mp4"
+          },
+          {
+            "id": "black-clover-s2-e45",
+            "name": "Episódio 45",
+            "number": 45,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-45.mp4"
+          },
+          {
+            "id": "black-clover-s2-e46",
+            "name": "Episódio 46",
+            "number": 46,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-46.mp4"
+          },
+          {
+            "id": "black-clover-s2-e47",
+            "name": "Episódio 47",
+            "number": 47,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-47.mp4"
+          },
+          {
+            "id": "black-clover-s2-e48",
+            "name": "Episódio 48",
+            "number": 48,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-48.mp4"
+          },
+          {
+            "id": "black-clover-s2-e49",
+            "name": "Episódio 49",
+            "number": 49,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-49.mp4"
+          },
+          {
+            "id": "black-clover-s2-e50",
+            "name": "Episódio 50",
+            "number": 50,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-50.mp4"
+          },
+          {
+            "id": "black-clover-s2-e51",
+            "name": "Episódio 51",
+            "number": 51,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-51.mp4"
+          },
+          {
+            "id": "black-clover-s2-e52",
+            "name": "Episódio 52",
+            "number": 52,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-52.mp4"
+          },
+          {
+            "id": "black-clover-s2-e53",
+            "name": "Episódio 53",
+            "number": 53,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-53.mp4"
+          },
+          {
+            "id": "black-clover-s2-e54",
+            "name": "Episódio 54",
+            "number": 54,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-54.mp4"
+          },
+          {
+            "id": "black-clover-s2-e55",
+            "name": "Episódio 55",
+            "number": 55,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-55.mp4"
+          },
+          {
+            "id": "black-clover-s2-e56",
+            "name": "Episódio 56",
+            "number": 56,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-56.mp4"
+          },
+          {
+            "id": "black-clover-s2-e57",
+            "name": "Episódio 57",
+            "number": 57,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-57.mp4"
+          },
+          {
+            "id": "black-clover-s2-e58",
+            "name": "Episódio 58",
+            "number": 58,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-58.mp4"
+          },
+          {
+            "id": "black-clover-s2-e59",
+            "name": "Episódio 59",
+            "number": 59,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-59.mp4"
+          },
+          {
+            "id": "black-clover-s2-e60",
+            "name": "Episódio 60",
+            "number": 60,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-60.mp4"
+          },
+          {
+            "id": "black-clover-s2-e61",
+            "name": "Episódio 61",
+            "number": 61,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-61.mp4"
+          },
+          {
+            "id": "black-clover-s2-e62",
+            "name": "Episódio 62",
+            "number": 62,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-62.mp4"
+          },
+          {
+            "id": "black-clover-s2-e63",
+            "name": "Episódio 63",
+            "number": 63,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-63.mp4"
+          },
+          {
+            "id": "black-clover-s2-e64",
+            "name": "Episódio 64",
+            "number": 64,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-64.mp4"
+          },
+          {
+            "id": "black-clover-s2-e65",
+            "name": "Episódio 65",
+            "number": 65,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-65.mp4"
+          },
+          {
+            "id": "black-clover-s2-e66",
+            "name": "Episódio 66",
+            "number": 66,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-66.mp4"
+          },
+          {
+            "id": "black-clover-s2-e67",
+            "name": "Episódio 67",
+            "number": 67,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-67.mp4"
+          },
+          {
+            "id": "black-clover-s2-e68",
+            "name": "Episódio 68",
+            "number": 68,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-68.mp4"
+          },
+          {
+            "id": "black-clover-s2-e69",
+            "name": "Episódio 69",
+            "number": 69,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-69.mp4"
+          },
+          {
+            "id": "black-clover-s2-e70",
+            "name": "Episódio 70",
+            "number": 70,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-70.mp4"
+          },
+          {
+            "id": "black-clover-s2-e71",
+            "name": "Episódio 71",
+            "number": 71,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-71.mp4"
+          },
+          {
+            "id": "black-clover-s2-e72",
+            "name": "Episódio 72",
+            "number": 72,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-72.mp4"
+          },
+          {
+            "id": "black-clover-s2-e73",
+            "name": "Episódio 73",
+            "number": 73,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-73.mp4"
+          },
+          {
+            "id": "black-clover-s2-e74",
+            "name": "Episódio 74",
+            "number": 74,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-74.mp4"
+          },
+          {
+            "id": "black-clover-s2-e75",
+            "name": "Episódio 75",
+            "number": 75,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-75.mp4"
+          },
+          {
+            "id": "black-clover-s2-e76",
+            "name": "Episódio 76",
+            "number": 76,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-76.mp4"
+          },
+          {
+            "id": "black-clover-s2-e77",
+            "name": "Episódio 77",
+            "number": 77,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-77.mp4"
+          },
+          {
+            "id": "black-clover-s2-e78",
+            "name": "Episódio 78",
+            "number": 78,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-78.mp4"
+          },
+          {
+            "id": "black-clover-s2-e79",
+            "name": "Episódio 79",
+            "number": 79,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-79.mp4"
+          },
+          {
+            "id": "black-clover-s2-e80",
+            "name": "Episódio 80",
+            "number": 80,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-80.mp4"
+          },
+          {
+            "id": "black-clover-s2-e81",
+            "name": "Episódio 81",
+            "number": 81,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-81.mp4"
+          },
+          {
+            "id": "black-clover-s2-e82",
+            "name": "Episódio 82",
+            "number": 82,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-82.mp4"
+          },
+          {
+            "id": "black-clover-s2-e83",
+            "name": "Episódio 83",
+            "number": 83,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-83.mp4"
+          },
+          {
+            "id": "black-clover-s2-e84",
+            "name": "Episódio 84",
+            "number": 84,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-84.mp4"
+          },
+          {
+            "id": "black-clover-s2-e85",
+            "name": "Episódio 85",
+            "number": 85,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-85.mp4"
+          },
+          {
+            "id": "black-clover-s2-e86",
+            "name": "Episódio 86",
+            "number": 86,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-86.mp4"
+          },
+          {
+            "id": "black-clover-s2-e87",
+            "name": "Episódio 87",
+            "number": 87,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-87.mp4"
+          },
+          {
+            "id": "black-clover-s2-e88",
+            "name": "Episódio 88",
+            "number": 88,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-88.mp4"
+          },
+          {
+            "id": "black-clover-s2-e89",
+            "name": "Episódio 89",
+            "number": 89,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-89.mp4"
+          },
+          {
+            "id": "black-clover-s2-e90",
+            "name": "Episódio 90",
+            "number": 90,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-90.mp4"
+          },
+          {
+            "id": "black-clover-s2-e91",
+            "name": "Episódio 91",
+            "number": 91,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-91.mp4"
+          },
+          {
+            "id": "black-clover-s2-e92",
+            "name": "Episódio 92",
+            "number": 92,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-92.mp4"
+          },
+          {
+            "id": "black-clover-s2-e93",
+            "name": "Episódio 93",
+            "number": 93,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-93.mp4"
+          },
+          {
+            "id": "black-clover-s2-e94",
+            "name": "Episódio 94",
+            "number": 94,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-94.mp4"
+          },
+          {
+            "id": "black-clover-s2-e95",
+            "name": "Episódio 95",
+            "number": 95,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-95.mp4"
+          },
+          {
+            "id": "black-clover-s2-e96",
+            "name": "Episódio 96",
+            "number": 96,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-96.mp4"
+          },
+          {
+            "id": "black-clover-s2-e97",
+            "name": "Episódio 97",
+            "number": 97,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-97.mp4"
+          },
+          {
+            "id": "black-clover-s2-e98",
+            "name": "Episódio 98",
+            "number": 98,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-98.mp4"
+          },
+          {
+            "id": "black-clover-s2-e99",
+            "name": "Episódio 99",
+            "number": 99,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-99.mp4"
+          },
+          {
+            "id": "black-clover-s2-e100",
+            "name": "Episódio 100",
+            "number": 100,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-100.mp4"
+          },
+          {
+            "id": "black-clover-s2-e101",
+            "name": "Episódio 101",
+            "number": 101,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-101.mp4"
+          },
+          {
+            "id": "black-clover-s2-e102",
+            "name": "Episódio 102",
+            "number": 102,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-102.mp4"
+          },
+          {
+            "id": "black-clover-s2-e103",
+            "name": "Episódio 103",
+            "number": 103,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-103.mp4"
+          },
+          {
+            "id": "black-clover-s2-e104",
+            "name": "Episódio 104",
+            "number": 104,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-104.mp4"
+          },
+          {
+            "id": "black-clover-s2-e105",
+            "name": "Episódio 105",
+            "number": 105,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-105.mp4"
+          },
+          {
+            "id": "black-clover-s2-e106",
+            "name": "Episódio 106",
+            "number": 106,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-106.mp4"
+          },
+          {
+            "id": "black-clover-s2-e107",
+            "name": "Episódio 107",
+            "number": 107,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-107.mp4"
+          },
+          {
+            "id": "black-clover-s2-e108",
+            "name": "Episódio 108",
+            "number": 108,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-108.mp4"
+          },
+          {
+            "id": "black-clover-s2-e109",
+            "name": "Episódio 109",
+            "number": 109,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-109.mp4"
+          },
+          {
+            "id": "black-clover-s2-e110",
+            "name": "Episódio 110",
+            "number": 110,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-110.mp4"
+          },
+          {
+            "id": "black-clover-s2-e111",
+            "name": "Episódio 111",
+            "number": 111,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-111.mp4"
+          },
+          {
+            "id": "black-clover-s2-e112",
+            "name": "Episódio 112",
+            "number": 112,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-112.mp4"
+          },
+          {
+            "id": "black-clover-s2-e113",
+            "name": "Episódio 113",
+            "number": 113,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-113.mp4"
+          },
+          {
+            "id": "black-clover-s2-e114",
+            "name": "Episódio 114",
+            "number": 114,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-114.mp4"
+          },
+          {
+            "id": "black-clover-s2-e115",
+            "name": "Episódio 115",
+            "number": 115,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-115.mp4"
+          },
+          {
+            "id": "black-clover-s2-e116",
+            "name": "Episódio 116",
+            "number": 116,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-116.mp4"
+          },
+          {
+            "id": "black-clover-s2-e117",
+            "name": "Episódio 117",
+            "number": 117,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-117.mp4"
+          },
+          {
+            "id": "black-clover-s2-e118",
+            "name": "Episódio 118",
+            "number": 118,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-118.mp4"
+          },
+          {
+            "id": "black-clover-s2-e119",
+            "name": "Episódio 119",
+            "number": 119,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-119.mp4"
+          },
+          {
+            "id": "black-clover-s2-e120",
+            "name": "Episódio 120",
+            "number": 120,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-120.mp4"
+          },
+          {
+            "id": "black-clover-s2-e121",
+            "name": "Episódio 121",
+            "number": 121,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-121.mp4"
+          },
+          {
+            "id": "black-clover-s2-e122",
+            "name": "Episódio 122",
+            "number": 122,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-122.mp4"
+          },
+          {
+            "id": "black-clover-s2-e123",
+            "name": "Episódio 123",
+            "number": 123,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-123.mp4"
+          },
+          {
+            "id": "black-clover-s2-e124",
+            "name": "Episódio 124",
+            "number": 124,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-124.mp4"
+          },
+          {
+            "id": "black-clover-s2-e125",
+            "name": "Episódio 125",
+            "number": 125,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-125.mp4"
+          },
+          {
+            "id": "black-clover-s2-e126",
+            "name": "Episódio 126",
+            "number": 126,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-126.mp4"
+          },
+          {
+            "id": "black-clover-s2-e127",
+            "name": "Episódio 127",
+            "number": 127,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-127.mp4"
+          },
+          {
+            "id": "black-clover-s2-e128",
+            "name": "Episódio 128",
+            "number": 128,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-128.mp4"
+          },
+          {
+            "id": "black-clover-s2-e129",
+            "name": "Episódio 129",
+            "number": 129,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-129.mp4"
+          },
+          {
+            "id": "black-clover-s2-e130",
+            "name": "Episódio 130",
+            "number": 130,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-130.mp4"
+          },
+          {
+            "id": "black-clover-s2-e131",
+            "name": "Episódio 131",
+            "number": 131,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-131.mp4"
+          },
+          {
+            "id": "black-clover-s2-e132",
+            "name": "Episódio 132",
+            "number": 132,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-132.mp4"
+          },
+          {
+            "id": "black-clover-s2-e133",
+            "name": "Episódio 133",
+            "number": 133,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-133.mp4"
+          },
+          {
+            "id": "black-clover-s2-e134",
+            "name": "Episódio 134",
+            "number": 134,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-134.mp4"
+          },
+          {
+            "id": "black-clover-s2-e135",
+            "name": "Episódio 135",
+            "number": 135,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-135.mp4"
+          },
+          {
+            "id": "black-clover-s2-e136",
+            "name": "Episódio 136",
+            "number": 136,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-136.mp4"
+          },
+          {
+            "id": "black-clover-s2-e137",
+            "name": "Episódio 137",
+            "number": 137,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-137.mp4"
+          },
+          {
+            "id": "black-clover-s2-e138",
+            "name": "Episódio 138",
+            "number": 138,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-138.mp4"
+          },
+          {
+            "id": "black-clover-s2-e139",
+            "name": "Episódio 139",
+            "number": 139,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-139.mp4"
+          },
+          {
+            "id": "black-clover-s2-e140",
+            "name": "Episódio 140",
+            "number": 140,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-140.mp4"
+          },
+          {
+            "id": "black-clover-s2-e141",
+            "name": "Episódio 141",
+            "number": 141,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-141.mp4"
+          },
+          {
+            "id": "black-clover-s2-e142",
+            "name": "Episódio 142",
+            "number": 142,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-142.mp4"
+          },
+          {
+            "id": "black-clover-s2-e143",
+            "name": "Episódio 143",
+            "number": 143,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-143.mp4"
+          },
+          {
+            "id": "black-clover-s2-e144",
+            "name": "Episódio 144",
+            "number": 144,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-144.mp4"
+          },
+          {
+            "id": "black-clover-s2-e145",
+            "name": "Episódio 145",
+            "number": 145,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-145.mp4"
+          },
+          {
+            "id": "black-clover-s2-e146",
+            "name": "Episódio 146",
+            "number": 146,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-146.mp4"
+          },
+          {
+            "id": "black-clover-s2-e147",
+            "name": "Episódio 147",
+            "number": 147,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-147.mp4"
+          },
+          {
+            "id": "black-clover-s2-e148",
+            "name": "Episódio 148",
+            "number": 148,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-148.mp4"
+          },
+          {
+            "id": "black-clover-s2-e149",
+            "name": "Episódio 149",
+            "number": 149,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-149.mp4"
+          },
+          {
+            "id": "black-clover-s2-e150",
+            "name": "Episódio 150",
+            "number": 150,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-150.mp4"
+          },
+          {
+            "id": "black-clover-s2-e151",
+            "name": "Episódio 151",
+            "number": 151,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-151.mp4"
+          },
+          {
+            "id": "black-clover-s2-e152",
+            "name": "Episódio 152",
+            "number": 152,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-152.mp4"
+          },
+          {
+            "id": "black-clover-s2-e153",
+            "name": "Episódio 153",
+            "number": 153,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-153.mp4"
+          },
+          {
+            "id": "black-clover-s2-e154",
+            "name": "Episódio 154",
+            "number": 154,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-154.mp4"
+          },
+          {
+            "id": "black-clover-s2-e155",
+            "name": "Episódio 155",
+            "number": 155,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-155.mp4"
+          },
+          {
+            "id": "black-clover-s2-e156",
+            "name": "Episódio 156",
+            "number": 156,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-156.mp4"
+          },
+          {
+            "id": "black-clover-s2-e157",
+            "name": "Episódio 157",
+            "number": 157,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-157.mp4"
+          },
+          {
+            "id": "black-clover-s2-e158",
+            "name": "Episódio 158",
+            "number": 158,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-158.mp4"
+          },
+          {
+            "id": "black-clover-s2-e159",
+            "name": "Episódio 159",
+            "number": 159,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-159.mp4"
+          },
+          {
+            "id": "black-clover-s2-e160",
+            "name": "Episódio 160",
+            "number": 160,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-160.mp4"
+          },
+          {
+            "id": "black-clover-s2-e161",
+            "name": "Episódio 161",
+            "number": 161,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-161.mp4"
+          },
+          {
+            "id": "black-clover-s2-e162",
+            "name": "Episódio 162",
+            "number": 162,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-162.mp4"
+          },
+          {
+            "id": "black-clover-s2-e163",
+            "name": "Episódio 163",
+            "number": 163,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-163.mp4"
+          },
+          {
+            "id": "black-clover-s2-e164",
+            "name": "Episódio 164",
+            "number": 164,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-164.mp4"
+          },
+          {
+            "id": "black-clover-s2-e165",
+            "name": "Episódio 165",
+            "number": 165,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-165.mp4"
+          },
+          {
+            "id": "black-clover-s2-e166",
+            "name": "Episódio 166",
+            "number": 166,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-166.mp4"
+          },
+          {
+            "id": "black-clover-s2-e167",
+            "name": "Episódio 167",
+            "number": 167,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-167.mp4"
+          },
+          {
+            "id": "black-clover-s2-e168",
+            "name": "Episódio 168",
+            "number": 168,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-168.mp4"
+          },
+          {
+            "id": "black-clover-s2-e169",
+            "name": "Episódio 169",
+            "number": 169,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-169.mp4"
+          },
+          {
+            "id": "black-clover-s2-e170",
+            "name": "Episódio 170",
+            "number": 170,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Leg-170.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "black-clover-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "black-clover-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "black-clover-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "black-clover-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "black-clover-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "black-clover-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "black-clover-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "black-clover-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "black-clover-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "black-clover-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "black-clover-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "black-clover-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-12.mp4"
+          },
+          {
+            "id": "black-clover-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "black-clover-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "black-clover-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "black-clover-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "black-clover-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "black-clover-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "black-clover-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "black-clover-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "black-clover-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "black-clover-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "black-clover-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "black-clover-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "black-clover-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-12.mp4"
+          },
+          {
+            "id": "black-clover-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600103.us.archive.org/11/items/CloverDub/Segunda-Leg-13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ranma-2024",
+    "slug": "ranma-2024",
+    "tmdbId": 57706,
+    "title": "Ranma ½",
+    "originalTitle": "らんま1/2",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/wZttTDFfgxwqR9JtQ0r8g1ZU5uZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/dI2O0d5Dkk8tpuTvCkUKQw3LNMv.jpg",
+    "synopsis": "Saotome Ranma, um artista marcial adolescente, e seu pai Genma viajam para o 'amaldiçoado campo de treinamento' de Jusenkyo na China. Lá, apesar dos avisos da guarda chinesa, eles caem nas nascentes amaldiçoadas. A partir de agora, sempre que Ranma é mergulhado em água fria, ele se volta para uma garota e uma ruiva bonita e bem construída. A água quente o transforma novamente em homem, mas apenas até a próxima vez. Para piorar a situação, seu pai o envolve com Tendo Akane, uma garota que odeia meninos.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "COMEDIA",
+      "ROMANCE",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "1989",
+    "rating": 8.6,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "ranma-2024-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "ranma-2024-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "ranma-2024-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "ranma-2024-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Primeira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "ranma-2024-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "ranma-2024-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "ranma-2024-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "ranma-2024-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Segunda-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "ranma-2024-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-1.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-2.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-3.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-4.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-5.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-6.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-7.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-8.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-9.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-10.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-11.mp4"
+          },
+          {
+            "id": "ranma-2024-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "ranma-2024-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-1.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-2.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-3.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-4.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-5.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-6.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-7.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-8.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-9.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-10.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-11.mp4"
+          },
+          {
+            "id": "ranma-2024-s6-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803205.us.archive.org/30/items/Ryoga2024/Terceira-Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "re-zero",
+    "slug": "re-zero",
+    "tmdbId": 65942,
+    "title": "Re:Zero - Começando uma Vida em Outro Mundo",
+    "originalTitle": "Re:ゼロから始める異世界生活",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/ccG0ZfXOQ0834bIus4SwZrXtkyM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg",
+    "synopsis": "Natsuki Subaru, um adolescente comum, conhece uma linda garota de cabelos prateados vinda de outro mundo. Subaru quer ficar ao lado dela, mas o fardo que ela carrega é maior do que Subaru pode imaginar. Eles enfrentam o feroz ataque de monstros, traições, violência irracional... e, por fim, a morte. Subaru promete derrotar qualquer inimigo, qualquer destino, tudo para protegê-la. E assim, o pobre garoto sem poder algum obtém o \"Retorno da Morte\", uma habilidade única que permite ao usuário voltar no tempo ao morrer. Usando esse poder, o passado é perdido e as memórias são reescritas.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "MISTERIO",
+      "FANTASIA",
+      "ISEKAI",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2016",
+    "rating": 8.118,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada",
+        "episodes": [
+          {
+            "id": "re-zero-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/1.mp4"
+          },
+          {
+            "id": "re-zero-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/2.mp4"
+          },
+          {
+            "id": "re-zero-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/3.mp4"
+          },
+          {
+            "id": "re-zero-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/4.mp4"
+          },
+          {
+            "id": "re-zero-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/5.mp4"
+          },
+          {
+            "id": "re-zero-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/6.mp4"
+          },
+          {
+            "id": "re-zero-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/7.mp4"
+          },
+          {
+            "id": "re-zero-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/8.mp4"
+          },
+          {
+            "id": "re-zero-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/9.mp4"
+          },
+          {
+            "id": "re-zero-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/10.mp4"
+          },
+          {
+            "id": "re-zero-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/11.mp4"
+          },
+          {
+            "id": "re-zero-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/12.mp4"
+          },
+          {
+            "id": "re-zero-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/13.mp4"
+          },
+          {
+            "id": "re-zero-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/14.mp4"
+          },
+          {
+            "id": "re-zero-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/15.mp4"
+          },
+          {
+            "id": "re-zero-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/16.mp4"
+          },
+          {
+            "id": "re-zero-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/17.mp4"
+          },
+          {
+            "id": "re-zero-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/18.mp4"
+          },
+          {
+            "id": "re-zero-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/19.mp4"
+          },
+          {
+            "id": "re-zero-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/20.mp4"
+          },
+          {
+            "id": "re-zero-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/21.mp4"
+          },
+          {
+            "id": "re-zero-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/22.mp4"
+          },
+          {
+            "id": "re-zero-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/23.mp4"
+          },
+          {
+            "id": "re-zero-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/24.mp4"
+          },
+          {
+            "id": "re-zero-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia600509.us.archive.org/23/items/ZeroS01/25.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "re-zero-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/1.mp4"
+          },
+          {
+            "id": "re-zero-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/2.mp4"
+          },
+          {
+            "id": "re-zero-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/3.mp4"
+          },
+          {
+            "id": "re-zero-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/4.mp4"
+          },
+          {
+            "id": "re-zero-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/5.mp4"
+          },
+          {
+            "id": "re-zero-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/6.mp4"
+          },
+          {
+            "id": "re-zero-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/7.mp4"
+          },
+          {
+            "id": "re-zero-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/8.mp4"
+          },
+          {
+            "id": "re-zero-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/9.mp4"
+          },
+          {
+            "id": "re-zero-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/10.mp4"
+          },
+          {
+            "id": "re-zero-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/11.mp4"
+          },
+          {
+            "id": "re-zero-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/12.mp4"
+          },
+          {
+            "id": "re-zero-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/13.mp4"
+          },
+          {
+            "id": "re-zero-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/14.mp4"
+          },
+          {
+            "id": "re-zero-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/15.mp4"
+          },
+          {
+            "id": "re-zero-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/16.mp4"
+          },
+          {
+            "id": "re-zero-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/17.mp4"
+          },
+          {
+            "id": "re-zero-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/18.mp4"
+          },
+          {
+            "id": "re-zero-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/19.mp4"
+          },
+          {
+            "id": "re-zero-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/20.mp4"
+          },
+          {
+            "id": "re-zero-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/21.mp4"
+          },
+          {
+            "id": "re-zero-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/22.mp4"
+          },
+          {
+            "id": "re-zero-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/23.mp4"
+          },
+          {
+            "id": "re-zero-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/24.mp4"
+          },
+          {
+            "id": "re-zero-s2-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia600708.us.archive.org/31/items/ZeroS02/25.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "re-zero-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/1.mp4"
+          },
+          {
+            "id": "re-zero-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/2.mp4"
+          },
+          {
+            "id": "re-zero-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/3.mp4"
+          },
+          {
+            "id": "re-zero-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/4.mp4"
+          },
+          {
+            "id": "re-zero-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/5.mp4"
+          },
+          {
+            "id": "re-zero-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/6.mp4"
+          },
+          {
+            "id": "re-zero-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/7.mp4"
+          },
+          {
+            "id": "re-zero-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/8.mp4"
+          },
+          {
+            "id": "re-zero-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/9.mp4"
+          },
+          {
+            "id": "re-zero-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/10.mp4"
+          },
+          {
+            "id": "re-zero-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/11.mp4"
+          },
+          {
+            "id": "re-zero-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/12.mp4"
+          },
+          {
+            "id": "re-zero-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/13.mp4"
+          },
+          {
+            "id": "re-zero-s3-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/14.mp4"
+          },
+          {
+            "id": "re-zero-s3-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/15.mp4"
+          },
+          {
+            "id": "re-zero-s3-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia800806.us.archive.org/17/items/ZeroS03/16.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada",
+        "episodes": [
+          {
+            "id": "re-zero-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/1.mp4"
+          },
+          {
+            "id": "re-zero-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/2.mp4"
+          },
+          {
+            "id": "re-zero-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/3.mp4"
+          },
+          {
+            "id": "re-zero-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/4.mp4"
+          },
+          {
+            "id": "re-zero-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/5.mp4"
+          },
+          {
+            "id": "re-zero-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/6.mp4"
+          },
+          {
+            "id": "re-zero-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/7.mp4"
+          },
+          {
+            "id": "re-zero-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/8.mp4"
+          },
+          {
+            "id": "re-zero-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/9.mp4"
+          },
+          {
+            "id": "re-zero-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/10.mp4"
+          },
+          {
+            "id": "re-zero-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/11.mp4"
+          },
+          {
+            "id": "re-zero-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia803105.us.archive.org/1/items/ZeroS04/12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tokyo-revengers",
+    "slug": "tokyo-revengers",
+    "tmdbId": 105009,
+    "title": "Tokyo Revengers",
+    "originalTitle": "東京リベンジャーズ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/XbjlgUJknGCv7cNuinxdaFUFNt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/jnThpphOHQRiTedCtz1yyshfkHw.jpg",
+    "synopsis": "Num momento difícil da sua vida, Takemichi fica ainda pior ao saber que a menina que ele amava desde a época da escola foi morta pela gangue Tokyo Manji. No dia seguinte, ao esperar o trem na estação, Takemichi é empurrado nos trilhos. Mas, em vez de morrer, ele percebe que viajou no tempo, voltando para seus anos de escola. É a chance para Takemichi reescrever sua história e tentar evitar a morte da amada.",
+    "genres": [
+      "ACAO",
+      "DRAMA",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2021",
+    "rating": 8.4,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tokyo-revengers-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/1.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/2.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/3.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/4.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/5.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/6.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/7.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/8.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/9.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/10.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/11.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/12.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/13.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/14.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/15.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/16.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/17.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/18.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/19.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/20.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/21.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/22.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/23.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia801800.us.archive.org/0/items/TokyoS01/24.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tokyo-revengers-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-12.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-13.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-14.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-15.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-16.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-17.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-18.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-19.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-20.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-21.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-22.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-23.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Primeira-Leg-24.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tokyo-revengers-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/1.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/2.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/3.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/4.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/5.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/6.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/7.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/8.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/9.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/10.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/11.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/12.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia802908.us.archive.org/4/items/TokyoS02/13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tokyo-revengers-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-12.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Segunda-Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tokyo-revengers-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/1.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/2.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/3.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/4.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/5.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/6.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/7.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/8.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/9.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/10.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/11.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/12.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s5-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tokyo-revengers-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-1.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-2.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-3.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-4.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-5.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-6.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-7.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-8.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-9.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-10.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-11.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-12.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s6-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Terceira-Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tokyo-revengers-s7-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-1.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-2.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-3.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-4.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-5.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-6.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-7.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-8.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-9.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-10.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-11.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-12.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s7-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tokyo-revengers-s8-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-1.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-2.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-3.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-4.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-5.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-6.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-7.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-8.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-9.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-10.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-11.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-12.mp4"
+          },
+          {
+            "id": "tokyo-revengers-s8-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia902903.us.archive.org/2/items/TokyoS03/Quarta-Leg-13.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aria",
+    "slug": "aria",
+    "tmdbId": 53787,
+    "title": "Aria The Animation",
+    "originalTitle": "ARIA",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/1XgXgWmsX1Un8eBHPjcBYpoae6M.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/9ZfSM7eZVLbjYdZB31tlUi2egR8.jpg",
+    "synopsis": "No planeta Aqua, repousa a cidade aquática de Neo Venezia, um ponto turístico onde as pessoas passeiam de gondolas. Gondoleiros profissionais conhecidos como Undines tem boa reputação atuando como guias turísticos para as pessoas. Akari Mizunashi é uma gondoleira em treinamento e também empregada da compania Aria. Ela conhece todos os tipos de pessoa enquanto trabalha nas gondolas.. de conselheiros amigáveis a indivíduos especiais, tudo isso acontece diante de um lindo cenário que é essa bela cidade.",
+    "genres": [
+      "FICCAO",
+      "FANTASIA",
+      "ANTIGOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2005",
+    "rating": 8.6,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "aria-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "aria-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "aria-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "aria-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "aria-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "aria-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "aria-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "aria-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "aria-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "aria-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "aria-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "aria-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-12.mp4"
+          },
+          {
+            "id": "aria-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "aria-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "aria-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "aria-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "aria-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "aria-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "aria-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "aria-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "aria-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "aria-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "aria-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "aria-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "aria-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-12.mp4"
+          },
+          {
+            "id": "aria-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Primeira-Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "aria-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "aria-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "aria-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "aria-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "aria-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "aria-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "aria-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "aria-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "aria-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "aria-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "aria-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "aria-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-12.mp4"
+          },
+          {
+            "id": "aria-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-13.mp4"
+          },
+          {
+            "id": "aria-s3-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-14.mp4"
+          },
+          {
+            "id": "aria-s3-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-15.mp4"
+          },
+          {
+            "id": "aria-s3-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-16.mp4"
+          },
+          {
+            "id": "aria-s3-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-17.mp4"
+          },
+          {
+            "id": "aria-s3-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-18.mp4"
+          },
+          {
+            "id": "aria-s3-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-19.mp4"
+          },
+          {
+            "id": "aria-s3-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-20.mp4"
+          },
+          {
+            "id": "aria-s3-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-21.mp4"
+          },
+          {
+            "id": "aria-s3-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-22.mp4"
+          },
+          {
+            "id": "aria-s3-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-23.mp4"
+          },
+          {
+            "id": "aria-s3-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-24.mp4"
+          },
+          {
+            "id": "aria-s3-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-25.mp4"
+          },
+          {
+            "id": "aria-s3-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Dub-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "aria-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "aria-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "aria-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "aria-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "aria-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "aria-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "aria-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "aria-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "aria-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "aria-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "aria-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "aria-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-12.mp4"
+          },
+          {
+            "id": "aria-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-13.mp4"
+          },
+          {
+            "id": "aria-s4-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-14.mp4"
+          },
+          {
+            "id": "aria-s4-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-15.mp4"
+          },
+          {
+            "id": "aria-s4-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-16.mp4"
+          },
+          {
+            "id": "aria-s4-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-17.mp4"
+          },
+          {
+            "id": "aria-s4-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-18.mp4"
+          },
+          {
+            "id": "aria-s4-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-19.mp4"
+          },
+          {
+            "id": "aria-s4-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-20.mp4"
+          },
+          {
+            "id": "aria-s4-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-21.mp4"
+          },
+          {
+            "id": "aria-s4-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-22.mp4"
+          },
+          {
+            "id": "aria-s4-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-23.mp4"
+          },
+          {
+            "id": "aria-s4-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-24.mp4"
+          },
+          {
+            "id": "aria-s4-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-25.mp4"
+          },
+          {
+            "id": "aria-s4-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Segunda-Leg-26.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "aria-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-1.mp4"
+          },
+          {
+            "id": "aria-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-2.mp4"
+          },
+          {
+            "id": "aria-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-3.mp4"
+          },
+          {
+            "id": "aria-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-4.mp4"
+          },
+          {
+            "id": "aria-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-5.mp4"
+          },
+          {
+            "id": "aria-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-6.mp4"
+          },
+          {
+            "id": "aria-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-7.mp4"
+          },
+          {
+            "id": "aria-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-8.mp4"
+          },
+          {
+            "id": "aria-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-9.mp4"
+          },
+          {
+            "id": "aria-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-10.mp4"
+          },
+          {
+            "id": "aria-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-11.mp4"
+          },
+          {
+            "id": "aria-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-12.mp4"
+          },
+          {
+            "id": "aria-s5-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "aria-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-1.mp4"
+          },
+          {
+            "id": "aria-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-2.mp4"
+          },
+          {
+            "id": "aria-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-3.mp4"
+          },
+          {
+            "id": "aria-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-4.mp4"
+          },
+          {
+            "id": "aria-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-5.mp4"
+          },
+          {
+            "id": "aria-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-6.mp4"
+          },
+          {
+            "id": "aria-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-7.mp4"
+          },
+          {
+            "id": "aria-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-8.mp4"
+          },
+          {
+            "id": "aria-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-9.mp4"
+          },
+          {
+            "id": "aria-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-10.mp4"
+          },
+          {
+            "id": "aria-s6-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-11.mp4"
+          },
+          {
+            "id": "aria-s6-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-12.mp4"
+          },
+          {
+            "id": "aria-s6-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Terceira-Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filmes",
+        "episodes": [
+          {
+            "id": "aria-s7-e1",
+            "name": "ARIA The CREPUSCOLO",
+            "number": 1,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Filme-1.mp4"
+          },
+          {
+            "id": "aria-s7-e2",
+            "name": "ARIA The BENEDIZIONE",
+            "number": 2,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Filme-2.mp4"
+          }
+        ]
+      },
+      {
+        "name": "OVAS",
+        "episodes": [
+          {
+            "id": "aria-s8-e1",
+            "name": "Arietta (DUB)",
+            "number": 1,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Arietta-Dub.mp4"
+          },
+          {
+            "id": "aria-s8-e2",
+            "name": "Arietta (LEG)",
+            "number": 2,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Arietta-Leg.mp4"
+          },
+          {
+            "id": "aria-s8-e3",
+            "name": "Aria The Avvenire - 01",
+            "number": 3,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/OVA-1.mp4"
+          },
+          {
+            "id": "aria-s8-e4",
+            "name": "Aria The Avvenire - 02",
+            "number": 4,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/OVA-2.mp4"
+          },
+          {
+            "id": "aria-s8-e5",
+            "name": "Aria The Avvenire - 03",
+            "number": 5,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/OVA-3.mp4"
+          },
+          {
+            "id": "aria-s8-e6",
+            "name": "Aria The Natural - Especial",
+            "number": 6,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Especial-1.mp4"
+          },
+          {
+            "id": "aria-s8-e7",
+            "name": "Aria The Origination - Especial",
+            "number": 7,
+            "streamUrl": "https://ia601405.us.archive.org/18/items/AriaDubLeg/Especial-2.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tegami-bachi",
+    "slug": "tegami-bachi",
+    "tmdbId": 36629,
+    "title": "Tegami Bachi: Letter Bee",
+    "originalTitle": "テガミバチ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/8kgG2MmEgzqeI3buqrpxebOnc6e.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bHi2VZQCVaJDkO1wuIzLVjawiPp.jpg",
+    "synopsis": "Aparentemente abandonado por sua mãe, o órfão Lag Seeing é levado como uma correspondência pelo \"Letter Bee\" Gauche Suede para uma cidade onde sua tia o acolhe. Sua afeição e admiração por Gauche o levam a desejar ser um Letter Bee também, carregando correspondências por territórios perigosos entre as cidades.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "FANTASIA",
+      "ANTIGOS",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2009",
+    "rating": 7.4,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tegami-bachi-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-12.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-13.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-14.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-15.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-16.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-17.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-18.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-19.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-20.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-21.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-22.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-23.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-24.mp4"
+          },
+          {
+            "id": "tegami-bachi-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Dub-25.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tegami-bachi-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-12.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-13.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-14.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-15.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-16.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-17.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-18.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-19.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-20.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-21.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-22.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-23.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-24.mp4"
+          },
+          {
+            "id": "tegami-bachi-s2-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Primeira-Leg-25.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tegami-bachi-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-12.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-13.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-14.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-15.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-16.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-17.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-18.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-19.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-20.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-21.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-22.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-23.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-24.mp4"
+          },
+          {
+            "id": "tegami-bachi-s3-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Dub-25.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tegami-bachi-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-12.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-13.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-14.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-15.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-16.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-17.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-18.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-19.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-20.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-21.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-22.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-23.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-24.mp4"
+          },
+          {
+            "id": "tegami-bachi-s4-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia601408.us.archive.org/35/items/TegamiLegDub/Segunda-Leg-25.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bungo-stray-dogs",
+    "slug": "bungo-stray-dogs",
+    "tmdbId": 110837,
+    "title": "Bungo Stray Dogs WAN!",
+    "originalTitle": "文豪ストレイドッグス わん!",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/tXJ3Ztc6vkXbaosNIFlCg9HPcuX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ydejGXU3BZZWIPWyWIEannRQFdx.jpg",
+    "synopsis": "Bungo Stray Dogs: A fictícia cidade de Yokohama, onde os ventos do porto uivam pelas ruas, é o palco de uma épica batalha entre os \"Dotados\", indivíduos que extraem poderes dos gigantes da literatura. Dá pra acreditar que esses personagens da Agência de Detetives Armados e da Máfia do Porto, que lutaram até a beira da morte, voltariam com um jeitinho minimalista só para nos dar boas risadas?!",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "MISTERIO",
+      "FICCAO",
+      "FANTASIA",
+      "DUB",
+      "LEG",
+      "RECENTE"
+    ],
+    "year": "2021",
+    "rating": 7.2,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Primeira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-12.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-12.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s4-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Segunda-Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s6-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Terceira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s7-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-12.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s7-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "4ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s8-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-12.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s8-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quarta-Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s9-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s9-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Dub-11.mp4"
+          }
+        ]
+      },
+      {
+        "name": "5ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s10-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s10-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Quinta-Leg-11.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filme",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s11-e1",
+            "name": "Bungo Stray Dogs: Dead Apple",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Filme.mp4"
+          }
+        ]
+      },
+      {
+        "name": "WAN 1ª Temporada",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s12-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s12-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Primeira-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "WAN 2ª Temporada",
+        "episodes": [
+          {
+            "id": "bungo-stray-dogs-s13-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-1.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-2.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-3.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-4.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-5.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-6.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-7.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-8.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-9.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-10.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-11.mp4"
+          },
+          {
+            "id": "bungo-stray-dogs-s13-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600107.us.archive.org/31/items/BungouDubLeg/Wan-Segunda-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kiznaiver",
+    "slug": "kiznaiver",
+    "tmdbId": 65950,
+    "title": "Kiznaiver",
+    "originalTitle": "キズナイーバー",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/2CWwdv8rO06DUx0VKfhrGpYAAfd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/wosCqZNuCSP7MnNRJOy665yXs4Z.jpg",
+    "synopsis": "O Sistema Kizuna é um sistema incompleto para a implementação da paz mundial que conecta pessoas através das dores. Todos que foram conectados a esse sistema são chamados de Kiznaivers. Certo dia, Sonosaki Noriko diz a seu colega de classe Agata Katsuhira que ele havia sido selecionado para ser um Kiznaiver. O Sistema Kizuna permite que Katsuhira compartilhe seus ferimentos e se conecte aos colegas de classe cujas vidas e personalidades são totalmente diferentes da dele. A Cidade de Sugomori foi construída em terreno recuperado, mas com o passar dos anos, a população da cidade está caindo. A história se passa nesta cidade, onde Katsuhira e seus amigos vivem.",
+    "genres": [
+      "ROMANCE",
+      "FANTASIA",
+      "DRAMA",
+      "FICCAO",
+      "CURTOS",
+      "ANTIGOS",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2016",
+    "rating": 7.6,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "kiznaiver-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/1.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/2.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/3.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/4.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/5.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/6.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/7.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/8.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/9.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/10.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/11.mp4"
+          },
+          {
+            "id": "kiznaiver-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600105.us.archive.org/3/items/NaiverLeg/12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "maebashi-witches",
+    "slug": "maebashi-witches",
+    "tmdbId": 270602,
+    "title": "Maebashi Witches",
+    "originalTitle": "前橋ウィッチーズ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/vbWCrKNdmA4QYfijmeKPlyUD3K7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/3zqyvAlH454JOXzW1mNgsnIqGOU.jpg",
+    "synopsis": "Yuina Akagi tinha uma vida sem muitos acontecimentos em Maebashi, na província de Gunma, até o dia que, de repente, um sapo misterioso chamado Keroppe diz que ela deveria se tornar uma bruxa! Assim começa a jornada de Yuina em uma floricultura cheia de magia, música e desejos!",
+    "genres": [
+      "FANTASIA",
+      "DRAMA",
+      "CURTOS",
+      "ANTIGOS",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2025",
+    "rating": 5.6,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "maebashi-witches-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/1.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/2.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/3.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/4.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/5.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/6.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/7.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/8.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/9.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/10.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/11.mp4"
+          },
+          {
+            "id": "maebashi-witches-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600501.us.archive.org/22/items/MaebashiLeg/12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sayonara-lara",
+    "slug": "sayonara-lara",
+    "tmdbId": 295071,
+    "title": "Goodbye, Lara",
+    "originalTitle": "さよならララ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/pmKGSvCKL3qh9iyLYVlnYP0eguT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/2ZiCNiuOiUGfAF0j73RI8DX1Z1N.jpg",
+    "synopsis": "Era uma vez uma princesa sereia chamada Lara que se apaixonou por um príncipe humano. Para ficar com ele, ela usou a poção de uma bruxa para se tornar humana… mas a magia teve um preço: se ela não encontrar o amor verdadeiro, desaparecerá como espuma no mar para sempre. Agora, 200 anos depois, Lara desperta no Lago Biwa com uma última chance de viver (e amar).",
+    "genres": [
+      "ROMANCE",
+      "FANTASIA",
+      "DRAMA",
+      "CURTOS",
+      "QUEER",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2026",
+    "rating": 7.5,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "sayonara-lara-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/1.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/2.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/3.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/4.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/5.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/6.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/7.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/8.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/9.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/10.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/11.mp4"
+          },
+          {
+            "id": "sayonara-lara-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601800.us.archive.org/27/items/SayonaraLeg/12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kaiju-girl-caramelise",
+    "slug": "kaiju-girl-caramelise",
+    "tmdbId": 308874,
+    "title": "KAIJU GIRL CARAMELISE",
+    "originalTitle": "乙女怪獣キャラメリゼ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/tG2yE7HILQdH32RzYajSgXYSrRV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vvbIW2xspYigrgTHTmTSzVDgfKl.jpg",
+    "synopsis": "Kuroe Akaishi sofre com uma doença rara e sem cura que causa mudanças drásticas em seu corpo. Isso faz com que ela passe seus dias sozinha enquanto evita ter contato com seus colegas de classe, principalmente com Arata Minato, seu ídolo, e os amigos do rapaz. No entanto, como Arata faz seu coração bater mais forte do que ela aguenta, Kuroe descobre que sua doença tem um segredo monstruoso: Sua paixão a transforma, literalmente, no Amorzilla!",
+    "genres": [
+      "FICCAO",
+      "SOBRENATURAL",
+      "COMEDIA",
+      "ROMANCE",
+      "DUB",
+      "CURTOS",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2026",
+    "rating": 7.5,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "kaiju-girl-caramelise-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "kaiju-girl-caramelise-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "kaiju-girl-caramelise-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600709.us.archive.org/23/items/CarameliseDubLeg/Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kakushite-makina-san",
+    "slug": "kakushite-makina-san",
+    "tmdbId": 254174,
+    "title": "Kakushite! Makina-san!!",
+    "originalTitle": "かくして！ マキナさん!!",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/3fmeu7yHmHHPixSdiFxaKslDW6j.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/1KsdGhjvY85ua79av0Pj0JPiNPp.jpg",
+    "synopsis": "Certo dia, Makina, a idol da escola, se muda para a casa de Eita, um otaku de mechas. Como Eita é apaixonado pela garota, acaba em uma situação vantajosa com isso. Só que ele não esperava que Makina na verdade é uma robô sexual. Eita, como virgem, fica sem saber o que fazer em relação às investidas de Makina. Sem falar que ele também precisa ajudá-la a esconder sua verdadeira identidade. Uma comédia romântica com um pouquinho de prazer mecânico!",
+    "genres": [
+      "COMEDIA",
+      "ROMANCE",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2025",
+    "rating": 4.9,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "kakushite-makina-san-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/1.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/2.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/3.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/4.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/5.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/6.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/7.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/8.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/9.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/10.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/11.mp4"
+          },
+          {
+            "id": "kakushite-makina-san-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801401.us.archive.org/1/items/KakushiteLeg/12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "naruto-shippuden",
+    "slug": "naruto-shippuden",
+    "tmdbId": 31910,
+    "title": "Naruto Shippuden",
+    "originalTitle": "ナルト 疾風伝",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/nRJmByfK9XdtOY73VArcN8KpKVs.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/z0YhJvomqedHF85bplUJEotkN5l.jpg",
+    "synopsis": "Naruto Shippuden ocorre 2 anos e meio após Naruto ter deixado a vila para treinar com Jiraiya. Após seu retorno, Naruto descobre que seus amigos  shinobi's o superaram na classificação, e ele caiu para trás. No  entanto, com apenas 6 meses para resgatar Sasuke, Naruto tem de  enfrentar inimigos ainda mais perigosos. O plano da Akatsuki se revela  lentamente e os perigos surgem mais do que nunca!",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FICCAO",
+      "LUTA",
+      "FANTASIA",
+      "SHOUNEN",
+      "DUB",
+      "RECENTE"
+    ],
+    "year": "2007",
+    "rating": 8.529,
+    "isDubbed": true,
+    "isSubbed": false,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "naruto-shippuden-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/1.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/2.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/3.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/4.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/5.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/6.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/7.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/8.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/9.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/10.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/11.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/12.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/13.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/14.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/15.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/16.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/17.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/18.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/19.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/20.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/21.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/22.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/23.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/24.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/25.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/26.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/27.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/28.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/29.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/30.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/31.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/32.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/33.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/34.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/35.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/36.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/37.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/38.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/39.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/40.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/41.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/42.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/43.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e44",
+            "name": "Episódio 44",
+            "number": 44,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/44.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e45",
+            "name": "Episódio 45",
+            "number": 45,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/45.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e46",
+            "name": "Episódio 46",
+            "number": 46,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/46.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e47",
+            "name": "Episódio 47",
+            "number": 47,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/47.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e48",
+            "name": "Episódio 48",
+            "number": 48,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/48.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e49",
+            "name": "Episódio 49",
+            "number": 49,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/49.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e50",
+            "name": "Episódio 50",
+            "number": 50,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/50.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e51",
+            "name": "Episódio 51",
+            "number": 51,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/51.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e52",
+            "name": "Episódio 52",
+            "number": 52,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/52.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e53",
+            "name": "Episódio 53",
+            "number": 53,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/53.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e54",
+            "name": "Episódio 54",
+            "number": 54,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/54.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e55",
+            "name": "Episódio 55",
+            "number": 55,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/55.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e56",
+            "name": "Episódio 56",
+            "number": 56,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/56.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e57",
+            "name": "Episódio 57",
+            "number": 57,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/57.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e58",
+            "name": "Episódio 58",
+            "number": 58,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/58.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e59",
+            "name": "Episódio 59",
+            "number": 59,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/59.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e60",
+            "name": "Episódio 60",
+            "number": 60,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/60.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e61",
+            "name": "Episódio 61",
+            "number": 61,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/61.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e62",
+            "name": "Episódio 62",
+            "number": 62,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/62.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e63",
+            "name": "Episódio 63",
+            "number": 63,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/63.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e64",
+            "name": "Episódio 64",
+            "number": 64,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/64.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e65",
+            "name": "Episódio 65",
+            "number": 65,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/65.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e66",
+            "name": "Episódio 66",
+            "number": 66,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/66.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e67",
+            "name": "Episódio 67",
+            "number": 67,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/67.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e68",
+            "name": "Episódio 68",
+            "number": 68,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/68.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e69",
+            "name": "Episódio 69",
+            "number": 69,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/69.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e70",
+            "name": "Episódio 70",
+            "number": 70,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/70.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e71",
+            "name": "Episódio 71",
+            "number": 71,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/71.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e72",
+            "name": "Episódio 72",
+            "number": 72,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/72.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e73",
+            "name": "Episódio 73",
+            "number": 73,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/73.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e74",
+            "name": "Episódio 74",
+            "number": 74,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/74.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e75",
+            "name": "Episódio 75",
+            "number": 75,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/75.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e76",
+            "name": "Episódio 76",
+            "number": 76,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/76.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e77",
+            "name": "Episódio 77",
+            "number": 77,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/77.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e78",
+            "name": "Episódio 78",
+            "number": 78,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/78.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e79",
+            "name": "Episódio 79",
+            "number": 79,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/79.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e80",
+            "name": "Episódio 80",
+            "number": 80,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/80.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e81",
+            "name": "Episódio 81",
+            "number": 81,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/81.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e82",
+            "name": "Episódio 82",
+            "number": 82,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/82.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e83",
+            "name": "Episódio 83",
+            "number": 83,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/83.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e84",
+            "name": "Episódio 84",
+            "number": 84,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/84.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e85",
+            "name": "Episódio 85",
+            "number": 85,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/85.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e86",
+            "name": "Episódio 86",
+            "number": 86,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/86.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e87",
+            "name": "Episódio 87",
+            "number": 87,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/87.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e88",
+            "name": "Episódio 88",
+            "number": 88,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/88.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e89",
+            "name": "Episódio 89",
+            "number": 89,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/89.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e90",
+            "name": "Episódio 90",
+            "number": 90,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/90.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e91",
+            "name": "Episódio 91",
+            "number": 91,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/91.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e92",
+            "name": "Episódio 92",
+            "number": 92,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/92.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e93",
+            "name": "Episódio 93",
+            "number": 93,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/93.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e94",
+            "name": "Episódio 94",
+            "number": 94,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/94.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e95",
+            "name": "Episódio 95",
+            "number": 95,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/95.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e96",
+            "name": "Episódio 96",
+            "number": 96,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/96.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e97",
+            "name": "Episódio 97",
+            "number": 97,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/97.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e98",
+            "name": "Episódio 98",
+            "number": 98,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/98.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e99",
+            "name": "Episódio 99",
+            "number": 99,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/99.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e100",
+            "name": "Episódio 100",
+            "number": 100,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/100.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e101",
+            "name": "Episódio 101",
+            "number": 101,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/101.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e102",
+            "name": "Episódio 102",
+            "number": 102,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/102.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e103",
+            "name": "Episódio 103",
+            "number": 103,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/103.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e104",
+            "name": "Episódio 104",
+            "number": 104,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/104.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e105",
+            "name": "Episódio 105",
+            "number": 105,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/105.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e106",
+            "name": "Episódio 106",
+            "number": 106,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/106.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e107",
+            "name": "Episódio 107",
+            "number": 107,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/107.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e108",
+            "name": "Episódio 108",
+            "number": 108,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/108.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e109",
+            "name": "Episódio 109",
+            "number": 109,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/109.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e110",
+            "name": "Episódio 110",
+            "number": 110,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/110.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e111",
+            "name": "Episódio 111",
+            "number": 111,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/111.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e112",
+            "name": "Episódio 112",
+            "number": 112,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/112.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e113",
+            "name": "Episódio 113",
+            "number": 113,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/113.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e114",
+            "name": "Episódio 114",
+            "number": 114,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/114.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e115",
+            "name": "Episódio 115",
+            "number": 115,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/115.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e116",
+            "name": "Episódio 116",
+            "number": 116,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/116.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e117",
+            "name": "Episódio 117",
+            "number": 117,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/117.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e118",
+            "name": "Episódio 118",
+            "number": 118,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/118.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e119",
+            "name": "Episódio 119",
+            "number": 119,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/119.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e120",
+            "name": "Episódio 120",
+            "number": 120,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/120.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e121",
+            "name": "Episódio 121",
+            "number": 121,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/121.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e122",
+            "name": "Episódio 122",
+            "number": 122,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/122.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e123",
+            "name": "Episódio 123",
+            "number": 123,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/123.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e124",
+            "name": "Episódio 124",
+            "number": 124,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/124.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e125",
+            "name": "Episódio 125",
+            "number": 125,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/125.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e126",
+            "name": "Episódio 126",
+            "number": 126,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/126.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e127",
+            "name": "Episódio 127",
+            "number": 127,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/127.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e128",
+            "name": "Episódio 128",
+            "number": 128,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/128.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e129",
+            "name": "Episódio 129",
+            "number": 129,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/129.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e130",
+            "name": "Episódio 130",
+            "number": 130,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/130.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e131",
+            "name": "Episódio 131",
+            "number": 131,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/131.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e132",
+            "name": "Episódio 132",
+            "number": 132,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/132.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e133",
+            "name": "Episódio 133",
+            "number": 133,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/133.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e134",
+            "name": "Episódio 134",
+            "number": 134,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/134.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e135",
+            "name": "Episódio 135",
+            "number": 135,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/135.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e136",
+            "name": "Episódio 136",
+            "number": 136,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/136.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e137",
+            "name": "Episódio 137",
+            "number": 137,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/137.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e138",
+            "name": "Episódio 138",
+            "number": 138,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/138.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e139",
+            "name": "Episódio 139",
+            "number": 139,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/139.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e140",
+            "name": "Episódio 140",
+            "number": 140,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/140.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e141",
+            "name": "Episódio 141",
+            "number": 141,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/141.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e142",
+            "name": "Episódio 142",
+            "number": 142,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/142.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e143",
+            "name": "Episódio 143",
+            "number": 143,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/143.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e144",
+            "name": "Episódio 144",
+            "number": 144,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/144.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e145",
+            "name": "Episódio 145",
+            "number": 145,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/145.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e146",
+            "name": "Episódio 146",
+            "number": 146,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/146.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e147",
+            "name": "Episódio 147",
+            "number": 147,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/147.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e148",
+            "name": "Episódio 148",
+            "number": 148,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/148.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e149",
+            "name": "Episódio 149",
+            "number": 149,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/149.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e150",
+            "name": "Episódio 150",
+            "number": 150,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/150.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e151",
+            "name": "Episódio 151",
+            "number": 151,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/151.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e152",
+            "name": "Episódio 152",
+            "number": 152,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/152.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e153",
+            "name": "Episódio 153",
+            "number": 153,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/153.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e154",
+            "name": "Episódio 154",
+            "number": 154,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/154.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e155",
+            "name": "Episódio 155",
+            "number": 155,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/155.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e156",
+            "name": "Episódio 156",
+            "number": 156,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/156.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e157",
+            "name": "Episódio 157",
+            "number": 157,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/157.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e158",
+            "name": "Episódio 158",
+            "number": 158,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/158.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e159",
+            "name": "Episódio 159",
+            "number": 159,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/159.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e160",
+            "name": "Episódio 160",
+            "number": 160,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/160.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e161",
+            "name": "Episódio 161",
+            "number": 161,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/161.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e162",
+            "name": "Episódio 162",
+            "number": 162,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/162.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e163",
+            "name": "Episódio 163",
+            "number": 163,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/163.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e164",
+            "name": "Episódio 164",
+            "number": 164,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/164.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e165",
+            "name": "Episódio 165",
+            "number": 165,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/165.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e166",
+            "name": "Episódio 166",
+            "number": 166,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/166.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e167",
+            "name": "Episódio 167",
+            "number": 167,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/167.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e168",
+            "name": "Episódio 168",
+            "number": 168,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/168.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e169",
+            "name": "Episódio 169",
+            "number": 169,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/169.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e170",
+            "name": "Episódio 170",
+            "number": 170,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/170.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e171",
+            "name": "Episódio 171",
+            "number": 171,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/171.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e172",
+            "name": "Episódio 172",
+            "number": 172,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/172.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e173",
+            "name": "Episódio 173",
+            "number": 173,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/173.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e174",
+            "name": "Episódio 174",
+            "number": 174,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/174.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e175",
+            "name": "Episódio 175",
+            "number": 175,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/175.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e176",
+            "name": "Episódio 176",
+            "number": 176,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/176.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e177",
+            "name": "Episódio 177",
+            "number": 177,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/177.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e178",
+            "name": "Episódio 178",
+            "number": 178,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/178.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e179",
+            "name": "Episódio 179",
+            "number": 179,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/179.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e180",
+            "name": "Episódio 180",
+            "number": 180,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/180.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e181",
+            "name": "Episódio 181",
+            "number": 181,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/181.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e182",
+            "name": "Episódio 182",
+            "number": 182,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/182.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e183",
+            "name": "Episódio 183",
+            "number": 183,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/183.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e184",
+            "name": "Episódio 184",
+            "number": 184,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/184.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e185",
+            "name": "Episódio 185",
+            "number": 185,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/185.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e186",
+            "name": "Episódio 186",
+            "number": 186,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/186.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e187",
+            "name": "Episódio 187",
+            "number": 187,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/187.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e188",
+            "name": "Episódio 188",
+            "number": 188,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/188.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e189",
+            "name": "Episódio 189",
+            "number": 189,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/189.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e190",
+            "name": "Episódio 190",
+            "number": 190,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/190.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e191",
+            "name": "Episódio 191",
+            "number": 191,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/191.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e192",
+            "name": "Episódio 192",
+            "number": 192,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/192.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e193",
+            "name": "Episódio 193",
+            "number": 193,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/193.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e194",
+            "name": "Episódio 194",
+            "number": 194,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/194.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e195",
+            "name": "Episódio 195",
+            "number": 195,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/195.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e196",
+            "name": "Episódio 196",
+            "number": 196,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/196.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e197",
+            "name": "Episódio 197",
+            "number": 197,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/197.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e198",
+            "name": "Episódio 198",
+            "number": 198,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/198.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e199",
+            "name": "Episódio 199",
+            "number": 199,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/199.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e200",
+            "name": "Episódio 200",
+            "number": 200,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/200.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e201",
+            "name": "Episódio 201",
+            "number": 201,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/201.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e202",
+            "name": "Episódio 202",
+            "number": 202,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/202.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e203",
+            "name": "Episódio 203",
+            "number": 203,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/203.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e204",
+            "name": "Episódio 204",
+            "number": 204,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/204.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e205",
+            "name": "Episódio 205",
+            "number": 205,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/205.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e206",
+            "name": "Episódio 206",
+            "number": 206,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/206.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e207",
+            "name": "Episódio 207",
+            "number": 207,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/207.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e208",
+            "name": "Episódio 208",
+            "number": 208,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/208.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e209",
+            "name": "Episódio 209",
+            "number": 209,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/209.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e210",
+            "name": "Episódio 210",
+            "number": 210,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/210.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e211",
+            "name": "Episódio 211",
+            "number": 211,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/211.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e212",
+            "name": "Episódio 212",
+            "number": 212,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/212.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e213",
+            "name": "Episódio 213",
+            "number": 213,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/213.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e214",
+            "name": "Episódio 214",
+            "number": 214,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/214.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e215",
+            "name": "Episódio 215",
+            "number": 215,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/215.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e216",
+            "name": "Episódio 216",
+            "number": 216,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/216.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e217",
+            "name": "Episódio 217",
+            "number": 217,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/217.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e218",
+            "name": "Episódio 218",
+            "number": 218,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/218.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e219",
+            "name": "Episódio 219",
+            "number": 219,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/219.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e220",
+            "name": "Episódio 220",
+            "number": 220,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/220.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e221",
+            "name": "Episódio 221",
+            "number": 221,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/221.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e222",
+            "name": "Episódio 222",
+            "number": 222,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/222.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e223",
+            "name": "Episódio 223",
+            "number": 223,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/223.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e224",
+            "name": "Episódio 224",
+            "number": 224,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/224.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e225",
+            "name": "Episódio 225",
+            "number": 225,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/225.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e226",
+            "name": "Episódio 226",
+            "number": 226,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/226.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e227",
+            "name": "Episódio 227",
+            "number": 227,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/227.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e228",
+            "name": "Episódio 228",
+            "number": 228,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/228.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e229",
+            "name": "Episódio 229",
+            "number": 229,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/229.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e230",
+            "name": "Episódio 230",
+            "number": 230,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/230.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e231",
+            "name": "Episódio 231",
+            "number": 231,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/231.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e232",
+            "name": "Episódio 232",
+            "number": 232,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/232.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e233",
+            "name": "Episódio 233",
+            "number": 233,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/233.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e234",
+            "name": "Episódio 234",
+            "number": 234,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/234.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e235",
+            "name": "Episódio 235",
+            "number": 235,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/235.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e236",
+            "name": "Episódio 236",
+            "number": 236,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/236.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e237",
+            "name": "Episódio 237",
+            "number": 237,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/237.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e238",
+            "name": "Episódio 238",
+            "number": 238,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/238.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e239",
+            "name": "Episódio 239",
+            "number": 239,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/239.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e240",
+            "name": "Episódio 240",
+            "number": 240,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/240.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e241",
+            "name": "Episódio 241",
+            "number": 241,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/241.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e242",
+            "name": "Episódio 242",
+            "number": 242,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/242.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e243",
+            "name": "Episódio 243",
+            "number": 243,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/243.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e244",
+            "name": "Episódio 244",
+            "number": 244,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/244.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e245",
+            "name": "Episódio 245",
+            "number": 245,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/245.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e246",
+            "name": "Episódio 246",
+            "number": 246,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/246.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e247",
+            "name": "Episódio 247",
+            "number": 247,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/247.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e248",
+            "name": "Episódio 248",
+            "number": 248,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/248.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e249",
+            "name": "Episódio 249",
+            "number": 249,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/249.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e250",
+            "name": "Episódio 250",
+            "number": 250,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/250.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e251",
+            "name": "Episódio 251",
+            "number": 251,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/251.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e252",
+            "name": "Episódio 252",
+            "number": 252,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/252.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e253",
+            "name": "Episódio 253",
+            "number": 253,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/253.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e254",
+            "name": "Episódio 254",
+            "number": 254,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/254.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e255",
+            "name": "Episódio 255",
+            "number": 255,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/255.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e256",
+            "name": "Episódio 256",
+            "number": 256,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/256.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e257",
+            "name": "Episódio 257",
+            "number": 257,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/257.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e258",
+            "name": "Episódio 258",
+            "number": 258,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/258.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e259",
+            "name": "Episódio 259",
+            "number": 259,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/259.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e260",
+            "name": "Episódio 260",
+            "number": 260,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/260.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e261",
+            "name": "Episódio 261",
+            "number": 261,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/261.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e262",
+            "name": "Episódio 262",
+            "number": 262,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/262.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e263",
+            "name": "Episódio 263",
+            "number": 263,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/263.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e264",
+            "name": "Episódio 264",
+            "number": 264,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/264.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e265",
+            "name": "Episódio 265",
+            "number": 265,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/265.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e266",
+            "name": "Episódio 266",
+            "number": 266,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/266.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e267",
+            "name": "Episódio 267",
+            "number": 267,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/267.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e268",
+            "name": "Episódio 268",
+            "number": 268,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/268.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e269",
+            "name": "Episódio 269",
+            "number": 269,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/269.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e270",
+            "name": "Episódio 270",
+            "number": 270,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/270.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e271",
+            "name": "Episódio 271",
+            "number": 271,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/271.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e272",
+            "name": "Episódio 272",
+            "number": 272,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/272.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e273",
+            "name": "Episódio 273",
+            "number": 273,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/273.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e274",
+            "name": "Episódio 274",
+            "number": 274,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/274.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e275",
+            "name": "Episódio 275",
+            "number": 275,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/275.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e276",
+            "name": "Episódio 276",
+            "number": 276,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/276.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e277",
+            "name": "Episódio 277",
+            "number": 277,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/277.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e278",
+            "name": "Episódio 278",
+            "number": 278,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/278.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e279",
+            "name": "Episódio 279",
+            "number": 279,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/279.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e280",
+            "name": "Episódio 280",
+            "number": 280,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/280.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e281",
+            "name": "Episódio 281",
+            "number": 281,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/281.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e282",
+            "name": "Episódio 282",
+            "number": 282,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/282.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e283",
+            "name": "Episódio 283",
+            "number": 283,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/283.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e284",
+            "name": "Episódio 284",
+            "number": 284,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/284.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e285",
+            "name": "Episódio 285",
+            "number": 285,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/285.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e286",
+            "name": "Episódio 286",
+            "number": 286,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/286.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e287",
+            "name": "Episódio 287",
+            "number": 287,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/287.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e288",
+            "name": "Episódio 288",
+            "number": 288,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/288.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e289",
+            "name": "Episódio 289",
+            "number": 289,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/289.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e290",
+            "name": "Episódio 290",
+            "number": 290,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/290.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e291",
+            "name": "Episódio 291",
+            "number": 291,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/291.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e292",
+            "name": "Episódio 292",
+            "number": 292,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/292.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e293",
+            "name": "Episódio 293",
+            "number": 293,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/293.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e294",
+            "name": "Episódio 294",
+            "number": 294,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/294.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e295",
+            "name": "Episódio 295",
+            "number": 295,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/295.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e296",
+            "name": "Episódio 296",
+            "number": 296,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/296.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e297",
+            "name": "Episódio 297",
+            "number": 297,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/297.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e298",
+            "name": "Episódio 298",
+            "number": 298,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/298.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e299",
+            "name": "Episódio 299",
+            "number": 299,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/299.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e300",
+            "name": "Episódio 300",
+            "number": 300,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/300.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e301",
+            "name": "Episódio 301",
+            "number": 301,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/301.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e302",
+            "name": "Episódio 302",
+            "number": 302,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/302.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e303",
+            "name": "Episódio 303",
+            "number": 303,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/303.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e304",
+            "name": "Episódio 304",
+            "number": 304,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/304.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e305",
+            "name": "Episódio 305",
+            "number": 305,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/305.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e306",
+            "name": "Episódio 306",
+            "number": 306,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/306.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e307",
+            "name": "Episódio 307",
+            "number": 307,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/307.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e308",
+            "name": "Episódio 308",
+            "number": 308,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/308.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e309",
+            "name": "Episódio 309",
+            "number": 309,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/309.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e310",
+            "name": "Episódio 310",
+            "number": 310,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/310.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e311",
+            "name": "Episódio 311",
+            "number": 311,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/311.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e312",
+            "name": "Episódio 312",
+            "number": 312,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/312.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e313",
+            "name": "Episódio 313",
+            "number": 313,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/313.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e314",
+            "name": "Episódio 314",
+            "number": 314,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/314.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e315",
+            "name": "Episódio 315",
+            "number": 315,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/315.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e316",
+            "name": "Episódio 316",
+            "number": 316,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/316.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e317",
+            "name": "Episódio 317",
+            "number": 317,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/317.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e318",
+            "name": "Episódio 318",
+            "number": 318,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/318.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e319",
+            "name": "Episódio 319",
+            "number": 319,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/319.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e320",
+            "name": "Episódio 320",
+            "number": 320,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/320.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e321",
+            "name": "Episódio 321",
+            "number": 321,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/321.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e322",
+            "name": "Episódio 322",
+            "number": 322,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/322.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e323",
+            "name": "Episódio 323",
+            "number": 323,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/323.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e324",
+            "name": "Episódio 324",
+            "number": 324,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/324.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e325",
+            "name": "Episódio 325",
+            "number": 325,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/325.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e326",
+            "name": "Episódio 326",
+            "number": 326,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/326.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e327",
+            "name": "Episódio 327",
+            "number": 327,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/327.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e328",
+            "name": "Episódio 328",
+            "number": 328,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/328.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e329",
+            "name": "Episódio 329",
+            "number": 329,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/329.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e330",
+            "name": "Episódio 330",
+            "number": 330,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/330.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e331",
+            "name": "Episódio 331",
+            "number": 331,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/331.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e332",
+            "name": "Episódio 332",
+            "number": 332,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/332.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e333",
+            "name": "Episódio 333",
+            "number": 333,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/333.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e334",
+            "name": "Episódio 334",
+            "number": 334,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/334.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e335",
+            "name": "Episódio 335",
+            "number": 335,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/335.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e336",
+            "name": "Episódio 336",
+            "number": 336,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/336.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e337",
+            "name": "Episódio 337",
+            "number": 337,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/337.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e338",
+            "name": "Episódio 338",
+            "number": 338,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/338.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e339",
+            "name": "Episódio 339",
+            "number": 339,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/339.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e340",
+            "name": "Episódio 340",
+            "number": 340,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/340.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e341",
+            "name": "Episódio 341",
+            "number": 341,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/341.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e342",
+            "name": "Episódio 342",
+            "number": 342,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/342.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e343",
+            "name": "Episódio 343",
+            "number": 343,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/343.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e344",
+            "name": "Episódio 344",
+            "number": 344,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/344.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e345",
+            "name": "Episódio 345",
+            "number": 345,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/345.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e346",
+            "name": "Episódio 346",
+            "number": 346,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/346.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e347",
+            "name": "Episódio 347",
+            "number": 347,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/347.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e348",
+            "name": "Episódio 348",
+            "number": 348,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/348.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e349",
+            "name": "Episódio 349",
+            "number": 349,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/349.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e350",
+            "name": "Episódio 350",
+            "number": 350,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/350.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e351",
+            "name": "Episódio 351",
+            "number": 351,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/351.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e352",
+            "name": "Episódio 352",
+            "number": 352,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/352.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e353",
+            "name": "Episódio 353",
+            "number": 353,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/353.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e354",
+            "name": "Episódio 354",
+            "number": 354,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/354.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e355",
+            "name": "Episódio 355",
+            "number": 355,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/355.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e356",
+            "name": "Episódio 356",
+            "number": 356,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/356.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e357",
+            "name": "Episódio 357",
+            "number": 357,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/357.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e358",
+            "name": "Episódio 358",
+            "number": 358,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/358.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e359",
+            "name": "Episódio 359",
+            "number": 359,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/359.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e360",
+            "name": "Episódio 360",
+            "number": 360,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/360.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e361",
+            "name": "Episódio 361",
+            "number": 361,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/361.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e362",
+            "name": "Episódio 362",
+            "number": 362,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/362.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e363",
+            "name": "Episódio 363",
+            "number": 363,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/363.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e364",
+            "name": "Episódio 364",
+            "number": 364,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/364.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e365",
+            "name": "Episódio 365",
+            "number": 365,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/365.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e366",
+            "name": "Episódio 366",
+            "number": 366,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/366.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e367",
+            "name": "Episódio 367",
+            "number": 367,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/367.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e368",
+            "name": "Episódio 368",
+            "number": 368,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/368.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e369",
+            "name": "Episódio 369",
+            "number": 369,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/369.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e370",
+            "name": "Episódio 370",
+            "number": 370,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/370.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e371",
+            "name": "Episódio 371",
+            "number": 371,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/371.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e372",
+            "name": "Episódio 372",
+            "number": 372,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/372.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e373",
+            "name": "Episódio 373",
+            "number": 373,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/373.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e374",
+            "name": "Episódio 374",
+            "number": 374,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/374.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e375",
+            "name": "Episódio 375",
+            "number": 375,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/375.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e376",
+            "name": "Episódio 376",
+            "number": 376,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/376.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e377",
+            "name": "Episódio 377",
+            "number": 377,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/377.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e378",
+            "name": "Episódio 378",
+            "number": 378,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/378.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e379",
+            "name": "Episódio 379",
+            "number": 379,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/379.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e380",
+            "name": "Episódio 380",
+            "number": 380,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/380.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e381",
+            "name": "Episódio 381",
+            "number": 381,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/381.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e382",
+            "name": "Episódio 382",
+            "number": 382,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/382.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e383",
+            "name": "Episódio 383",
+            "number": 383,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/383.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e384",
+            "name": "Episódio 384",
+            "number": 384,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/384.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e385",
+            "name": "Episódio 385",
+            "number": 385,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/385.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e386",
+            "name": "Episódio 386",
+            "number": 386,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/386.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e387",
+            "name": "Episódio 387",
+            "number": 387,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/387.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e388",
+            "name": "Episódio 388",
+            "number": 388,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/388.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e389",
+            "name": "Episódio 389",
+            "number": 389,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/389.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e390",
+            "name": "Episódio 390",
+            "number": 390,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/390.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e391",
+            "name": "Episódio 391",
+            "number": 391,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/391.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e392",
+            "name": "Episódio 392",
+            "number": 392,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/392.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e393",
+            "name": "Episódio 393",
+            "number": 393,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/393.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e394",
+            "name": "Episódio 394",
+            "number": 394,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/394.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e395",
+            "name": "Episódio 395",
+            "number": 395,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/395.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e396",
+            "name": "Episódio 396",
+            "number": 396,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/396.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e397",
+            "name": "Episódio 397",
+            "number": 397,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/397.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e398",
+            "name": "Episódio 398",
+            "number": 398,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/398.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e399",
+            "name": "Episódio 399",
+            "number": 399,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/399.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e400",
+            "name": "Episódio 400",
+            "number": 400,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/400.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e401",
+            "name": "Episódio 401",
+            "number": 401,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/401.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e402",
+            "name": "Episódio 402",
+            "number": 402,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/402.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e403",
+            "name": "Episódio 403",
+            "number": 403,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/403.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e404",
+            "name": "Episódio 404",
+            "number": 404,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/404.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e405",
+            "name": "Episódio 405",
+            "number": 405,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/405.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e406",
+            "name": "Episódio 406",
+            "number": 406,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/406.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e407",
+            "name": "Episódio 407",
+            "number": 407,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/407.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e408",
+            "name": "Episódio 408",
+            "number": 408,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/408.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e409",
+            "name": "Episódio 409",
+            "number": 409,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/409.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e410",
+            "name": "Episódio 410",
+            "number": 410,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/410.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e411",
+            "name": "Episódio 411",
+            "number": 411,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/411.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e412",
+            "name": "Episódio 412",
+            "number": 412,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/412.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e413",
+            "name": "Episódio 413",
+            "number": 413,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/413.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e414",
+            "name": "Episódio 414",
+            "number": 414,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/414.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e415",
+            "name": "Episódio 415",
+            "number": 415,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/415.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e416",
+            "name": "Episódio 416",
+            "number": 416,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/416.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e417",
+            "name": "Episódio 417",
+            "number": 417,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/417.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e418",
+            "name": "Episódio 418",
+            "number": 418,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/418.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e419",
+            "name": "Episódio 419",
+            "number": 419,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/419.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e420",
+            "name": "Episódio 420",
+            "number": 420,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/420.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e421",
+            "name": "Episódio 421",
+            "number": 421,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/421.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e422",
+            "name": "Episódio 422",
+            "number": 422,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/422.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e423",
+            "name": "Episódio 423",
+            "number": 423,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/423.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e424",
+            "name": "Episódio 424",
+            "number": 424,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/424.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e425",
+            "name": "Episódio 425",
+            "number": 425,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/425.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e426",
+            "name": "Episódio 426",
+            "number": 426,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/426.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e427",
+            "name": "Episódio 427",
+            "number": 427,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/427.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e428",
+            "name": "Episódio 428",
+            "number": 428,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/428.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e429",
+            "name": "Episódio 429",
+            "number": 429,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/429.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e430",
+            "name": "Episódio 430",
+            "number": 430,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/430.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e431",
+            "name": "Episódio 431",
+            "number": 431,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/431.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e432",
+            "name": "Episódio 432",
+            "number": 432,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/432.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e433",
+            "name": "Episódio 433",
+            "number": 433,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/433.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e434",
+            "name": "Episódio 434",
+            "number": 434,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/434.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e435",
+            "name": "Episódio 435",
+            "number": 435,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/435.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e436",
+            "name": "Episódio 436",
+            "number": 436,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/436.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e437",
+            "name": "Episódio 437",
+            "number": 437,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/437.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e438",
+            "name": "Episódio 438",
+            "number": 438,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/438.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e439",
+            "name": "Episódio 439",
+            "number": 439,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/439.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e440",
+            "name": "Episódio 440",
+            "number": 440,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/440.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e441",
+            "name": "Episódio 441",
+            "number": 441,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/441.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e442",
+            "name": "Episódio 442",
+            "number": 442,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/442.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e443",
+            "name": "Episódio 443",
+            "number": 443,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/443.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e444",
+            "name": "Episódio 444",
+            "number": 444,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/444.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e445",
+            "name": "Episódio 445",
+            "number": 445,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/445.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e446",
+            "name": "Episódio 446",
+            "number": 446,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/446.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e447",
+            "name": "Episódio 447",
+            "number": 447,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/447.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e448",
+            "name": "Episódio 448",
+            "number": 448,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/448.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e449",
+            "name": "Episódio 449",
+            "number": 449,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/449.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e450",
+            "name": "Episódio 450",
+            "number": 450,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/450.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e451",
+            "name": "Episódio 451",
+            "number": 451,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/451.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e452",
+            "name": "Episódio 452",
+            "number": 452,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/452.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e453",
+            "name": "Episódio 453",
+            "number": 453,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/453.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e454",
+            "name": "Episódio 454",
+            "number": 454,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/454.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e455",
+            "name": "Episódio 455",
+            "number": 455,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/455.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e456",
+            "name": "Episódio 456",
+            "number": 456,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/456.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e457",
+            "name": "Episódio 457",
+            "number": 457,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/457.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e458",
+            "name": "Episódio 458",
+            "number": 458,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/458.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e459",
+            "name": "Episódio 459",
+            "number": 459,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/459.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e460",
+            "name": "Episódio 460",
+            "number": 460,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/460.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e461",
+            "name": "Episódio 461",
+            "number": 461,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/461.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e462",
+            "name": "Episódio 462",
+            "number": 462,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/462.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e463",
+            "name": "Episódio 463",
+            "number": 463,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/463.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e464",
+            "name": "Episódio 464",
+            "number": 464,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/464.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e465",
+            "name": "Episódio 465",
+            "number": 465,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/465.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e466",
+            "name": "Episódio 466",
+            "number": 466,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/466.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e467",
+            "name": "Episódio 467",
+            "number": 467,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/467.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e468",
+            "name": "Episódio 468",
+            "number": 468,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/468.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e469",
+            "name": "Episódio 469",
+            "number": 469,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/469.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e470",
+            "name": "Episódio 470",
+            "number": 470,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/470.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e471",
+            "name": "Episódio 471",
+            "number": 471,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/471.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e472",
+            "name": "Episódio 472",
+            "number": 472,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/472.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e473",
+            "name": "Episódio 473",
+            "number": 473,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/473.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e474",
+            "name": "Episódio 474",
+            "number": 474,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/474.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e475",
+            "name": "Episódio 475",
+            "number": 475,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/475.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e476",
+            "name": "Episódio 476",
+            "number": 476,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/476.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e477",
+            "name": "Episódio 477",
+            "number": 477,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/477.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e478",
+            "name": "Episódio 478",
+            "number": 478,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/478.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e479",
+            "name": "Episódio 479",
+            "number": 479,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/479.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e480",
+            "name": "Episódio 480",
+            "number": 480,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/480.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e481",
+            "name": "Episódio 481",
+            "number": 481,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/481.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e482",
+            "name": "Episódio 482",
+            "number": 482,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/482.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e483",
+            "name": "Episódio 483",
+            "number": 483,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/483.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e484",
+            "name": "Episódio 484",
+            "number": 484,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/484.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e485",
+            "name": "Episódio 485",
+            "number": 485,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/485.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e486",
+            "name": "Episódio 486",
+            "number": 486,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/486.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e487",
+            "name": "Episódio 487",
+            "number": 487,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/487.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e488",
+            "name": "Episódio 488",
+            "number": 488,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/488.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e489",
+            "name": "Episódio 489",
+            "number": 489,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/489.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e490",
+            "name": "Episódio 490",
+            "number": 490,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/490.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e491",
+            "name": "Episódio 491",
+            "number": 491,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/491.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e492",
+            "name": "Episódio 492",
+            "number": 492,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/492.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e493",
+            "name": "Episódio 493",
+            "number": 493,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/493.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e494",
+            "name": "Episódio 494",
+            "number": 494,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/494.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e495",
+            "name": "Episódio 495",
+            "number": 495,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/495.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e496",
+            "name": "Episódio 496",
+            "number": 496,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/496.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e497",
+            "name": "Episódio 497",
+            "number": 497,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/497.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e498",
+            "name": "Episódio 498",
+            "number": 498,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/498.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e499",
+            "name": "Episódio 499",
+            "number": 499,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/499.mp4"
+          },
+          {
+            "id": "naruto-shippuden-s1-e500",
+            "name": "Episódio 500",
+            "number": 500,
+            "streamUrl": "https://ia600105.us.archive.org/13/items/ShippudenDub/500.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filmes (Em Breve)",
+        "episodes": []
+      },
+      {
+        "name": "Especiais (Em Breve)",
+        "episodes": []
+      }
+    ]
+  },
+  {
+    "id": "lord-of-mysteries",
+    "slug": "lord-of-mysteries",
+    "tmdbId": 232230,
+    "title": "Lord of Mysteries",
+    "originalTitle": "诡秘之主",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/jd779Wg2stNJt4Qt943XTD8Ntg5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gdvUUqWutEulHSB4JBoWWnbsLo6.jpg",
+    "synopsis": "Em um mundo imerso em névoa e segredos, Klein Moretti desperta em um corpo que não é o seu, preso em uma realidade estranha e fascinante que mistura a estética vitoriana com tecnologia steampunk. Enquanto tenta descobrir como retornar ao seu mundo, ele se vê envolvido em uma teia de conspirações ocultas, ordens secretas e poderes sobrenaturais enigmáticos. Sem superpoderes ou aliados, Klein deve usar sua inteligência para sobreviver, navegando por caminhos perigosos onde o conhecimento é a arma mais poderosa — e o preço da curiosidade pode ser a própria sanidade.",
+    "genres": [
+      "MISTERIO",
+      "FICCAO",
+      "FANTASIA",
+      "ACAO",
+      "SOBRENATURAL",
+      "DUB",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2025",
+    "rating": 8.642,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "lord-of-mysteries-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-1.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-2.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-3.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-4.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-5.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-6.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-7.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-8.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-9.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-10.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-11.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-12.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "lord-of-mysteries-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-1.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-2.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-3.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-4.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-5.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-6.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-7.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-8.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-9.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-10.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-11.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-12.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Especiais",
+        "episodes": [
+          {
+            "id": "lord-of-mysteries-s3-e1",
+            "name": "A Cidade de Prata (DUB)",
+            "number": 1,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Especial-Dub-1.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s3-e2",
+            "name": "A Cidade de Prata (LEG)",
+            "number": 2,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Especial-Leg-1.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s3-e3",
+            "name": "Caçado - Parte 1 (DUB)",
+            "number": 3,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Especial-Dub-2.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s3-e4",
+            "name": "Caçado - Parte 1 (LEG)",
+            "number": 4,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Especial-Leg-2.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s3-e5",
+            "name": "Caçado - Parte 2 (DUB)",
+            "number": 5,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Especial-Dub-3.mp4"
+          },
+          {
+            "id": "lord-of-mysteries-s3-e6",
+            "name": "Caçado - Parte 2 (LEG)",
+            "number": 6,
+            "streamUrl": "https://ia600603.us.archive.org/12/items/lorddubleg_202609/Especial-Leg-3.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wind-breaker",
+    "slug": "wind-breaker",
+    "tmdbId": 223500,
+    "title": "WIND BREAKER",
+    "originalTitle": "WIND BREAKER",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/c2wfIKUPcQY0tiyiOmY7ItHtNO9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/czrAvoN103RYYX8lhkZPs2zgnkl.jpg",
+    "synopsis": "Aqui as médias de notas são mais baixas, mas as lutas são as mais intensas! A Escola Furin é conhecida como uma superescola de delinquentes! Haruka Sakura, um estudante do primeiro ano do ensino médio, veio de fora da cidade pronto para lutar até o topo... No entanto, a Escola Furin acabou se tornando um grupo que protege a cidade! É aqui que a lenda heroica do delinquente Sakura no ensino médio começa!",
+    "genres": [
+      "ACAO",
+      "COMEDIA",
+      "SHOUNEN",
+      "LUTA",
+      "DUB",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2024",
+    "rating": 8.13,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "wind-breaker-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-12.mp4"
+          },
+          {
+            "id": "wind-breaker-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "wind-breaker-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-12.mp4"
+          },
+          {
+            "id": "wind-breaker-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Primeira-Leg-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "wind-breaker-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "wind-breaker-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "wind-breaker-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "wind-breaker-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801409.us.archive.org/10/items/WindDubLeg/Segunda-Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "free",
+    "slug": "free",
+    "tmdbId": 61456,
+    "title": "Free!",
+    "originalTitle": "Free!",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/owoZ7XlWMqnahtkIaQjWXPIHt3U.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/cW4UIp68lE64xlChC9ckjp5DVjQ.jpg",
+    "synopsis": "O enredo gira em torno de um grupo de cinco rapazes do ensino médio que estão todos ligados pelo amor à natação: Haruka Nanase, Makoto Tachibana, Nagisa Hazuki, Rei Ryugazaki e Rin Matsuoka.",
+    "genres": [
+      "DRAMA",
+      "COMEDIA",
+      "ESPORTES",
+      "RECENTE",
+      "DUB",
+      "DESTAQUE",
+      "LEG"
+    ],
+    "year": "2013",
+    "rating": 8.2,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "free-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "free-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "free-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "free-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "free-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "free-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "free-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "free-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "free-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "free-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "free-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "free-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "free-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "free-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "free-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "free-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "free-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "free-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "free-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "free-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "free-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "free-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "free-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "free-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Primeira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada",
+        "episodes": [
+          {
+            "id": "free-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-1.mp4"
+          },
+          {
+            "id": "free-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-2.mp4"
+          },
+          {
+            "id": "free-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-3.mp4"
+          },
+          {
+            "id": "free-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-4.mp4"
+          },
+          {
+            "id": "free-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-5.mp4"
+          },
+          {
+            "id": "free-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-6.mp4"
+          },
+          {
+            "id": "free-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-7.mp4"
+          },
+          {
+            "id": "free-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-8.mp4"
+          },
+          {
+            "id": "free-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-9.mp4"
+          },
+          {
+            "id": "free-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-10.mp4"
+          },
+          {
+            "id": "free-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-11.mp4"
+          },
+          {
+            "id": "free-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-12.mp4"
+          },
+          {
+            "id": "free-s3-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Segunda-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "3ª Temporada",
+        "episodes": [
+          {
+            "id": "free-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-1.mp4"
+          },
+          {
+            "id": "free-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-2.mp4"
+          },
+          {
+            "id": "free-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-3.mp4"
+          },
+          {
+            "id": "free-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-4.mp4"
+          },
+          {
+            "id": "free-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-5.mp4"
+          },
+          {
+            "id": "free-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-6.mp4"
+          },
+          {
+            "id": "free-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-7.mp4"
+          },
+          {
+            "id": "free-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-8.mp4"
+          },
+          {
+            "id": "free-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-9.mp4"
+          },
+          {
+            "id": "free-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-10.mp4"
+          },
+          {
+            "id": "free-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-11.mp4"
+          },
+          {
+            "id": "free-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Terceira-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filmes",
+        "episodes": [
+          {
+            "id": "free-s5-e1",
+            "name": "High☆Speed! -Free! Starting Days-",
+            "number": 1,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Filme-1.mp4"
+          },
+          {
+            "id": "free-s5-e2",
+            "name": "Free! -Timeless Medley- The Bond",
+            "number": 2,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Filme-2.mp4"
+          },
+          {
+            "id": "free-s5-e3",
+            "name": "Free! -Timeless Medley- The Promise",
+            "number": 3,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Filme-3.mp4"
+          },
+          {
+            "id": "free-s5-e4",
+            "name": "Free! -Take Your Marks-",
+            "number": 4,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Filme-4.mp4"
+          },
+          {
+            "id": "free-s5-e5",
+            "name": "Free! -Road to the World- the Dream",
+            "number": 5,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Filme-5.mp4"
+          },
+          {
+            "id": "free-s5-e6",
+            "name": "Free! The Final Stroke - Part 1",
+            "number": 6,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Filme-6.mp4"
+          },
+          {
+            "id": "free-s5-e7",
+            "name": "Free! The Final Stroke - Part 2",
+            "number": 7,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Filme-7.mp4"
+          }
+        ]
+      },
+      {
+        "name": "OVAs e Curtas",
+        "episodes": [
+          {
+            "id": "free-s6-e1",
+            "name": "OVA 01",
+            "number": 1,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/OVA-1.mp4"
+          },
+          {
+            "id": "free-s6-e2",
+            "name": "OVA 02",
+            "number": 2,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/OVA-2.mp4"
+          },
+          {
+            "id": "free-s6-e3",
+            "name": "Curta 01",
+            "number": 3,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Curta-1.mp4"
+          },
+          {
+            "id": "free-s6-e4",
+            "name": "Curta 02",
+            "number": 4,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Curta-2.mp4"
+          },
+          {
+            "id": "free-s6-e5",
+            "name": "Curta 03",
+            "number": 5,
+            "streamUrl": "https://ia601903.us.archive.org/26/items/FreeDubLeg/Curta-3.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "grimm-kumikyoku",
+    "slug": "grimm-kumikyoku",
+    "tmdbId": 249812,
+    "title": "Os Irmãos Grimm e as Facetas do Horror",
+    "originalTitle": "グリム組曲",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/lmwK3t35OFht8zQQ1XvWWwgQn9P.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/nVnPoHsR7fo8qlA9fYUsrj701p.jpg",
+    "synopsis": "Inspirados nas histórias clássicas dos Irmãos Grimm, os seis contos de fadas desta antologia têm um toque sombrio e expõem o lado oculto do desejo humano.",
+    "genres": [
+      "FICCAO",
+      "FANTASIA",
+      "TERROR",
+      "DRAMA",
+      "MISTERIO",
+      "CURTOS",
+      "RECENTE",
+      "DUB",
+      "LEG"
+    ],
+    "year": "2024",
+    "rating": 7,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "grimm-kumikyoku-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Dub-6.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "grimm-kumikyoku-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "grimm-kumikyoku-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601004.us.archive.org/7/items/GrimmDubLeg/Leg-6.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tokyo-ghoul",
+    "slug": "tokyo-ghoul",
+    "tmdbId": 61374,
+    "title": "Tokyo Ghoul",
+    "originalTitle": "東京喰種トーキョーグール",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/5XBk7T4NsGeN9RG39y2nU6gRWQl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/jnwRlthXIgJB75Mt9GEl93Dczki.jpg",
+    "synopsis": "Em Tóquio, criaturas conhecidas como \"Ghouls\" vivem entre os humanos e os devoram para sobreviver. Alheio a eles, o jovem universitário Ken Kaneki leva uma vida pacata entre livros, até que um trágico encontro o coloca diante desses seres e o obriga a lutar por sua humanidade.",
+    "genres": [
+      "DRAMA",
+      "FICCAO",
+      "FANTASIA",
+      "SOBRENATURAL",
+      "DUB",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2014",
+    "rating": 8.2,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tokyo-ghoul-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-1.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-2.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-3.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-4.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-5.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-6.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-7.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-8.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-9.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-10.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-11.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tokyo-ghoul-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-1.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-2.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-3.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-4.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-5.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-6.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-7.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-8.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-9.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-10.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-11.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Primeira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tokyo-ghoul-s3-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-1.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-2.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-3.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-4.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-5.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-6.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-7.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-8.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-9.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-10.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-11.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s3-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tokyo-ghoul-s4-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-1.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-2.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-3.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-4.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-5.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-6.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-7.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-8.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-9.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-10.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-11.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s4-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Segunda-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "re: 1ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tokyo-ghoul-s5-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-1.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-2.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-3.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-4.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-5.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-6.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-7.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-8.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-9.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-10.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-11.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s5-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "re: 1ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tokyo-ghoul-s6-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-1.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-2.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-3.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-4.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-5.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-6.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-7.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-8.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-9.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-10.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-11.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s6-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Terceira-Leg-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "re: 2ª Temporada (DUB)",
+        "episodes": [
+          {
+            "id": "tokyo-ghoul-s7-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-1.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-2.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-3.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-4.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-5.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-6.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-7.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-8.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-9.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-10.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-11.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s7-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "re: 2ª Temporada (LEG)",
+        "episodes": [
+          {
+            "id": "tokyo-ghoul-s8-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-1.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-2.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-3.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-4.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-5.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-6.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-7.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-8.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-9.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-10.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-11.mp4"
+          },
+          {
+            "id": "tokyo-ghoul-s8-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601909.us.archive.org/21/items/GhoulDubLeg/Quarta-Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fairy-tail",
+    "slug": "fairy-tail",
+    "tmdbId": 46261,
+    "title": "Fairy Tail",
+    "originalTitle": "FAIRY TAIL",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/iuRJ2QRRNMIu2VdEIuLIaJvt1PZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bifZUqMGfI2WdPMLKQAiTsJbwCj.jpg",
+    "synopsis": "Lucy é uma garota de 16 anos que quer se tornar uma maga completa,  para isso, ela precisa entrar em uma guilda de magos. Um dia visitando a  cidade de Harujion, ela conhece Natsu, um jovem rapaz que fica  facilmente enjoado com qualquer tipo de transporte. Mas Natsu não é  apenas uma criança fraca, ele é um membro de uma das maiores e infames  guildas: FAIRY TAIL.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "COMEDIA",
+      "FICCAO",
+      "FANTASIA",
+      "DUB",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2009",
+    "rating": 7.9,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "fairy-tail-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-12.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-13.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-14.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-15.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-16.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-17.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-18.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-19.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-20.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-21.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-22.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-23.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-24.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-25.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-26.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-27.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-28.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-29.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-30.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-31.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-32.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-33.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-34.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-35.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-36.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-37.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-38.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-39.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-40.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-41.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-42.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-43.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e44",
+            "name": "Episódio 44",
+            "number": 44,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-44.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e45",
+            "name": "Episódio 45",
+            "number": 45,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-45.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e46",
+            "name": "Episódio 46",
+            "number": 46,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-46.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e47",
+            "name": "Episódio 47",
+            "number": 47,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-47.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e48",
+            "name": "Episódio 48",
+            "number": 48,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-48.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e49",
+            "name": "Episódio 49",
+            "number": 49,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-49.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e50",
+            "name": "Episódio 50",
+            "number": 50,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-50.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e51",
+            "name": "Episódio 51",
+            "number": 51,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-51.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e52",
+            "name": "Episódio 52",
+            "number": 52,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-52.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e53",
+            "name": "Episódio 53",
+            "number": 53,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-53.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e54",
+            "name": "Episódio 54",
+            "number": 54,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-54.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e55",
+            "name": "Episódio 55",
+            "number": 55,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-55.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e56",
+            "name": "Episódio 56",
+            "number": 56,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-56.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e57",
+            "name": "Episódio 57",
+            "number": 57,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-57.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e58",
+            "name": "Episódio 58",
+            "number": 58,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-58.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e59",
+            "name": "Episódio 59",
+            "number": 59,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-59.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e60",
+            "name": "Episódio 60",
+            "number": 60,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-60.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e61",
+            "name": "Episódio 61",
+            "number": 61,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-61.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e62",
+            "name": "Episódio 62",
+            "number": 62,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-62.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e63",
+            "name": "Episódio 63",
+            "number": 63,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-63.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e64",
+            "name": "Episódio 64",
+            "number": 64,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-64.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e65",
+            "name": "Episódio 65",
+            "number": 65,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-65.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e66",
+            "name": "Episódio 66",
+            "number": 66,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-66.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e67",
+            "name": "Episódio 67",
+            "number": 67,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-67.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e68",
+            "name": "Episódio 68",
+            "number": 68,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-68.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e69",
+            "name": "Episódio 69",
+            "number": 69,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-69.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e70",
+            "name": "Episódio 70",
+            "number": 70,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-70.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e71",
+            "name": "Episódio 71",
+            "number": 71,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-71.mp4"
+          },
+          {
+            "id": "fairy-tail-s1-e72",
+            "name": "Episódio 72",
+            "number": 72,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Dub-72.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "fairy-tail-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/1-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/2-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/3-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/4-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/5-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/6-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/7-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/8-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/9-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/10-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/11-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/12-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/13-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/14-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/15-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/16-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/17-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/18-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/19-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/20-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/21-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/22-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/23-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/24-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e25",
+            "name": "Episódio 25",
+            "number": 25,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/25-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e26",
+            "name": "Episódio 26",
+            "number": 26,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/26-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e27",
+            "name": "Episódio 27",
+            "number": 27,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/27-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e28",
+            "name": "Episódio 28",
+            "number": 28,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/28-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e29",
+            "name": "Episódio 29",
+            "number": 29,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/29-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e30",
+            "name": "Episódio 30",
+            "number": 30,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/30-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e31",
+            "name": "Episódio 31",
+            "number": 31,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/31-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e32",
+            "name": "Episódio 32",
+            "number": 32,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/32-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e33",
+            "name": "Episódio 33",
+            "number": 33,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/33-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e34",
+            "name": "Episódio 34",
+            "number": 34,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/34-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e35",
+            "name": "Episódio 35",
+            "number": 35,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/35-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e36",
+            "name": "Episódio 36",
+            "number": 36,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/36-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e37",
+            "name": "Episódio 37",
+            "number": 37,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/37-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e38",
+            "name": "Episódio 38",
+            "number": 38,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/38-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e39",
+            "name": "Episódio 39",
+            "number": 39,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/39-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e40",
+            "name": "Episódio 40",
+            "number": 40,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/40-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e41",
+            "name": "Episódio 41",
+            "number": 41,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/41-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e42",
+            "name": "Episódio 42",
+            "number": 42,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/42-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e43",
+            "name": "Episódio 43",
+            "number": 43,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/43-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e44",
+            "name": "Episódio 44",
+            "number": 44,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/44-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e45",
+            "name": "Episódio 45",
+            "number": 45,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/45-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e46",
+            "name": "Episódio 46",
+            "number": 46,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/46-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e47",
+            "name": "Episódio 47",
+            "number": 47,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/47-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e48",
+            "name": "Episódio 48",
+            "number": 48,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/48-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e49",
+            "name": "Episódio 49",
+            "number": 49,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/49-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e50",
+            "name": "Episódio 50",
+            "number": 50,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/50-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e51",
+            "name": "Episódio 51",
+            "number": 51,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/51-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e52",
+            "name": "Episódio 52",
+            "number": 52,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/52-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e53",
+            "name": "Episódio 53",
+            "number": 53,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/53-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e54",
+            "name": "Episódio 54",
+            "number": 54,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/54-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e55",
+            "name": "Episódio 55",
+            "number": 55,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/55-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e56",
+            "name": "Episódio 56",
+            "number": 56,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/56-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e57",
+            "name": "Episódio 57",
+            "number": 57,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/57-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e58",
+            "name": "Episódio 58",
+            "number": 58,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/58-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e59",
+            "name": "Episódio 59",
+            "number": 59,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/59-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e60",
+            "name": "Episódio 60",
+            "number": 60,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/60-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e61",
+            "name": "Episódio 61",
+            "number": 61,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/61-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e62",
+            "name": "Episódio 62",
+            "number": 62,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/62-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e63",
+            "name": "Episódio 63",
+            "number": 63,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/63-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e64",
+            "name": "Episódio 64",
+            "number": 64,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/64-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e65",
+            "name": "Episódio 65",
+            "number": 65,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/65-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e66",
+            "name": "Episódio 66",
+            "number": 66,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/66-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e67",
+            "name": "Episódio 67",
+            "number": 67,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/67-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e68",
+            "name": "Episódio 68",
+            "number": 68,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/68-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e69",
+            "name": "Episódio 69",
+            "number": 69,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/69-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e70",
+            "name": "Episódio 70",
+            "number": 70,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/70-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e71",
+            "name": "Episódio 71",
+            "number": 71,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/71-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e72",
+            "name": "Episódio 72",
+            "number": 72,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/72-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e73",
+            "name": "Episódio 73",
+            "number": 73,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/73-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e74",
+            "name": "Episódio 74",
+            "number": 74,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/74-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e75",
+            "name": "Episódio 75",
+            "number": 75,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/75-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e76",
+            "name": "Episódio 76",
+            "number": 76,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/76-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e77",
+            "name": "Episódio 77",
+            "number": 77,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/77-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e78",
+            "name": "Episódio 78",
+            "number": 78,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/78-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e79",
+            "name": "Episódio 79",
+            "number": 79,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/79-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e80",
+            "name": "Episódio 80",
+            "number": 80,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/80-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e81",
+            "name": "Episódio 81",
+            "number": 81,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/81-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e82",
+            "name": "Episódio 82",
+            "number": 82,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/82-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e83",
+            "name": "Episódio 83",
+            "number": 83,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/83-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e84",
+            "name": "Episódio 84",
+            "number": 84,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/84-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e85",
+            "name": "Episódio 85",
+            "number": 85,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/85-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e86",
+            "name": "Episódio 86",
+            "number": 86,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/86-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e87",
+            "name": "Episódio 87",
+            "number": 87,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/87-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e88",
+            "name": "Episódio 88",
+            "number": 88,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/88-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e89",
+            "name": "Episódio 89",
+            "number": 89,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/89-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e90",
+            "name": "Episódio 90",
+            "number": 90,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/90-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e91",
+            "name": "Episódio 91",
+            "number": 91,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/91-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e92",
+            "name": "Episódio 92",
+            "number": 92,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/92-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e93",
+            "name": "Episódio 93",
+            "number": 93,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/93-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e94",
+            "name": "Episódio 94",
+            "number": 94,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/94-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e95",
+            "name": "Episódio 95",
+            "number": 95,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/95-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e96",
+            "name": "Episódio 96",
+            "number": 96,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/96-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e97",
+            "name": "Episódio 97",
+            "number": 97,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/97-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e98",
+            "name": "Episódio 98",
+            "number": 98,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/98-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e99",
+            "name": "Episódio 99",
+            "number": 99,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/99-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e100",
+            "name": "Episódio 100",
+            "number": 100,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/100-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e101",
+            "name": "Episódio 101",
+            "number": 101,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/101-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e102",
+            "name": "Episódio 102",
+            "number": 102,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/102-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e103",
+            "name": "Episódio 103",
+            "number": 103,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/103-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e104",
+            "name": "Episódio 104",
+            "number": 104,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/104-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e105",
+            "name": "Episódio 105",
+            "number": 105,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/105-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e106",
+            "name": "Episódio 106",
+            "number": 106,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/106-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e107",
+            "name": "Episódio 107",
+            "number": 107,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/107-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e108",
+            "name": "Episódio 108",
+            "number": 108,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/108-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e109",
+            "name": "Episódio 109",
+            "number": 109,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/109-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e110",
+            "name": "Episódio 110",
+            "number": 110,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/110-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e111",
+            "name": "Episódio 111",
+            "number": 111,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/111-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e112",
+            "name": "Episódio 112",
+            "number": 112,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/112-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e113",
+            "name": "Episódio 113",
+            "number": 113,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/113-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e114",
+            "name": "Episódio 114",
+            "number": 114,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/114-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e115",
+            "name": "Episódio 115",
+            "number": 115,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/115-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e116",
+            "name": "Episódio 116",
+            "number": 116,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/116-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e117",
+            "name": "Episódio 117",
+            "number": 117,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/117-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e118",
+            "name": "Episódio 118",
+            "number": 118,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/118-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e119",
+            "name": "Episódio 119",
+            "number": 119,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/119-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e120",
+            "name": "Episódio 120",
+            "number": 120,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/120-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e121",
+            "name": "Episódio 121",
+            "number": 121,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/121-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e122",
+            "name": "Episódio 122",
+            "number": 122,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/122-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e123",
+            "name": "Episódio 123",
+            "number": 123,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/123-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e124",
+            "name": "Episódio 124",
+            "number": 124,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/124-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e125",
+            "name": "Episódio 125",
+            "number": 125,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/125-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e126",
+            "name": "Episódio 126",
+            "number": 126,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/126-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e127",
+            "name": "Episódio 127",
+            "number": 127,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/127-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e128",
+            "name": "Episódio 128",
+            "number": 128,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/128-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e129",
+            "name": "Episódio 129",
+            "number": 129,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/129-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e130",
+            "name": "Episódio 130",
+            "number": 130,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/130-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e131",
+            "name": "Episódio 131",
+            "number": 131,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/131-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e132",
+            "name": "Episódio 132",
+            "number": 132,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/132-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e133",
+            "name": "Episódio 133",
+            "number": 133,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/133-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e134",
+            "name": "Episódio 134",
+            "number": 134,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/134-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e135",
+            "name": "Episódio 135",
+            "number": 135,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/135-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e136",
+            "name": "Episódio 136",
+            "number": 136,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/136-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e137",
+            "name": "Episódio 137",
+            "number": 137,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/137-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e138",
+            "name": "Episódio 138",
+            "number": 138,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/138-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e139",
+            "name": "Episódio 139",
+            "number": 139,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/139-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e140",
+            "name": "Episódio 140",
+            "number": 140,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/140-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e141",
+            "name": "Episódio 141",
+            "number": 141,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/141-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e142",
+            "name": "Episódio 142",
+            "number": 142,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/142-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e143",
+            "name": "Episódio 143",
+            "number": 143,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/143-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e144",
+            "name": "Episódio 144",
+            "number": 144,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/144-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e145",
+            "name": "Episódio 145",
+            "number": 145,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/145-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e146",
+            "name": "Episódio 146",
+            "number": 146,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/146-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e147",
+            "name": "Episódio 147",
+            "number": 147,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/147-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e148",
+            "name": "Episódio 148",
+            "number": 148,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/148-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e149",
+            "name": "Episódio 149",
+            "number": 149,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/149-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e150",
+            "name": "Episódio 150",
+            "number": 150,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/150-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e151",
+            "name": "Episódio 151",
+            "number": 151,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/151-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e152",
+            "name": "Episódio 152",
+            "number": 152,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/152-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e153",
+            "name": "Episódio 153",
+            "number": 153,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/153-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e154",
+            "name": "Episódio 154",
+            "number": 154,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/154-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e155",
+            "name": "Episódio 155",
+            "number": 155,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/155-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e156",
+            "name": "Episódio 156",
+            "number": 156,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/156-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e157",
+            "name": "Episódio 157",
+            "number": 157,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/157-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e158",
+            "name": "Episódio 158",
+            "number": 158,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/158-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e159",
+            "name": "Episódio 159",
+            "number": 159,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/159-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e160",
+            "name": "Episódio 160",
+            "number": 160,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/160-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e161",
+            "name": "Episódio 161",
+            "number": 161,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/161-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e162",
+            "name": "Episódio 162",
+            "number": 162,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/162-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e163",
+            "name": "Episódio 163",
+            "number": 163,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/163-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e164",
+            "name": "Episódio 164",
+            "number": 164,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/164-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e165",
+            "name": "Episódio 165",
+            "number": 165,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/165-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e166",
+            "name": "Episódio 166",
+            "number": 166,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/166-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e167",
+            "name": "Episódio 167",
+            "number": 167,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/167-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e168",
+            "name": "Episódio 168",
+            "number": 168,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/168-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e169",
+            "name": "Episódio 169",
+            "number": 169,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/169-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e170",
+            "name": "Episódio 170",
+            "number": 170,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/170-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e171",
+            "name": "Episódio 171",
+            "number": 171,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/171-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e172",
+            "name": "Episódio 172",
+            "number": 172,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/172-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e173",
+            "name": "Episódio 173",
+            "number": 173,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/173-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e174",
+            "name": "Episódio 174",
+            "number": 174,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/174-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e175",
+            "name": "Episódio 175",
+            "number": 175,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/175-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e176",
+            "name": "Episódio 176",
+            "number": 176,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/176-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e177",
+            "name": "Episódio 177",
+            "number": 177,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/177-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e178",
+            "name": "Episódio 178",
+            "number": 178,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/178-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e179",
+            "name": "Episódio 179",
+            "number": 179,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/179-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e180",
+            "name": "Episódio 180",
+            "number": 180,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/180-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e181",
+            "name": "Episódio 181",
+            "number": 181,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/181-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e182",
+            "name": "Episódio 182",
+            "number": 182,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/182-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e183",
+            "name": "Episódio 183",
+            "number": 183,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/183-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e184",
+            "name": "Episódio 184",
+            "number": 184,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/184-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e185",
+            "name": "Episódio 185",
+            "number": 185,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/185-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e186",
+            "name": "Episódio 186",
+            "number": 186,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/186-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e187",
+            "name": "Episódio 187",
+            "number": 187,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/187-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e188",
+            "name": "Episódio 188",
+            "number": 188,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/188-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e189",
+            "name": "Episódio 189",
+            "number": 189,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/189-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e190",
+            "name": "Episódio 190",
+            "number": 190,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/190-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e191",
+            "name": "Episódio 191",
+            "number": 191,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/191-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e192",
+            "name": "Episódio 192",
+            "number": 192,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/192-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e193",
+            "name": "Episódio 193",
+            "number": 193,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/193-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e194",
+            "name": "Episódio 194",
+            "number": 194,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/194-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e195",
+            "name": "Episódio 195",
+            "number": 195,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/195-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e196",
+            "name": "Episódio 196",
+            "number": 196,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/196-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e197",
+            "name": "Episódio 197",
+            "number": 197,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/197-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e198",
+            "name": "Episódio 198",
+            "number": 198,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/198-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e199",
+            "name": "Episódio 199",
+            "number": 199,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/199-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e200",
+            "name": "Episódio 200",
+            "number": 200,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/200-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e201",
+            "name": "Episódio 201",
+            "number": 201,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/201-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e202",
+            "name": "Episódio 202",
+            "number": 202,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/202-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e203",
+            "name": "Episódio 203",
+            "number": 203,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/203-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e204",
+            "name": "Episódio 204",
+            "number": 204,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/204-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e205",
+            "name": "Episódio 205",
+            "number": 205,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/205-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e206",
+            "name": "Episódio 206",
+            "number": 206,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/206-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e207",
+            "name": "Episódio 207",
+            "number": 207,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/207-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e208",
+            "name": "Episódio 208",
+            "number": 208,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/208-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e209",
+            "name": "Episódio 209",
+            "number": 209,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/209-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e210",
+            "name": "Episódio 210",
+            "number": 210,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/210-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e211",
+            "name": "Episódio 211",
+            "number": 211,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/211-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e212",
+            "name": "Episódio 212",
+            "number": 212,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/212-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e213",
+            "name": "Episódio 213",
+            "number": 213,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/213-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e214",
+            "name": "Episódio 214",
+            "number": 214,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/214-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e215",
+            "name": "Episódio 215",
+            "number": 215,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/215-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e216",
+            "name": "Episódio 216",
+            "number": 216,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/216-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e217",
+            "name": "Episódio 217",
+            "number": 217,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/217-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e218",
+            "name": "Episódio 218",
+            "number": 218,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/218-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e219",
+            "name": "Episódio 219",
+            "number": 219,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/219-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e220",
+            "name": "Episódio 220",
+            "number": 220,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/220-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e221",
+            "name": "Episódio 221",
+            "number": 221,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/221-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e222",
+            "name": "Episódio 222",
+            "number": 222,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/222-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e223",
+            "name": "Episódio 223",
+            "number": 223,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/223-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e224",
+            "name": "Episódio 224",
+            "number": 224,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/224-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e225",
+            "name": "Episódio 225",
+            "number": 225,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/225-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e226",
+            "name": "Episódio 226",
+            "number": 226,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/226-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e227",
+            "name": "Episódio 227",
+            "number": 227,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/227-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e228",
+            "name": "Episódio 228",
+            "number": 228,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/228-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e229",
+            "name": "Episódio 229",
+            "number": 229,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/229-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e230",
+            "name": "Episódio 230",
+            "number": 230,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/230-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e231",
+            "name": "Episódio 231",
+            "number": 231,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/231-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e232",
+            "name": "Episódio 232",
+            "number": 232,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/232-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e233",
+            "name": "Episódio 233",
+            "number": 233,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/233-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e234",
+            "name": "Episódio 234",
+            "number": 234,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/234-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e235",
+            "name": "Episódio 235",
+            "number": 235,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/235-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e236",
+            "name": "Episódio 236",
+            "number": 236,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/236-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e237",
+            "name": "Episódio 237",
+            "number": 237,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/237-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e238",
+            "name": "Episódio 238",
+            "number": 238,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/238-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e239",
+            "name": "Episódio 239",
+            "number": 239,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/239-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e240",
+            "name": "Episódio 240",
+            "number": 240,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/240-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e241",
+            "name": "Episódio 241",
+            "number": 241,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/241-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e242",
+            "name": "Episódio 242",
+            "number": 242,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/242-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e243",
+            "name": "Episódio 243",
+            "number": 243,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/243-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e244",
+            "name": "Episódio 244",
+            "number": 244,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/244-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e245",
+            "name": "Episódio 245",
+            "number": 245,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/245-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e246",
+            "name": "Episódio 246",
+            "number": 246,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/246-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e247",
+            "name": "Episódio 247",
+            "number": 247,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/247-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e248",
+            "name": "Episódio 248",
+            "number": 248,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/248-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e249",
+            "name": "Episódio 249",
+            "number": 249,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/249-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e250",
+            "name": "Episódio 250",
+            "number": 250,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/250-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e251",
+            "name": "Episódio 251",
+            "number": 251,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/251-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e252",
+            "name": "Episódio 252",
+            "number": 252,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/252-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e253",
+            "name": "Episódio 253",
+            "number": 253,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/253-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e254",
+            "name": "Episódio 254",
+            "number": 254,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/254-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e255",
+            "name": "Episódio 255",
+            "number": 255,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/255-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e256",
+            "name": "Episódio 256",
+            "number": 256,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/256-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e257",
+            "name": "Episódio 257",
+            "number": 257,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/257-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e258",
+            "name": "Episódio 258",
+            "number": 258,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/258-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e259",
+            "name": "Episódio 259",
+            "number": 259,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/259-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e260",
+            "name": "Episódio 260",
+            "number": 260,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/260-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e261",
+            "name": "Episódio 261",
+            "number": 261,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/261-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e262",
+            "name": "Episódio 262",
+            "number": 262,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/262-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e263",
+            "name": "Episódio 263",
+            "number": 263,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/263-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e264",
+            "name": "Episódio 264",
+            "number": 264,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/264-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e265",
+            "name": "Episódio 265",
+            "number": 265,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/265-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e266",
+            "name": "Episódio 266",
+            "number": 266,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/266-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e267",
+            "name": "Episódio 267",
+            "number": 267,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/267-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e268",
+            "name": "Episódio 268",
+            "number": 268,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/268-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e269",
+            "name": "Episódio 269",
+            "number": 269,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/269-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e270",
+            "name": "Episódio 270",
+            "number": 270,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/270-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e271",
+            "name": "Episódio 271",
+            "number": 271,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/271-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e272",
+            "name": "Episódio 272",
+            "number": 272,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/272-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e273",
+            "name": "Episódio 273",
+            "number": 273,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/273-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e274",
+            "name": "Episódio 274",
+            "number": 274,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/274-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e275",
+            "name": "Episódio 275",
+            "number": 275,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/275-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e276",
+            "name": "Episódio 276",
+            "number": 276,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/276-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e277",
+            "name": "Episódio 277",
+            "number": 277,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/277-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e278",
+            "name": "Episódio 278",
+            "number": 278,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/278-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e279",
+            "name": "Episódio 279",
+            "number": 279,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/279-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e280",
+            "name": "Episódio 280",
+            "number": 280,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/280-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e281",
+            "name": "Episódio 281",
+            "number": 281,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/281-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e282",
+            "name": "Episódio 282",
+            "number": 282,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/282-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e283",
+            "name": "Episódio 283",
+            "number": 283,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/283-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e284",
+            "name": "Episódio 284",
+            "number": 284,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/284-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e285",
+            "name": "Episódio 285",
+            "number": 285,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/285-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e286",
+            "name": "Episódio 286",
+            "number": 286,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/286-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e287",
+            "name": "Episódio 287",
+            "number": 287,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/287-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e288",
+            "name": "Episódio 288",
+            "number": 288,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/288-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e289",
+            "name": "Episódio 289",
+            "number": 289,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/289-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e290",
+            "name": "Episódio 290",
+            "number": 290,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/290-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e291",
+            "name": "Episódio 291",
+            "number": 291,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/291-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e292",
+            "name": "Episódio 292",
+            "number": 292,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/292-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e293",
+            "name": "Episódio 293",
+            "number": 293,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/293-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e294",
+            "name": "Episódio 294",
+            "number": 294,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/294-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e295",
+            "name": "Episódio 295",
+            "number": 295,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/295-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e296",
+            "name": "Episódio 296",
+            "number": 296,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/296-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e297",
+            "name": "Episódio 297",
+            "number": 297,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/297-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e298",
+            "name": "Episódio 298",
+            "number": 298,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/298-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e299",
+            "name": "Episódio 299",
+            "number": 299,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/299-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e300",
+            "name": "Episódio 300",
+            "number": 300,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/300-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e301",
+            "name": "Episódio 301",
+            "number": 301,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/301-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e302",
+            "name": "Episódio 302",
+            "number": 302,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/302-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e303",
+            "name": "Episódio 303",
+            "number": 303,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/303-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e304",
+            "name": "Episódio 304",
+            "number": 304,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/304-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e305",
+            "name": "Episódio 305",
+            "number": 305,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/305-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e306",
+            "name": "Episódio 306",
+            "number": 306,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/306-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e307",
+            "name": "Episódio 307",
+            "number": 307,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/307-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e308",
+            "name": "Episódio 308",
+            "number": 308,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/308-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e309",
+            "name": "Episódio 309",
+            "number": 309,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/309-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e310",
+            "name": "Episódio 310",
+            "number": 310,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/310-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e311",
+            "name": "Episódio 311",
+            "number": 311,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/311-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e312",
+            "name": "Episódio 312",
+            "number": 312,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/312-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e313",
+            "name": "Episódio 313",
+            "number": 313,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/313-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e314",
+            "name": "Episódio 314",
+            "number": 314,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/314-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e315",
+            "name": "Episódio 315",
+            "number": 315,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/315-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e316",
+            "name": "Episódio 316",
+            "number": 316,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/316-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e317",
+            "name": "Episódio 317",
+            "number": 317,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/317-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e318",
+            "name": "Episódio 318",
+            "number": 318,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/318-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e319",
+            "name": "Episódio 319",
+            "number": 319,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/319-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e320",
+            "name": "Episódio 320",
+            "number": 320,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/320-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e321",
+            "name": "Episódio 321",
+            "number": 321,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/321-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e322",
+            "name": "Episódio 322",
+            "number": 322,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/322-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e323",
+            "name": "Episódio 323",
+            "number": 323,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/323-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e324",
+            "name": "Episódio 324",
+            "number": 324,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/324-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e325",
+            "name": "Episódio 325",
+            "number": 325,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/325-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e326",
+            "name": "Episódio 326",
+            "number": 326,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/326-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e327",
+            "name": "Episódio 327",
+            "number": 327,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/327-Leg.mp4"
+          },
+          {
+            "id": "fairy-tail-s2-e328",
+            "name": "Episódio 328",
+            "number": 328,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/328-Leg.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Filmes",
+        "episodes": [
+          {
+            "id": "fairy-tail-s3-e1",
+            "name": "Fairy Tail, Prólogo: A Sacerdotisa da Fênix",
+            "number": 1,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Prologo.mp4"
+          },
+          {
+            "id": "fairy-tail-s3-e2",
+            "name": "Fairy Tail, O Filme: A Sacerdotisa da Fênix",
+            "number": 2,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Filme-1.mp4"
+          },
+          {
+            "id": "fairy-tail-s3-e3",
+            "name": "Fairy Tail: Dragon Cry",
+            "number": 3,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/Filme-2.mp4"
+          }
+        ]
+      },
+      {
+        "name": "OVAs",
+        "episodes": [
+          {
+            "id": "fairy-tail-s4-e1",
+            "name": "Fairy Tail OVA 01: Bem-Vindo a Fairy Hills!",
+            "number": 1,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-1.mp4"
+          },
+          {
+            "id": "fairy-tail-s4-e2",
+            "name": "Fairy Tail OVA 02: Fairy Academy – Yankee-kun e Yankee-chan!",
+            "number": 2,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-2.mp4"
+          },
+          {
+            "id": "fairy-tail-s4-e3",
+            "name": "Fairy Tail OVA 03: Dias Memoráveis",
+            "number": 3,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-3.mp4"
+          },
+          {
+            "id": "fairy-tail-s4-e4",
+            "name": "Fairy Tail OVA 04: Acampamento de Treinamento das fadas",
+            "number": 4,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-4.mp4"
+          },
+          {
+            "id": "fairy-tail-s4-e5",
+            "name": "Fairy Tail OVA 05: A Empolgante Ryuzetsu Land",
+            "number": 5,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-5.mp4"
+          },
+          {
+            "id": "fairy-tail-s4-e6",
+            "name": "Fairy Tail OVA 06: Fairy Tail X Rave Master",
+            "number": 6,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-6.mp4"
+          },
+          {
+            "id": "fairy-tail-s4-e7",
+            "name": "Fairy Tail OVA 07: O Jogo de Penalidades das Fadas!",
+            "number": 7,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-7.mp4"
+          },
+          {
+            "id": "fairy-tail-s4-e8",
+            "name": "Fairy Tail OVA 08: Natsu Vs. Mavis",
+            "number": 8,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-8.mp4"
+          },
+          {
+            "id": "fairy-tail-s4-e9",
+            "name": "Fairy Tail OVA 09: Fairies’ Christmas",
+            "number": 9,
+            "streamUrl": "https://ia801903.us.archive.org/22/items/FairyDubLeg/OVA-9.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yani-neko",
+    "slug": "yani-neko",
+    "tmdbId": 312949,
+    "title": "Chainsmoker Cat",
+    "originalTitle": "ヤニねこ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/1OEYjA3bpPlXNPwV51WJhGWx8Mk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4ei68OmZr0XHnN82OjiV8GBqfyN.jpg",
+    "synopsis": "Yani não consegue parar em nenhum emprego nem pagar o aluguel. Ela só pensa em fumar. Mas a preocupação das pessoas próximas vai obrigar a garota a mudar de vida.",
+    "genres": [
+      "COMEDIA",
+      "FANTASIA",
+      "CURTOS",
+      "DUB",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2026",
+    "rating": 8.3,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "yani-neko-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "yani-neko-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Dub-12.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "yani-neko-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "yani-neko-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600907.us.archive.org/1/items/NekoDubLeg/Leg-12.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dororo",
+    "slug": "dororo",
+    "tmdbId": 83100,
+    "title": "Dororo",
+    "originalTitle": "どろろ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/6TX5aQHlJKdRZqV9nFPty3dOdfe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lLjIOxGIVnUVBHQFCBYzo7OAMHt.jpg",
+    "synopsis": "No Japão feudal, Lord Daigo Kagemitsu faz um acordo com 12 demônios, trocando seu filho ainda não nascido pela prosperidade de suas terras. A criança deformada é abandonada em um rio, enquanto as terras de Kagemitsu prosperam. Anos depois, um jovem ladrão chamado Dororo conhece o misterioso “Hyakkimaru”, um garoto com lâminas no lugar dos braços e olhos sem visão que podem ver monstros.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FANTASIA",
+      "SOBRENATURAL",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2019",
+    "rating": 8.517,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "dororo-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/1.mp4"
+          },
+          {
+            "id": "dororo-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/2.mp4"
+          },
+          {
+            "id": "dororo-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/3.mp4"
+          },
+          {
+            "id": "dororo-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/4.mp4"
+          },
+          {
+            "id": "dororo-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/5.mp4"
+          },
+          {
+            "id": "dororo-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/6.mp4"
+          },
+          {
+            "id": "dororo-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/7.mp4"
+          },
+          {
+            "id": "dororo-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/8.mp4"
+          },
+          {
+            "id": "dororo-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/9.mp4"
+          },
+          {
+            "id": "dororo-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/10.mp4"
+          },
+          {
+            "id": "dororo-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/11.mp4"
+          },
+          {
+            "id": "dororo-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/12.mp4"
+          },
+          {
+            "id": "dororo-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/13.mp4"
+          },
+          {
+            "id": "dororo-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/14.mp4"
+          },
+          {
+            "id": "dororo-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/15.mp4"
+          },
+          {
+            "id": "dororo-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/16.mp4"
+          },
+          {
+            "id": "dororo-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/17.mp4"
+          },
+          {
+            "id": "dororo-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/18.mp4"
+          },
+          {
+            "id": "dororo-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/19.mp4"
+          },
+          {
+            "id": "dororo-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/20.mp4"
+          },
+          {
+            "id": "dororo-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/21.mp4"
+          },
+          {
+            "id": "dororo-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/22.mp4"
+          },
+          {
+            "id": "dororo-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/23.mp4"
+          },
+          {
+            "id": "dororo-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia600509.us.archive.org/3/items/DoroLeg/24.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "akatsuki-no-yona",
+    "slug": "akatsuki-no-yona",
+    "tmdbId": 61461,
+    "title": "Yona of the Dawn",
+    "originalTitle": "暁のヨナ",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/uF11jqAUCXJzG5aLihc8My4IIgc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/8ysVo7GTYYtr4Xiua5pYoJ4rMGI.jpg",
+    "synopsis": "Yona é a única princesa do reino de Kouka e leva uma vida luxuosa e despreocupada, como uma princesa deve viver. Ela tem tudo: as melhores roupas e cosméticos, os doces mais divinos, um imperador amoroso como pai, e uma queda por seu primo, Soo Won. Se o guarda-costas dela, Son Hak, não fosse tão chato e seu cabelo não fosse tão vermelho... Mas seu mundo quase perfeito rapidamente se destrói quando o homem que ela ama, Soo Won, mata seu pai, e assegura seu caminho para a ascensão ao trono.",
+    "genres": [
+      "ACAO",
+      "AVENTURA",
+      "FANTASIA",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2014",
+    "rating": 8.3,
+    "isDubbed": false,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "akatsuki-no-yona-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/1.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/2.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/3.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/4.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/5.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/6.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/7.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/8.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/9.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/10.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/11.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/12.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/13.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e14",
+            "name": "Episódio 14",
+            "number": 14,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/14.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e15",
+            "name": "Episódio 15",
+            "number": 15,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/15.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e16",
+            "name": "Episódio 16",
+            "number": 16,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/16.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e17",
+            "name": "Episódio 17",
+            "number": 17,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/17.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e18",
+            "name": "Episódio 18",
+            "number": 18,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/18.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e19",
+            "name": "Episódio 19",
+            "number": 19,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/19.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e20",
+            "name": "Episódio 20",
+            "number": 20,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/20.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e21",
+            "name": "Episódio 21",
+            "number": 21,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/21.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e22",
+            "name": "Episódio 22",
+            "number": 22,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/22.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e23",
+            "name": "Episódio 23",
+            "number": 23,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/23.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s1-e24",
+            "name": "Episódio 24",
+            "number": 24,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/24.mp4"
+          }
+        ]
+      },
+      {
+        "name": "OVAs",
+        "episodes": [
+          {
+            "id": "akatsuki-no-yona-s2-e1",
+            "name": "OVA 01",
+            "number": 1,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/OVA-1.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s2-e2",
+            "name": "OVA 02",
+            "number": 2,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/OVA-2.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s2-e3",
+            "name": "OVA 03",
+            "number": 3,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/OVA-3.mp4"
+          },
+          {
+            "id": "akatsuki-no-yona-s2-e4",
+            "name": "OVA 04",
+            "number": 4,
+            "streamUrl": "https://ia801507.us.archive.org/9/items/AkatsukiLeg/OVA-4.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tengoku-daimakyou",
+    "slug": "tengoku-daimakyou",
+    "tmdbId": 208891,
+    "title": "TENGOKU-DAIMAKYO: ILUSÃO CELESTIAL",
+    "originalTitle": "天国大魔境",
+    "type": "anime",
+    "poster": "https://image.tmdb.org/t/p/w780/jygWkvETR9TXtQsp26Hr14EzFiD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ixhUiD7KEjGGczSGX3kGOiYkNV4.jpg",
+    "synopsis": "Em 2024, monstros grotescos se esgueiram em meio às ruínas do Japão, enquanto os sobreviventes juntam com dificuldade o que podem para sobreviver. Kiruko aceita o pedido derradeiro de uma mulher misteriosa para levar um garoto chamado Maru ao Paraíso.",
+    "genres": [
+      "AVENTURA",
+      "MISTERIO",
+      "FICCAO",
+      "CURTOS",
+      "DUB",
+      "RECENTE",
+      "LEG"
+    ],
+    "year": "2023",
+    "rating": 8,
+    "isDubbed": true,
+    "isSubbed": true,
+    "isFeatured": true,
+    "seasons": [
+      {
+        "name": "Dublado",
+        "episodes": [
+          {
+            "id": "tengoku-daimakyou-s1-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-1.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-2.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-3.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-4.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-5.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-6.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-7.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-8.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-9.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-10.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-11.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-12.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s1-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Dub-13.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Legendado",
+        "episodes": [
+          {
+            "id": "tengoku-daimakyou-s2-e1",
+            "name": "Episódio 01",
+            "number": 1,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-1.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e2",
+            "name": "Episódio 02",
+            "number": 2,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-2.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e3",
+            "name": "Episódio 03",
+            "number": 3,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-3.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e4",
+            "name": "Episódio 04",
+            "number": 4,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-4.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e5",
+            "name": "Episódio 05",
+            "number": 5,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-5.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e6",
+            "name": "Episódio 06",
+            "number": 6,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-6.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e7",
+            "name": "Episódio 07",
+            "number": 7,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-7.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e8",
+            "name": "Episódio 08",
+            "number": 8,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-8.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e9",
+            "name": "Episódio 09",
+            "number": 9,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-9.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e10",
+            "name": "Episódio 10",
+            "number": 10,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-10.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e11",
+            "name": "Episódio 11",
+            "number": 11,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-11.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e12",
+            "name": "Episódio 12",
+            "number": 12,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-12.mp4"
+          },
+          {
+            "id": "tengoku-daimakyou-s2-e13",
+            "name": "Episódio 13",
+            "number": 13,
+            "streamUrl": "https://ia601903.us.archive.org/3/items/TengokuDubLeg/Leg-13.mp4"
           }
         ]
       }
