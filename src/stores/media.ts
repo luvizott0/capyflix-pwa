@@ -88,16 +88,55 @@ export const useMediaStore = defineStore('media', () => {
     return progressMap.value[key] || null
   }
 
+  let lastBackendSyncTime = 0
+  let pendingSyncPayload: {
+    media_id: string
+    season_index: number
+    episode_index: number
+    time: number
+    duration: number
+    completed: boolean
+  } | null = null
+  let syncDebounceTimer: ReturnType<typeof setTimeout> | null = null
+  let lastLocalStorageSaveTime = 0
+
+  /**
+   * Força a sincronização imediata de qualquer progresso pendente para o backend
+   * (ao pausar, ao trocar de episódio, ao terminar, ou ao sair da página)
+   */
+  function flushProgressSync() {
+    if (syncDebounceTimer) {
+      clearTimeout(syncDebounceTimer)
+      syncDebounceTimer = null
+    }
+
+    try {
+      localStorage.setItem('capyflix_progress', JSON.stringify(progressMap.value))
+    } catch {
+      // ignore quota
+    }
+
+    if (!pendingSyncPayload) return
+
+    const payload = pendingSyncPayload
+    pendingSyncPayload = null
+    lastBackendSyncTime = Date.now()
+
+    capyShowTimeApi.saveWatchProgress(payload)
+  }
+
   function saveEpisodeProgress(
     mediaId: string,
     seasonIndex: number,
     episodeIndex: number,
     time: number,
-    duration: number
+    duration: number,
+    forceImmediateSync = false
   ) {
     const key = getProgressKey(mediaId, seasonIndex, episodeIndex)
     const completed = duration > 0 && (time / duration >= 0.90 || time >= duration - 10)
 
+    // Atualização imediata em memória (reativa e instantânea para a UI)
     progressMap.value[key] = {
       mediaId,
       seasonIndex,
@@ -108,17 +147,43 @@ export const useMediaStore = defineStore('media', () => {
       updatedAt: Date.now()
     }
 
-    localStorage.setItem('capyflix_progress', JSON.stringify(progressMap.value))
+    const now = Date.now()
 
-    // Sincroniza também no banco de dados quando conectado
-    capyShowTimeApi.saveWatchProgress({
+    // 1. Gravação no LocalStorage com throttle de 3s (evita sobrecarga de JSON.stringify a cada frame)
+    if (forceImmediateSync || completed || now - lastLocalStorageSaveTime >= 3000) {
+      lastLocalStorageSaveTime = now
+      try {
+        localStorage.setItem('capyflix_progress', JSON.stringify(progressMap.value))
+      } catch {
+        // ignore quota
+      }
+    }
+
+    // 2. Registra o payload pendente para envio ao backend
+    pendingSyncPayload = {
       media_id: mediaId,
       season_index: seasonIndex,
       episode_index: episodeIndex,
       time: Math.round(time),
       duration: Math.round(duration),
       completed
-    })
+    }
+
+    // 3. Se for conclusão ou pedido de sincronização imediata, dispara agora
+    if (forceImmediateSync || completed) {
+      flushProgressSync()
+      return
+    }
+
+    // 4. Sincronização periódica com a API a cada 15 segundos de vídeo contínuo
+    if (now - lastBackendSyncTime >= 15000) {
+      flushProgressSync()
+    } else if (!syncDebounceTimer) {
+      const remainingTime = Math.max(1000, 15000 - (now - lastBackendSyncTime))
+      syncDebounceTimer = setTimeout(() => {
+        flushProgressSync()
+      }, remainingTime)
+    }
   }
 
   // Continuar Assistindo (ordena por mais recente)
@@ -191,6 +256,7 @@ export const useMediaStore = defineStore('media', () => {
     toggleFavorite,
     isFavorite,
     getEpisodeProgress,
-    saveEpisodeProgress
+    saveEpisodeProgress,
+    flushProgressSync
   }
 })

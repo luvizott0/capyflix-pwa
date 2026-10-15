@@ -11,20 +11,42 @@
 
     <!-- Player de Vídeo Híbrido (Nativo HTML5 ou Embed Protegido) -->
     <div class="player-wrapper">
-      <!-- Seletor de Servidor / Fonte de Streaming -->
-      <div v-if="availableSources.length > 1" class="sources-toolbar">
-        <span class="sources-label mono">FONTE:</span>
-        <div class="sources-list">
+      <!-- Barra de Ações do Player (Onde ficava a fonte) -->
+      <div class="player-actions-toolbar">
+        <div class="actions-left">
+          <!-- Botão Solicitar Download -->
           <button
-            v-for="source in availableSources"
-            :key="source.id"
             type="button"
-            class="source-pill"
-            :class="{ active: activeSourceId === source.id }"
-            @click="activeSourceId = source.id"
+            class="nas-download-btn mono"
+            :class="{ 'is-local': isCurrentlyLocal, 'is-downloading': isDownloadingToNas }"
+            @click="triggerNasDownload"
+            :title="isCurrentlyLocal ? 'Mídia salva localmente no NAS' : 'Solicitar download para o NAS (Cota 300GB)'"
           >
-            <span class="source-name">{{ source.name }}</span>
-            <span class="source-badge mono">{{ source.badge }}</span>
+            <HardDrive :size="15" />
+            <span>{{ isCurrentlyLocal ? 'SALVO NO NAS' : isDownloadingToNas ? 'BAIXANDO...' : 'SOLICITAR DOWNLOAD' }}</span>
+          </button>
+
+          <!-- Botão Salvar Série (Apenas Ícone) -->
+          <button
+            type="button"
+            class="fav-icon-btn"
+            :class="{ active: isFavorite }"
+            @click="mediaStore.toggleFavorite(media.id)"
+            :title="isFavorite ? 'Remover dos Favoritos' : 'Salvar na Minha Lista'"
+          >
+            <Bookmark :size="17" :fill="isFavorite ? 'currentColor' : 'none'" />
+          </button>
+        </div>
+
+        <div class="actions-right">
+          <button
+            type="button"
+            class="storage-quota-badge mono"
+            title="Verificar Quota do NAS (300 GB)"
+            @click="showStorageModal = true"
+          >
+            <HardDrive :size="13" />
+            <span>NAS 300GB</span>
           </button>
         </div>
       </div>
@@ -32,18 +54,46 @@
       <!-- Player Nativo (Local / CDN Direta) -->
       <VideoPlayer
         v-if="selectedSource?.isDirectVideo"
+        :key="selectedSource.url"
         :src="selectedSource.url"
         :cover-url="media.backdrop || media.poster"
         :initial-time="savedInitialTime"
         @timeupdate="handleTimeUpdate"
         @ended="handleEpisodeEnded"
+        @pause="handlePause"
       />
 
-      <!-- Player Embed (VidSrc / MultiEmbed / AutoEmbed) -->
-      <EmbedPlayer
-        v-else-if="selectedSource"
-        :src="selectedSource.url"
-      />
+      <!-- Banner elegante quando a mídia ainda precisa ser baixada para o NAS -->
+      <div v-else class="download-needed-card">
+        <div class="download-prompt-content">
+          <div class="prompt-icon-box">
+            <HardDrive :size="36" class="prompt-icon" />
+          </div>
+          <h3 class="mono prompt-title">Mídia Pronta para o NAS</h3>
+          <p class="prompt-desc">
+            Para garantir uma reprodução limpa, em alta velocidade e sem anúncios invasivos, você pode baixar este título diretamente para o seu NAS (cota de 300 GB).
+          </p>
+          <div class="prompt-actions">
+            <button
+              type="button"
+              class="btn-start-dl mono"
+              :disabled="isDownloadingToNas"
+              @click="triggerNasDownload"
+            >
+              <Download :size="16" />
+              <span>{{ isDownloadingToNas ? 'Iniciando download...' : 'Solicitar Download (Cota 300GB)' }}</span>
+            </button>
+            <button
+              type="button"
+              class="btn-open-storage mono"
+              @click="showStorageModal = true"
+            >
+              <HardDrive :size="14" />
+              <span>Verificar Quota NAS</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Informações do Título -->
@@ -53,17 +103,6 @@
           <h1 class="media-title">{{ media.title }}</h1>
           <h2 v-if="media.originalTitle" class="media-original-title">{{ media.originalTitle }}</h2>
         </div>
-
-        <button
-          type="button"
-          class="fav-toggle-btn"
-          :class="{ active: isFavorite }"
-          @click="mediaStore.toggleFavorite(media.id)"
-          :title="isFavorite ? 'Remover dos Favoritos' : 'Salvar na Minha Lista'"
-        >
-          <Bookmark :size="16" :fill="isFavorite ? 'currentColor' : 'none'" />
-          <span class="mono">{{ isFavorite ? 'SALVO' : 'SALVAR' }}</span>
-        </button>
       </div>
 
       <div class="meta-row">
@@ -174,6 +213,10 @@
 
     <!-- Seção de Comentários e Debate do Episódio -->
     <EpisodeCommentsSection :episode-id="syncedEpisodeId" />
+
+    <!-- Modais de Armazenamento NAS e Debrid -->
+    <NasStorageModal :is-open="showStorageModal" @close="showStorageModal = false" />
+    <DebridConfigModal :is-open="showDebridModal" @close="showDebridModal = false" @saved="onDebridSaved" />
   </div>
 
   <div v-else class="not-found-view container">
@@ -185,14 +228,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch, onMounted } from 'vue'
+import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { ArrowLeft, Bookmark, Check, Play } from 'lucide-vue-next'
+import { ArrowLeft, Bookmark, Check, Play, HardDrive, Zap, Download } from 'lucide-vue-next'
 import { useMediaStore } from '@/stores/media'
 import VideoPlayer from '@/components/VideoPlayer.vue'
-import EmbedPlayer from '@/components/EmbedPlayer.vue'
 import EpisodeCommentsSection from '@/components/EpisodeCommentsSection.vue'
+import NasStorageModal from '@/components/NasStorageModal.vue'
+import DebridConfigModal from '@/components/DebridConfigModal.vue'
 import { capyShowTimeApi } from '@/api/capyshowtime'
+import { capyFlixApi } from '@/api/capyflix'
 import { resolveStreamSources, type StreamSourceOption } from '@/utils/streamResolver'
 
 const route = useRoute()
@@ -275,6 +320,87 @@ const syncedEpisodeId = ref<number | null>(null)
 let lastSyncedWatchKey = ''
 
 const activeSourceId = ref<string>('')
+const showStorageModal = ref(false)
+const showDebridModal = ref(false)
+const remoteDebridSources = ref<StreamSourceOption[]>([])
+const isDownloadingToNas = ref(false)
+
+const isCurrentlyLocal = computed(() => {
+  return selectedSource.value?.type === 'local' || (currentEpisode.value?.streamUrl?.startsWith('/local-media/') ?? false)
+})
+
+async function fetchDebridStreams() {
+  if (!media.value) return
+  if (isCurrentlyLocal.value) {
+    remoteDebridSources.value = []
+    return
+  }
+  try {
+    const res = await capyFlixApi.resolveRemoteStreams({
+      tmdb_id: media.value.tmdbId,
+      media_type: media.value.type,
+      season: playingSeasonIndex.value + 1,
+      episode: playingEpisodeIndex.value + 1
+    })
+
+    if (res.streams && res.streams.length > 0) {
+      remoteDebridSources.value = res.streams.map((s: any, idx: number) => ({
+        id: `debrid-${s.id || idx}`,
+        name: s.name || 'Stream Direto HD',
+        type: 'cdn' as const,
+        url: s.url,
+        badge: s.badge || '1080P DIRECT',
+        isDirectVideo: s.isDirectVideo ?? true
+      }))
+    } else {
+      remoteDebridSources.value = []
+    }
+  } catch (err) {
+    console.warn('Falha ao resolver streams Debrid:', err)
+  }
+}
+
+async function triggerNasDownload() {
+  if (isCurrentlyLocal.value) {
+    showStorageModal.value = true
+    return
+  }
+
+  isDownloadingToNas.value = true
+  try {
+    const title = media.value?.title || 'Midia'
+    const mediaType = media.value?.type || 'movie'
+    const season = playingSeasonIndex.value + 1
+    const episode = playingEpisodeIndex.value + 1
+    const url = selectedSource.value?.url || ''
+
+    await capyFlixApi.startDownload({
+      title,
+      media_type: mediaType,
+      season,
+      episode,
+      url
+    })
+
+    showStorageModal.value = true
+  } catch (err: any) {
+    alert(err.response?.data?.message || 'Falha ao iniciar download no NAS.')
+  } finally {
+    isDownloadingToNas.value = false
+  }
+}
+
+function onDebridSaved() {
+  fetchDebridStreams()
+}
+
+watch(
+  () => [media.value?.tmdbId, playingSeasonIndex.value, playingEpisodeIndex.value],
+  () => {
+    fetchDebridStreams()
+  },
+  { immediate: true }
+)
 
 const isFavorite = computed(() => {
   return media.value ? mediaStore.isFavorite(media.value.id) : false
@@ -294,13 +420,22 @@ const currentEpisode = computed(() => {
 
 const availableSources = computed<StreamSourceOption[]>(() => {
   if (!media.value) return []
-  return resolveStreamSources({
+  const base = resolveStreamSources({
     tmdbId: media.value.tmdbId,
     mediaType: media.value.type,
     season: playingSeasonIndex.value + 1,
     episode: playingEpisodeIndex.value + 1,
     localStreamUrl: currentEpisode.value?.streamUrl
   })
+
+  // 1. Local NAS direto tem prioridade máxima
+  const locals = base.filter(s => s.type === 'local')
+  // 2. Streams debrid / CDN direto (sem iframes e sem anúncios)
+  const debrids = remoteDebridSources.value
+  // 3. Fallbacks
+  const fallbacks = base.filter(s => s.type !== 'local')
+
+  return [...locals, ...debrids, ...fallbacks]
 })
 
 const selectedSource = computed<StreamSourceOption | null>(() => {
@@ -380,11 +515,15 @@ function toggleWatched(sIdx: number, eIdx: number) {
   if (!media.value) return
   const isWatched = isEpisodeCompleted(sIdx, eIdx)
   if (isWatched) {
-    mediaStore.saveEpisodeProgress(media.value.id, sIdx, eIdx, 0, 100)
+    mediaStore.saveEpisodeProgress(media.value.id, sIdx, eIdx, 0, 100, true)
   } else {
-    mediaStore.saveEpisodeProgress(media.value.id, sIdx, eIdx, 100, 100)
+    mediaStore.saveEpisodeProgress(media.value.id, sIdx, eIdx, 100, 100, true)
     syncWithCapyShowTime(true)
   }
+}
+
+function handlePause() {
+  mediaStore.flushProgressSync()
 }
 
 function handleTimeUpdate(data: { currentTime: number; duration: number }) {
@@ -404,6 +543,7 @@ function handleTimeUpdate(data: { currentTime: number; duration: number }) {
 
 function handleEpisodeEnded() {
   if (!media.value) return
+  mediaStore.flushProgressSync()
   syncWithCapyShowTime(true)
 
   const season = media.value.seasons[playingSeasonIndex.value]
@@ -441,8 +581,26 @@ function formatType(type: string): string {
   }
 }
 
+function handleBeforeUnload() {
+  mediaStore.flushProgressSync()
+}
+
+function handleVisibilityChange() {
+  if (document.visibilityState === 'hidden') {
+    mediaStore.flushProgressSync()
+  }
+}
+
 onMounted(() => {
   window.scrollTo({ top: 0, behavior: 'smooth' })
+  window.addEventListener('beforeunload', handleBeforeUnload)
+  document.addEventListener('visibilitychange', handleVisibilityChange)
+})
+
+onBeforeUnmount(() => {
+  mediaStore.flushProgressSync()
+  window.removeEventListener('beforeunload', handleBeforeUnload)
+  document.removeEventListener('visibilitychange', handleVisibilityChange)
 })
 </script>
 
@@ -493,6 +651,102 @@ onMounted(() => {
   border: 1px solid var(--color-border);
 }
 
+.download-needed-card {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: radial-gradient(circle at center, rgba(30, 27, 24, 0.95), rgba(14, 12, 10, 0.98));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.download-prompt-content {
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.prompt-icon-box {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(245, 197, 24, 0.1);
+  border: 1px solid rgba(245, 197, 24, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent);
+}
+
+.prompt-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: 0.05em;
+}
+
+.prompt-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.prompt-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.btn-start-dl {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-accent);
+  color: #12100e;
+  border: none;
+  font-weight: 700;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-start-dl:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-start-dl:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-open-storage {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--text-muted);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-open-storage:hover {
+  color: var(--text-main);
+  border-color: var(--color-accent);
+}
+
 .sources-toolbar {
   display: flex;
   align-items: center;
@@ -515,46 +769,106 @@ onMounted(() => {
   white-space: nowrap;
 }
 
-.sources-list {
+/* Barra Superior de Ações do Player */
+.player-actions-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background-color: var(--bg-surface-elevated);
+  border-bottom: 1px solid var(--color-border);
+  gap: 10px;
+}
+
+.actions-left {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.source-pill {
+.actions-right {
+  display: flex;
+  align-items: center;
+}
+
+.nas-download-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--bg-surface);
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-accent);
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.nas-download-btn:hover {
+  background-color: rgba(245, 197, 24, 0.12);
+  border-color: var(--color-accent);
+}
+
+.nas-download-btn.is-local {
+  color: #10b981;
+  border-color: rgba(16, 185, 129, 0.4);
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+.nas-download-btn.is-downloading {
+  color: #f59e0b;
+  border-color: rgba(245, 158, 11, 0.4);
+  animation: pulse 1.5s infinite;
+}
+
+.fav-icon-btn {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
   color: var(--text-muted);
-  font-size: 0.75rem;
-  padding: 4px 10px;
-  border-radius: 999px;
   cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.2s ease;
+  transition: all 0.2s;
+  flex-shrink: 0;
 }
 
-.source-pill:hover {
-  color: var(--text-main);
-  border-color: var(--text-dim);
-}
-
-.source-pill.active {
-  background: rgba(245, 197, 24, 0.12);
+.fav-icon-btn:hover {
   border-color: var(--color-accent);
   color: var(--color-accent);
-  font-weight: 600;
 }
 
-.source-badge {
-  font-size: 0.62rem;
-  font-weight: 700;
-  padding: 1px 5px;
-  border-radius: 3px;
-  background: rgba(0, 0, 0, 0.4);
-  color: inherit;
+.fav-icon-btn.active {
+  background-color: rgba(245, 197, 24, 0.15);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.storage-quota-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  color: var(--text-dim);
+  font-size: 0.68rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.storage-quota-badge:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  border-style: solid;
 }
 
 /* Cartão de Detalhes */
@@ -586,32 +900,6 @@ onMounted(() => {
   font-weight: 400;
   color: var(--text-dim);
   margin-top: 2px;
-}
-
-.fav-toggle-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border-radius: var(--radius-sm);
-  background-color: var(--bg-surface-elevated);
-  border: 1px solid var(--color-border);
-  color: var(--text-muted);
-  font-size: 0.78rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s;
-  flex-shrink: 0;
-}
-
-.fav-toggle-btn.active {
-  background-color: var(--color-accent-dim);
-  border-color: var(--color-accent);
-  color: var(--color-accent);
-}
-
-.fav-toggle-btn:hover {
-  border-color: var(--color-accent);
 }
 
 .meta-row {

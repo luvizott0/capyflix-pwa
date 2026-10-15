@@ -44,52 +44,6 @@ export function resolveStreamSources(params: ResolveParams): StreamSourceOption[
     })
   }
 
-  // 2. Embeds Universais baseados no TMDB ID (para filmes e séries)
-  if (tmdbId) {
-    const isMovie = mediaType === 'movie'
-
-    // Provedor 1: VidSrc (Suporte PT-BR integrado)
-    const vidsrcUrl = isMovie
-      ? `https://vidsrc.xyz/embed/movie?tmdb=${tmdbId}&ds_lang=pt`
-      : `https://vidsrc.xyz/embed/tv?tmdb=${tmdbId}&season=${season}&episode=${episode}&ds_lang=pt`
-
-    sources.push({
-      id: 'embed-vidsrc',
-      name: 'VidSrc (Servidor Principal)',
-      type: 'embed',
-      url: vidsrcUrl,
-      badge: 'WEB STREAM',
-      isDirectVideo: false
-    })
-
-    // Provedor 2: SuperEmbed / MultiEmbed
-    const multiEmbedUrl = isMovie
-      ? `https://multiembed.mov/?video_id=${tmdbId}&tmdb=1`
-      : `https://multiembed.mov/?video_id=${tmdbId}&tmdb=1&s=${season}&e=${episode}`
-
-    sources.push({
-      id: 'embed-multiembed',
-      name: 'MultiEmbed (Alternativo 1)',
-      type: 'embed',
-      url: multiEmbedUrl,
-      badge: 'WEB BACKUP',
-      isDirectVideo: false
-    })
-
-    // Provedor 3: AutoEmbed
-    const autoEmbedUrl = isMovie
-      ? `https://player.autoembed.cc/embed/movie/${tmdbId}`
-      : `https://player.autoembed.cc/embed/tv/${tmdbId}/${season}/${episode}`
-
-    sources.push({
-      id: 'embed-autoembed',
-      name: 'AutoEmbed (Alternativo 2)',
-      type: 'embed',
-      url: autoEmbedUrl,
-      badge: 'WEB BACKUP',
-      isDirectVideo: false
-    })
-  }
-
+  // Apenas fontes diretas de vídeo (sem iframes, sem anúncios)
   return sources
 }

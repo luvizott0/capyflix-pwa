@@ -8,6 +8,26 @@
 
       <!-- Ações da Direita -->
       <div class="nav-actions">
+        <!-- Botão Armazenamento NAS 300GB -->
+        <button
+          type="button"
+          class="action-btn"
+          title="Gerenciador de Armazenamento NAS (300 GB)"
+          @click="showStorageModal = true"
+        >
+          <HardDrive :size="17" />
+        </button>
+
+        <!-- Botão Configuração Debrid / Streams Diretos -->
+        <button
+          type="button"
+          class="action-btn"
+          title="Configuração Debrid (Streams Diretos)"
+          @click="showDebridModal = true"
+        >
+          <Zap :size="17" />
+        </button>
+
         <!-- Botão de Atualizar o App -->
         <button
           type="button"
@@ -32,6 +52,10 @@
       </div>
     </div>
 
+    <!-- Modais de NAS e Debrid -->
+    <NasStorageModal :is-open="showStorageModal" @close="showStorageModal = false" />
+    <DebridConfigModal :is-open="showDebridModal" @close="showDebridModal = false" />
+
     <!-- Toast flutuante de feedback de atualização -->
     <transition name="fade">
       <div v-if="feedbackMessage" class="update-toast mono" @click="feedbackMessage = ''">
@@ -44,13 +68,18 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { useRouter } from 'vue-router'
-import { RefreshCw, LogOut } from 'lucide-vue-next'
+import { RefreshCw, LogOut, HardDrive, Zap } from 'lucide-vue-next'
 import { useAuthStore } from '@/stores/auth'
 import { usePwaUpdate } from '@/composables/usePwaUpdate'
+import NasStorageModal from '@/components/NasStorageModal.vue'
+import DebridConfigModal from '@/components/DebridConfigModal.vue'
 
 const router = useRouter()
 const authStore = useAuthStore()
 const isScrolled = ref(false)
+
+const showStorageModal = ref(false)
+const showDebridModal = ref(false)
 
 const {
   needRefresh,

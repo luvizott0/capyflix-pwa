@@ -9,12 +9,28 @@
       preload="auto"
       @timeupdate="onTimeUpdate"
       @loadedmetadata="onLoadedMetadata"
+      @loadstart="isBuffering = true"
+      @canplay="isBuffering = false"
+      @canplaythrough="isBuffering = false"
       @waiting="isBuffering = true"
-      @playing="isBuffering = false; isPlaying = true"
-      @pause="isPlaying = false"
+      @stalled="isBuffering = true"
+      @playing="isBuffering = false; isPlaying = true; playError = null"
+      @pause="onPause"
       @ended="onEnded"
+      @error="handleVideoError"
       @click="togglePlay"
     ></video>
+
+    <!-- Overlay de Erro na Transmissão -->
+    <div v-if="playError" class="video-error-overlay">
+      <div class="error-box">
+        <p class="error-msg rajdhani">{{ playError }}</p>
+        <span class="error-sub">Você pode alternar para outro servidor na barra "FONTE" acima.</span>
+        <button type="button" class="btn-retry" @click="retryPlayback">
+          Tentar Novamente
+        </button>
+      </div>
+    </div>
 
     <!-- Overlay de Capa Inicial (estilo Akira Nolan) -->
     <div
@@ -154,6 +170,7 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: 'timeupdate', data: { currentTime: number; duration: number }): void
   (e: 'ended'): void
+  (e: 'pause'): void
 }>()
 
 const playerContainer = ref<HTMLElement | null>(null)
@@ -166,6 +183,7 @@ let progressSaveTimer: any = null
 const isPlaying = ref(false)
 const isBuffering = ref(false)
 const showCover = ref(true)
+const playError = ref<string | null>(null)
 const currentTime = ref(0)
 const duration = ref(0)
 const bufferedTime = ref(0)
@@ -174,6 +192,26 @@ const volume = ref(1)
 const playbackRate = ref(1)
 const isFullscreen = ref(false)
 const controlsVisible = ref(true)
+
+function handleVideoError(e: Event) {
+  isBuffering.value = false
+  isPlaying.value = false
+  const target = e.target as HTMLVideoElement
+  const errCode = target.error?.code
+  if (errCode === MediaError.MEDIA_ERR_NETWORK) {
+    playError.value = 'Falha na conexão de rede com este servidor de vídeo.'
+  } else if (errCode === MediaError.MEDIA_ERR_SRC_NOT_SUPPORTED) {
+    playError.value = 'Transmissão temporariamente indisponível neste link.'
+  } else {
+    playError.value = 'Não foi possível carregar a transmissão deste servidor.'
+  }
+}
+
+function retryPlayback() {
+  playError.value = null
+  initSource()
+  startPlayback()
+}
 
 const hoverTime = ref<number | null>(null)
 const hoverPosition = ref(0)
@@ -231,13 +269,28 @@ function initSource() {
     video.load()
   }
 
-  if (props.initialTime && props.initialTime > 0) {
-    video.currentTime = props.initialTime
+  // Não aplicar currentTime imediatamente: aguardar loadedmetadata para não congelar o vídeo
+  pendingSeekTime = props.initialTime && props.initialTime > 0 ? props.initialTime : null
+}
+
+let pendingSeekTime: number | null = null
+
+function applyPendingSeek() {
+  const video = videoRef.value
+  if (!video) return
+  if (pendingSeekTime !== null && pendingSeekTime > 0 && video.duration > 0) {
+    try {
+      video.currentTime = Math.min(pendingSeekTime, video.duration)
+    } catch (err) {
+      console.warn('Falha ao aplicar tempo inicial:', err)
+    }
+    pendingSeekTime = null
   }
 }
 
 function startPlayback() {
   showCover.value = false
+  isBuffering.value = true
   togglePlay()
 
   // No celular na vertical ou mobile em geral, já colocar em tela cheia ao dar play
@@ -426,6 +479,12 @@ function onTimeUpdate() {
 function onLoadedMetadata() {
   if (!videoRef.value) return
   duration.value = videoRef.value.duration
+  applyPendingSeek()
+}
+
+function onPause() {
+  isPlaying.value = false
+  emit('pause')
 }
 
 function onEnded() {
@@ -589,6 +648,58 @@ onBeforeUnmount(() => {
   letter-spacing: 4px;
   color: #fff;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Erro no Vídeo */
+.video-error-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(18, 16, 14, 0.95);
+  z-index: 6;
+  padding: 20px;
+}
+
+.error-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.error-msg {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ef4444;
+  margin: 0;
+}
+
+.error-sub {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.btn-retry {
+  margin-top: 8px;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--color-border);
+  color: var(--text-main);
+  font-size: 0.8rem;
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-retry:hover {
+  background: var(--color-accent);
+  color: #12100e;
+  border-color: var(--color-accent);
 }
 
 /* Spinner */
