@@ -87,47 +87,68 @@
     </div>
 
     <div class="container page-content">
-      <!-- Continuar Assistindo (se houver histórico) -->
+      <!-- Continuar Assistindo (se houver histórico) - Horizontal Carousel -->
       <section v-if="mediaStore.continueWatching.length > 0 && selectedCategory === 'all'" class="continue-section">
         <div class="section-header">
           <h2 class="section-title mono">Continuar Assistindo</h2>
         </div>
 
-        <div class="continue-grid">
-          <div
-            v-for="item in mediaStore.continueWatching"
-            :key="item.media.id"
-            class="continue-card"
+        <div class="continue-wrapper">
+          <button
+            v-if="canScrollContinueLeft"
+            type="button"
+            class="nav-btn prev"
+            aria-label="Anterior"
+            @click="scrollContinue(-1)"
           >
-            <router-link
-              :to="`/watch/${item.media.slug}?s=${item.progress.seasonIndex}&e=${item.progress.episodeIndex}`"
-              class="continue-link"
+            <ChevronLeft :size="18" />
+          </button>
+
+          <div ref="continueTrackRef" class="continue-track" @scroll="onContinueTrackScroll">
+            <div
+              v-for="item in mediaStore.continueWatching"
+              :key="item.media.id"
+              class="continue-card"
             >
-              <div class="continue-thumb-wrapper">
-                <img
-                  :src="item.media.backdrop || item.media.poster"
-                  :alt="item.media.title"
-                  class="continue-thumb"
-                  loading="lazy"
-                />
-                <div class="play-overlay-mini">
-                  <Play :size="16" fill="currentColor" />
+              <router-link
+                :to="`/watch/${item.media.slug}?s=${item.progress.seasonIndex}&e=${item.progress.episodeIndex}`"
+                class="continue-link"
+              >
+                <div class="continue-thumb-wrapper">
+                  <img
+                    :src="item.media.backdrop || item.media.poster"
+                    :alt="item.media.title"
+                    class="continue-thumb"
+                    loading="lazy"
+                  />
+                  <div class="play-overlay-mini">
+                    <Play :size="16" fill="currentColor" />
+                  </div>
+                  <div class="continue-progress-bar">
+                    <div
+                      class="continue-progress-fill"
+                      :style="{ width: `${Math.round((item.progress.time / item.progress.duration) * 100)}%` }"
+                    ></div>
+                  </div>
                 </div>
-                <div class="continue-progress-bar">
-                  <div
-                    class="continue-progress-fill"
-                    :style="{ width: `${Math.round((item.progress.time / item.progress.duration) * 100)}%` }"
-                  ></div>
+                <div class="continue-info">
+                  <h4 class="continue-title">{{ item.media.title }}</h4>
+                  <span class="continue-ep mono">
+                    S{{ formatNum(item.progress.seasonIndex + 1) }}E{{ formatNum(item.progress.episodeIndex + 1) }}
+                  </span>
                 </div>
-              </div>
-              <div class="continue-info">
-                <h4 class="continue-title">{{ item.media.title }}</h4>
-                <span class="continue-ep mono">
-                  S{{ formatNum(item.progress.seasonIndex + 1) }}E{{ formatNum(item.progress.episodeIndex + 1) }}
-                </span>
-              </div>
-            </router-link>
+              </router-link>
+            </div>
           </div>
+
+          <button
+            type="button"
+            class="nav-btn next"
+            aria-label="Próximo"
+            @click="scrollContinue(1)"
+          >
+            <ChevronRight :size="18" />
+          </button>
         </div>
       </section>
 
@@ -135,7 +156,6 @@
       <section v-if="selectedCategory !== 'all'" class="filtered-category-section fade-in">
         <div class="section-header">
           <h2 class="section-title mono">{{ categoryTitle }}</h2>
-          <span class="category-count mono">{{ filteredItems.length }} títulos</span>
         </div>
 
         <div class="category-grid">
@@ -153,7 +173,6 @@
         <MediaCarousel
           title="Em Alta Esta Semana"
           :items="displayTrending.slice(0, 10)"
-          :total-count="displayTrending.length"
           view-all-route="/collection/trending"
         />
 
@@ -162,7 +181,6 @@
           v-if="displayFriendsWatching.length > 0"
           title="O Que os Amigos Estão Assistindo"
           :items="displayFriendsWatching.slice(0, 10)"
-          :total-count="displayFriendsWatching.length"
           view-all-route="/collection/friends-watching"
         >
           <template #default="{ item }">
@@ -180,7 +198,6 @@
           v-if="displayFriendsTopRated.length > 0"
           title="Séries Preferidas dos Amigos"
           :items="displayFriendsTopRated.slice(0, 10)"
-          :total-count="displayFriendsTopRated.length"
           view-all-route="/collection/friends-top-rated"
         >
           <template #default="{ item }">
@@ -198,7 +215,6 @@
           v-if="mediaStore.movies.length > 0"
           title="Filmes do Acervo"
           :items="mediaStore.movies.slice(0, 10)"
-          :total-count="mediaStore.movies.length"
           view-all-route="/collection/movies"
         />
 
@@ -207,7 +223,6 @@
           v-if="mediaStore.animes.length > 0"
           title="Animes"
           :items="mediaStore.animes.slice(0, 10)"
-          :total-count="mediaStore.animes.length"
           view-all-route="/collection/animes"
         />
 
@@ -216,7 +231,6 @@
           v-if="mediaStore.cartoons.length > 0"
           title="Desenhos & Clássicos"
           :items="mediaStore.cartoons.slice(0, 10)"
-          :total-count="mediaStore.cartoons.length"
           view-all-route="/collection/cartoons"
         />
       </div>
@@ -226,7 +240,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import { Play, Bookmark } from 'lucide-vue-next'
+import { Play, Bookmark, ChevronLeft, ChevronRight } from 'lucide-vue-next'
 import { useMediaStore } from '@/stores/media'
 import { capyShowTimeApi, type FriendWatchingItem, type FriendTopRatedItem } from '@/api/capyshowtime'
 import type { MediaItem } from '@/types/media'
@@ -235,6 +249,25 @@ import MediaCard from '@/components/MediaCard.vue'
 
 const mediaStore = useMediaStore()
 const selectedCategory = ref('all')
+
+const continueTrackRef = ref<HTMLElement | null>(null)
+const canScrollContinueLeft = ref(false)
+
+function onContinueTrackScroll() {
+  if (continueTrackRef.value) {
+    canScrollContinueLeft.value = continueTrackRef.value.scrollLeft > 20
+  }
+}
+
+function scrollContinue(direction: number) {
+  if (!continueTrackRef.value) return
+  const itemWidth = 240 + 14
+  const scrollAmount = itemWidth * 2 * direction
+  continueTrackRef.value.scrollBy({
+    left: scrollAmount,
+    behavior: 'smooth'
+  })
+}
 
 const friendsWatching = ref<FriendWatchingItem[]>([])
 const friendsTopRated = ref<FriendTopRatedItem[]>([])
@@ -492,9 +525,10 @@ function formatType(type: string): string {
   margin-top: 8px;
 }
 
-/* Continuar Assistindo */
+/* Continuar Assistindo - Horizontal */
 .continue-section {
-  margin-bottom: 28px;
+  margin: 16px 0 28px 0;
+  position: relative;
 }
 
 .section-header {
@@ -504,18 +538,28 @@ function formatType(type: string): string {
   margin-bottom: 12px;
 }
 
-.category-count {
-  font-size: 0.75rem;
-  color: var(--text-dim);
+.continue-wrapper {
+  position: relative;
+  width: 100%;
 }
 
-.continue-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+.continue-track {
+  display: flex;
   gap: 14px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 4px 0 12px 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.continue-track::-webkit-scrollbar {
+  display: none;
 }
 
 .continue-card {
+  flex: 0 0 200px;
+  width: 200px;
   background-color: var(--bg-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
@@ -523,9 +567,55 @@ function formatType(type: string): string {
   transition: transform 0.2s, border-color 0.2s;
 }
 
+@media (min-width: 640px) {
+  .continue-card {
+    flex: 0 0 240px;
+    width: 240px;
+  }
+}
+
 .continue-card:hover {
   transform: translateY(-3px);
   border-color: var(--color-primary-light);
+}
+
+.continue-wrapper .nav-btn {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(18, 16, 14, 0.85);
+  border: 1px solid var(--color-border);
+  color: var(--text-main);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+  transition: all 0.2s ease;
+}
+
+@media (min-width: 768px) {
+  .continue-wrapper:hover .nav-btn {
+    display: flex;
+  }
+}
+
+.continue-wrapper .nav-btn:hover {
+  background: var(--color-accent);
+  color: #12100e;
+  border-color: var(--color-accent);
+}
+
+.continue-wrapper .nav-btn.prev {
+  left: -12px;
+}
+
+.continue-wrapper .nav-btn.next {
+  right: -12px;
 }
 
 .continue-link {

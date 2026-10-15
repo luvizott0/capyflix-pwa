@@ -2,13 +2,11 @@
   <section v-if="items.length > 0" class="carousel-section">
     <div class="carousel-header">
       <h2 class="section-title mono">{{ title }}</h2>
-      <div class="header-right-actions">
-        <span class="carousel-count mono">{{ totalCount ?? items.length }} títulos</span>
+      <div v-if="viewAllRoute" class="header-right-actions">
         <router-link
-          v-if="viewAllRoute"
           :to="viewAllRoute"
           class="view-all-btn mono"
-          title="Ver lista completa com todos os títulos"
+          title="Ver lista completa"
         >
           <span>Ver todos</span>
           <ChevronRight :size="14" />
@@ -104,11 +102,6 @@ function scroll(direction: number) {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.carousel-count {
-  font-size: 0.75rem;
-  color: var(--text-dim);
 }
 
 .view-all-btn {
