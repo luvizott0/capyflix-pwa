@@ -163,6 +163,14 @@
             <div class="episode-code mono">
               E{{ formatNum(ep.number) }}
             </div>
+            <!-- Indicador visual de arquivo salvo no NAS -->
+            <div
+              v-if="isEpisodeDownloaded(activeSeasonIndex, ep.number)"
+              class="episode-nas-badge"
+              title="Disponível localmente no NAS"
+            >
+              <HardDrive :size="11" />
+            </div>
             <div
               v-if="activeSeasonIndex === playingSeasonIndex && activeEpisodeIndex === eIdx"
               class="playing-overlay"
@@ -176,13 +184,36 @@
             <div class="episode-header-info">
               <h4 class="episode-title">{{ ep.name }}</h4>
               <div class="episode-status-row">
+                <!-- Status visual individual de download do NAS -->
+                <span
+                  v-if="isEpisodeDownloaded(activeSeasonIndex, ep.number)"
+                  class="status-tag nas-downloaded mono"
+                  title="Arquivo baixado no NAS"
+                >
+                  <HardDrive :size="11" /> Salvo no NAS
+                </span>
+                <span
+                  v-else-if="isEpisodeDownloading(activeSeasonIndex, ep.number)"
+                  class="status-tag nas-downloading mono"
+                  title="Baixando para o NAS"
+                >
+                  <Download :size="11" class="spin" /> Baixando ({{ getEpisodeDownloadProgress(activeSeasonIndex, ep.number) }}%)
+                </span>
+                <span
+                  v-else-if="isEpisodeQueued(activeSeasonIndex, ep.number)"
+                  class="status-tag nas-queued mono"
+                  title="Aguardando download / fonte"
+                >
+                  <Download :size="11" /> Na fila
+                </span>
+
                 <span v-if="isEpisodeCompleted(activeSeasonIndex, eIdx)" class="status-tag watched mono">
                   ✓ Assistido
                 </span>
                 <span v-else-if="getEpisodePercent(activeSeasonIndex, eIdx) > 0" class="status-tag progress mono">
                   {{ getEpisodePercent(activeSeasonIndex, eIdx) }}%
                 </span>
-                <span v-else class="status-tag mono">
+                <span v-else-if="!isEpisodeDownloaded(activeSeasonIndex, ep.number) && !isEpisodeDownloading(activeSeasonIndex, ep.number) && !isEpisodeQueued(activeSeasonIndex, ep.number)" class="status-tag mono">
                   Pronto
                 </span>
               </div>
@@ -214,6 +245,23 @@
     <!-- Seção de Comentários e Debate do Episódio -->
     <EpisodeCommentsSection :episode-id="syncedEpisodeId" />
 
+    <!-- Modal de Confirmação de Download (com seleção da temporada e bloqueio de duplicados) -->
+    <DownloadConfirmModal
+      :is-open="showDownloadConfirmModal"
+      :media-title="media?.title || ''"
+      :media-type="media?.type || 'movie'"
+      :media-poster="media?.poster || media?.backdrop"
+      :season-number="activeSeasonIndex + 1"
+      :current-episode-number="playingEpisodeIndex + 1"
+      :episodes-list="currentSeasonEpisodes"
+      :tmdb-id="media?.tmdbId"
+      :imdb-id="media?.imdbId"
+      :direct-url="selectedSource?.url"
+      @close="showDownloadConfirmModal = false"
+      @open-debrid="onOpenDebridFromConfirm"
+      @download-started="onDownloadStarted"
+    />
+
     <!-- Modais de Armazenamento NAS e Debrid -->
     <NasStorageModal
       :is-open="showStorageModal"
@@ -240,8 +288,9 @@ import VideoPlayer from '@/components/VideoPlayer.vue'
 import EpisodeCommentsSection from '@/components/EpisodeCommentsSection.vue'
 import NasStorageModal from '@/components/NasStorageModal.vue'
 import DebridConfigModal from '@/components/DebridConfigModal.vue'
+import DownloadConfirmModal from '@/components/DownloadConfirmModal.vue'
 import { capyShowTimeApi } from '@/api/capyshowtime'
-import { capyFlixApi } from '@/api/capyflix'
+import { capyFlixApi, type MediaStatusResponse } from '@/api/capyflix'
 import { resolveStreamSources, type StreamSourceOption } from '@/utils/streamResolver'
 
 const route = useRoute()
@@ -326,11 +375,73 @@ let lastSyncedWatchKey = ''
 const activeSourceId = ref<string>('')
 const showStorageModal = ref(false)
 const showDebridModal = ref(false)
+const showDownloadConfirmModal = ref(false)
 const remoteDebridSources = ref<StreamSourceOption[]>([])
-const isDownloadingToNas = ref(false)
+const mediaStatus = ref<MediaStatusResponse | null>(null)
+let statusPollTimer: any = null
+
+async function fetchMediaStatus() {
+  if (!media.value) return
+  try {
+    const res = await capyFlixApi.getMediaStatus({
+      title: media.value.title,
+      media_type: media.value.type,
+      season: activeSeasonIndex.value + 1
+    })
+    mediaStatus.value = res
+  } catch (err) {
+    console.warn('Falha ao obter status de download:', err)
+  }
+}
+
+function isEpisodeDownloaded(seasonIdx: number, epNumber: number): boolean {
+  if (!mediaStatus.value || mediaStatus.value.season !== seasonIdx + 1) return false
+  return mediaStatus.value.downloaded_episodes.includes(epNumber)
+}
+
+function isEpisodeDownloading(seasonIdx: number, epNumber: number): boolean {
+  if (!mediaStatus.value || mediaStatus.value.season !== seasonIdx + 1) return false
+  return mediaStatus.value.active_downloads.some(
+    d => d.season === seasonIdx + 1 && d.episode === epNumber && d.status === 'downloading'
+  )
+}
+
+function isEpisodeQueued(seasonIdx: number, epNumber: number): boolean {
+  if (!mediaStatus.value || mediaStatus.value.season !== seasonIdx + 1) return false
+  return mediaStatus.value.active_downloads.some(
+    d => d.season === seasonIdx + 1 && d.episode === epNumber && (d.status === 'queued' || d.status === 'pending_source')
+  )
+}
+
+function getEpisodeDownloadProgress(seasonIdx: number, epNumber: number): number {
+  if (!mediaStatus.value || mediaStatus.value.season !== seasonIdx + 1) return 0
+  const item = mediaStatus.value.active_downloads.find(
+    d => d.season === seasonIdx + 1 && d.episode === epNumber
+  )
+  return item?.progress ?? 0
+}
 
 const isCurrentlyLocal = computed(() => {
-  return selectedSource.value?.type === 'local' || (currentEpisode.value?.streamUrl?.startsWith('/local-media/') ?? false)
+  if (selectedSource.value?.type === 'local' || (currentEpisode.value?.streamUrl?.startsWith('/local-media/') ?? false)) {
+    return true
+  }
+  if (!media.value) return false
+  if (media.value.type === 'movie') {
+    return mediaStatus.value?.is_downloaded ?? false
+  }
+  const curEp = playingEpisodeIndex.value + 1
+  return mediaStatus.value?.downloaded_episodes.includes(curEp) ?? false
+})
+
+const isDownloadingToNas = computed(() => {
+  if (!mediaStatus.value) return false
+  if (media.value?.type === 'movie') {
+    return mediaStatus.value.active_downloads.some(d => d.status === 'downloading')
+  }
+  const curEp = playingEpisodeIndex.value + 1
+  return mediaStatus.value.active_downloads.some(
+    d => d.season === playingSeasonIndex.value + 1 && d.episode === curEp && d.status === 'downloading'
+  )
 })
 
 async function fetchDebridStreams() {
@@ -362,40 +473,27 @@ async function fetchDebridStreams() {
 }
 
 function onDownloadCompleted() {
+  fetchMediaStatus()
   fetchDebridStreams()
 }
 
-async function triggerNasDownload() {
-  if (isCurrentlyLocal.value) {
-    showStorageModal.value = true
-    return
-  }
+function triggerNasDownload() {
+  showDownloadConfirmModal.value = true
+}
 
-  isDownloadingToNas.value = true
-  try {
-    const title = media.value?.title || 'Midia'
-    const mediaType = media.value?.type || 'movie'
-    const season = playingSeasonIndex.value + 1
-    const episode = playingEpisodeIndex.value + 1
-    const url = selectedSource.value?.url || ''
+function onDownloadStarted() {
+  fetchMediaStatus()
+  fetchDebridStreams()
+  showStorageModal.value = true
+}
 
-    await capyFlixApi.startDownload({
-      title,
-      media_type: mediaType,
-      season,
-      episode,
-      url
-    })
-
-    showStorageModal.value = true
-  } catch (err: any) {
-    alert(err.response?.data?.message || 'Falha ao iniciar download no NAS.')
-  } finally {
-    isDownloadingToNas.value = false
-  }
+function onOpenDebridFromConfirm() {
+  showDownloadConfirmModal.value = false
+  showDebridModal.value = true
 }
 
 function onDebridSaved() {
+  fetchMediaStatus()
   fetchDebridStreams()
 }
 
@@ -403,6 +501,14 @@ watch(
   () => [media.value?.tmdbId, playingSeasonIndex.value, playingEpisodeIndex.value],
   () => {
     fetchDebridStreams()
+  },
+  { immediate: true }
+)
+
+watch(
+  () => [media.value?.title, activeSeasonIndex.value],
+  () => {
+    fetchMediaStatus()
   },
   { immediate: true }
 )
@@ -599,13 +705,32 @@ function handleVisibilityChange() {
   }
 }
 
+function startStatusPolling() {
+  stopStatusPolling()
+  statusPollTimer = setInterval(() => {
+    // Apenas consulta se houver downloads em andamento para economizar requests
+    if (mediaStatus.value?.active_downloads && mediaStatus.value.active_downloads.length > 0) {
+      fetchMediaStatus()
+    }
+  }, 4000)
+}
+
+function stopStatusPolling() {
+  if (statusPollTimer) {
+    clearInterval(statusPollTimer)
+    statusPollTimer = null
+  }
+}
+
 onMounted(() => {
   window.scrollTo({ top: 0, behavior: 'smooth' })
   window.addEventListener('beforeunload', handleBeforeUnload)
   document.addEventListener('visibilitychange', handleVisibilityChange)
+  startStatusPolling()
 })
 
 onBeforeUnmount(() => {
+  stopStatusPolling()
   mediaStore.flushProgressSync()
   window.removeEventListener('beforeunload', handleBeforeUnload)
   document.removeEventListener('visibilitychange', handleVisibilityChange)
@@ -1046,6 +1171,22 @@ onBeforeUnmount(() => {
   border-radius: 2px;
 }
 
+.episode-nas-badge {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background: #00ff9d;
+  color: #042f1b;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
 .playing-overlay {
   position: absolute;
   inset: 0;
@@ -1081,12 +1222,54 @@ onBeforeUnmount(() => {
 }
 
 .episode-status-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   flex-shrink: 0;
 }
 
 .status-tag {
   font-size: 0.7rem;
   color: var(--text-dim);
+}
+
+.status-tag.nas-downloaded {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #00ff9d;
+  background: rgba(0, 255, 157, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 255, 157, 0.25);
+  font-weight: 700;
+  font-size: 0.68rem;
+}
+
+.status-tag.nas-downloading {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  font-weight: 700;
+  font-size: 0.68rem;
+}
+
+.status-tag.nas-queued {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  font-weight: 700;
+  font-size: 0.68rem;
 }
 
 .status-tag.watched {

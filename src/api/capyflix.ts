@@ -37,12 +37,61 @@ export interface DownloadTask {
   total_bytes: number
   created_at: string
   error: string | null
+  engine?: 'http' | 'qbittorrent'
+  dlspeed_formatted?: string
+  num_seeds?: number
 }
 
 export interface DebridConfig {
   provider: 'torbox' | 'realdebrid'
   has_token: boolean
   masked_token: string | null
+}
+
+export interface QBittorrentStatus {
+  enabled: boolean
+  available: boolean
+  version: string | null
+  host: string
+  port: number
+  base_url: string
+}
+
+export interface MediaStatusResponse {
+  title: string
+  media_type: string
+  season: number
+  is_downloaded: boolean
+  downloaded_episodes: number[]
+  active_downloads: Array<{
+    id: string
+    season: number
+    episode: number
+    status: 'queued' | 'downloading' | 'completed' | 'failed' | 'pending_source'
+    progress: number
+    engine?: 'http' | 'qbittorrent'
+    dlspeed_formatted?: string
+    num_seeds?: number
+  }>
+  debrid_configured: boolean
+  qbittorrent_available?: boolean
+}
+
+export interface BatchDownloadResponse {
+  success: boolean
+  message: string
+  result: {
+    success: boolean
+    queued_count: number
+    skipped_count: number
+    queued: DownloadTask[]
+    skipped: Array<{
+      season: number
+      episode: number
+      reason: string
+      message: string
+    }>
+  }
 }
 
 export const capyFlixApi = {
@@ -61,6 +110,15 @@ export const capyFlixApi = {
     return data.downloads || []
   },
 
+  async getMediaStatus(params: {
+    title: string
+    media_type: string
+    season?: number
+  }): Promise<MediaStatusResponse> {
+    const { data } = await apiClient.get<MediaStatusResponse>('/capyflix/media-status', { params })
+    return data
+  },
+
   async startDownload(payload: {
     title: string
     media_type: string
@@ -70,6 +128,19 @@ export const capyFlixApi = {
     expected_bytes?: number
   }): Promise<{ success: boolean; task: DownloadTask; message: string }> {
     const { data } = await apiClient.post('/capyflix/download', payload)
+    return data
+  },
+
+  async batchDownload(payload: {
+    title: string
+    media_type: string
+    season?: number
+    episodes?: number[]
+    tmdb_id?: number
+    imdb_id?: string
+    url?: string
+  }): Promise<BatchDownloadResponse> {
+    const { data } = await apiClient.post<BatchDownloadResponse>('/capyflix/batch-download', payload)
     return data
   },
 
@@ -102,6 +173,11 @@ export const capyFlixApi = {
     token: string
   }): Promise<{ success: boolean; config: DebridConfig; message: string }> {
     const { data } = await apiClient.post('/capyflix/debrid-config', payload)
+    return data
+  },
+
+  async getQBittorrentStatus(): Promise<QBittorrentStatus> {
+    const { data } = await apiClient.get<QBittorrentStatus>('/capyflix/qbittorrent-status')
     return data
   }
 }

@@ -93,7 +93,10 @@
             <div v-for="dl in activeDownloads" :key="dl.id" class="download-item-card">
               <div class="dl-info">
                 <div class="dl-title-row">
-                  <span class="dl-title">{{ dl.title }}</span>
+                  <div class="dl-title-box">
+                    <span class="dl-title">{{ dl.title }}</span>
+                    <span v-if="dl.engine === 'qbittorrent'" class="engine-badge mono">qBittorrent P2P</span>
+                  </div>
                   <span
                     class="dl-status-badge mono"
                     :class="{
@@ -107,8 +110,12 @@
                   </span>
                 </div>
                 <div class="dl-meta mono">
-                  <span>{{ dl.file_name }}</span>
-                  <span v-if="dl.status === 'downloading'">{{ dl.progress }}%</span>
+                  <span class="dl-filename">{{ dl.file_name }}</span>
+                  <div class="dl-stats-right">
+                    <span v-if="dl.dlspeed_formatted && dl.status === 'downloading'" class="dl-speed">{{ dl.dlspeed_formatted }}</span>
+                    <span v-if="dl.num_seeds !== undefined && dl.status === 'downloading'" class="dl-seeds">🌱 {{ dl.num_seeds }} seeds</span>
+                    <span v-if="dl.status === 'downloading'" class="dl-percent">{{ dl.progress }}%</span>
+                  </div>
                 </div>
               </div>
 
@@ -646,17 +653,64 @@ onBeforeUnmount(() => {
   align-items: center;
 }
 
+.dl-title-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
 .dl-title {
   font-size: 0.88rem;
   font-weight: 600;
   color: #ffffff;
 }
 
+.engine-badge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  letter-spacing: 0.04em;
+}
+
 .dl-meta {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 0.75rem;
   color: var(--text-muted, #888);
+}
+
+.dl-filename {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 340px;
+}
+
+.dl-stats-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.dl-speed {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.dl-seeds {
+  color: #34d399;
+}
+
+.dl-percent {
+  color: #f1f5f9;
+  font-weight: 700;
 }
 
 .dl-status-badge {
