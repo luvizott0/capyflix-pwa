@@ -125,7 +125,11 @@ export const capyFlixApi = {
     season?: number
     episode?: number
     url?: string
+    magnet?: string
+    info_hash?: string
     expected_bytes?: number
+    preferred_audio?: 'dub' | 'sub' | 'any_pt' | 'any'
+    is_animation?: boolean
   }): Promise<{ success: boolean; task: DownloadTask; message: string }> {
     const { data } = await apiClient.post('/capyflix/download', payload)
     return data
@@ -139,6 +143,11 @@ export const capyFlixApi = {
     tmdb_id?: number
     imdb_id?: string
     url?: string
+    magnet?: string
+    info_hash?: string
+    preferred_audio?: 'dub' | 'sub' | 'any_pt' | 'any'
+    is_animation?: boolean
+    block_foreign?: boolean
   }): Promise<BatchDownloadResponse> {
     const { data } = await apiClient.post<BatchDownloadResponse>('/capyflix/batch-download', payload)
     return data
@@ -158,6 +167,11 @@ export const capyFlixApi = {
     episode?: number
     token?: string
     provider?: string
+    preferred_audio?: string
+    is_animation?: boolean
+    genres?: string[]
+    include_p2p?: boolean
+    block_foreign?: boolean
   }): Promise<{ streams: any[]; debrid_configured: boolean }> {
     const { data } = await apiClient.get('/capyflix/resolve-streams', { params })
     return data

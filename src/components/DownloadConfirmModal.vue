@@ -61,15 +61,117 @@
             </div>
           </div>
 
-          <!-- Banner de Preferência de Áudio/Legenda -->
-          <div class="audio-pref-banner mono">
-            <span class="pref-label">REGRA DE ÁUDIO CAPYFLIX:</span>
-            <span v-if="isAnimation" class="pref-pill dub">
-              🇧🇷 Animação Clássica: Preferência Dublado (PT-BR)
-            </span>
-            <span v-else class="pref-pill sub">
-              🎬 Filme/Série: Preferência Áudio Original com Legendas PT-BR
-            </span>
+          <!-- Seletor Interativo de Versão e Áudio do Download -->
+          <div class="version-select-section">
+            <div class="section-title-row mono">
+              <span class="section-title">VERSÃO / ÁUDIO DO DOWNLOAD:</span>
+              <span v-if="isLoadingStreams" class="loading-streams-tag">
+                <Download :size="12" class="spin" /> Buscando fontes...
+              </span>
+              <span v-else-if="availableStreams.length > 0" class="stream-count-tag">
+                {{ availableStreams.length }} release(s) encontrado(s)
+              </span>
+            </div>
+
+            <!-- Abas de Filtro de Áudio: Dublado vs Legendado vs Todos -->
+            <div class="audio-tabs mono">
+              <button
+                type="button"
+                class="tab-btn"
+                :class="{ active: selectedAudioPref === 'dub' }"
+                @click="selectedAudioPref = 'dub'"
+              >
+                🇧🇷 DUBLADO PT-BR ({{ dubCount }})
+              </button>
+              <button
+                type="button"
+                class="tab-btn"
+                :class="{ active: selectedAudioPref === 'sub' }"
+                @click="selectedAudioPref = 'sub'"
+              >
+                💬 LEGENDADO PT ({{ subCount }})
+              </button>
+              <button
+                type="button"
+                class="tab-btn"
+                :class="{ active: selectedAudioPref === 'all' }"
+                @click="selectedAudioPref = 'all'"
+              >
+                🌐 TODOS ({{ availableStreams.length }})
+              </button>
+            </div>
+
+            <!-- Alerta caso não haja opção nesta aba -->
+            <div v-if="!isLoadingStreams && filteredStreams.length === 0" class="empty-tab-warning mono">
+              <AlertTriangle :size="15" />
+              <span v-if="selectedAudioPref === 'dub'">
+                Nenhum release com áudio dublado em português encontrado para este título nos indexadores.
+              </span>
+              <span v-else-if="selectedAudioPref === 'sub'">
+                Nenhum release com legendas em português encontrado para este título nos indexadores.
+              </span>
+              <span v-else>
+                Nenhuma fonte P2P encontrada no momento.
+              </span>
+            </div>
+
+            <!-- Lista de Releases / Torrents Disponíveis -->
+            <div v-else-if="!isLoadingStreams && filteredStreams.length > 0" class="stream-options-list">
+              <label
+                v-for="s in filteredStreams"
+                :key="s.id"
+                class="stream-option-card"
+                :class="{
+                  'is-selected': selectedStreamId === s.id,
+                  'is-dub': s.audio_type === 'dub',
+                  'is-sub': s.audio_type === 'sub',
+                  'is-foreign': !s.has_portuguese
+                }"
+              >
+                <input
+                  type="radio"
+                  name="selectedStream"
+                  :value="s.id"
+                  v-model="selectedStreamId"
+                />
+                <div class="stream-card-content">
+                  <div class="stream-header-row">
+                    <span class="stream-badge mono" :class="{ 'badge-dub': s.is_dubbed, 'badge-sub': s.is_subbed && s.has_portuguese, 'badge-foreign': !s.has_portuguese }">
+                      {{ s.badge || 'TORRENT' }}
+                    </span>
+                    <span v-if="s.seeds !== undefined" class="stream-seeds mono">
+                      👤 {{ s.seeds }} seeds
+                    </span>
+                  </div>
+                  <div class="stream-name mono" :title="s.title">
+                    {{ s.clean_name || s.title }}
+                  </div>
+                  <div v-if="s.stats" class="stream-stats mono">
+                    {{ s.stats }}
+                  </div>
+                </div>
+              </label>
+            </div>
+
+            <!-- Checkbox de Proteção Contra Inglês Sem Legendas -->
+            <div class="block-foreign-toggle">
+              <label class="toggle-checkbox-label mono">
+                <input
+                  type="checkbox"
+                  v-model="blockEnglishOnly"
+                />
+                <span class="checkbox-custom"></span>
+                <span class="label-text">
+                  Bloquear versões apenas em inglês sem legendas PT (Recomendado)
+                </span>
+              </label>
+            </div>
+
+            <!-- Aviso caso a versão selecionada não tenha suporte a Português -->
+            <div v-if="selectedStream && !selectedStream.has_portuguese" class="foreign-warning-box mono">
+              <AlertTriangle :size="15" />
+              <span>Atenção: A versão selecionada está em inglês puro sem áudio nem legendas em português!</span>
+            </div>
           </div>
 
           <!-- Mídia do Tipo FILME -->
@@ -220,7 +322,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch, onMounted } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { HardDrive, Download, X, Check, CheckCircle, Zap, AlertTriangle } from 'lucide-vue-next'
 import { capyFlixApi, type MediaStatusResponse } from '@/api/capyflix'
 
@@ -240,6 +342,8 @@ const props = defineProps<{
   episodesList: EpisodeItem[]
   tmdbId?: number
   imdbId?: string
+  genres?: string[]
+  isAnimation?: boolean
   directUrl?: string
 }>()
 
@@ -254,12 +358,108 @@ const isSubmitting = ref(false)
 const errorMessage = ref('')
 const mediaStatus = ref<MediaStatusResponse | null>(null)
 
+// Streams e Preferência de Áudio
+const availableStreams = ref<any[]>([])
+const isLoadingStreams = ref(false)
+const selectedAudioPref = ref<'all' | 'dub' | 'sub'>('all')
+const selectedStreamId = ref<string>('')
+const blockEnglishOnly = ref(true)
+
 const isMovie = computed(() => props.mediaType === 'movie')
-const isAnimation = computed(() => props.mediaType === 'anime' || props.mediaType === 'cartoon')
+const isAnimation = computed(() => {
+  if (props.isAnimation !== undefined) return props.isAnimation
+  if (props.mediaType === 'anime' || props.mediaType === 'cartoon') return true
+  const g = props.genres || []
+  return g.some((genre: string) => {
+    const u = genre.toUpperCase()
+    return u.includes('ANIMA') || u.includes('CARTOON') || u.includes('ANIME')
+  })
+})
+
 const totalSeasonEpisodes = computed(() => props.episodesList.length)
 const isDebridConfigured = computed(() => mediaStatus.value?.debrid_configured ?? false)
 const isQbittorrentAvailable = computed(() => mediaStatus.value?.qbittorrent_available ?? false)
 const hasDirectUrl = computed(() => Boolean(props.directUrl && props.directUrl.trim() !== ''))
+
+const dubCount = computed(() => availableStreams.value.filter(s => s.audio_type === 'dub' || s.is_dubbed).length)
+const subCount = computed(() => availableStreams.value.filter(s => (s.audio_type === 'sub' || s.is_subbed) && s.has_portuguese).length)
+
+const filteredStreams = computed(() => {
+  let list = availableStreams.value
+  if (selectedAudioPref.value === 'dub') {
+    list = list.filter(s => s.audio_type === 'dub' || s.is_dubbed)
+  } else if (selectedAudioPref.value === 'sub') {
+    list = list.filter(s => (s.audio_type === 'sub' || s.is_subbed) && s.has_portuguese)
+  } else if (blockEnglishOnly.value) {
+    const ptOnly = list.filter(s => s.has_portuguese)
+    if (ptOnly.length > 0) {
+      list = ptOnly
+    }
+  }
+  return list
+})
+
+const selectedStream = computed(() => {
+  const found = availableStreams.value.find(s => s.id === selectedStreamId.value)
+  if (found && (selectedAudioPref.value === 'all' || filteredStreams.value.some(f => f.id === found.id))) {
+    return found
+  }
+  return filteredStreams.value[0] || null
+})
+
+watch(() => selectedAudioPref.value, () => {
+  if (filteredStreams.value.length > 0) {
+    selectedStreamId.value = filteredStreams.value[0].id
+  }
+})
+
+function getBadgeClass(s: any) {
+  if (s.is_dubbed || s.audio_type === 'dub') return 'badge-dub'
+  if (s.has_portuguese) return 'badge-sub'
+  return 'badge-foreign'
+}
+
+// Consulta streams nos indexadores P2P e Debrid
+async function fetchStreams() {
+  if (!props.mediaTitle) return
+  isLoadingStreams.value = true
+  try {
+    const res = await capyFlixApi.resolveRemoteStreams({
+      tmdb_id: props.tmdbId,
+      imdb_id: props.imdbId,
+      title: props.mediaTitle,
+      media_type: props.mediaType,
+      season: props.seasonNumber,
+      episode: props.currentEpisodeNumber || 1,
+      is_animation: isAnimation.value,
+      genres: props.genres,
+      include_p2p: true,
+    })
+    const p2p = (res.streams || []).filter((s: any) => s.id !== 'local-nas' && (s.magnet || s.canDownloadToNas))
+    availableStreams.value = p2p
+
+    const hasDub = p2p.some((s: any) => s.audio_type === 'dub' || s.is_dubbed)
+    const hasSub = p2p.some((s: any) => (s.audio_type === 'sub' || s.is_subbed) && s.has_portuguese)
+
+    if (isAnimation.value && hasDub) {
+      selectedAudioPref.value = 'dub'
+    } else if (hasSub) {
+      selectedAudioPref.value = 'sub'
+    } else if (hasDub) {
+      selectedAudioPref.value = 'dub'
+    } else {
+      selectedAudioPref.value = 'all'
+    }
+
+    if (filteredStreams.value.length > 0) {
+      selectedStreamId.value = filteredStreams.value[0].id
+    }
+  } catch (err) {
+    console.warn('Falha ao buscar streams para download:', err)
+  } finally {
+    isLoadingStreams.value = false
+  }
+}
 
 // Consulta status no backend para saber o que já está no NAS ou na fila
 async function refreshStatus() {
@@ -315,7 +515,6 @@ function toggleSelectAllSeason(e: Event) {
       .filter(num => !isEpDownloaded(num) && !isEpQueued(num))
     selectedEpisodes.value = Array.from(new Set([...selectedEpisodes.value, ...eligible]))
   } else {
-    // Desmarcar todos, deixando no máximo o episódio atual se elegível
     if (!isEpDownloaded(props.currentEpisodeNumber) && !isEpQueued(props.currentEpisodeNumber)) {
       selectedEpisodes.value = [props.currentEpisodeNumber]
     } else {
@@ -338,6 +537,9 @@ const canDownloadMovie = computed(() => {
 })
 
 const canProceed = computed(() => {
+  if (blockEnglishOnly.value && selectedStream.value && !selectedStream.value.has_portuguese) {
+    return false
+  }
   if (isMovie.value) {
     return canDownloadMovie.value
   }
@@ -368,7 +570,8 @@ watch(
   async (open) => {
     if (open) {
       errorMessage.value = ''
-      await refreshStatus()
+      refreshStatus()
+      fetchStreams()
 
       if (isMovie.value) {
         selectedEpisodes.value = [1]
@@ -377,7 +580,6 @@ watch(
         if (!isEpDownloaded(cur) && !isEpQueued(cur)) {
           selectedEpisodes.value = [cur]
         } else {
-          // Se o episódio atual já estiver baixado/enfileirado, seleciona o próximo elegível
           const firstAvailable = props.episodesList.find(
             ep => !isEpDownloaded(ep.number) && !isEpQueued(ep.number)
           )
@@ -397,28 +599,49 @@ async function submitDownload() {
   errorMessage.value = ''
 
   try {
+    const chosenStream = selectedStream.value
     if (isMovie.value) {
-      const res = await capyFlixApi.startDownload({
+      const payload: any = {
         title: props.mediaTitle,
         media_type: 'movie',
         season: 1,
         episode: 1,
-        url: props.directUrl || ''
-      })
+        preferred_audio: selectedAudioPref.value,
+        is_animation: isAnimation.value,
+      }
+      if (chosenStream) {
+        if (chosenStream.magnet) payload.magnet = chosenStream.magnet
+        if (chosenStream.infoHash) payload.info_hash = chosenStream.infoHash
+        if (chosenStream.url) payload.url = chosenStream.url
+      } else if (props.directUrl) {
+        payload.url = props.directUrl
+      }
+
+      const res = await capyFlixApi.startDownload(payload)
       emit('download-started', res)
       emit('close')
     } else {
       const episodesToDownload = [...selectedEpisodes.value]
-      const res = await capyFlixApi.batchDownload({
+      const payload: any = {
         title: props.mediaTitle,
         media_type: props.mediaType,
         season: props.seasonNumber,
         episodes: episodesToDownload,
         tmdb_id: props.tmdbId,
         imdb_id: props.imdbId,
-        url: episodesToDownload.length === 1 && episodesToDownload[0] === props.currentEpisodeNumber ? props.directUrl : undefined
-      })
+        preferred_audio: selectedAudioPref.value,
+        is_animation: isAnimation.value,
+        block_foreign: blockEnglishOnly.value,
+      }
+      if (chosenStream) {
+        if (chosenStream.magnet) payload.magnet = chosenStream.magnet
+        if (chosenStream.infoHash) payload.info_hash = chosenStream.infoHash
+        if (chosenStream.url && chosenStream.isDirectVideo) payload.url = chosenStream.url
+      } else if (episodesToDownload.length === 1 && episodesToDownload[0] === props.currentEpisodeNumber && props.directUrl) {
+        payload.url = props.directUrl
+      }
 
+      const res = await capyFlixApi.batchDownload(payload)
       emit('download-started', res)
       emit('close')
     }
@@ -976,6 +1199,224 @@ async function submitDownload() {
 
 .spin {
   animation: spin 1.2s linear infinite;
+}
+
+/* Seletor de Versão e Áudio */
+.version-select-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #141822;
+  border: 1px solid #232b3b;
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.section-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.72rem;
+}
+
+.section-title {
+  color: #94a3b8;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.loading-streams-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #38bdf8;
+  font-size: 0.7rem;
+}
+
+.stream-count-tag {
+  color: #64748b;
+  font-size: 0.7rem;
+}
+
+.audio-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  background: #0d1017;
+  padding: 4px;
+  border-radius: 6px;
+  border: 1px solid #1a2230;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  padding: 8px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tab-btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.tab-btn.active {
+  background: #1e293b;
+  color: #38bdf8;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.empty-tab-warning {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 6px;
+  color: #f59e0b;
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+
+.stream-options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 160px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.stream-option-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+  background: #0f131c;
+  border: 1px solid #1c2333;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.stream-option-card:hover {
+  background: #161c29;
+  border-color: #2e3a52;
+}
+
+.stream-option-card.is-selected {
+  background: rgba(56, 189, 248, 0.07);
+  border-color: #38bdf8;
+}
+
+.stream-option-card input[type="radio"] {
+  accent-color: #38bdf8;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.stream-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.stream-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.stream-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #1e293b;
+  color: #cbd5e1;
+}
+
+.stream-badge.badge-dub {
+  color: #00ff9d;
+  background: rgba(0, 255, 157, 0.12);
+  border: 1px solid rgba(0, 255, 157, 0.25);
+}
+
+.stream-badge.badge-sub {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+.stream-badge.badge-foreign {
+  color: #f87171;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.stream-seeds {
+  font-size: 0.68rem;
+  color: #64748b;
+}
+
+.stream-name {
+  font-size: 0.75rem;
+  color: #e2e8f0;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stream-stats {
+  font-size: 0.68rem;
+  color: #94a3b8;
+}
+
+.block-foreign-toggle {
+  padding-top: 4px;
+  border-top: 1px dashed #1e2738;
+}
+
+.toggle-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 0.74rem;
+  color: #cbd5e1;
+}
+
+.toggle-checkbox-label input[type="checkbox"] {
+  accent-color: #38bdf8;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.foreign-warning-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #f87171;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  line-height: 1.4;
 }
 
 @keyframes spin {

@@ -256,6 +256,8 @@
       :episodes-list="currentSeasonEpisodes"
       :tmdb-id="media?.tmdbId"
       :imdb-id="media?.imdbId"
+      :genres="media?.genres || []"
+      :is-animation="isMediaAnimation"
       :direct-url="selectedSource?.url"
       @close="showDownloadConfirmModal = false"
       @open-debrid="onOpenDebridFromConfirm"
@@ -512,6 +514,16 @@ watch(
   },
   { immediate: true }
 )
+
+const isMediaAnimation = computed(() => {
+  if (!media.value) return false
+  if (media.value.type === 'anime' || media.value.type === 'cartoon') return true
+  const g = media.value.genres || []
+  return g.some((genre: string) => {
+    const u = genre.toUpperCase()
+    return u.includes('ANIMA') || u.includes('CARTOON') || u.includes('ANIME')
+  })
+})
 
 const isFavorite = computed(() => {
   return media.value ? mediaStore.isFavorite(media.value.id) : false
