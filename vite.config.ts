@@ -75,7 +75,7 @@ export default defineConfig({
     vue(),
     localMediaPlugin(),
     VitePWA({
-      registerType: 'prompt',
+      registerType: 'autoUpdate',
       includeAssets: [
         'favicon.ico',
         'apple-touch-icon.png',
@@ -111,6 +111,9 @@ export default defineConfig({
         ]
       },
       workbox: {
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
+        skipWaiting: true,
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,json}'],
         navigateFallback: '/index.html',
         runtimeCaching: [
